@@ -2,7 +2,7 @@ import Link from "next/link";
 import SiteFrame from "@/components/SiteFrame";
 import LoginForm from "@/components/admin/LoginForm";
 import { hamtaSession } from "@/lib/session";
-import { HAR_SUPABASE } from "@/lib/supabase/config";
+import { HAR_SUPABASE, saknadeVariabler } from "@/lib/supabase/config";
 import { loggaUt } from "@/lib/actions";
 
 export const dynamic = "force-dynamic";
@@ -22,10 +22,24 @@ export default async function AdminPage() {
           <hr className="border-0 border-t border-ink" />
 
           {!HAR_SUPABASE ? (
-            <p className="body-mono">
-              Supabase är inte konfigurerat. Lägg in nycklarna i .env.local och
-              starta om utvecklingsservern.
-            </p>
+            <div className="flex flex-col gap-3">
+              <p className="body-mono">
+                Supabase är inte konfigurerat i den här processen.
+              </p>
+              <p className="text-[0.68rem] leading-[1.7]">
+                Saknas:{" "}
+                {saknadeVariabler().map((v) => (
+                  <code key={v} className="border border-ink px-1 mr-1">
+                    {v}
+                  </code>
+                ))}
+              </p>
+              <p className="text-[0.68rem] leading-[1.7] opacity-70">
+                Ligger de redan i .env.local läses de först vid uppstart — stoppa
+                servern med Ctrl+C och kör npm run dev igen. Står filen kvar som
+                tom betyder det att servern startats i en annan mapp.
+              </p>
+            </div>
           ) : arAdmin ? (
             <div className="flex flex-col gap-4">
               <p className="body-mono">
