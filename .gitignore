@@ -1,0 +1,24 @@
+# Beroenden
+node_modules
+
+# Byggen
+.next
+out
+.netlify
+
+# Miljövariabler — .env.local innehåller nycklarna och ska ALDRIG checkas in
+.env
+.env.*
+!.env.local.example
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Underlag och arbetsmaterial som inte hör till sajten
+_instruktioner.pdf
+_sidor/
+
+# Skräp
+.DS_Store
+Thumbs.db

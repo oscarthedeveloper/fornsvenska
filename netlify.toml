@@ -1,0 +1,14 @@
+# Netlify hittar Next.js av sig självt och installerar sin Next-runtime.
+# Här står bara det som behöver vara uttryckligt.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Utvecklingsservern när man kör `netlify dev` lokalt
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
