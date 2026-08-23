@@ -107,6 +107,16 @@ export default function Blocks({
         uppdatera({ rader } as Partial<Block>);
       };
 
+      /* Cellens luft ska också gå att klicka på — annars måste man träffa
+         exakt den rad text där fältet står. */
+      const fokusera = (e: React.MouseEvent<HTMLElement>) => {
+        if (!redigerbar) return;
+        const falt = e.currentTarget.querySelector<HTMLElement>(
+          "[contenteditable]"
+        );
+        if (falt && document.activeElement !== falt) falt.focus();
+      };
+
       return (
         <figure className="flex flex-col gap-2">
           <Redigerbar
@@ -122,7 +132,7 @@ export default function Blocks({
               <tr>
                 {redigerbar && <th className="w-[2.2rem]" aria-hidden="true" />}
                 {block.kolumner.map((k, j) => (
-                  <th key={j} scope="col">
+                  <th key={j} scope="col" onClick={fokusera}>
                     <Redigerbar
                       varde={k}
                       redigerbar={redigerbar}
@@ -155,7 +165,7 @@ export default function Blocks({
                     </td>
                   )}
                   {rad.map((cell, j) => (
-                    <td key={j}>
+                    <td key={j} onClick={fokusera}>
                       <Redigerbar
                         varde={cell}
                         redigerbar={redigerbar}

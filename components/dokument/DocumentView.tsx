@@ -68,6 +68,10 @@ export default function DocumentView({
                 as="div"
                 varde={dokument?.titel ?? titel}
                 redigerbar={redigerbar && Boolean(dokument)}
+                /* Titeln är också nodens namn i arkivet, sidebaren och
+                   brödsmulorna. Uppmärkning här skulle synas som markörer
+                   där — därför ingen formatering i det här fältet. */
+                formatering={false}
                 platshallare="Rubrik"
                 onChange={(t) => {
                   satt({ titel: t });

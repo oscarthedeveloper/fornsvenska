@@ -75,6 +75,9 @@ export default function TextView({
                 as="div"
                 varde={dokument?.titel ?? titel}
                 redigerbar={redigerbar && Boolean(dokument)}
+                /* Titeln är nodens namn i arkiv och sidebar — ingen
+                   uppmärkning, markörerna skulle synas där. */
+                formatering={false}
                 platshallare="Rubrik"
                 onChange={(t) => {
                   satt({ titel: t });

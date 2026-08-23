@@ -155,7 +155,9 @@ i ring.
 | `\*` | tecknet självt | — |
 
 Kortkommandona verkar i alla redigerbara fält: markera text och tryck, tryck
-igen för att ta bort. Markörerna lagras som ren text i databasen — det som
+igen för att ta bort. Undantaget är dokumentets titel och mappnamnen i
+arkivet — de är också nodens namn i sidebar, brödsmulor och trädvy, där
+markörerna hade synts som tecken. Markörerna lagras som ren text i databasen — det som
 står i fältet är exakt det som ligger i `content`.
 
 Markörerna måste sitta tätt intill texten, `*så här*` och inte `* så här *`.

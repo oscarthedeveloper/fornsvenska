@@ -50,6 +50,7 @@ export default function FolderStack({
                 <Redigerbar
                   varde={item.title}
                   redigerbar
+                  formatering={false}
                   platshallare="Namn"
                   onChange={(titel) => onNamn?.(item, titel)}
                   className="folder-title"

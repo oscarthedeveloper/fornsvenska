@@ -755,6 +755,19 @@ strong {
   transition: outline-color 140ms linear, background-color 140ms linear;
 }
 
+/* min-width biter inte på ett rent inline-element — ett tomt fält blir noll
+   pixlar brett och går inte att träffa med musen. */
+span.redigerbar {
+  display: inline-block;
+}
+
+/* I en tabellcell tar fältet hela cellen. Annars ligger det som en smal
+   remsa mitt i cellen och klick bredvid den gör ingenting. */
+.gram-table span.redigerbar {
+  display: block;
+  min-height: 1.2em;
+}
+
 .redigerbar:hover {
   outline-color: var(--accent);
 }

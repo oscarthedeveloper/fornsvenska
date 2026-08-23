@@ -166,9 +166,13 @@ export default function Redigerbar({
     if (el.innerText !== varde) el.innerText = varde;
   }, [varde, redigerbar]);
 
+  /* Nycklarna tvingar fram ett nytt element när läget växlar. Utan dem
+     återanvänder React samma div — och den innehåller redan en textnod som
+     React inte känner till, eftersom fältet skriver innerText själv. Den
+     noden blir kvar och texten syns dubbelt. */
   if (!redigerbar) {
     return (
-      <Tag className={className}>
+      <Tag key="las" className={className}>
         {formatering ? <Inline text={varde} /> : varde}
       </Tag>
     );
@@ -176,6 +180,7 @@ export default function Redigerbar({
 
   return (
     <Tag
+      key="red"
       ref={ref as React.Ref<never>}
       contentEditable
       suppressContentEditableWarning
