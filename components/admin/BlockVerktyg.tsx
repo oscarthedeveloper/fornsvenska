@@ -53,12 +53,15 @@ export function BlockHallare({
 export function Infogningsrad({
   val,
   onValj,
+  alltidSynlig = false,
 }: {
   val: { etikett: string; skapa: () => unknown }[];
   onValj: (skapa: () => unknown) => void;
+  /** I en tom flik finns inget att hovra över — då får raden synas. */
+  alltidSynlig?: boolean;
 }) {
   return (
-    <div className="infogningsrad">
+    <div className="infogningsrad" data-synlig={alltidSynlig ? "1" : undefined}>
       <div>
         {val.map((v) => (
           <Knapp key={v.etikett} titel={`Lägg till ${v.etikett}`} onClick={() => onValj(v.skapa)}>

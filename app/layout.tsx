@@ -9,8 +9,10 @@ import { hamtaSession } from "@/lib/session";
    monospace till allt annat. Ingen grotesk. */
 const display = Newsreader({
   subsets: ["latin"],
-  weight: ["400"],
-  style: ["normal"],
+  /* 600 finns bara för **fet** i brödtexten — utan den skulle webbläsaren
+     rita en konstgjord fetstil som förstör antikvans former. */
+  weight: ["400", "600"],
+  style: ["normal", "italic"],
   variable: "--font-display",
   display: "swap",
 });

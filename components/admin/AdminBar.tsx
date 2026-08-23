@@ -18,6 +18,18 @@ export default function AdminBar({ anvandarnamn }: { anvandarnamn: string | null
 
   return (
     <div className="fixed bottom-0 right-0 z-[100] flex items-stretch border-t border-l border-ink bg-panel">
+      {redigerar && (
+        <span
+          className="nano px-3 hidden lg:flex items-center gap-2 opacity-45"
+          title="Markera text och tryck Ctrl/⌘ + B för fet, I för kursiv, U för understruken, E för fornsvensk term. Tryck igen för att ta bort."
+        >
+          <span className="font-semibold">B</span>
+          <em>I</em>
+          <span className="underline">U</span>
+          <span>E</span>
+        </span>
+      )}
+
       {felmeddelande && (
         <span className="nano px-3 flex items-center bg-accent text-ink max-w-[280px] truncate">
           {felmeddelande}

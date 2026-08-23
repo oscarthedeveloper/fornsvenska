@@ -133,8 +133,36 @@ för sig:
 | `tabell` | paradigmtabell i monospace, valfri markerad rad |
 | `obs` | OBS-ruta med etikettflik |
 | `nycklar` | nyckel/värde-rader |
+| `flikar` | flikar där varje flik bär en egen blocklista |
 
-Inline finns två former: `*kursiv*` och `[^1]` för fotnotshänvisning.
+Flikblocket är till för paradigm som hör ihop men inte ska ligga under
+varandra — personliga pronomen med en flik per person, en flik per genus.
+En flik innehåller vad som helst utom fler flikar; blocklistan är samma
+komponent som dokumentets huvudflöde (`components/dokument/Blocklista.tsx`),
+och den ritar flikblocket själv för att de annars skulle importera varandra
+i ring.
+
+### Uppmärkning i texten
+
+| Skrivs | Blir | Kortkommando |
+|---|---|---|
+| `**fet**` | fet | Ctrl/Cmd + B |
+| `*kursiv*` | kursiv | Ctrl/Cmd + I |
+| `***båda***` | fet kursiv | B och I efter varandra |
+| `_understruken_` | understruken | Ctrl/Cmd + U |
+| `` `term` `` | fornsvenskt formord i monospace | Ctrl/Cmd + E |
+| `[^1]` | fotnotshänvisning | — |
+| `\*` | tecknet självt | — |
+
+Kortkommandona verkar i alla redigerbara fält: markera text och tryck, tryck
+igen för att ta bort. Markörerna lagras som ren text i databasen — det som
+står i fältet är exakt det som ligger i `content`.
+
+Markörerna måste sitta tätt intill texten, `*så här*` och inte `* så här *`.
+Det är inte kosmetik: asterisk framför ett ord betyder rekonstruerad form i
+språkhistoria, och `*wiþer ok *bonde` ska inte bli kursiv text. Behövs en
+asterisk mitt i en formatering skrivs den `\*`.
+
 Fotnoterna listas under rubriken Källor längst ned på arket.
 
 Dokument utan innehåll renderas med ett tomt ark och en förklaring i stället

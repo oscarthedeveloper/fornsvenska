@@ -2,12 +2,11 @@
 
 import Link from "next/link";
 import type { Crumb } from "@/lib/typer";
-import type { Block, Dokument } from "@/lib/dokument";
-import Blocks, { NYA_BLOCK } from "./Blocks";
+import type { Dokument } from "@/lib/dokument";
+import Blocklista from "./Blocklista";
 import Inline from "./Inline";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
-import { BlockHallare, Infogningsrad } from "@/components/admin/BlockVerktyg";
 
 export default function DocumentView({
   dokument,
@@ -38,29 +37,6 @@ export default function DocumentView({
   const foralder = crumbs[crumbs.length - 2];
   const satt = (delar: Partial<Dokument>) =>
     dokument && onChange?.({ ...dokument, ...delar });
-
-  const sattBlock = (i: number, block: Block) =>
-    dokument &&
-    onChange?.({
-      ...dokument,
-      block: dokument.block.map((b, bi) => (bi === i ? block : b)),
-    });
-
-  const infoga = (i: number, block: Block) =>
-    dokument &&
-    onChange?.({
-      ...dokument,
-      block: [...dokument.block.slice(0, i), block, ...dokument.block.slice(i)],
-    });
-
-  const flytta = (i: number, steg: -1 | 1) => {
-    if (!dokument) return;
-    const j = i + steg;
-    if (j < 0 || j >= dokument.block.length) return;
-    const block = [...dokument.block];
-    [block[i], block[j]] = [block[j], block[i]];
-    onChange?.({ ...dokument, block });
-  };
 
   return (
     <div className="flex-1 flex items-stretch">
@@ -241,40 +217,11 @@ export default function DocumentView({
                 </div>
               )}
 
-              <div className="flex flex-col gap-6">
-                {redigerbar && (
-                  <Infogningsrad
-                    val={NYA_BLOCK}
-                    onValj={(skapa) => infoga(0, skapa() as Block)}
-                  />
-                )}
-
-                {dokument.block.map((block, i) => (
-                  <div key={i} className="flex flex-col gap-6">
-                    <BlockHallare
-                      redigerbar={redigerbar}
-                      onUpp={() => flytta(i, -1)}
-                      onNed={() => flytta(i, 1)}
-                      onTaBort={() =>
-                        satt({ block: dokument.block.filter((_, bi) => bi !== i) })
-                      }
-                    >
-                      <Blocks
-                        block={block}
-                        redigerbar={redigerbar}
-                        onChange={(nytt) => sattBlock(i, nytt)}
-                      />
-                    </BlockHallare>
-
-                    {redigerbar && (
-                      <Infogningsrad
-                        val={NYA_BLOCK}
-                        onValj={(skapa) => infoga(i + 1, skapa() as Block)}
-                      />
-                    )}
-                  </div>
-                ))}
-              </div>
+              <Blocklista
+                block={dokument.block}
+                redigerbar={redigerbar}
+                onChange={(block) => satt({ block })}
+              />
 
               {(dokument.fotnoter.length > 0 || redigerbar) && (
                 <footer className="mt-2 pt-4 border-t border-ink flex flex-col gap-2">

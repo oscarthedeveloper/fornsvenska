@@ -312,6 +312,8 @@ export default function Blocks({
         </dl>
       );
 
+    /* Flikblocket ritas av Blocklista — en flik innehåller i sin tur en
+       blocklista, och den kedjan hör hemma på ett ställe. */
     default:
       return null;
   }
@@ -343,5 +345,15 @@ export const NYA_BLOCK: { etikett: string; skapa: () => Block }[] = [
   {
     etikett: "Nyckelvärden",
     skapa: () => ({ typ: "nycklar", poster: [{ nyckel: "", varde: "" }] }),
+  },
+  {
+    etikett: "Flikar",
+    skapa: () => ({
+      typ: "flikar",
+      flikar: [
+        { etikett: "Flik 1", block: [] },
+        { etikett: "Flik 2", block: [] },
+      ],
+    }),
   },
 ];

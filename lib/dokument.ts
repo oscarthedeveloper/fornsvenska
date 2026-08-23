@@ -31,7 +31,18 @@ export type Block =
       markeraRad?: number;
     }
   | { typ: "obs"; etikett?: string; text: string }
-  | { typ: "nycklar"; poster: Nyckelvarde[] };
+  | { typ: "nycklar"; poster: Nyckelvarde[] }
+  /**
+   * Flikar. Varje flik har en egen blocklista, så en flik kan innehålla
+   * precis det ett dokument kan: en paradigmtabell, en kommentar under den,
+   * en OBS-ruta. Flikar i flikar är inte tillåtna — se Blocklista.
+   */
+  | { typ: "flikar"; flikar: Flik[] };
+
+export interface Flik {
+  etikett: string;
+  block: Block[];
+}
 
 export interface Dokument {
   titel: string;
