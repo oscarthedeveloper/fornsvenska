@@ -37,12 +37,12 @@ export default function SiteFrame({
             Fornsvenska.se <span className="text-accent">BETA</span>
           </span>
           <a
-            href="https://www.oscarsprojekt.netlify.app"
+            href="https://oscarsprojekt.netlify.app"
             target="_blank"
             rel="noreferrer"
             className="micro whitespace-nowrap underline decoration-paper/45 underline-offset-[3px] transition-opacity duration-[140ms] hover:opacity-65"
           >
-            www.oscarsprojekt.netlify.app ↗
+            oscarsprojekt.netlify.app ↗
           </a>
         </footer>
       </div>
