@@ -824,3 +824,499 @@ span.redigerbar {
   top: 0;
   opacity: 1;
 }
+
+/* ==================================================================
+   RESURSBIBLIOTEKET
+   Hyllorna är sajtens enda plats med ett fysiskt lån: böckerna står på en
+   planka och kastar en kort skugga. Allt annat följer samma grammatik som
+   arkivet — ram, streckad avdelare, monospace i etiketter.
+   ================================================================== */
+.resurssida {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.6rem;
+  padding: 1.4rem;
+  align-items: start;
+}
+
+@media (min-width: 1100px) {
+  .resurssida {
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 2.2rem;
+    padding: 2.2rem;
+  }
+
+  .resurspanel-halla {
+    position: sticky;
+    top: 1.4rem;
+  }
+}
+
+.resursinnehall {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1rem;
+  min-width: 0;
+}
+
+/* ------------------------------------------------------------ SÖK OCH FILTER */
+.resurssok input {
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  padding: 0.5rem 0.7rem;
+  width: 15rem;
+  max-width: 100%;
+  color: var(--ink);
+}
+
+.resurssok input::placeholder {
+  opacity: 0.4;
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
+.resurssok input:focus {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.chip {
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  padding: 0.36rem 0.72rem;
+  cursor: pointer;
+  transition: background-color 140ms linear, opacity 140ms linear;
+}
+
+.chip:hover {
+  opacity: 0.7;
+}
+
+.chip[data-vald="1"] {
+  background: var(--accent);
+}
+
+/* ----------------------------------------------------------------- HYLLAN */
+.hylla {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.hylla-topp {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Plankan. Den grova linjen är hyllans framkant, den ljusa under är dess
+   tjocklek — inte en skugga i vanlig mening. */
+.hylla-plan {
+  position: relative;
+  padding-bottom: 0.9rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.hylla-plan::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 100%;
+  height: 3px;
+  background: rgb(17 17 17 / 0.16);
+}
+
+.hylla-rad {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding: 0.35rem 0.2rem 0;
+}
+
+.hylla-rad::-webkit-scrollbar {
+  height: 7px;
+}
+
+.hylla-rad::-webkit-scrollbar-thumb {
+  background: rgb(17 17 17 / 0.3);
+}
+
+.hylla-rad::-webkit-scrollbar-track {
+  background: rgb(17 17 17 / 0.06);
+}
+
+.resurskort {
+  flex: 0 0 138px;
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.42rem;
+  text-align: left;
+  scroll-snap-align: start;
+  cursor: pointer;
+}
+
+.resurskort:hover .omslag {
+  transform: translateY(-3px);
+}
+
+.resurskort-titel {
+  font-size: 0.68rem;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.resurskort-fot {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.resurskort-forfattare {
+  font-size: 0.56rem;
+  letter-spacing: 0.04em;
+  opacity: 0.55;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---------------------------------------------------------------- OMSLAGET */
+.omslag {
+  display: block;
+  position: relative;
+  aspect-ratio: 2 / 3;
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  overflow: hidden;
+  box-shadow: 3px 3px 0 rgb(17 17 17 / 0.12);
+  transition: transform 140ms ease;
+}
+
+.resurskort[data-vald="1"] .omslag {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.omslag-bild {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Standardomslaget: titeln ÄR bilden. Ryggen till vänster gör att raden
+   läser som böcker även när ingen av dem har ett riktigt omslag. */
+.standardomslag {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.55rem 0.5rem 0.5rem 0.6rem;
+  border-left: 5px solid var(--ink);
+  background: var(--folder-1);
+}
+
+.standardomslag[data-ton="1"] { background: var(--folder-2); }
+.standardomslag[data-ton="2"] { background: var(--folder-3); }
+.standardomslag[data-ton="3"] { background: var(--folder-4); }
+.standardomslag[data-ton="4"] { background: var(--folder-5); }
+.standardomslag[data-ton="5"] { background: var(--folder-6); }
+
+.standardomslag-typ {
+  opacity: 0.5;
+}
+
+.standardomslag-titel {
+  font-size: 0.82rem;
+  line-height: 1.22;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* Titlar som Altschwedische Grammatik är bredare än omslaget. Hellre ett
+     brutet ord än en avhuggen rad. */
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.standardomslag.stort .standardomslag-titel {
+  font-size: 0.8rem;
+  -webkit-line-clamp: 7;
+}
+
+.standardomslag-fot {
+  opacity: 0.5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* --------------------------------------------------------- TILLGÄNGLIGHET */
+.tillganglighet {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.tillganglighet-skala {
+  display: inline-flex;
+  gap: 3px;
+}
+
+.tillganglighet-ruta {
+  width: 9px;
+  height: 9px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  padding: 0;
+  display: inline-block;
+}
+
+.tillganglighet-ruta[data-fylld="1"] {
+  background: var(--ink);
+}
+
+button.tillganglighet-ruta {
+  cursor: pointer;
+}
+
+.tillganglighet-skala.liten .tillganglighet-ruta {
+  width: 6px;
+  height: 6px;
+}
+
+.tillganglighet-text {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+  line-height: 1.4;
+}
+
+/* ------------------------------------------------------------- SIDOPANELEN */
+.resurspanel {
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 10px 30px rgb(17 17 17 / 0.09);
+}
+
+.resurspanel-omslag {
+  flex: 0 0 92px;
+  width: 92px;
+}
+
+.resursknapp {
+  display: block;
+  text-align: center;
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  padding: 0.6rem;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 140ms linear;
+}
+
+.resursknapp:hover {
+  opacity: 0.7;
+}
+
+.resursknapp.primar {
+  background: var(--accent);
+}
+
+.resursknapp.inaktiv {
+  opacity: 0.4;
+  cursor: default;
+  border-style: dashed;
+}
+
+.resursfakta {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px dashed var(--ink);
+}
+
+.resursfakta > div {
+  display: grid;
+  grid-template-columns: 6.6rem minmax(0, 1fr);
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--ink);
+  align-items: center;
+}
+
+.resursfakta dt {
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+}
+
+.resursfakta dd {
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+}
+
+.valjare {
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  color: var(--ink);
+  padding: 0.25rem 0.4rem;
+  align-self: flex-start;
+  font-family: inherit;
+}
+
+/* ----------------------------------------------------------- SKRIFTKAMMAREN */
+.skriftrutnat {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1rem;
+}
+
+.skriftkort {
+  position: relative;
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+}
+
+.skriftkort[data-vald="1"] {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.skriftkort-yta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 0.9rem;
+  text-align: left;
+  flex: 1;
+  cursor: pointer;
+}
+
+/* Vikt hörn — kortet är ett dokument, inte en bok. */
+.skriftkort-horn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: var(--paper);
+  border-left: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.skriftkort-titel {
+  font-size: 1rem;
+  line-height: 1.24;
+  padding-right: 1.4rem;
+}
+
+.skriftkort-las {
+  border-top: 1px solid var(--ink);
+  background: var(--paper);
+  padding: 0.55rem;
+  cursor: pointer;
+  transition: background-color 140ms linear;
+}
+
+.skriftkort-las:hover {
+  background: var(--folder-5);
+}
+
+.skriftkort[data-oppen="1"] .skriftkort-las {
+  background: var(--accent);
+}
+
+/* ---------------------------------------------------------------- LÄSAREN */
+.lasare {
+  border: 1px solid var(--ink);
+  background: var(--panel);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgb(17 17 17 / 0.09);
+  scroll-margin-top: 1.5rem;
+}
+
+.lasare-topp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.lasare-tom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 1.3rem 1.1rem;
+}
+
+.lasare .flikar {
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+/* Skriftens text får luft mellan raderna — markeringarna ska kunna ligga
+   över varandra utan att raderna klibbar ihop. */
+.skrift-text {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.02rem;
+  line-height: 1.95;
+}
+
+.skrift-falt {
+  min-height: 7rem;
+}
+
+.teckenforklaring {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.2rem;
+  align-items: center;
+  border-top: 1px dashed var(--ink);
+  border-bottom: 1px dashed var(--ink);
+  padding: 0.5rem 0;
+}
+
+.teckenforklaring li {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.teckenforklaring .mark-chip {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (max-width: 767px) {
+  .resurskort {
+    flex-basis: 118px;
+    width: 118px;
+  }
+
+  .skriftrutnat {
+    grid-template-columns: 1fr;
+  }
+}

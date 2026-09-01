@@ -5,6 +5,7 @@ import Mark from "./Mark";
 const NAV = [
   { label: "Grammatik", href: "/grammatik" },
   { label: "Texter", href: "/texter" },
+  { label: "Resursbibliotek", href: "/resurser" },
   { label: "Ordbok", href: "/ordbok" },
   { label: "Övningar", href: "/ovningar" },
 ];

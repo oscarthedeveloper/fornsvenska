@@ -170,6 +170,44 @@ Fotnoterna listas under rubriken Källor längst ned på arket.
 Dokument utan innehåll renderas med ett tomt ark och en förklaring i stället
 för att gå sönder — så arkivet kan innehålla fler poster än vad som är skrivet.
 
+## Resursbibliotek (`/resurser`)
+
+Katalogen över det material som finns om fornsvenska: läroböcker,
+examensarbeten, avhandlingar och medeltida skrifter.
+
+**Hyllor.** Fria rader som du själv namnger och flyttar. Resurserna står på
+en planka och rullar i sidled — en hylla ska se ut som en hylla, inte som ett
+rutnät. Resurser vars hylla tagits bort hamnar under Osorterat i stället för
+att försvinna.
+
+**Omslag.** Laddas upp till Supabase storage (bucketen `resurser`). Saknas
+bild ritas ett typografiskt standardomslag: typ, titel och upphov mot en
+dämpad ton som härleds ur titeln, så att samma resurs alltid ser likadan ut.
+
+**Tillgänglighet** graderas 1–5 och handlar om hur svårt materialet är att
+komma över, inte om kvalitet: 1 nästan omöjlig, 5 fritt tillgänglig online.
+Finns en läsbar utgåva på nätet läggs länken på resursen.
+
+**Skriftkammaren.** Lagar, brev och diplom har inga omslag och skulle bli
+tomma rutor på en hylla. De får därför en egen avdelning där kortet ser ut
+som ett dokument, och öppnas i en läsare *i samma vy* — aldrig i ett nytt
+fönster, eftersom hela poängen är att hoppa mellan versionerna av samma text
+utan att tappa stället.
+
+Varje skrift kan ha flera versioner som ligger som flikar. Texten skrivs med
+en egen markering ovanpå den vanliga uppmärkningen:
+
+| Skrivs | Blir |
+|---|---|
+| `==ordet==` | markerat med versionens första ton |
+| `==ordet\|Verb==` | markerat, och etiketten Verb får en egen ton i teckenförklaringen |
+
+Tomrad bryter stycke. Etiketterna får sina toner i den ordning de först
+förekommer, och listas automatiskt ovanför texten.
+
+Databasen sätts upp med `supabase/resursbibliotek.sql`, som är separat från
+`schema.sql` och kan köras om utan skada.
+
 ## Texter (`/texter`)
 
 Samma arkiv som Grammatik — hängmappar och trädvy delar komponenter, och båda
