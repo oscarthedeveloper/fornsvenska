@@ -19,14 +19,24 @@ npm run dev
 app/
   layout.tsx        Typsnitt (Newsreader, Martian Mono, Noto Sans Runic) + metadata
   globals.css       Palett, typskalor, hörnparenteser, ringanimation
-  page.tsx          Sidramen: kolofonremsor + två paneler
+  start.css         Startsidan: komposition, 3D-djup, skanning och rörelse
+  page.tsx          Startsidan: renderar components/start/Startsida
 components/
-  ColophonStrip.tsx Svarta remsor högst upp och längst ned
-  LeftPanel.tsx     Navigering, hero, tagline, statistikblock
-  InstrumentPanel.tsx Kortet med korpuslogg, avläsning och sidoribbor
-  RunicWheel.tsx    Inline-SVG med medeltidsrunraden
+  start/Startsida.tsx  Rubrik, spalter och knapp — allt redigerbart
+  start/Runsten.tsx    Runrad, punktmoln och yttre transkriberingsbana
+  start/Runsten3D.tsx  Bildfront och tolv djuplager i en CSS-3D-kropp
+  start/useTilt.ts     Rörelseslingan: pekarlutning och tröghet
+public/
+  runsten-hero.png     Högupplöst frilagd granityta
+  Toppnav.tsx       Navigeringen — samma på alla sidor
+  ColophonStrip.tsx Svarta remsor högst upp och längst ned (undersidorna)
+  LeftPanel.tsx     Gamla startsidans vänsterpanel — används inte längre
+  InstrumentPanel.tsx Gamla startsidans instrumentpanel — används inte längre
+  RunicWheel.tsx    Inline-SVG med medeltidsrunraden — används inte längre
   Mark.tsx          Triangelmärket i navigeringen
 ```
+
+De tre gamla panelerna ligger kvar orörda ifall något av dem ska tillbaka.
 
 ## Designregler att hålla fast vid när sidan växer
 
@@ -34,22 +44,65 @@ components/
   `--ink #111111`, `--accent #FF5C39`, `--azure #3EB8F0`.
 - **Två typsnitt.** Newsreader (serif) endast till rubrik och stora siffror,
   Martian Mono till allt annat. Ingen grotesk någonstans.
-- **Inga gradienter, skuggor eller rundade hörn.** Linjer är 1px heldragna
-  eller 1px streckade.
+- **Inga dekorativa gradienter, skuggor eller rundade hörn.** Stenens naturliga
+  djupskugga och skannerljusets glöd är funktionella undantag.
 - **Azurblått är enbart bakgrundsfärg** — aldrig text på papper.
 - **Runorna är medeltidsrunor**, inte urnordisk futhark. Klassen `.rune`
   laddar Noto Sans Runic; utan den blir glyferna tofu.
-- **En enda animation:** de streckade ringarna roterar (90 s/varv) och stannar
-  vid `prefers-reduced-motion`.
+- **Rörelse används sparsamt.** Runstenen gör en entré och går därefter in i
+  en långsam skanningscykel. All rörelse stannar vid `prefers-reduced-motion`.
+
+## Startsidan
+
+Rubrik, två korta spalter, en knapp — och en monumental runsten som glider in
+snett nedifrån vänster. Stenen står diagonalt från nedre vänster mot övre
+höger. Basen fortsätter utanför bildens nederkant: föremålet är helt, men
+kamerans utsnitt är medvetet för litet för det.
+
+**All text på startsidan är redigerbar på plats.** Rubrik, båda spalterna och
+knapptexten sparas i tabellen `sidor` under slug `start`
+(`supabase/startsida.sql`, `lib/sidor.ts`, `lib/sidActions.ts`). Utan databas,
+eller innan något skrivits, gäller standardtexten i `lib/sidtyper.ts` — sidan
+ska aldrig stå tom för att en fråga misslyckades.
+
+### Stenens djup och material
+
+Fronten är ett frilagt, högupplöst granitföremål med kristallkorn, vittring,
+sprickor och verklig kantskuggning. Bakom fronten ligger tolv alfamaskerade
+kopior i en `transform-style: preserve-3d`-kropp. När stenen vrids med
+pekaren bildar de en mörk, fysisk kant i stället för att hela föremålet ser ut
+som ett platt fotografi. Ingen WebGL eller extern 3D-motor behövs.
+
+### Rörelsen
+
+`components/start/useTilt.ts` håller **en enda** rAF-slinga för stenens
+rotation. Värdena skrivs direkt som CSS-variabler på scenen — aldrig genom
+React-tillstånd. Pekaren styr med eftersläpning, dragning ger en liten vridning
+med tröghet, och efter ett par sekunders stillhet börjar stenen röra sig svagt.
+
+### Skanningen och läsningen
+
+Efter entrén sveper ett blått strukturljus längs stenen. Ett koordinatnät och
+punktmoln byggs fram i samma riktning. Runorna går upp längs vänsterkanten,
+över hjässan och ned längs högerkanten. Den latinska translittereringen skrivs
+progressivt i en parallell bana **utanför** siluetten. Hela sekvensen upprepas
+långsamt.
+
+### Att tänka på
+
+- `animation-fill-mode: backwards`, inte `both`. Efter inanimationen måste
+  elementens egna regler gälla igen, annars låser sluttillståndet fast
+  transformen och parallaxen slutar fungera.
+- Vid `prefers-reduced-motion` startar rAF-slingan aldrig. Stenen visas direkt
+  och hela translittereringen ligger stilla runt föremålet.
 
 ## Responsivt
 
 | Bredd | Beteende |
 |---|---|
-| ≥1024px | Två paneler sida vid sida, exakt en skärmhöjd, ingen scroll |
-| ≥1024px men lägre än ~800px höjd | Ramen får en golvhöjd på 660px och sidan rullar någon centimeter — hellre det än att hero-blocket lägger sig över navigeringen |
-| 768–1023px | Panelerna staplas, sidoribborna krymper till 20px |
-| <768px | En kolumn, sidoribborna försvinner, kolofonremsorna blir en rad, runhjulet behåller två ringar och varannan runa |
+| ≥900px | Exakt en skärmhöjd utan scroll, även på låg desktop |
+| ≤899px | Spalterna staplas och sidan får en kort mobilscroll |
+| ≤520px | Stenen förstoras och fortsätter långt utanför vänsterkanten |
 
 ## Höjdmedveten typskala
 

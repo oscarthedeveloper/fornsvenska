@@ -1,14 +1,5 @@
-import Link from "next/link";
 import ColophonStrip from "./ColophonStrip";
-import Mark from "./Mark";
-
-const NAV = [
-  { label: "Grammatik", href: "/grammatik" },
-  { label: "Texter", href: "/texter" },
-  { label: "Resursbibliotek", href: "/resurser" },
-  { label: "Ordbok", href: "/ordbok" },
-  { label: "Övningar", href: "/ovningar" },
-];
+import Toppnav from "./Toppnav";
 
 /**
  * Delad sidram för undersidorna: samma kolofonremsor och navigering som
@@ -33,36 +24,27 @@ export default function SiteFrame({
           right=">>> Äldre och yngre fornsvenska"
         />
 
-        <nav className="h-[58px] shrink-0 bg-azure border-b border-ink flex items-center justify-between px-4 gap-4">
-          <Link href="/" className="flex items-center gap-2.5">
-            <Mark />
-            <span className="display text-ink text-[1.4rem] leading-none">
-              Fornsvenska
-            </span>
-          </Link>
-          <ul className="flex items-center gap-4 sm:gap-5">
-            {NAV.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className={`nav-link text-ink ${
-                    active === item.href ? "underline underline-offset-4" : ""
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        {/* Hårlinje under navigeringen: på undersidorna behövs en gräns mot
+            innehållet, på startsidan gör den bara sidan tyngre. */}
+        <div className="border-b border-ink shrink-0">
+          <Toppnav active={active} />
+        </div>
 
         <div className="flex-1 bg-paper flex flex-col">{children}</div>
 
-        <ColophonStrip
-          left="Allt material följer Noreens grammatik"
-          centre="1225—1526 / Svenska medeltiden"
-          right="Handskriftsarkiv — Svenskt diplomatarium"
-        />
+        <footer className="h-[34px] shrink-0 bg-ink text-paper flex items-center justify-between gap-4 px-3">
+          <span className="micro whitespace-nowrap">
+            Fornsvenska.se <span className="text-accent">BETA</span>
+          </span>
+          <a
+            href="https://www.oscarsprojekt.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            className="micro whitespace-nowrap underline decoration-paper/45 underline-offset-[3px] transition-opacity duration-[140ms] hover:opacity-65"
+          >
+            www.oscarsprojekt.netlify.app ↗
+          </a>
+        </footer>
       </div>
     </main>
   );

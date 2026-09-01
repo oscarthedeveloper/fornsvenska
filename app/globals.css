@@ -1320,3 +1320,480 @@ button.tillganglighet-ruta {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==================================================================
+   STARTSIDAN
+   Rubrik, två spalter och en runsten som reser sig ur underkanten till
+   höger. Bara toppen syns; stenen fortsätter utanför bilden, och det är
+   avsikten — föremålet ska kännas för stort för sidan.
+   ================================================================== */
+.startsida {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--paper);
+}
+
+@media (min-width: 1024px) and (min-height: 800px) {
+  .startsida {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+/* ------------------------------------------------------------ NAVIGERINGEN */
+.start-nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem clamp(1rem, 3vw, 2.4rem) 0.9rem;
+  flex-shrink: 0;
+}
+
+.start-lankar {
+  display: flex;
+  gap: clamp(0.9rem, 2vw, 1.8rem);
+  flex-wrap: wrap;
+}
+
+.start-lankar-hoger {
+  justify-content: flex-end;
+}
+
+.start-marke {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  padding: 0.3rem 0.95rem 0.3rem 0.75rem;
+  transition: background-color 140ms linear;
+  white-space: nowrap;
+}
+
+.start-marke:hover {
+  background: var(--panel);
+}
+
+.start-marke .display {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* ---------------------------------------------------------------- HUVUDET */
+.start-huvud {
+  position: relative;
+  z-index: 2;
+  padding: 0 clamp(1rem, 3vw, 2.4rem);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.9rem, 2.2vh, 1.5rem);
+}
+
+.start-rubrik {
+  font-size: clamp(2.3rem, min(7vw, 9vh), 5rem);
+  line-height: 0.97;
+  letter-spacing: -0.018em;
+  max-width: 13ch;
+}
+
+.start-spalter {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 3vw, 2.6rem);
+  max-width: 58ch;
+}
+
+.start-spalter p {
+  font-size: 0.63rem;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+  opacity: 0.78;
+}
+
+.start-knapprad {
+  display: flex;
+  gap: 0.6rem;
+}
+
+/* ------------------------------------------------------------------ SCENEN */
+.start-scen {
+  position: relative;
+  flex: 1;
+  min-height: clamp(300px, 42vh, 520px);
+  margin-top: clamp(0.4rem, 1.2vh, 1rem);
+}
+
+.kollage {
+  position: absolute;
+  inset: 0;
+}
+
+.kollagedel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.7rem 0.65rem;
+  background: var(--panel);
+  border: 1px solid var(--ink);
+  box-shadow: 4px 6px 0 rgb(17 17 17 / 0.09);
+  /* Parallaxen: --px och --py sätts av rAF-slingan, --djup av varje del. */
+  transform: translate3d(
+      calc(var(--px, 0) * var(--djup, 8) * 1px),
+      calc(var(--py, 0) * var(--djup, 8) * -0.5px),
+      0
+    )
+    rotate(var(--r, 0deg));
+  transition: opacity 420ms ease;
+  animation: kliv-in 900ms var(--fordrojning, 0ms) backwards
+    cubic-bezier(0.16, 0.84, 0.44, 1);
+}
+
+/* backwards och inte both: efter animationen ska elementets egna regler
+   gälla igen, annars fryser sluttillståndet fast transformen och parallaxen
+   slutar fungera. */
+@keyframes kliv-in {
+  from {
+    opacity: 0;
+    transform: translateY(34px) rotate(calc(var(--r, 0deg) * 0.35)) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(
+        calc(var(--px, 0) * var(--djup, 8) * 1px),
+        calc(var(--py, 0) * var(--djup, 8) * -0.5px),
+        0
+      )
+      rotate(var(--r, 0deg))
+      scale(1);
+  }
+}
+
+.del-diagram {
+  left: 6%;
+  bottom: 12%;
+  width: clamp(160px, 21vw, 260px);
+  z-index: 3;
+}
+
+.diagram-yta {
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------ STENEN */
+/* Skivavståndet är en riktig, animerbar längd tack vare @property. Utan den
+   registreringen vore --steg bara en textsnutt och kunde inte tweenas — och
+   det är den tweenen som pressar ut stenen ur planet. */
+@property --steg {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 0px;
+}
+
+@keyframes extrudera {
+  from {
+    --steg: 0px;
+  }
+  to {
+    --steg: 2.6px;
+  }
+}
+
+@keyframes sten-upp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(190px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Stenen är bredare än halva sidan och mycket högre än scenen: bara hjässan
+   och början av bandet syns, resten fortsätter under bilden. */
+.stenplats {
+  position: absolute;
+  left: 64%;
+  top: 3%;
+  width: clamp(360px, 54vw, 880px);
+  aspect-ratio: 476 / 640;
+  transform: translateX(-50%);
+  z-index: 5;
+  --steg: 2.6px;
+  touch-action: pan-y;
+  cursor: grab;
+  animation: sten-upp 1600ms 220ms backwards cubic-bezier(0.16, 0.84, 0.44, 1),
+    extrudera 1800ms 560ms backwards cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.start-scen[data-drar="1"] .stenplats,
+.stenplats:active {
+  cursor: grabbing;
+}
+
+.sten-rymd {
+  position: absolute;
+  inset: 0;
+  perspective: 2400px;
+  perspective-origin: 50% 30%;
+}
+
+/* Kroppen. preserve-3d gör att skivorna behåller sitt djup när den vrids —
+   utan den plattas allt till en enda yta. */
+.sten-kropp {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  will-change: transform;
+}
+
+.sten-kropp > span {
+  position: absolute;
+  inset: 0;
+  display: block;
+  transform: translateZ(calc(var(--i) * var(--steg)));
+}
+
+.sten-kropp svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.sten-front {
+  filter: drop-shadow(0 18px 30px rgb(17 17 17 / 0.18));
+  animation: rontgen 8s 2200ms cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+/* Ytan tonas ned medan skannern läser den, så att punktmolnet syns genom
+   stenen. Det är hela poängen med sekvensen: föremålet blir mätdata. */
+@keyframes rontgen {
+  0%,
+  4% {
+    opacity: 1;
+  }
+  16%,
+  60% {
+    opacity: 0.45;
+  }
+  76%,
+  100% {
+    opacity: 1;
+  }
+}
+
+.runsten-runor {
+  font-family: "Noto Sans Runic", var(--font-mono), monospace;
+  font-size: 23px;
+  fill: #F2ECDD;
+  opacity: 0.9;
+}
+
+/* Skuggkopian ligger ett hår ned till höger och ger runorna fåra. */
+.runsten-runor-skugga {
+  fill: #33302A;
+  opacity: 0.55;
+}
+
+/* Läsningen står i samma bana som runorna, tecken för tecken. */
+.translit-bana {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-size: 15px;
+  fill: #2E2A24;
+  opacity: 0;
+  letter-spacing: 0;
+  animation: lasning 8s 2200ms cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+@keyframes lasning {
+  0%,
+  10% {
+    opacity: 0;
+  }
+  30%,
+  62% {
+    opacity: 0.85;
+  }
+  74%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* ---------------------------------------------------------- SKANNINGEN */
+/* Punktmolnet är samma banor som ytan, streckade med nolllånga streck och
+   runda ändar — varje streck blir en punkt. Bandet som bygger fram dem är
+   en clip-path, det billigaste sättet att flytta en öppning. */
+.sten-punkter {
+  pointer-events: none;
+  opacity: 0;
+  clip-path: inset(0 0 100% 0);
+  animation: skanning 8s 2200ms cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.punktmoln-linjer {
+  filter: drop-shadow(0 0 7px var(--azure));
+}
+
+@keyframes skanning {
+  0% {
+    clip-path: inset(0 0 100% 0);
+    opacity: 0;
+  }
+  4% {
+    opacity: 0.9;
+  }
+  42%,
+  62% {
+    clip-path: inset(0 0 0 0);
+    opacity: 0.9;
+  }
+  74%,
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 0;
+  }
+}
+
+.sten-linje {
+  pointer-events: none;
+  top: 0;
+  bottom: auto;
+  left: 14%;
+  right: 14%;
+  height: 2px;
+  opacity: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--azure) 22%,
+    #FFFFFF 50%,
+    var(--azure) 78%,
+    transparent
+  );
+  box-shadow: 0 0 18px 3px rgb(62 184 240 / 0.5);
+  animation: linjesvep 8s 2200ms cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+@keyframes linjesvep {
+  0% {
+    top: 1%;
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  42% {
+    top: 97%;
+    opacity: 1;
+  }
+  50%,
+  100% {
+    top: 97%;
+    opacity: 0;
+  }
+}
+
+/* ------------------------------------------------------------------ KNAPP */
+.faktaknapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: var(--accent);
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.58rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 500;
+  transition: opacity 140ms linear;
+}
+
+.faktaknapp:hover {
+  opacity: 0.75;
+}
+
+.faktaknapp svg {
+  width: 13px;
+  height: 13px;
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1.2;
+  flex-shrink: 0;
+}
+
+/* Vid prefers-reduced-motion står allt stilla: rAF-slingan startar inte,
+   skanningen går inte, och skivorna ligger redan utpressade. */
+@media (prefers-reduced-motion: reduce) {
+  .kollagedel,
+  .stenplats,
+  .sten-linje,
+  .sten-front {
+    animation: none;
+  }
+
+  .sten-punkter {
+    animation: none;
+    opacity: 0.28;
+    clip-path: none;
+  }
+
+  .translit-bana {
+    animation: none;
+    opacity: 0.85;
+  }
+}
+
+/* ------------------------------------------------------------------ SMALT */
+@media (max-width: 1023px) {
+  .start-nav {
+    grid-template-columns: auto 1fr;
+    row-gap: 0.8rem;
+  }
+
+  .start-marke {
+    order: -1;
+  }
+
+  .start-lankar-hoger {
+    display: none;
+  }
+
+  .start-spalter {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .stenplats {
+    left: 68%;
+    width: 72vw;
+    top: 6%;
+  }
+
+  .del-diagram {
+    left: 3%;
+    bottom: 8%;
+  }
+}
+
+@media (max-width: 640px) {
+  .stenplats {
+    left: 62%;
+    width: 96vw;
+    top: 10%;
+    --steg: 1.7px;
+  }
+
+  .del-diagram {
+    left: 2%;
+    bottom: 4%;
+    width: 62vw;
+  }
+}

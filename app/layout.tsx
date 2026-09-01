@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Newsreader, Martian_Mono } from "next/font/google";
 import "./globals.css";
+import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
 import { hamtaSession } from "@/lib/session";
