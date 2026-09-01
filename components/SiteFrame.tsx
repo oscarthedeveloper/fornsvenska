@@ -19,9 +19,9 @@ export default function SiteFrame({
     <main className="p-[3.5vw]">
       <div className="border border-ink flex flex-col min-h-[calc(100vh-7vw)]">
         <ColophonStrip
-          left="Konfidentiellt — textkritisk bearbetning pågår"
+          left=""
           centre={centre}
-          right=">>> Äldre och yngre fornsvenska"
+          right=""
         />
 
         {/* Hårlinje under navigeringen: på undersidorna behövs en gräns mot

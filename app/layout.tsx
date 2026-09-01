@@ -4,6 +4,7 @@ import "./globals.css";
 import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
+import ConstructionBadge from "@/components/ConstructionBadge";
 import { hamtaSession } from "@/lib/session";
 
 /* Endast två familjer: hög-kontrast antikva till rubriker och siffror,
@@ -57,6 +58,7 @@ export default async function RootLayout({
       <body>
         <AdminProvider arAdmin={arAdmin}>
           {children}
+          <ConstructionBadge />
           <AdminBar anvandarnamn={anvandarnamn} />
         </AdminProvider>
       </body>
