@@ -4,6 +4,11 @@ import type { Block } from "@/lib/dokument";
 import Inline from "./Inline";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
+import {
+  MARKERINGSFARGER,
+  markeringsnamn,
+  type Markeringsfarg,
+} from "@/lib/markeringar";
 
 export default function Blocks({
   block,
@@ -322,6 +327,106 @@ export default function Blocks({
         </dl>
       );
 
+    case "fargnyckel": {
+      const sattPost = (
+        i: number,
+        delar: Partial<(typeof block.poster)[number]>
+      ) =>
+        uppdatera({
+          poster: block.poster.map((post, pi) =>
+            pi === i ? { ...post, ...delar } : post
+          ),
+        } as Partial<Block>);
+
+      return (
+        <aside className="doc-fargnyckel" aria-label={block.titel || "Färgnyckel"}>
+          <header>
+            <span className="nano opacity-55">Teckenförklaring:</span>
+            <Redigerbar
+              as="div"
+              varde={block.titel ?? "Färgnyckel"}
+              redigerbar={redigerbar}
+              formatering={false}
+              platshallare="Färgnyckel"
+              onChange={(titel) => uppdatera({ titel } as Partial<Block>)}
+              className="doc-fargnyckel-titel"
+            />
+          </header>
+
+          <ul className="doc-fargnyckel-lista">
+            {block.poster.map((post, i) => (
+              <li key={i}>
+                <span
+                  className="doc-fargprov"
+                  data-highlight={post.farg}
+                  aria-hidden="true"
+                />
+                {redigerbar ? (
+                  <select
+                    className="doc-fargvaljare nano"
+                    value={post.farg}
+                    aria-label={`Färg för ${post.etikett || `rad ${i + 1}`}`}
+                    onChange={(event) =>
+                      sattPost(i, { farg: Number(event.target.value) as Markeringsfarg })
+                    }
+                  >
+                    {MARKERINGSFARGER.map((farg) => (
+                      <option key={farg.id} value={farg.id}>
+                        {farg.namn}
+                      </option>
+                    ))}
+                  </select>
+                ) : (
+                  <span className="nano doc-fargnamn">{markeringsnamn(post.farg)}</span>
+                )}
+                <span className="nano opacity-45" aria-hidden="true">:</span>
+                <Redigerbar
+                  varde={post.etikett}
+                  redigerbar={redigerbar}
+                  formatering={false}
+                  platshallare="Betydelse"
+                  onChange={(etikett) => sattPost(i, { etikett })}
+                  className="doc-fargbetydelse"
+                />
+                {redigerbar && (
+                  <Knapp
+                    titel="Ta bort färgen ur nyckeln"
+                    fara
+                    onClick={() =>
+                      uppdatera({
+                        poster: block.poster.filter((_, pi) => pi !== i),
+                      } as Partial<Block>)
+                    }
+                  >
+                    ✕
+                  </Knapp>
+                )}
+              </li>
+            ))}
+          </ul>
+
+          {redigerbar && (
+            <Knapp
+              titel="Lägg till en färgförklaring"
+              onClick={() =>
+                uppdatera({
+                  poster: [
+                    ...block.poster,
+                    {
+                      farg: MARKERINGSFARGER[block.poster.length % MARKERINGSFARGER.length].id,
+                      etikett: "",
+                    },
+                  ],
+                } as Partial<Block>)
+              }
+            >
+              + färg
+            </Knapp>
+          )}
+        </aside>
+      );
+    }
+
     /* Flikblocket ritas av Blocklista — en flik innehåller i sin tur en
        blocklista, och den kedjan hör hemma på ett ställe. */
     default:
@@ -355,6 +460,17 @@ export const NYA_BLOCK: { etikett: string; skapa: () => Block }[] = [
   {
     etikett: "Nyckelvärden",
     skapa: () => ({ typ: "nycklar", poster: [{ nyckel: "", varde: "" }] }),
+  },
+  {
+    etikett: "Färgnyckel",
+    skapa: () => ({
+      typ: "fargnyckel",
+      titel: "Kasusmarkering",
+      poster: [
+        { farg: 1, etikett: "Dativ" },
+        { farg: 4, etikett: "Ackusativ" },
+      ],
+    }),
   },
   {
     etikett: "Flikar",

@@ -76,40 +76,29 @@ export const DEMO_HYLLOR: Hylla[] = [
   },
 ];
 
-export const DEMO_SKRIFTER: Resurs[] = [
+/**
+ * Fasta fulltexter som hör till sajten, inte till en viss Supabase-installation.
+ * De läggs därför till även när resten av biblioteket kommer från databasen.
+ */
+export const FASTA_SKRIFTER: Resurs[] = [
   {
-    id: "demo-vgl",
+    id: "vastgotalagen-maskintext",
     hyllaId: null,
     typ: "skrift",
-    titel: "Äldre Västgötalagen, Rättlösabalken",
+    titel: "Äldre Västgötalagen — fullständig maskintext",
+    forfattare: "Lars-Olof Delsing",
     ar: "c:a 1280",
     utgivare: "Cod. Holm. B 59",
-    tillganglighet: 4,
+    lank: "/bocker/vastgotalagen/vastgotalagen-maskintext.pdf",
+    tillganglighet: 5,
     beskrivning:
-      "Den äldsta bevarade svenska handskriften på folkspråk. Utdraget nedan är inledningen till Rättlösabalken.",
+      "Hela Äldre Västgötalagen i maskinläsbar transkription efter Collin och Schlyters utgåva (SSGL I). Texten är inskriven av Lars-Olof Delsing vid Lunds universitet.",
     position: 0,
-    versioner: [
-      {
-        id: "grund",
-        etikett: "Grundtext",
-        note: "Normaliserad stavning, inga markeringar.",
-        innehall:
-          "Dræpær maþær svænskan man eller smalænskan, innan konongsrikis man, þa skal han bötæ firi hanum þrea marker. Dræpær maþær danskan man allæ noræn man, þa skal han bötæ atta örtogher ok þrettan marker.",
-      },
-      {
-        id: "pron",
-        etikett: "Pronomen",
-        note: "Alla pronomen är markerade.",
-        innehall:
-          "Dræpær maþær svænskan man eller smalænskan, innan konongsrikis man, þa skal ==han|Pronomen== bötæ firi ==hanum|Pronomen== þrea marker. Dræpær maþær danskan man allæ noræn man, þa skal ==han|Pronomen== bötæ atta örtogher ok þrettan marker.",
-      },
-      {
-        id: "verb",
-        etikett: "Verb",
-        note: "Alla finita verb är markerade.",
-        innehall:
-          "==Dræpær|Verb== maþær svænskan man eller smalænskan, innan konongsrikis man, þa ==skal|Verb== han ==bötæ|Verb== firi hanum þrea marker. ==Dræpær|Verb== maþær danskan man allæ noræn man, þa ==skal|Verb== han ==bötæ|Verb== atta örtogher ok þrettan marker.",
-      },
-    ],
+    versioner: [],
+    bok: {
+      sokvag: "/resurser/vastgotalagen",
+      pdf: "/bocker/vastgotalagen/vastgotalagen-maskintext.pdf",
+      sidor: 25,
+    },
   },
 ];

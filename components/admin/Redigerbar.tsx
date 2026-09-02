@@ -2,6 +2,12 @@
 
 import { useEffect, useRef } from "react";
 import Inline from "@/components/dokument/Inline";
+import {
+  FORMATERINGSHANDELSE,
+  type Formateringskommando,
+  type Inlineformat,
+  type Markeringsfarg,
+} from "@/lib/markeringar";
 
 /**
  * Ett textfält som redigeras där det står.
@@ -12,14 +18,13 @@ import Inline from "@/components/dokument/Inline";
  *
  * Fältet är ren text hela vägen — även formateringen. Ctrl/Cmd+B, I, U och E
  * lägger markörer runt markeringen (**fet**, *kursiv*, _understruken_,
- * `term`) och tar bort dem igen om de redan står där. Inline tolkar dem när
- * texten visas. Fördelen: det som ligger i databasen är exakt det som står i
- * fältet, och inklistrad text kan aldrig smuggla in främmande uppmärkning.
+ * `term`). Färgverktyget använder ==1|text== till ==8|text==. Inline tolkar
+ * markörerna när texten visas. Fördelen: det som ligger i databasen är exakt
+ * det som står i fältet, och inklistrad text kan aldrig smuggla in främmande
+ * uppmärkning.
  */
 
-type Format = "fet" | "kursiv" | "understruken" | "term";
-
-const KOMMANDON: Record<string, Format> = {
+const KOMMANDON: Record<string, Inlineformat> = {
   b: "fet",
   i: "kursiv",
   u: "understruken",
@@ -95,7 +100,7 @@ function antalRunt(
  * Stjärnorna räknas i klump: en stjärna är kursiv, två fet, tre båda. Därför
  * kan fet slås av utan att kursiven inuti går sönder.
  */
-function vaxlaFormat(el: HTMLElement, format: Format) {
+function vaxlaFormat(el: HTMLElement, format: Inlineformat) {
   const sel = window.getSelection();
   if (!sel || sel.rangeCount === 0) return;
   const range = sel.getRangeAt(0);
@@ -137,6 +142,52 @@ function vaxlaFormat(el: HTMLElement, format: Format) {
   markera(el, nyStart, nyStart + valt.length);
 }
 
+/** Slår på, byter eller tar bort en färgmarkering runt den valda texten. */
+function vaxlaMarkering(el: HTMLElement, farg: Markeringsfarg | 0) {
+  const sel = window.getSelection();
+  if (!sel || sel.rangeCount === 0) return;
+  const range = sel.getRangeAt(0);
+  if (!el.contains(range.commonAncestorContainer)) return;
+
+  const text = platttext(el);
+  let start = forskjutning(el, range.startContainer, range.startOffset);
+  let slut = forskjutning(el, range.endContainer, range.endOffset);
+
+  while (start < slut && /\s/.test(text[start])) start++;
+  while (slut > start && /\s/.test(text[slut - 1])) slut--;
+  if (start === slut) return;
+
+  let valt = text.slice(start, slut);
+  let gammalFarg: number | null = null;
+  let ersattStart = start;
+  let ersattSlut = slut;
+
+  /* Markören kan ligga utanför markeringen (när bara orden valts) eller ingå
+     i den (när administratören har markerat hela den synliga råtexten). */
+  const runt = text.slice(Math.max(0, start - 4), slut + 2);
+  const runtTraff = runt.match(/^==([1-8])\|([\s\S]+)==$/);
+  const helTraff = valt.match(/^==([1-8])\|([\s\S]+)==$/);
+
+  if (runtTraff) {
+    gammalFarg = Number(runtTraff[1]);
+    valt = runtTraff[2];
+    ersattStart = start - 4;
+    ersattSlut = slut + 2;
+  } else if (helTraff) {
+    gammalFarg = Number(helTraff[1]);
+    valt = helTraff[2];
+  }
+
+  if (farg === 0 && gammalFarg === null) return;
+  const nyFarg = gammalFarg === farg ? 0 : farg;
+  const fore = nyFarg ? `==${nyFarg}|` : "";
+  const efter = nyFarg ? "==" : "";
+
+  markera(el, ersattStart, ersattSlut);
+  document.execCommand("insertText", false, `${fore}${valt}${efter}`);
+  markera(el, ersattStart + fore.length, ersattStart + fore.length + valt.length);
+}
+
 export default function Redigerbar({
   varde,
   onChange,
@@ -153,7 +204,7 @@ export default function Redigerbar({
   className?: string;
   platshallare?: string;
   flerRader?: boolean;
-  /** Tolka **fet**, *kursiv*, _understruken_, `term` och [^1] när fältet visas. */
+  /** Tolka inlineformat och färgmarkeringar när fältet visas. */
   formatering?: boolean;
   as?: "span" | "div" | "p";
 }) {
@@ -165,6 +216,23 @@ export default function Redigerbar({
     if (document.activeElement === el) return;
     if (el.innerText !== varde) el.innerText = varde;
   }, [varde, redigerbar]);
+
+  useEffect(() => {
+    if (!redigerbar || !formatering) return;
+
+    const formatera = (event: Event) => {
+      const el = ref.current;
+      if (!el) return;
+      const kommando = (event as CustomEvent<Formateringskommando>).detail;
+      if (!kommando) return;
+
+      if (kommando.typ === "inline") vaxlaFormat(el, kommando.format);
+      else vaxlaMarkering(el, kommando.farg);
+    };
+
+    document.addEventListener(FORMATERINGSHANDELSE, formatera);
+    return () => document.removeEventListener(FORMATERINGSHANDELSE, formatera);
+  }, [formatering, redigerbar]);
 
   /* Nycklarna tvingar fram ett nytt element när läget växlar. Utan dem
      återanvänder React samma div — och den innehåller redan en textnod som

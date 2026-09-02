@@ -186,6 +186,7 @@ för sig:
 | `tabell` | paradigmtabell i monospace, valfri markerad rad |
 | `obs` | OBS-ruta med etikettflik |
 | `nycklar` | nyckel/värde-rader |
+| `fargnyckel` | liten förklaringsruta för dokumentets färgmarkeringar |
 | `flikar` | flikar där varje flik bär en egen blocklista |
 
 Flikblocket är till för paradigm som hör ihop men inte ska ligga under
@@ -204,6 +205,7 @@ i ring.
 | `***båda***` | fet kursiv | B och I efter varandra |
 | `_understruken_` | understruken | Ctrl/Cmd + U |
 | `` `term` `` | fornsvenskt formord i monospace | Ctrl/Cmd + E |
+| `==1|laghum varum==` | transparent överstrykning, färg 1–8 | Formatera → färg |
 | `[^1]` | fotnotshänvisning | — |
 | `\*` | tecknet självt | — |
 
@@ -212,6 +214,12 @@ igen för att ta bort. Undantaget är dokumentets titel och mappnamnen i
 arkivet — de är också nodens namn i sidebar, brödsmulor och trädvy, där
 markörerna hade synts som tecken. Markörerna lagras som ren text i databasen — det som
 står i fältet är exakt det som ligger i `content`.
+
+Färgpaletten öppnas med **Formatera** i adminlisten. Markera först ett ord
+eller en fras och välj sedan en av de åtta färgerna. Samma färg igen tar bort
+markeringen; en annan färg byter den. Blocket **Färgnyckel** kan infogas var
+som helst och visar både färgnamn och betydelse, så informationen aldrig bärs
+av enbart färg.
 
 Markörerna måste sitta tätt intill texten, `*så här*` och inte `* så här *`.
 Det är inte kosmetik: asterisk framför ett ord betyder rekonstruerad form i
