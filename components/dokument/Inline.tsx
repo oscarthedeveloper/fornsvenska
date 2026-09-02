@@ -8,6 +8,7 @@ import { Fragment } from "react";
  *   ***båda***
  *   _understruken_ Ctrl/Cmd+U
  *   `term`         Ctrl/Cmd+E — fornsvenskt formord eller ändelse, i monospace
+ *   ==1|text==     transparent färgmarkering, färg 1–8
  *   [^1]           hänvisning till fotnot
  *   \*             omvänt snedstreck ger tecknet självt
  *
@@ -27,6 +28,7 @@ import { Fragment } from "react";
  */
 const MONSTER = [
   "\\\\([\\\\*_`\\[])",
+  String.raw`==([1-8])\|(?=\S)([\s\S]*?\S)==`,
   String.raw`\*\*\*(?=\S)([\s\S]*?[^\s*])\*\*\*`,
   String.raw`\*\*(?=\S)([\s\S]*?[^\s*])\*\*`,
   String.raw`\*(?=\S)([^*\n]*?[^\s*])\*`,
@@ -48,7 +50,7 @@ function tolka(text: string): React.ReactNode[] {
   while ((m = regex.exec(text)) !== null) {
     // Understreck mitt i ett ord — snake_case, translittereringar — är text.
     if (
-      m[5] !== undefined &&
+      m[7] !== undefined &&
       ((m.index > 0 && ORDTECKEN.test(text[m.index - 1])) ||
         ORDTECKEN.test(text[regex.lastIndex] ?? ""))
     ) {
@@ -63,30 +65,36 @@ function tolka(text: string): React.ReactNode[] {
       delar.push(m[1]);
     } else if (m[2] !== undefined) {
       delar.push(
+        <mark key={k} className="doc-highlight" data-highlight={m[2]}>
+          {tolka(m[3])}
+        </mark>
+      );
+    } else if (m[4] !== undefined) {
+      delar.push(
         <strong key={k}>
-          <em>{tolka(m[2])}</em>
+          <em>{tolka(m[4])}</em>
         </strong>
       );
-    } else if (m[3] !== undefined) {
-      delar.push(<strong key={k}>{tolka(m[3])}</strong>);
-    } else if (m[4] !== undefined) {
-      delar.push(<em key={k}>{tolka(m[4])}</em>);
     } else if (m[5] !== undefined) {
+      delar.push(<strong key={k}>{tolka(m[5])}</strong>);
+    } else if (m[6] !== undefined) {
+      delar.push(<em key={k}>{tolka(m[6])}</em>);
+    } else if (m[7] !== undefined) {
       delar.push(
         <span key={k} className="doc-understruken">
-          {tolka(m[5])}
+          {tolka(m[7])}
         </span>
       );
-    } else if (m[6] !== undefined) {
+    } else if (m[8] !== undefined) {
       delar.push(
         <span key={k} className="doc-term">
-          {m[6]}
+          {m[8]}
         </span>
       );
     } else {
       delar.push(
-        <a key={k} href={`#not-${m[7]}`} className="doc-note-ref">
-          {m[7]}
+        <a key={k} href={`#not-${m[9]}`} className="doc-note-ref">
+          {m[9]}
         </a>
       );
     }

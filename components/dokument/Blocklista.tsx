@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Block, Flik } from "@/lib/dokument";
+import type { Block, Flik, Fotnot } from "@/lib/dokument";
 import Blocks, { NYA_BLOCK } from "./Blocks";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
@@ -20,12 +20,15 @@ export default function Blocklista({
   redigerbar = false,
   onChange,
   tillatFlikar = true,
+  fotnoter = [],
 }: {
   block: Block[];
   redigerbar?: boolean;
   onChange?: (block: Block[]) => void;
   /** Falskt inne i en flik: flikar i flikar blir obegripliga att navigera. */
   tillatFlikar?: boolean;
+  /** Dokumentets källista. Valda nummer kan kopplas till hela block. */
+  fotnoter?: Fotnot[];
 }) {
   const val = tillatFlikar
     ? NYA_BLOCK
@@ -50,6 +53,7 @@ export default function Blocklista({
       <Flikblock
         block={b}
         redigerbar={redigerbar}
+        fotnoter={fotnoter}
         onChange={(nytt) => satt(i, nytt)}
       />
     ) : (
@@ -74,7 +78,20 @@ export default function Blocklista({
             onNed={() => flytta(i, 1)}
             onTaBort={() => onChange?.(block.filter((_, bi) => bi !== i))}
           >
-            {rita(b, i)}
+            <section className="doc-blocksektion">
+              {rita(b, i)}
+              <Blockkallor
+                block={b}
+                fotnoter={fotnoter}
+                redigerbar={redigerbar}
+                onChange={(kallor) =>
+                  satt(i, {
+                    ...b,
+                    kallor: kallor.length > 0 ? kallor : undefined,
+                  } as Block)
+                }
+              />
+            </section>
           </BlockHallare>
 
           {redigerbar && (
@@ -86,14 +103,89 @@ export default function Blocklista({
   );
 }
 
+/**
+ * En blockhänvisning belägger hela innehållsenheten — exempelvis båda
+ * spalterna eller hela tabellen. I redigeringsläget väljs källorna med
+ * nummer från dokumentets ordinarie källista.
+ */
+function Blockkallor({
+  block,
+  fotnoter,
+  redigerbar,
+  onChange,
+}: {
+  block: Block;
+  fotnoter: Fotnot[];
+  redigerbar: boolean;
+  onChange: (kallor: number[]) => void;
+}) {
+  const valda = [...new Set(block.kallor ?? [])].sort((a, b) => a - b);
+  const valbara = [
+    ...new Set([...fotnoter.map((fotnot) => fotnot.id), ...valda]),
+  ].sort((a, b) => a - b);
+
+  if (!redigerbar && valda.length === 0) return null;
+
+  if (!redigerbar) {
+    return (
+      <aside
+        className="doc-blockkallor"
+        aria-label={`Källa för hela avsnittet: ${valda.join(", ")}`}
+      >
+        <span>Källa för hela avsnittet</span>
+        {valda.map((id) => (
+          <a key={id} href={`#not-${id}`} aria-label={`Källa ${id}`}>
+            {id}
+          </a>
+        ))}
+      </aside>
+    );
+  }
+
+  return (
+    <div className="doc-blockkallor doc-blockkallor-admin">
+      <span>Hela blockets källa</span>
+      {valbara.length > 0 ? (
+        <div role="group" aria-label="Välj källor för hela blocket">
+          {valbara.map((id) => {
+            const vald = valda.includes(id);
+            return (
+              <button
+                key={id}
+                type="button"
+                aria-pressed={vald}
+                data-vald={vald ? "1" : undefined}
+                title={`${vald ? "Ta bort" : "Använd"} källa ${id} för hela blocket`}
+                onClick={() =>
+                  onChange(
+                    vald
+                      ? valda.filter((kalla) => kalla !== id)
+                      : [...valda, id].sort((a, b) => a - b)
+                  )
+                }
+              >
+                {id}
+              </button>
+            );
+          })}
+        </div>
+      ) : (
+        <span className="doc-blockkallor-tom">Lägg först till en källa längst ned</span>
+      )}
+    </div>
+  );
+}
+
 /** Flikarna. Bara en flik i taget syns; den valda ligger i lokalt tillstånd. */
 function Flikblock({
   block,
   redigerbar,
+  fotnoter,
   onChange,
 }: {
   block: Extract<Block, { typ: "flikar" }>;
   redigerbar: boolean;
+  fotnoter: Fotnot[];
   onChange: (block: Block) => void;
 }) {
   const [vald, setVald] = useState(0);
@@ -205,6 +297,7 @@ function Flikblock({
           block={flikar[aktiv]?.block ?? []}
           redigerbar={redigerbar}
           tillatFlikar={false}
+          fotnoter={fotnoter}
           onChange={(nytt) => sattFlik(aktiv, { block: nytt })}
         />
       </div>

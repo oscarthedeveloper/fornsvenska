@@ -73,7 +73,9 @@ export default function Skriftkammare({
                   {skrift.utgivare || "Handskrift okänd"}
                 </span>
                 <span className="nano opacity-45">
-                  {skrift.versioner.length === 0
+                  {skrift.bok
+                    ? `${skrift.bok.sidor} sidor · fulltext`
+                    : skrift.versioner.length === 0
                     ? "Ingen text ännu"
                     : `${skrift.versioner.length} ${
                         skrift.versioner.length === 1 ? "version" : "versioner"
@@ -86,7 +88,11 @@ export default function Skriftkammare({
                 className="skriftkort-las micro"
                 onClick={() => onLas(skrift)}
               >
-                {skrift.id === oppenId ? "Stäng läsaren" : "Läs i sidan"}
+                {skrift.bok
+                  ? "Öppna bokvyn"
+                  : skrift.id === oppenId
+                    ? "Stäng läsaren"
+                    : "Läs i sidan"}
               </button>
             </article>
           ))}

@@ -2,11 +2,30 @@
 
 import Link from "next/link";
 import type { Crumb } from "@/lib/typer";
-import type { Dokument } from "@/lib/dokument";
+import type { Block, Dokument } from "@/lib/dokument";
 import Blocklista from "./Blocklista";
 import Inline from "./Inline";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
+
+/** Tar bort en raderad fotnot även ur block och block inuti flikar. */
+function utanBlockkalla(block: Block, id: number): Block {
+  const kallor = block.kallor?.filter((kalla) => kalla !== id);
+  const nytt = {
+    ...block,
+    kallor: kallor && kallor.length > 0 ? kallor : undefined,
+  } as Block;
+
+  if (nytt.typ !== "flikar") return nytt;
+
+  return {
+    ...nytt,
+    flikar: nytt.flikar.map((flik) => ({
+      ...flik,
+      block: flik.block.map((barn) => utanBlockkalla(barn, id)),
+    })),
+  };
+}
 
 export default function DocumentView({
   dokument,
@@ -223,6 +242,7 @@ export default function DocumentView({
 
               <Blocklista
                 block={dokument.block}
+                fotnoter={dokument.fotnoter}
                 redigerbar={redigerbar}
                 onChange={(block) => satt({ block })}
               />
@@ -259,6 +279,9 @@ export default function DocumentView({
                             onClick={() =>
                               satt({
                                 fotnoter: dokument.fotnoter.filter((_, fi) => fi !== i),
+                                block: dokument.block.map((block) =>
+                                  utanBlockkalla(block, not.id)
+                                ),
                               })
                             }
                           >

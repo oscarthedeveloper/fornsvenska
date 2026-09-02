@@ -11,6 +11,19 @@ export interface Svar {
   fel?: string;
 }
 
+function begripligtDatabasfel(error: { code?: string; message: string }): string {
+  const tabellSaknas =
+    error.code === "PGRST205" ||
+    error.message.includes("public.sidor") ||
+    error.message.includes("schema cache");
+
+  if (tabellSaknas) {
+    return "Startsidans databastabell saknas. Kör supabase/startsida.sql i Supabase SQL Editor och försök igen.";
+  }
+
+  return error.message;
+}
+
 /**
  * Sparar sidans text. Raden skapas första gången någon skriver något —
  * därför upsert och inte update.
@@ -33,7 +46,7 @@ export async function sparaStartinnehall(
       andrad: new Date().toISOString(),
     });
 
-  if (error) return { ok: false, fel: error.message };
+  if (error) return { ok: false, fel: begripligtDatabasfel(error) };
 
   revalidatePath("/");
   return { ok: true };

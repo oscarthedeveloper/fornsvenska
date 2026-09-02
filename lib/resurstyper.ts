@@ -58,6 +58,15 @@ export interface Skriftversion {
   innehall: string;
 }
 
+/** En lokalt utgiven bok som har en egen läsvy i resursbiblioteket. */
+export interface Bokresurs {
+  /** Intern sida med den formgivna läsaren. */
+  sokvag: string;
+  /** Originalfilen, för hämtning, utskrift och textmarkering. */
+  pdf: string;
+  sidor: number;
+}
+
 export interface Resurs {
   id: string;
   hyllaId: string | null;
@@ -71,6 +80,7 @@ export interface Resurs {
   tillganglighet: number;
   beskrivning?: string;
   versioner: Skriftversion[];
+  bok?: Bokresurs;
   position: number;
   utkast?: boolean;
 }

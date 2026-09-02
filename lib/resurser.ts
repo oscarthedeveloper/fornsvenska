@@ -6,7 +6,7 @@
  * ihop i minnet — biblioteket är litet, och slipper då en fråga per hylla.
  */
 import { cache } from "react";
-import { DEMO_HYLLOR, DEMO_SKRIFTER } from "@/data/resurser";
+import { DEMO_HYLLOR, FASTA_SKRIFTER } from "@/data/resurser";
 import { HAR_SUPABASE } from "@/lib/supabase/config";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import type { Bibliotek, Hylla, Resurs, Resurstyp, Skriftversion } from "@/lib/resurstyper";
@@ -65,7 +65,7 @@ function tillResurs(rad: ResursRad): Resurs {
  */
 export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
   if (!HAR_SUPABASE) {
-    return { hyllor: DEMO_HYLLOR, skrifter: DEMO_SKRIFTER, harDatabas: false };
+    return { hyllor: DEMO_HYLLOR, skrifter: FASTA_SKRIFTER, harDatabas: false };
   }
 
   try {
@@ -107,11 +107,16 @@ export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
 
     return {
       hyllor,
-      skrifter: resurser.filter((r) => r.typ === "skrift"),
+      skrifter: [
+        ...FASTA_SKRIFTER,
+        ...resurser.filter(
+          (r) => r.typ === "skrift" && !FASTA_SKRIFTER.some((fast) => fast.id === r.id)
+        ),
+      ],
       harDatabas: true,
     };
   } catch (fel) {
     console.warn("[resurser] kunde inte läsa biblioteket från Supabase:", fel);
-    return { hyllor: DEMO_HYLLOR, skrifter: DEMO_SKRIFTER, harDatabas: false };
+    return { hyllor: DEMO_HYLLOR, skrifter: FASTA_SKRIFTER, harDatabas: false };
   }
 });

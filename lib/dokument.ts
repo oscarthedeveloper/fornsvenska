@@ -7,6 +7,8 @@
  *   blocks(id, document_id, position, type, payload jsonb).
  */
 
+import type { Markeringsfarg } from "@/lib/markeringar";
+
 export interface Nyckelvarde {
   nyckel: string;
   varde: string;
@@ -17,7 +19,12 @@ export interface Fotnot {
   text: string;
 }
 
-export type Block =
+export interface Fargforklaring {
+  farg: Markeringsfarg;
+  etikett: string;
+}
+
+export type Block = (
   | { typ: "rubrik"; niva: 2 | 3; text: string }
   | { typ: "stycke"; text: string }
   /** Tvåspaltssystemet: fornsvenskt utdrag till vänster, förklaring till höger. */
@@ -32,12 +39,18 @@ export type Block =
     }
   | { typ: "obs"; etikett?: string; text: string }
   | { typ: "nycklar"; poster: Nyckelvarde[] }
+  /** Nyckel till de färgmarkeringar som används i dokumentets text. */
+  | { typ: "fargnyckel"; titel?: string; poster: Fargforklaring[] }
   /**
    * Flikar. Varje flik har en egen blocklista, så en flik kan innehålla
    * precis det ett dokument kan: en paradigmtabell, en kommentar under den,
    * en OBS-ruta. Flikar i flikar är inte tillåtna — se Blocklista.
    */
-  | { typ: "flikar"; flikar: Flik[] };
+  | { typ: "flikar"; flikar: Flik[] }
+) & {
+  /** Fotnoter som belägger hela blocket, inte bara en enskild mening. */
+  kallor?: number[];
+};
 
 export interface Flik {
   etikett: string;

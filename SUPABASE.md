@@ -14,10 +14,11 @@ seed-skriptet). Utan det startar inte utvecklingsservern.
 ## 2. Kör schemat
 
 Öppna Supabase → **SQL Editor** → klistra in hela `supabase/schema.sql` och kör.
-Den skapar två tabeller:
+Den skapar tre tabeller:
 
 - `nodes` — mappar och dokument i samma tabell, dokumentinnehållet som JSONB
 - `admins` — vilka användare som får skriva
+- `sidor` — redigerbar sidtext, bland annat startsidans innehåll
 
 Radsäkerhet är påslagen: **alla får läsa, bara administratörer får skriva.**
 
@@ -94,6 +95,9 @@ Listen längst ned visar *Sparar…*, *Sparat* eller ett felmeddelande.
 
 - **"Du är inte inloggad som administratör"** — du är inloggad men saknas i
   tabellen `admins`. Kör insert-satsen i steg 3.
+- **"Startsidans databastabell saknas"** — ett äldre schema installerades innan
+  redigerbar sidtext lades till. Kör hela `supabase/startsida.sql` i SQL Editor;
+  filen kan köras flera gånger utan att radera innehåll.
 - **Innehållet ser ut som förut trots seed** — Next cachar; starta om
   `npm run dev`.
 - **Ingen sparknapp syns** — sajten läser fortfarande från filerna. Det händer

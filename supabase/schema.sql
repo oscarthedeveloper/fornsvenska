@@ -76,6 +76,29 @@ create policy "noder skrivbara for admins"
   using (exists (select 1 from public.admins a where a.user_id = auth.uid()))
   with check (exists (select 1 from public.admins a where a.user_id = auth.uid()));
 
+-- ---------------------------------------------------------------------- SIDOR
+-- Fritext som hör till en hel sida. Startsidan sparas under slug 'start'.
+-- Innehållet är JSONB så att nya redigerbara fält kan läggas till utan en ny
+-- databasmigration.
+create table if not exists public.sidor (
+  slug text primary key,
+  content jsonb not null default '{}'::jsonb,
+  andrad timestamptz not null default now()
+);
+
+alter table public.sidor enable row level security;
+
+drop policy if exists "fornsvenska sidor lasbara for alla" on public.sidor;
+create policy "fornsvenska sidor lasbara for alla"
+  on public.sidor for select
+  using (true);
+
+drop policy if exists "fornsvenska sidor skrivbara for admins" on public.sidor;
+create policy "fornsvenska sidor skrivbara for admins"
+  on public.sidor for all
+  using (exists (select 1 from public.admins a where a.user_id = auth.uid()))
+  with check (exists (select 1 from public.admins a where a.user_id = auth.uid()));
+
 -- ============================================================================
 -- EFTER ATT DU SKAPAT DITT KONTO
 --

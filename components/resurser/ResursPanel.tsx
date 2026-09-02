@@ -110,7 +110,7 @@ export default function ResursPanel({
       <div className="flex flex-col gap-2">
         {resurs.typ === "skrift" && onLas && (
           <button type="button" className="resursknapp primar" onClick={onLas}>
-            Läs i sidan
+            {resurs.bok ? "Öppna bokvyn" : "Läs i sidan"}
           </button>
         )}
 
@@ -121,7 +121,7 @@ export default function ResursPanel({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Öppna hos utgivaren &gt;&gt;
+            {resurs.bok ? "Öppna original-PDF" : "Öppna hos utgivaren"} &gt;&gt;
           </a>
         ) : (
           !redigerbar && (

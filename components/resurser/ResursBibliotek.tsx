@@ -258,7 +258,11 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
             onValj={(r) => setValdId(r.id)}
             onLas={(r) => {
               setValdId(r.id);
-              setOppenId(oppenId === r.id ? null : r.id);
+              if (r.bok) {
+                router.push(r.bok.sokvag);
+              } else {
+                setOppenId(oppenId === r.id ? null : r.id);
+              }
             }}
             onNy={() =>
               void kor(async () => {
@@ -283,7 +287,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
       <div className="resurspanel-halla" ref={panel}>
         <ResursPanel
           resurs={vald}
-          redigerbar={redigerar}
+          redigerbar={redigerar && !vald?.bok}
           antal={antal}
           onChange={(delar) => vald && andraResurs(vald.id, delar)}
           onTaBort={() =>
@@ -300,7 +304,10 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
           onFlytta={(steg) => vald && void kor(() => flyttaResurs(vald.id, steg))}
           onLas={
             vald?.typ === "skrift"
-              ? () => setOppenId(oppenId === vald.id ? null : vald.id)
+              ? () => {
+                  if (vald.bok) router.push(vald.bok.sokvag);
+                  else setOppenId(oppenId === vald.id ? null : vald.id);
+                }
               : undefined
           }
         />
