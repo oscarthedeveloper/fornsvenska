@@ -7,6 +7,9 @@ import Blocklista from "./Blocklista";
 import Inline from "./Inline";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
+import { KALLOR } from "@/data/kallor";
+import { kallorForArtikel, produktionsprioritet } from "@/data/grammatikplan";
+import { formateraKallhanvisning } from "@/lib/kallformat";
 
 /** Tar bort en raderad fotnot även ur block och block inuti flikar. */
 function utanBlockkalla(block: Block, id: number): Block {
@@ -25,6 +28,60 @@ function utanBlockkalla(block: Block, id: number): Block {
       block: flik.block.map((barn) => utanBlockkalla(barn, id)),
     })),
   };
+}
+
+function Kallmarkorer({ ids }: { ids?: number[] }) {
+  if (!ids?.length) return null;
+  return (
+    <span className="inline-flex gap-1 align-super ml-1" aria-label={`Källor ${ids.join(", ")}`}>
+      {ids.map((id) => (
+        <a key={id} href={`#not-${id}`} className="nano underline underline-offset-2">
+          {id}
+        </a>
+      ))}
+    </span>
+  );
+}
+
+function Kallval({
+  etikett,
+  ids,
+  dokument,
+  onChange,
+}: {
+  etikett: string;
+  ids?: number[];
+  dokument: Dokument;
+  onChange: (ids: number[]) => void;
+}) {
+  if (!dokument.fotnoter.length) return <span className="nano opacity-45">Lägg till en källa längst ned först.</span>;
+  const valda = ids ?? [];
+  return (
+    <div className="flex flex-wrap items-center gap-1.5">
+      <span className="nano opacity-55 mr-1">{etikett}</span>
+      {dokument.fotnoter.map((not) => {
+        const vald = valda.includes(not.id);
+        return (
+          <button
+            key={not.id}
+            type="button"
+            aria-pressed={vald}
+            onClick={() =>
+              onChange(
+                vald
+                  ? valda.filter((id) => id !== not.id)
+                  : [...valda, not.id].sort((a, b) => a - b)
+              )
+            }
+            className="nano border border-ink px-1.5 py-0.5"
+            data-vald={vald ? "1" : undefined}
+          >
+            {not.id}{vald ? " ●" : ""}
+          </button>
+        );
+      })}
+    </div>
+  );
 }
 
 export default function DocumentView({
@@ -54,6 +111,11 @@ export default function DocumentView({
   onSkapa?: () => void;
 }) {
   const foralder = crumbs[crumbs.length - 2];
+  const dokumentSokvag =
+    crumbs.at(-1)?.href.replace(/^\/grammatik\/?/, "").replace(/\/$/, "") ?? "";
+  const planeradeKallor = kallorForArtikel(dokumentSokvag)
+    .map((id) => KALLOR.find((kalla) => kalla.id === id))
+    .filter((kalla): kalla is (typeof KALLOR)[number] => Boolean(kalla));
   const satt = (delar: Partial<Dokument>) =>
     dokument && onChange?.({ ...dokument, ...delar });
 
@@ -146,33 +208,70 @@ export default function DocumentView({
                       }
                       className="doc-quote"
                     />
+                    {dokument.citat?.oversattning && (
+                      <p className="text-sm italic opacity-75 leading-relaxed">
+                        &rdquo;{dokument.citat.oversattning}&rdquo;
+                      </p>
+                    )}
                     <Redigerbar
                       varde={dokument.citat?.kalla ?? ""}
                       redigerbar={redigerbar}
                       platshallare="Källa"
                       onChange={(kalla) =>
-                        satt({ citat: { text: dokument.citat?.text ?? "", kalla } })
+                        satt({
+                          citat: {
+                            text: dokument.citat?.text ?? "",
+                            kalla,
+                            kallor: dokument.citat?.kallor,
+                          },
+                        })
                       }
                       className="nano not-italic opacity-55"
                     />
+                    {!redigerbar && <Kallmarkorer ids={dokument.citat?.kallor} />}
+                    {redigerbar && (
+                      <Kallval
+                        etikett="Citatets källor"
+                        ids={dokument.citat?.kallor}
+                        dokument={dokument}
+                        onChange={(kallor) =>
+                          satt({
+                            citat: {
+                              text: dokument.citat?.text ?? "",
+                              kalla: dokument.citat?.kalla,
+                              kallor,
+                            },
+                          })
+                        }
+                      />
+                    )}
                   </div>
                 </blockquote>
               )}
 
               {(dokument.ingress || redigerbar) &&
                 (redigerbar ? (
-                  <Redigerbar
-                    as="p"
-                    varde={dokument.ingress ?? ""}
-                    redigerbar
-                    flerRader
-                    platshallare="Ingress"
-                    onChange={(ingress) => satt({ ingress })}
-                    className="doc-ingress"
-                  />
+                  <div className="flex flex-col gap-2">
+                    <Redigerbar
+                      as="p"
+                      varde={dokument.ingress ?? ""}
+                      redigerbar
+                      flerRader
+                      platshallare="Ingress"
+                      onChange={(ingress) => satt({ ingress })}
+                      className="doc-ingress"
+                    />
+                    <Kallval
+                      etikett="Ingressens källor"
+                      ids={dokument.ingressKallor}
+                      dokument={dokument}
+                      onChange={(ingressKallor) => satt({ ingressKallor })}
+                    />
+                  </div>
                 ) : (
                   <p className="doc-ingress">
                     <Inline text={dokument.ingress ?? ""} />
+                    <Kallmarkorer ids={dokument.ingressKallor} />
                   </p>
                 ))}
 
@@ -258,20 +357,62 @@ export default function DocumentView({
                         className="text-[0.62rem] leading-[1.6] flex gap-2 scroll-mt-6"
                       >
                         <span className="opacity-50">{not.id}</span>
-                        <Redigerbar
-                          varde={not.text}
-                          redigerbar={redigerbar}
-                          flerRader
-                          platshallare="Källhänvisning"
-                          onChange={(text) =>
-                            satt({
-                              fotnoter: dokument.fotnoter.map((f, fi) =>
-                                fi === i ? { ...f, text } : f
-                              ),
-                            })
-                          }
-                          className="opacity-80 flex-1"
-                        />
+                        {redigerbar ? (
+                          <div className="flex-1 grid gap-1.5 sm:grid-cols-[minmax(12rem,1fr)_minmax(9rem,0.7fr)]">
+                            <select
+                              value={not.kallaId ?? ""}
+                              aria-label={`Källverk för hänvisning ${not.id}`}
+                              onChange={(e) =>
+                                satt({
+                                  fotnoter: dokument.fotnoter.map((f, fi) =>
+                                    fi === i ? { ...f, kallaId: e.target.value || undefined } : f
+                                  ),
+                                })
+                              }
+                              className="micro border border-ink bg-paper px-2 py-1"
+                            >
+                              <option value="">Välj källverk</option>
+                              {KALLOR.map((kalla) => (
+                                <option key={kalla.id} value={kalla.id}>
+                                  {kalla.id} — {kalla.titel}
+                                </option>
+                              ))}
+                            </select>
+                            <Redigerbar
+                              varde={not.lokalisering ?? ""}
+                              redigerbar
+                              formatering={false}
+                              platshallare="Sida, paragraf eller tabell"
+                              onChange={(lokalisering) =>
+                                satt({
+                                  fotnoter: dokument.fotnoter.map((f, fi) =>
+                                    fi === i ? { ...f, lokalisering } : f
+                                  ),
+                                })
+                              }
+                              className="micro border border-ink px-2 py-1"
+                            />
+                            <Redigerbar
+                              as="div"
+                              varde={not.kommentar ?? not.text ?? ""}
+                              redigerbar
+                              flerRader
+                              platshallare="Kommentar (valfri)"
+                              onChange={(kommentar) =>
+                                satt({
+                                  fotnoter: dokument.fotnoter.map((f, fi) =>
+                                    fi === i ? { ...f, kommentar, text: undefined } : f
+                                  ),
+                                })
+                              }
+                              className="micro opacity-70 sm:col-span-2"
+                            />
+                          </div>
+                        ) : (
+                          <span className="opacity-80 flex-1">
+                            {formateraKallhanvisning(not)}
+                          </span>
+                        )}
                         {redigerbar && (
                           <Knapp
                             titel="Ta bort källan"
@@ -282,6 +423,17 @@ export default function DocumentView({
                                 block: dokument.block.map((block) =>
                                   utanBlockkalla(block, not.id)
                                 ),
+                                ingressKallor: dokument.ingressKallor?.filter(
+                                  (id) => id !== not.id
+                                ),
+                                citat: dokument.citat
+                                  ? {
+                                      ...dokument.citat,
+                                      kallor: dokument.citat.kallor?.filter(
+                                        (id) => id !== not.id
+                                      ),
+                                    }
+                                  : undefined,
                               })
                             }
                           >
@@ -301,7 +453,9 @@ export default function DocumentView({
                             {
                               id:
                                 dokument.fotnoter.reduce((m, f) => Math.max(m, f.id), 0) + 1,
-                              text: "",
+                              kallaId: "",
+                              lokalisering: "",
+                              stod: "regel",
                             },
                           ],
                         })
@@ -318,6 +472,30 @@ export default function DocumentView({
               <p className="doc-body opacity-70">
                 Det här dokumentet är ännu inte skrivet.
               </p>
+              {planeradeKallor.length > 0 && (
+                <section className="border border-ink p-4 flex flex-col gap-3">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <h2 className="display text-[1.2rem]">Redaktionell källplan</h2>
+                    <span className="nano border border-ink px-2 py-1">
+                      Prioritet {produktionsprioritet(dokumentSokvag)}
+                    </span>
+                  </div>
+                  <p className="micro opacity-65">
+                    Dessa verk avgränsar artikeln. Färdig text kräver fortfarande
+                    sidexakta hänvisningar till varje regel, tabell och belägg.
+                  </p>
+                  <ul className="flex flex-col gap-1.5">
+                    {planeradeKallor.map((kalla) => (
+                      <li key={kalla.id} className="micro flex gap-2">
+                        <a href={`/kallor#${kalla.id}`} className="underline underline-offset-2 shrink-0">
+                          {kalla.id}
+                        </a>
+                        <span>{kalla.titel}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
               {redigerbar ? (
                 <Knapp titel="Skapa innehåll" onClick={() => onSkapa?.()}>
                   + Skapa innehåll

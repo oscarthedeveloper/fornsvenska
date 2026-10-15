@@ -15,6 +15,7 @@ const VANSTER = [
 ];
 
 const HOGER = [
+  { label: "Källor", href: "/kallor" },
   { label: "Ordbok", href: "/ordbok" },
   { label: "Övningar", href: "/ovningar" },
 ];

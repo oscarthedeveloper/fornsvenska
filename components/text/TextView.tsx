@@ -6,6 +6,7 @@ import type { Sektion as SektionTyp, Textdokument } from "@/lib/text";
 import Inline from "@/components/dokument/Inline";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
+import { formateraKallhanvisning } from "@/lib/kallformat";
 import Sektion from "./Sektion";
 
 export default function TextView({
@@ -248,7 +249,7 @@ export default function TextView({
                       >
                         <span className="opacity-50">{not.id}</span>
                         <Redigerbar
-                          varde={not.text}
+                          varde={not.text ?? formateraKallhanvisning(not)}
                           redigerbar={redigerbar}
                           flerRader
                           platshallare="Källhänvisning"

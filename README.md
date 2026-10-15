@@ -305,3 +305,18 @@ sparas ändå i ett svep.
 Skrivskyddet ligger i databasen (radsäkerhet), inte i gränssnittet:
 redigeringsknapparna döljs för utomstående, men även om någon skickade en
 förfrågan direkt avvisas den om användaren saknas i tabellen `admins`.
+## Källsystem
+
+Projektets källregister finns i `data/kallor.ts`. Redaktionella krav på
+proveniens, exakta lokaliseringar och publiceringskontroll beskrivs i
+[`KALLPOLICY.md`](./KALLPOLICY.md).
+
+Den fullständiga grammatikarkitekturen och produktionsordningen beskrivs i
+[`INNEHALLSPLAN.md`](./INNEHALLSPLAN.md); artikel–källkopplingarna finns i
+`data/grammatikplan.ts`.
+
+Kontrollera källregistret och alla lokala grammatikdokument med:
+
+```bash
+npm run validate:kallor
+```
