@@ -62,9 +62,22 @@ function byggTrad(rader: Rad[]): Node[] {
   return barn.get(null) ?? [];
 }
 
+/**
+ * Avgör om arkivträdet och dokumentinnehållet ska hämtas från Supabase eller
+ * från de kanoniska filerna i data/.
+ *
+ * Som standard läses arkivet från filerna i data/ (data/grammatik.ts,
+ * data/dokument.ts, data/texter.ts, data/textdokument.ts) så att alla commits och
+ * etapper som pushas till GitHub omedelbart publiceras på Netlify.
+ *
+ * Vill man tvinga läsning från Supabase sätter man NEXT_PUBLIC_DATA_SOURCE=supabase.
+ */
+const ANVAND_SUPABASE_ARKIV =
+  HAR_SUPABASE && process.env.NEXT_PUBLIC_DATA_SOURCE === "supabase";
+
 /** Hela trädet för en rot. Cachas per förfrågan. */
 export const getRoot = cache(async (root: string): Promise<Node[]> => {
-  if (!HAR_SUPABASE) return FILTRAD[root] ?? [];
+  if (!ANVAND_SUPABASE_ARKIV) return FILTRAD[root] ?? [];
 
   try {
     const supabase = skapaServerKlient();
@@ -148,7 +161,7 @@ async function hamtaInnehall<T>(
   path: string[],
   filkalla: Record<string, T>
 ): Promise<T | null> {
-  if (HAR_SUPABASE) {
+  if (ANVAND_SUPABASE_ARKIV) {
     const nod = await getNode(root, path);
     if (nod?.id) {
       try {
@@ -160,7 +173,7 @@ async function hamtaInnehall<T>(
           .maybeSingle();
 
         if (error) throw error;
-        return (data?.content as T) ?? null;
+        if (data?.content) return data.content as T;
       } catch (fel) {
         console.warn("[arkiv] kunde inte läsa dokumentinnehåll:", fel);
       }
