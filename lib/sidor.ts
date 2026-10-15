@@ -9,8 +9,11 @@ import { HAR_SUPABASE } from "@/lib/supabase/config";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import { medStandard, type Startinnehall } from "@/lib/sidtyper";
 
+const ANVAND_SUPABASE_SIDOR =
+  HAR_SUPABASE && process.env.NEXT_PUBLIC_DATA_SOURCE === "supabase";
+
 export const hamtaStartinnehall = cache(async (): Promise<Startinnehall> => {
-  if (!HAR_SUPABASE) return medStandard(null);
+  if (!ANVAND_SUPABASE_SIDOR) return medStandard(null);
 
   try {
     const supabase = skapaServerKlient();

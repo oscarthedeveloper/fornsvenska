@@ -63,8 +63,11 @@ function tillResurs(rad: ResursRad): Resurs {
  * Skrifterna plockas ut för sig: de har inga omslag och hör hemma i
  * Skriftkammaren, inte på en hylla bland läroböckerna.
  */
+const ANVAND_SUPABASE_RESURSER =
+  HAR_SUPABASE && process.env.NEXT_PUBLIC_DATA_SOURCE === "supabase";
+
 export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
-  if (!HAR_SUPABASE) {
+  if (!ANVAND_SUPABASE_RESURSER) {
     return { hyllor: DEMO_HYLLOR, skrifter: FASTA_SKRIFTER, harDatabas: false };
   }
 
