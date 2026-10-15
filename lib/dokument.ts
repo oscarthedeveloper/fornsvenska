@@ -8,16 +8,15 @@
  */
 
 import type { Markeringsfarg } from "@/lib/markeringar";
+import type { Kallhanvisning } from "@/lib/kallor";
 
 export interface Nyckelvarde {
   nyckel: string;
   varde: string;
 }
 
-export interface Fotnot {
-  id: number;
-  text: string;
-}
+/** Äldre namn som behålls för databas- och komponentkompatibilitet. */
+export type Fotnot = Kallhanvisning;
 
 export interface Fargforklaring {
   farg: Markeringsfarg;
@@ -62,8 +61,10 @@ export interface Dokument {
   underrubrik?: string;
   meta?: Nyckelvarde[];
   /** Det stora inledande citatet högst upp på arket. */
-  citat?: { text: string; kalla?: string };
+  citat?: { text: string; kalla?: string; kallor?: number[]; oversattning?: string };
   ingress?: string;
+  /** Hänvisningar som belägger ingressens sammanfattande påståenden. */
+  ingressKallor?: number[];
   block: Block[];
   fotnoter: Fotnot[];
   /** Markerar innehåll som ännu inte är genomarbetat. */

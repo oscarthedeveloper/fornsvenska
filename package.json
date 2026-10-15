@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "validate:kallor": "tsx scripts/validate-kallor.ts",
+    "sync:grammar-tree": "tsx scripts/sync-grammar-tree.ts",
     "start": "next start",
     "lint": "next lint",
     "seed": "tsx supabase/seed.ts"
