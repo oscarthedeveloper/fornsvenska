@@ -16,6 +16,8 @@ export default function Tillganglighet({
   redigerbar?: boolean;
   onChange?: (n: number) => void;
 }) {
+  if (!varde && !redigerbar) return <span className="tillganglighet-text">Tillgänglighet ej bedömd</span>;
+
   const niva = Math.min(5, Math.max(1, varde || 3));
 
   return (

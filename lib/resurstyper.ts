@@ -1,3 +1,5 @@
+import type { Kalla } from "@/lib/kallor";
+
 /** Rena typer för resursbiblioteket — inga serverberoenden. */
 
 export type Resurstyp =
@@ -68,6 +70,8 @@ export interface Bokresurs {
 }
 
 export interface Resurs {
+  kalla?: Kalla;
+  artiklar?: { href: string; titel: string }[];
   id: string;
   hyllaId: string | null;
   typ: Resurstyp;

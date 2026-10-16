@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Mark from "./Mark";
+import BokmarkenTrigger from "./ordbok/BokmarkenTrigger";
 
 /**
  * Sajtens navigering — samma på alla sidor.
@@ -15,9 +16,7 @@ const VANSTER = [
 ];
 
 const HOGER = [
-  { label: "Källor", href: "/kallor" },
   { label: "Ordbok", href: "/ordbok" },
-  { label: "Övningar", href: "/ovningar" },
 ];
 
 export default function Toppnav({ active }: { active?: string }) {
@@ -40,7 +39,8 @@ export default function Toppnav({ active }: { active?: string }) {
         <span className="display">Fornsvenska</span>
       </Link>
 
-      <nav className="start-lankar start-lankar-hoger" aria-label="Övrigt">
+      <nav className="start-lankar start-lankar-hoger items-center" aria-label="Övrigt">
+        <BokmarkenTrigger visaNoll={false} label="Ordlista" />
         {HOGER.map((l) => (
           <Link
             key={l.href}

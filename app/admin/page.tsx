@@ -1,6 +1,7 @@
 import Link from "next/link";
 import SiteFrame from "@/components/SiteFrame";
 import LoginForm from "@/components/admin/LoginForm";
+import OrdbokRattelserAdmin from "@/components/admin/OrdbokRattelserAdmin";
 import { hamtaSession } from "@/lib/session";
 import { HAR_SUPABASE, saknadeVariabler } from "@/lib/supabase/config";
 import { loggaUt } from "@/lib/actions";
@@ -12,8 +13,8 @@ export default async function AdminPage() {
 
   return (
     <SiteFrame centre="Administration" active="/admin">
-      <div className="flex-1 flex items-center justify-center px-[1.6rem] py-[3rem]">
-        <div className="w-full max-w-[420px] border border-ink bg-panel p-[2rem] flex flex-col gap-5">
+      <div className="flex-1 flex flex-col items-center px-[1.6rem] py-[3rem] gap-8 max-w-4xl mx-auto w-full">
+        <div className="w-full max-w-[480px] border border-ink bg-panel p-[2rem] flex flex-col gap-5">
           <div className="flex flex-col gap-2">
             <span className="nano opacity-50">Redigeringsläge</span>
             <h1 className="display text-[2rem] leading-none">Administration</h1>
@@ -36,8 +37,8 @@ export default async function AdminPage() {
               </p>
               <p className="text-[0.68rem] leading-[1.7] opacity-70">
                 Ligger de redan i .env.local läses de först vid uppstart — stoppa
-                servern med Ctrl+C och kör npm run dev igen. Står filen kvar som
-                tom betyder det att servern startats i en annan mapp.
+                servern med Ctrl+C och kör npm run dev igen. Ordboksrättelser kan
+                fortfarande redigeras och exporteras lokalt via data/ordbok-rattelser.json nedan.
               </p>
             </div>
           ) : arAdmin ? (
@@ -48,6 +49,12 @@ export default async function AdminPage() {
                 längst ned till höger.
               </p>
               <div className="flex gap-2 flex-wrap">
+                <Link
+                  href="/ordbok"
+                  className="micro border border-ink px-3 py-1.5 transition-opacity duration-[140ms] hover:opacity-60 bg-paper"
+                >
+                  Till Ordbok
+                </Link>
                 <Link
                   href="/grammatik"
                   className="micro border border-ink px-3 py-1.5 transition-opacity duration-[140ms] hover:opacity-60"
@@ -73,6 +80,11 @@ export default async function AdminPage() {
           ) : (
             <LoginForm />
           )}
+        </div>
+
+        {/* Administrationspanel för ordbokens redaktionella rättelser */}
+        <div className="w-full">
+          <OrdbokRattelserAdmin />
         </div>
       </div>
     </SiteFrame>

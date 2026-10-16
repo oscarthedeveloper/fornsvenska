@@ -1,0 +1,159 @@
+{
+  "importVersion": "2026-10-16.v1",
+  "executedAt": "2026-10-16T18:45:28.585Z",
+  "elapsedMs": 1211,
+  "totalEntries": 41744,
+  "uniqueIds": 41744,
+  "duplicateIds": 0,
+  "resolvedCrossReferences": 2298,
+  "unresolvedCrossReferences": 2249,
+  "unresolvedCrossReferenceSamples": [
+    {
+      "fromId": "soederwall--a-e.4",
+      "fromHw": "a",
+      "targetHw": "väghan"
+    },
+    {
+      "fromId": "soederwall--a-e.4",
+      "fromHw": "a",
+      "targetHw": "swa gyort"
+    },
+    {
+      "fromId": "soederwall--af-e.1",
+      "fromHw": "af",
+      "targetHw": "mäþ os"
+    },
+    {
+      "fromId": "soederwall--afhardher-e.1",
+      "fromHw": "afhardher",
+      "targetHw": "ofardher"
+    },
+    {
+      "fromId": "soederwall--afkännu_þing-nn.1",
+      "fromHw": "afkännu þing",
+      "targetHw": "schlyter"
+    },
+    {
+      "fromId": "soederwall--afmattes-e.1",
+      "fromHw": "afmattes",
+      "targetHw": "ofmattes"
+    },
+    {
+      "fromId": "soederwall--afmykin-e.1",
+      "fromHw": "afmykin",
+      "targetHw": "ofmykin"
+    },
+    {
+      "fromId": "soederwall--afnam-nn.1",
+      "fromHw": "afnam",
+      "targetHw": "hildebrand"
+    },
+    {
+      "fromId": "soederwall--afraþ-nn.1",
+      "fromHw": "afraþ",
+      "targetHw": "kock"
+    },
+    {
+      "fromId": "soederwall--afrat-e.1",
+      "fromHw": "afrat",
+      "targetHw": "ofrat"
+    },
+    {
+      "fromId": "soederwall--afäta-e.1",
+      "fromHw": "afäta",
+      "targetHw": "ofäta"
+    },
+    {
+      "fromId": "soederwall--aker-nn.1",
+      "fromHw": "aker",
+      "targetHw": "æstimarent egisse"
+    },
+    {
+      "fromId": "soederwall--akoma-vb.1",
+      "fromHw": "akoma",
+      "targetHw": "thet fagert"
+    },
+    {
+      "fromId": "soederwall--almoghe-nn.1",
+      "fromHw": "almoghe",
+      "targetHw": "ihesum for"
+    },
+    {
+      "fromId": "soederwall--almän-av.1",
+      "fromHw": "almän",
+      "targetHw": "esse mortalem"
+    },
+    {
+      "fromId": "soederwall--alzþings-ab.1",
+      "fromHw": "alzþings",
+      "targetHw": "althings starker"
+    },
+    {
+      "fromId": "soederwall--amykin-e.1",
+      "fromHw": "amykin",
+      "targetHw": "ofmykin"
+    },
+    {
+      "fromId": "soederwall--annorlund-ab.1",
+      "fromHw": "annorlund",
+      "targetHw": "alt annorlund"
+    },
+    {
+      "fromId": "soederwall--anse-vb.1",
+      "fromHw": "anse",
+      "targetHw": "till"
+    },
+    {
+      "fromId": "soederwall--armodh-nn.1",
+      "fromHw": "armodh",
+      "targetHw": "wars almoghas"
+    },
+    {
+      "fromId": "soederwall--arnoldus_gylden-nn.1",
+      "fromHw": "arnoldus gylden",
+      "targetHw": "du cange"
+    },
+    {
+      "fromId": "soederwall--asea-e.1",
+      "fromHw": "asea",
+      "targetHw": "till"
+    },
+    {
+      "fromId": "soederwall--at-e.1",
+      "fromHw": "at",
+      "targetHw": "rätr kunungur"
+    },
+    {
+      "fromId": "soederwall--at-e.3",
+      "fromHw": "at",
+      "targetHw": "vitir  ks"
+    },
+    {
+      "fromId": "soederwall--at-e.3",
+      "fromHw": "at",
+      "targetHw": "sin kära"
+    }
+  ],
+  "datasets": {
+    "soederwall": {
+      "sha256": "9eddf1d7f94dc34aa4a2b0620734dee7fe164a879df195ee96a2f6098f7ce1f4",
+      "dataset": "soederwall",
+      "totalEntries": 22572,
+      "entriesWithoutSense": 432,
+      "entriesWithMalformedOrthAttr": 6,
+      "sensesWithoutDefinition": 38,
+      "definitionsWithMultipleTextFeats": 878,
+      "warnings": []
+    },
+    "soederwall-supp": {
+      "sha256": "58cb1e3e6370cff44a7aecd09c5bc89536d8f422ec92d8a2c5ac5055d843717f",
+      "dataset": "soederwall-supp",
+      "totalEntries": 19172,
+      "entriesWithoutSense": 593,
+      "entriesWithMalformedOrthAttr": 0,
+      "sensesWithoutDefinition": 98,
+      "definitionsWithMultipleTextFeats": 558,
+      "warnings": []
+    }
+  }
+}

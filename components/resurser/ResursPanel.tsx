@@ -3,6 +3,7 @@
 import { TYPER, TYPNAMN, type Resurs, type Resurstyp } from "@/lib/resurstyper";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
+import Kalluppgifter from "./Kalluppgifter";
 import Omslag from "./Omslag";
 import Omslagsvaljare from "./Omslagsvaljare";
 import Tillganglighet from "./Tillganglighet";
@@ -36,8 +37,8 @@ export default function ResursPanel({
         <div className="flex flex-col gap-3">
           <span className="nano opacity-50">Biblioteket</span>
           <p className="doc-body text-[0.95rem] opacity-75">
-            Välj en resurs i hyllan så visas allt om den här: var den går att
-            få tag på, hur svår den är att komma över och vad den duger till.
+            Välj en resurs för att se bibliografi, källuppgifter och
+            tillgängliga läsvyer.
           </p>
           <dl className="resursfakta">
             <div>
@@ -125,7 +126,7 @@ export default function ResursPanel({
           </a>
         ) : (
           !redigerbar && (
-            <span className="resursknapp inaktiv">Ingen läsbar utgåva på nätet</span>
+            <span className="resursknapp inaktiv">Ingen länk till nätutgåva registrerad</span>
           )
         )}
 
@@ -190,6 +191,8 @@ export default function ResursPanel({
           className="doc-body text-[0.9rem]"
         />
       )}
+
+      {resurs.kalla && <Kalluppgifter kalla={resurs.kalla} artiklar={resurs.artiklar} />}
 
       {redigerbar && (
         <div className="flex gap-1.5 flex-wrap pt-1 border-t border-dashed border-ink">

@@ -19,9 +19,12 @@ next-env.d.ts
 _instruktioner.pdf
 _sidor/
 
-# Stora källfiler (PDF-filer lagras lokalt/i molnlagring)
+# Stora källfiler (PDF- och XML-filer lagras lokalt/i molnlagring)
 Källor/*.pdf
 Källor/*.pdf
+Källor/*.xml
+Källor/*.xml
+data/ordbok/poster.json
 *.pdf
 !public/**/*.pdf
 

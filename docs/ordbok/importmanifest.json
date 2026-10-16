@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-10-16T20:39:00+02:00",
+  "work": {
+    "title": "Ordbok öfver svenska medeltids-språket (inkl. Supplement)",
+    "authors": [
+      "K. F. Söderwall",
+      "Walter Åkerlund",
+      "Karl Gustav Ljunggren",
+      "Elias Wessén"
+    ],
+    "publisher": "Svenska fornskriftsällskapet, Lund (1884–1918, Suppl. 1925–1973)",
+    "digitalPublisher": "Språkbanken Text (Göteborgs universitet)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "datasets": [
+    {
+      "datasetId": "soederwall",
+      "kallaId": "SOD1884",
+      "title": "Söderwalls ordbok (Huvudverket)",
+      "resourceUrl": "https://sprakbanken.se/resurser/soederwall",
+      "doi": "https://doi.org/10.23695/0gf3-5042",
+      "downloadUrl": "https://svn.spraakbanken.gu.se/sb-arkiv/pub/lmf/soederwall/soederwall.xml",
+      "localPath": "Källor/soederwall.xml",
+      "retrievedAt": "2026-10-16T20:33:17+02:00",
+      "format": "LMF/XML (dtdVersion 16)",
+      "sizeBytes": 24570251,
+      "sha256": "9eddf1d7f94dc34aa4a2b0620734dee7fe164a879df195ee96a2f6098f7ce1f4",
+      "expectedEntries": 22572,
+      "verifiedEntries": 22572,
+      "supplierQuality": "Uppslagsorden är kontrollästa efter manuell inkodning, men övrig artikeltext är inte korrekturläst."
+    },
+    {
+      "datasetId": "soederwall-supp",
+      "kallaId": "SOD-SUPP",
+      "title": "Söderwalls ordbok — Supplementet",
+      "resourceUrl": "https://spraakbanken.gu.se/resurser/soederwall-supp",
+      "doi": "https://doi.org/10.23695/vp9e-pg93",
+      "downloadUrl": "https://svn.spraakbanken.gu.se/sb-arkiv/pub/lmf/soederwall-supp/soederwall-supp.xml",
+      "localPath": "Källor/soederwall-supp.xml",
+      "retrievedAt": "2026-10-16T20:33:17+02:00",
+      "format": "LMF/XML (dtdVersion 16)",
+      "sizeBytes": 16188687,
+      "sha256": "58cb1e3e6370cff44a7aecd09c5bc89536d8f422ec92d8a2c5ac5055d843717f",
+      "expectedEntries": 19172,
+      "verifiedEntries": 19172,
+      "supplierQuality": "Varken uppslagsord eller övrig artikeltext är kontrollästa efter manuell inkodning."
+    }
+  ],
+  "totalVerifiedEntries": 41744
+}
