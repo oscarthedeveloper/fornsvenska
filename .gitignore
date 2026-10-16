@@ -24,7 +24,6 @@ Källor/*.pdf
 Källor/*.pdf
 Källor/*.xml
 Källor/*.xml
-data/ordbok/poster.json
 *.pdf
 !public/**/*.pdf
 
