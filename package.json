@@ -6,10 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "validate:kallor": "tsx scripts/validate-kallor.ts",
+    "import:ordbok": "tsx scripts/import-ordbok.ts",
     "sync:grammar-tree": "tsx scripts/sync-grammar-tree.ts",
     "start": "next start",
     "lint": "next lint",
-    "seed": "tsx supabase/seed.ts"
+    "seed": "tsx supabase/seed.ts",
+    "seed:ordbok": "tsx scripts/seed-ordbok-supabase.ts"
   },
   "dependencies": {
     "next": "14.2.5",

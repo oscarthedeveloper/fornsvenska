@@ -1,6 +1,7 @@
 export type Kalltyp =
   | "primartext"
   | "grammatik"
+  | "ordbok"
   | "monografi"
   | "avhandling"
   | "artikel"
@@ -29,7 +30,7 @@ export type Filrelation =
 export interface Kallfil {
   /** Sökväg relativt projektroten. */
   sokvag: string;
-  format: "pdf" | "md" | "png";
+  format: "pdf" | "md" | "png" | "xml";
   sidor?: number;
   relation: Filrelation;
   /** Textlager: fullständigt, ofullständigt eller saknas (bild/skanning). */

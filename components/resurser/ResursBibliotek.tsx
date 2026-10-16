@@ -146,6 +146,17 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
     [bibliotek]
   );
 
+  useEffect(() => {
+    const valjFranLank = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      const resurs = allaResurser.find((r) => r.kalla?.id === id || r.id === id);
+      if (resurs) setValdId(resurs.id);
+    };
+    valjFranLank();
+    window.addEventListener("hashchange", valjFranLank);
+    return () => window.removeEventListener("hashchange", valjFranLank);
+  }, [allaResurser]);
+
   const vald = allaResurser.find((r) => r.id === valdId) ?? null;
   const oppen = bibliotek.skrifter.find((r) => r.id === oppenId) ?? null;
 
@@ -153,7 +164,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
     if (filter !== "allt" && r.typ !== filter) return false;
     if (!sok.trim()) return true;
     const n = sok.trim().toLowerCase();
-    return [r.titel, r.forfattare, r.utgivare, r.ar, r.beskrivning]
+    return [r.titel, r.forfattare, r.utgivare, r.ar, r.beskrivning, r.kalla?.id, r.kalla?.bibliografi, r.kalla?.amnen.join(" "), r.kalla?.perioder.join(" ")]
       .filter(Boolean)
       .some((f) => (f as string).toLowerCase().includes(n));
   };
@@ -182,8 +193,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
                 Resursbibliotek
               </h1>
               <p className="nano opacity-50">
-                Läroböcker, uppsatser, avhandlingar och skrifter — med besked om
-                hur svårt varje sak är att komma över
+                Alla källor samlade — böcker, uppsatser och skrifter med bibliografi och källuppgifter
               </p>
             </div>
 
@@ -193,7 +203,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
                 type="search"
                 value={sok}
                 onChange={(e) => setSok(e.target.value)}
-                placeholder="Titel, författare, handskrift"
+                placeholder="Titel, författare, ämne, käll-ID"
                 className="nano"
               />
             </label>
@@ -214,11 +224,8 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
           </div>
         </div>
 
-        {!bibliotek.harDatabas && (
-          <p className="nano opacity-55 border border-dashed border-ink px-3 py-2">
-            Visar demomaterial. Kör supabase/resursbibliotek.sql så blir
-            biblioteket ditt eget och går att redigera.
-          </p>
+        {hyllor.length === 0 && skrifter.length === 0 && (
+          <p className="micro py-6">Inga resurser matchar din sökning. Prova ett annat sökord eller välj Allt.</p>
         )}
 
         {hyllor.map((hylla) => (
@@ -226,7 +233,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
             key={hylla.id}
             hylla={hylla}
             valdId={valdId}
-            redigerbar={redigerar}
+            redigerbar={redigerar && bibliotek.harDatabas && !hylla.id.startsWith("kallor-")}
             onValj={(r) => setValdId(r.id)}
             onHylla={(delar) => andraHylla(hylla.id, delar)}
             onTaBort={() => void kor(() => taBortHylla(hylla.id))}
@@ -241,7 +248,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
           />
         ))}
 
-        {redigerar && (
+        {redigerar && bibliotek.harDatabas && (
           <div className="flex gap-1.5">
             <Knapp titel="Lägg till hylla" onClick={() => void kor(() => skapaHylla())}>
               + hylla
@@ -254,7 +261,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
             skrifter={skrifter}
             valdId={valdId}
             oppenId={oppenId}
-            redigerbar={redigerar}
+            redigerbar={redigerar && bibliotek.harDatabas}
             onValj={(r) => setValdId(r.id)}
             onLas={(r) => {
               setValdId(r.id);
@@ -287,7 +294,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
       <div className="resurspanel-halla" ref={panel}>
         <ResursPanel
           resurs={vald}
-          redigerbar={redigerar && !vald?.bok}
+          redigerbar={redigerar && bibliotek.harDatabas && !vald?.bok && !vald?.kalla}
           antal={antal}
           onChange={(delar) => vald && andraResurs(vald.id, delar)}
           onTaBort={() =>

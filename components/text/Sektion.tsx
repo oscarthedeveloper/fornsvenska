@@ -3,6 +3,10 @@
 import type { Sektion as SektionTyp } from "@/lib/text";
 import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
+import { rensaKlickatOrd } from "@/lib/ordbok/kandidater";
+import KlickbarFsvMening, {
+  type KlickatOrdKontext,
+} from "./KlickbarFsvMening";
 
 /**
  * En sektion av utdraget: fornsvensk text till vänster, tolkning till höger,
@@ -13,12 +17,16 @@ export default function Sektion({
   sektion,
   index,
   redigerbar = false,
+  aktivtRensatOrd = null,
+  onKlickaOrd,
   onChange,
   onTaBort,
 }: {
   sektion: SektionTyp;
   index: number;
   redigerbar?: boolean;
+  aktivtRensatOrd?: string | null;
+  onKlickaOrd?: (kontext: KlickatOrdKontext) => void;
   onChange?: (s: SektionTyp) => void;
   onTaBort?: () => void;
 }) {
@@ -61,12 +69,35 @@ export default function Sektion({
           {sektion.meningar.map((mening, i) => (
             <span key={i}>
               <mark className="mark-sent" data-mark={i % 5}>
-                <Redigerbar
-                  varde={mening.fsv}
-                  redigerbar={redigerbar}
-                  platshallare="Mening på fornsvenska"
-                  onChange={(fsv) => sattMening(i, { fsv })}
-                />
+                {!redigerbar && onKlickaOrd ? (
+                  <KlickbarFsvMening
+                    text={mening.fsv}
+                    aktivtRensatOrd={aktivtRensatOrd}
+                    onSelectWord={(ord) => {
+                      const rensatOrd = rensaKlickatOrd(ord);
+                      if (!rensatOrd) return;
+                      onKlickaOrd({
+                        ord,
+                        rensatOrd,
+                        meningFsv: mening.fsv,
+                        meningTolkning: mening.tolkning,
+                        meningKommentar: mening.kommentar,
+                        sektionRubrik:
+                          sektion.rubrik ??
+                          `Sektion ${String(index + 1).padStart(2, "0")}`,
+                        sektionHanvisning: sektion.hanvisning,
+                        meningNr: i + 1,
+                      });
+                    }}
+                  />
+                ) : (
+                  <Redigerbar
+                    varde={mening.fsv}
+                    redigerbar={redigerbar}
+                    platshallare="Mening på fornsvenska"
+                    onChange={(fsv) => sattMening(i, { fsv })}
+                  />
+                )}
                 <span className="text-sup">{i + 1}</span>
               </mark>{" "}
             </span>

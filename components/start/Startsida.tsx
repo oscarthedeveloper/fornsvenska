@@ -72,13 +72,6 @@ export default function Startsida({ initial }: { initial: Startinnehall }) {
       <section className="start-huvud">
         <div className="start-ogonbryn">
           <Redigerbar
-            varde={text.period}
-            redigerbar={redigerar}
-            formatering={false}
-            platshallare="Tidsperiod"
-            onChange={(period) => andra({ period })}
-          />
-          <Redigerbar
             varde={text.ogonrunor}
             redigerbar={redigerar}
             formatering={false}
@@ -151,24 +144,7 @@ export default function Startsida({ initial }: { initial: Startinnehall }) {
           <Runsten3D />
         </div>
 
-        <div className="skanstatus">
-          <span className="skanstatus-punkt" aria-hidden="true" />
-          <Redigerbar
-            varde={text.skanmetod}
-            redigerbar={redigerar}
-            formatering={false}
-            platshallare="Skanningsmetod"
-            onChange={(skanmetod) => andra({ skanmetod })}
-          />
-          <span className="skanstatus-separator">/</span>
-          <Redigerbar
-            varde={text.skanstatus}
-            redigerbar={redigerar}
-            formatering={false}
-            platshallare="Skanningsstatus"
-            onChange={(skanstatus) => andra({ skanstatus })}
-          />
-        </div>
+
       </div>
     </main>
   );

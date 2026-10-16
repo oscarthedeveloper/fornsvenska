@@ -487,7 +487,7 @@ export default function DocumentView({
                   <ul className="flex flex-col gap-1.5">
                     {planeradeKallor.map((kalla) => (
                       <li key={kalla.id} className="micro flex gap-2">
-                        <a href={`/kallor#${kalla.id}`} className="underline underline-offset-2 shrink-0">
+                        <a href={`/resurser#${kalla.id}`} className="underline underline-offset-2 shrink-0">
                           {kalla.id}
                         </a>
                         <span>{kalla.titel}</span>

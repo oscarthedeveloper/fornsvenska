@@ -1,0 +1,156 @@
+[
+  {
+    "id": "soederwall--konunger-nn.1",
+    "headwordDisplay": "konunger",
+    "modernGlos": ["kung", "monark", "rikshärskare"],
+    "kortForklaring": "Kung, monark och rikets främste styresman. I landskapslagarna och kungabalken regleras kungens ed, val och kungliga rättigheter.",
+    "pedagogiskNot": "Maskulint substantiv (a-stam). Böjs ofta oregelbundet i fornsvenska urkunder: ack. konung, gen. konungs/konungx, dat. konunge/konungi, bestämd dativ konunginum.",
+    "modernMotsvarighet": "kung",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--lagh-nn.1",
+    "headwordDisplay": "lagh",
+    "modernGlos": ["lag", "rätt", "lagbok", "rättsordning"],
+    "kortForklaring": "Lag, rättsordning, sedvänja eller lagsamling (som landskapslagarna). Kan även betyda förbund, gemenskap eller överenskommelse.",
+    "pedagogiskNot": "Neutrum pluralis i ursprunglig betydelse ('det som är lagt'). Dativ plural böjs 'laghum' eller 'loghum' (med u-omljud).",
+    "modernMotsvarighet": "lag",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--þing-nn.1",
+    "headwordDisplay": "þing",
+    "modernGlos": ["ting", "domstol", "rättssammankomst", "folkförsamling"],
+    "kortForklaring": "Offentlig sammankomst för rättskipning och lagstiftande beslut inom ett härad eller ett landskap (t.ex. landsting, allshärjarting).",
+    "pedagogiskNot": "Neutrum substantiv. Stavades ofta 'thing' eller 'ting' i yngre handskrifter.",
+    "modernMotsvarighet": "ting",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--bonde-nn.1",
+    "headwordDisplay": "bonde",
+    "modernGlos": ["bonde", "fri jordägare", "husbonde", "odalman"],
+    "kortForklaring": "Fri jordbrukare och hemmansägare med fulla medborgerliga rättigheter och tingsrätt i medeltidssamhället.",
+    "pedagogiskNot": "Svagt maskulint substantiv. Oblika kasus böjs med -a: ack./gen./dat. bonda, plur. bönder/bønder.",
+    "modernMotsvarighet": "bonde",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--kirkia-nn.1",
+    "headwordDisplay": "kirkia",
+    "modernGlos": ["kyrka", "församling", "gudstjänstbyggnad"],
+    "kortForklaring": "Kyrkobyggnad, sockenkyrka eller den kristna kyrkan som institution och rättslig samfällighet.",
+    "pedagogiskNot": "Svagt feminint substantiv. Oblika singularformer böjs med -u: ack./dat./gen. kirkiu.",
+    "modernMotsvarighet": "kyrka",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--biskoper-nn.1",
+    "headwordDisplay": "biskoper",
+    "modernGlos": ["biskop", "stiftstyresman"],
+    "kortForklaring": "Biskop, kyrklig ledare för ett stift med domsrätt över kyrkliga mål och tionde.",
+    "pedagogiskNot": "Maskulint substantiv lånad ur kyrkolatinets episcopus. Varianter: biskuper, byskoper.",
+    "modernMotsvarighet": "biskop",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--kristin-av.1",
+    "headwordDisplay": "kristin",
+    "modernGlos": ["kristen"],
+    "kortForklaring": "Som tillhör den kristna tron eller den kristna kyrkans gemenskap.",
+    "pedagogiskNot": "Adjektiv. Förekommer ofta böjt i plural: kristna, cristna eller cristne män.",
+    "modernMotsvarighet": "kristen",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--fyrst-e.1",
+    "headwordDisplay": "fyrst",
+    "modernGlos": ["först", "till en början", "i första hand"],
+    "kortForklaring": "Tidsadverb eller ordningstal: i början, till att börja med eller innan något annat sker.",
+    "pedagogiskNot": "Adverb och räkneord. Motsvarar nutida 'först'.",
+    "modernMotsvarighet": "först",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--rätter-nn.1",
+    "headwordDisplay": "rätter",
+    "modernGlos": ["rätt", "rättighet", "domstol", "lagbunden ordning"],
+    "kortForklaring": "Laglig rättighet, lagbunden ordning, domstol eller rättegångsförfarande.",
+    "pedagogiskNot": "Maskulint substantiv (i-stam). Särskiljs från adjektivet rätter ('rak, sann, riktig').",
+    "modernMotsvarighet": "rätt",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--dräpa-vb.1",
+    "headwordDisplay": "dräpa",
+    "modernGlos": ["dräpa", "döda", "slå ihjäl"],
+    "kortForklaring": "Att beröva någon livet, döda eller slå ihjäl (särskilt i lagspråk om dråp och mansbot).",
+    "pedagogiskNot": "Starkt verb (klass 6: dräpa, drap, dråpo, dräpin).",
+    "modernMotsvarighet": "dräpa",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--böta-vb.1",
+    "headwordDisplay": "böta",
+    "modernGlos": ["böta", "betala skadestånd", "gottgöra", "pligta"],
+    "kortForklaring": "Att erlägga böter eller mansbot för ett begånget brott, gottgöra målsägaren eller kungen.",
+    "pedagogiskNot": "Svagt verb. Preteritum: bötte / bötade.",
+    "modernMotsvarighet": "böta",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--vara-vb.1",
+    "headwordDisplay": "vara",
+    "modernGlos": ["vara", "existera", "befinna sig"],
+    "kortForklaring": "Att finnas till, existera, förbli eller befinna sig på en viss plats.",
+    "pedagogiskNot": "Oregelbundet hjälp- och existensverb. Presens sg.: är, ær; preteritum sg.: var; preteritum pl.: varu/warom.",
+    "modernMotsvarighet": "vara",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--hava-vb.1",
+    "headwordDisplay": "hava",
+    "modernGlos": ["ha", "inneha", "besitta", "hålla"],
+    "kortForklaring": "Att äga, besitta, hålla i sin hand eller ha som egendom; även hjälpverb i sammansatta tempus.",
+    "pedagogiskNot": "Svagt verb med sammandragna former i handskrifter: haua, hawa, ha; pret. hafþi/hadhe.",
+    "modernMotsvarighet": "ha",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  },
+  {
+    "id": "soederwall--man-nn.1",
+    "headwordDisplay": "man",
+    "modernGlos": ["man", "människa", "person", "make"],
+    "kortForklaring": "Vuxen manlig person, människa i allmänhet, eller äkta make.",
+    "pedagogiskNot": "Ursprunglig rotstam med omljudd plural: män / mæn. Synonym med maþer.",
+    "modernMotsvarighet": "man",
+    "kalla": "kurerad_redaktionell",
+    "granskad": true,
+    "uppdaterad": "2026-10-16T21:45:00Z"
+  }
+]

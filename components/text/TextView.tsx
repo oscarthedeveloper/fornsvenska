@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import type { Crumb } from "@/lib/typer";
 import type { Sektion as SektionTyp, Textdokument } from "@/lib/text";
@@ -8,6 +9,9 @@ import Redigerbar from "@/components/admin/Redigerbar";
 import Knapp from "@/components/admin/Knapp";
 import { formateraKallhanvisning } from "@/lib/kallformat";
 import Sektion from "./Sektion";
+import type { KlickatOrdKontext } from "./KlickbarFsvMening";
+import OrdbokUppslagPanel from "./OrdbokUppslagPanel";
+import BokmarkenTrigger from "@/components/ordbok/BokmarkenTrigger";
 
 export default function TextView({
   dokument,
@@ -35,6 +39,11 @@ export default function TextView({
   onTitel?: (titel: string) => void;
   onSkapa?: () => void;
 }) {
+  const [ordbokAktiv, setOrdbokAktiv] = useState(true);
+  const [valtOrdKontext, setValtOrdKontext] = useState<KlickatOrdKontext | null>(
+    null
+  );
+
   const foralder = crumbs[crumbs.length - 2];
   const satt = (delar: Partial<Textdokument>) =>
     dokument && onChange?.({ ...dokument, ...delar });
@@ -199,9 +208,60 @@ export default function TextView({
                 </div>
               )}
 
-              <div className="grid md:grid-cols-2 gap-6 md:gap-10">
-                <span className="nano opacity-45">Utdrag</span>
-                <span className="nano opacity-45">Översättning och tolkning</span>
+              <div className="flex flex-col gap-2">
+                {!redigerbar && (
+                  <div className="flex items-center justify-between gap-3 flex-wrap border border-ink bg-paper px-3 py-2">
+                    <div className="flex items-center gap-2">
+                      <span
+                        className={`w-1.5 h-1.5 ${
+                          ordbokAktiv ? "bg-accent" : "bg-ink/30"
+                        }`}
+                        aria-hidden="true"
+                      />
+                      <span className="nano opacity-80">
+                        {ordbokAktiv
+                          ? "Klicka på ett fornsvenskt ord i utdraget för att slå upp det i Söderwalls ordbok."
+                          : "Ordboksuppslag i utdraget är avstängt."}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <BokmarkenTrigger visaNoll={false} label="Min ordlista" />
+                      {valtOrdKontext && (
+                        <button
+                          type="button"
+                          onClick={() => setValtOrdKontext(null)}
+                          className="nano underline decoration-dotted underline-offset-4 opacity-70 hover:opacity-100"
+                        >
+                          Rensa »{valtOrdKontext.ord}»
+                        </button>
+                      )}
+                      <button
+                        type="button"
+                        aria-pressed={ordbokAktiv}
+                        onClick={() => {
+                          setOrdbokAktiv((v) => {
+                            if (v) setValtOrdKontext(null);
+                            return !v;
+                          });
+                        }}
+                        className={`nano px-2 py-0.5 border border-ink transition-colors ${
+                          ordbokAktiv
+                            ? "bg-ink text-paper"
+                            : "bg-panel text-ink hover:bg-paper"
+                        }`}
+                      >
+                        Ordboksuppslag: {ordbokAktiv ? "På" : "Av"}
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                <div className="grid md:grid-cols-2 gap-6 md:gap-10">
+                  <span className="nano opacity-45">
+                    Utdrag{!redigerbar && ordbokAktiv ? " (klickbara ord)" : ""}
+                  </span>
+                  <span className="nano opacity-45">Översättning och tolkning</span>
+                </div>
               </div>
 
               <div className="flex flex-col gap-9">
@@ -211,6 +271,16 @@ export default function TextView({
                     sektion={sektion}
                     index={i}
                     redigerbar={redigerbar}
+                    aktivtRensatOrd={
+                      !redigerbar && ordbokAktiv
+                        ? valtOrdKontext?.rensatOrd ?? null
+                        : null
+                    }
+                    onKlickaOrd={
+                      !redigerbar && ordbokAktiv
+                        ? (kontext) => setValtOrdKontext(kontext)
+                        : undefined
+                    }
                     onChange={(s) => sattSektion(i, s)}
                     onTaBort={() =>
                       satt({
@@ -357,6 +427,13 @@ export default function TextView({
           aldrig ett standardiserat språk
         </p>
       </div>
+
+      {!redigerbar && ordbokAktiv && (
+        <OrdbokUppslagPanel
+          kontext={valtOrdKontext}
+          onClose={() => setValtOrdKontext(null)}
+        />
+      )}
     </div>
   );
 }

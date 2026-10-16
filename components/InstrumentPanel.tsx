@@ -18,7 +18,7 @@ function SideBar({ side }: { side: "left" | "right" }) {
           transform: `rotate(${side === "left" ? "-90deg" : "90deg"})`,
         }}
       >
-        Språkperiod: 1225 — 1526
+        Fornsvenska
       </span>
     </div>
   );

@@ -4,7 +4,6 @@ import "./globals.css";
 import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
-import ConstructionBadge from "@/components/ConstructionBadge";
 import { hamtaSession } from "@/lib/session";
 
 /* Endast två familjer: hög-kontrast antikva till rubriker och siffror,
@@ -29,7 +28,7 @@ const mono = Martian_Mono({
 export const metadata: Metadata = {
   title: "Fornsvenska Studielabbet",
   description:
-    "Språkhistorisk studieplattform för fornsvenska, 1225—1526. Paradigm, ljudlagar och parallelltexter i samma vy.",
+    "Språkhistorisk studieplattform för fornsvenska. Paradigm, ljudlagar och parallelltexter i samma vy.",
 };
 
 export default async function RootLayout({
@@ -58,7 +57,6 @@ export default async function RootLayout({
       <body>
         <AdminProvider arAdmin={arAdmin}>
           {children}
-          <ConstructionBadge />
           <AdminBar anvandarnamn={anvandarnamn} />
         </AdminProvider>
       </body>

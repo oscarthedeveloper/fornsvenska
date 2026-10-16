@@ -233,8 +233,11 @@ för att gå sönder — så arkivet kan innehålla fler poster än vad som är 
 
 ## Resursbibliotek (`/resurser`)
 
-Katalogen över det material som finns om fornsvenska: läroböcker,
-examensarbeten, avhandlingar och medeltida skrifter.
+Katalogen visar alla verk i `data/kallor.ts`, grupperade på hyllor, tillsammans
+med extra resurser från databasen. Källuppgifter, filer och hänvisande
+grammatikartiklar visas i detaljpanelen. Sökningen omfattar även ämnen och
+käll-ID. `/kallor` omdirigerar till `/resurser`; länkar med käll-ID öppnar
+motsvarande post. De fasta källposterna redigeras i källregistret.
 
 **Hyllor.** Fria rader som du själv namnger och flyttar. Resurserna står på
 en planka och rullar i sidled — en hylla ska se ut som en hylla, inte som ett

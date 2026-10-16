@@ -34,15 +34,15 @@ export default function SiteFrame({
 
         <footer className="h-[34px] shrink-0 bg-ink text-paper flex items-center justify-between gap-4 px-3">
           <span className="micro whitespace-nowrap">
-            Fornsvenska.se <span className="text-accent">BETA</span>
+            Fornsvenska.se
           </span>
           <a
-            href="https://oscarsprojekt.netlify.app"
+            href="https://oscarohrn.com"
             target="_blank"
             rel="noreferrer"
             className="micro whitespace-nowrap underline decoration-paper/45 underline-offset-[3px] transition-opacity duration-[140ms] hover:opacity-65"
           >
-            oscarsprojekt.netlify.app ↗
+            oscarohrn.com ↗
           </a>
         </footer>
       </div>

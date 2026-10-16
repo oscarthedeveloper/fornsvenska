@@ -18,30 +18,35 @@ export interface Startinnehall {
  * misslyckades.
  */
 export const START_STANDARD: Startinnehall = {
-  period: "1225—1526",
+  period: "",
   ogonrunor: "ᚠ ᚢ ᚦ ᚮ ᚱ ᚴ",
-  ogonetikett: "Digital läsapparat",
-  rubrik: "Kvarlevor av ett språk",
+  ogonetikett: "Digital resurs",
+  rubrik: "Det var en gång, fornsvenskan",
   spaltA:
     "Lagar, brev och böner bär spåren av ett språk ingen längre talar. Här läses de i tre lager: handskrift, normaliserad text och översättning.",
   spaltB:
     "Utforska grammatiken, följ ordens förändring och jämför läsningar direkt mot källorna.",
-  knapp: "Utforska arkivet",
-  skanmetod: "Strukturljus",
-  skanstatus: "Transkribering pågår",
+  knapp: "Utforska",
+  skanmetod: "",
+  skanstatus: "",
 };
 
 /** Fyller ut det som saknas, så att en halvskriven rad aldrig tömmer sidan. */
 export function medStandard(delvis: Partial<Startinnehall> | null): Startinnehall {
+  // Uppdatera även tidigare standardtexter som redan sparats i databasen.
+  const text = { ...delvis };
+  if (text.rubrik?.trim() === "Kvarlevor av ett språk") text.rubrik = START_STANDARD.rubrik;
+  if (text.knapp?.trim() === "Utforska arkivet") text.knapp = START_STANDARD.knapp;
+  if (text.ogonetikett?.trim() === "Digital läsapparat") text.ogonetikett = START_STANDARD.ogonetikett;
   return {
-    period: delvis?.period?.trim() || START_STANDARD.period,
-    ogonrunor: delvis?.ogonrunor?.trim() || START_STANDARD.ogonrunor,
-    ogonetikett: delvis?.ogonetikett?.trim() || START_STANDARD.ogonetikett,
-    rubrik: delvis?.rubrik?.trim() || START_STANDARD.rubrik,
-    spaltA: delvis?.spaltA?.trim() || START_STANDARD.spaltA,
-    spaltB: delvis?.spaltB?.trim() || START_STANDARD.spaltB,
-    knapp: delvis?.knapp?.trim() || START_STANDARD.knapp,
-    skanmetod: delvis?.skanmetod?.trim() || START_STANDARD.skanmetod,
-    skanstatus: delvis?.skanstatus?.trim() || START_STANDARD.skanstatus,
+    period: text?.period?.trim() || START_STANDARD.period,
+    ogonrunor: text?.ogonrunor?.trim() || START_STANDARD.ogonrunor,
+    ogonetikett: text?.ogonetikett?.trim() || START_STANDARD.ogonetikett,
+    rubrik: text?.rubrik?.trim() || START_STANDARD.rubrik,
+    spaltA: text?.spaltA?.trim() || START_STANDARD.spaltA,
+    spaltB: text?.spaltB?.trim() || START_STANDARD.spaltB,
+    knapp: text?.knapp?.trim() || START_STANDARD.knapp,
+    skanmetod: text?.skanmetod?.trim() || START_STANDARD.skanmetod,
+    skanstatus: text?.skanstatus?.trim() || START_STANDARD.skanstatus,
   };
 }

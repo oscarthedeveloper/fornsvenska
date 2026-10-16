@@ -24,6 +24,19 @@ const bild = (namn: string): Kallfil => ({
   textlager: "saknas",
 });
 
+const xml = (
+  namn: string,
+  relation: Kallfil["relation"] = "huvudfil",
+  textlager: Kallfil["textlager"] = "fullstandigt",
+  anmarkning?: string
+): Kallfil => ({
+  sokvag: `${rot}${namn}`,
+  format: "xml",
+  relation,
+  textlager,
+  anmarkning,
+});
+
 /**
  * Kanoniskt register över allt källmaterial som fanns i Källor vid revisionen.
  * Ett verk förekommer en gång även när samma innehåll finns i flera filer.
@@ -547,6 +560,52 @@ export const KALLOR: Kalla[] = [
       bild("sid_149_nya_langvokaler.png"),
       bild("sid_151_vokalfyrkant_fornsvenska_kortvokaler.png"),
       bild("sid_152_vokalfyrkant_sen_fornsvenska_kortvokaler.png"),
+    ],
+  },
+  {
+    id: "SOD1884",
+    titel: "Ordbok öfver svenska medeltids-språket (Huvudverket)",
+    forfattare: ["K. F. Söderwall"],
+    ar: "1884–1918",
+    typ: "ordbok",
+    niva: "handbok",
+    anvandning: "central",
+    bibliografi:
+      "K. F. Söderwall, Ordbok öfver svenska medeltids-språket, Bd I–II (Lund: Svenska fornskriftsällskapet, 1884–1918). Digital LMF/XML-utgåva via Språkbanken Text (DOI: 10.23695/0gf3-5042, CC BY 4.0).",
+    amnen: ["lexikografi", "ordförråd", "semantik", "morfologi", "ortografi"],
+    perioder: ["fornsvenska", "äldre fornsvenska", "yngre fornsvenska"],
+    anmarkning:
+      "Språkbankens digitala utgåva (22 572 poster). Uppslagsorden är kontrollästa efter manuell inkodning, men övrig artikeltext är inte korrekturläst. Notera att kapitlet Ä i denna LMF-resurs återfinns i supplementfilen.",
+    filer: [
+      xml(
+        "soederwall.xml",
+        "huvudfil",
+        "ofullstandigt",
+        "LMF/XML (22 572 poster), SHA-256: 9eddf1d7f94dc34aa4a2b0620734dee7fe164a879df195ee96a2f6098f7ce1f4"
+      ),
+    ],
+  },
+  {
+    id: "SOD-SUPP",
+    titel: "Ordbok öfver svenska medeltids-språket. Supplement",
+    forfattare: ["K. F. Söderwall", "Walter Åkerlund", "Karl Gustav Ljunggren", "Elias Wessén"],
+    ar: "1925–1973",
+    typ: "ordbok",
+    niva: "handbok",
+    anvandning: "central",
+    bibliografi:
+      "K. F. Söderwall, Walter Åkerlund, Karl Gustav Ljunggren och Elias Wessén, Ordbok öfver svenska medeltids-språket. Supplement (Lund: Svenska fornskriftsällskapet, 1925–1973). Digital LMF/XML-utgåva via Språkbanken Text (DOI: 10.23695/vp9e-pg93, CC BY 4.0).",
+    amnen: ["lexikografi", "ordförråd", "semantik", "morfologi", "ortografi"],
+    perioder: ["fornsvenska", "äldre fornsvenska", "yngre fornsvenska"],
+    anmarkning:
+      "Språkbankens digitala utgåva (19 172 poster). Varken uppslagsord eller övrig artikeltext är kontrollästa efter manuell inkodning. Kapitlet V saknas i LMF-filen och kapitlet Ä rymmer två sekvenser (332 respektive 285 poster).",
+    filer: [
+      xml(
+        "soederwall-supp.xml",
+        "huvudfil",
+        "ofullstandigt",
+        "LMF/XML (19 172 poster), SHA-256: 58cb1e3e6370cff44a7aecd09c5bc89536d8f422ec92d8a2c5ac5055d843717f"
+      ),
     ],
   },
 ];

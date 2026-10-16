@@ -5,7 +5,6 @@ const NAV = [
   { label: "Grammatik", href: "/grammatik" },
   { label: "Texter", href: "/texter" },
   { label: "Ordbok", href: "/ordbok" },
-  { label: "Övningar", href: "/ovningar" },
 ];
 
 /**
@@ -39,8 +38,6 @@ export default function LeftPanel() {
       {/* b) ÖGONBRYNSRAD */}
       <div className="shrink-0 border-b border-ink px-[1.2rem] py-[clamp(0.5rem,1.7vh,0.9rem)] grid grid-cols-[1fr_auto_1fr] items-center gap-3">
         <span className="micro">Språkhistorisk studieplattform</span>
-        <span className="micro">/</span>
-        <span className="micro text-right">1225—1526</span>
       </div>
 
       {/* c) HERO */}

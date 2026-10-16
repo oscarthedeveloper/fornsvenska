@@ -2640,16 +2640,12 @@ button.tillganglighet-ruta {
 /* ------------------------------------------------------------------ SMALT */
 @media (max-width: 1023px) {
   .start-nav {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto;
     row-gap: 0.8rem;
   }
 
   .start-marke {
     order: -1;
-  }
-
-  .start-lankar-hoger {
-    display: none;
   }
 
   .start-spalter {
@@ -2683,3 +2679,11 @@ button.tillganglighet-ruta {
     width: 62vw;
   }
 }
+
+/* ------------------------------------------------------------------ ORDBOK */
+.ordbok-citat {
+  font-style: italic;
+  background: rgb(17 17 17 / 0.04);
+  padding: 0.02em 0.16em;
+}
+

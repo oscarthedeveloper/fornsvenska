@@ -1,3 +1,4 @@
+import { medKallor } from "@/lib/kallbibliotek";
 /**
  * Datalagret för resursbiblioteket.
  *
@@ -6,7 +7,7 @@
  * ihop i minnet — biblioteket är litet, och slipper då en fråga per hylla.
  */
 import { cache } from "react";
-import { DEMO_HYLLOR, FASTA_SKRIFTER } from "@/data/resurser";
+import { FASTA_SKRIFTER } from "@/data/resurser";
 import { HAR_SUPABASE } from "@/lib/supabase/config";
 import { skapaServerKlient } from "@/lib/supabase/server";
 import type { Bibliotek, Hylla, Resurs, Resurstyp, Skriftversion } from "@/lib/resurstyper";
@@ -68,7 +69,7 @@ const ANVAND_SUPABASE_RESURSER =
 
 export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
   if (!ANVAND_SUPABASE_RESURSER) {
-    return { hyllor: DEMO_HYLLOR, skrifter: FASTA_SKRIFTER, harDatabas: false };
+    return medKallor({ hyllor: [], skrifter: FASTA_SKRIFTER, harDatabas: false });
   }
 
   try {
@@ -108,7 +109,7 @@ export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
       });
     }
 
-    return {
+    return medKallor({
       hyllor,
       skrifter: [
         ...FASTA_SKRIFTER,
@@ -117,9 +118,9 @@ export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
         ),
       ],
       harDatabas: true,
-    };
+    });
   } catch (fel) {
     console.warn("[resurser] kunde inte läsa biblioteket från Supabase:", fel);
-    return { hyllor: DEMO_HYLLOR, skrifter: FASTA_SKRIFTER, harDatabas: false };
+    return medKallor({ hyllor: [], skrifter: FASTA_SKRIFTER, harDatabas: false });
   }
 });
