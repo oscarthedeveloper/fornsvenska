@@ -21,6 +21,7 @@ import {
 import type { PlacementViewMode } from '@/lib/runor/geojson';
 import { RUNIC_EPOCHS, advanceTimeWindow } from '@/lib/runor/timeline';
 import RunorGuidedToursBar from './RunorGuidedToursBar';
+import KontaktFormular from '@/components/KontaktFormular';
 
 const RunorInteractiveMap = dynamic(() => import('./RunorInteractiveMap'), {
   ssr: false,
@@ -48,6 +49,7 @@ const MATCH_LABELS: Record<MatchReason, string> = {
 export default function RunorDirectoryClient({ inscriptions }: Props) {
   // Tillståndsmodell synkroniserad med URL (E25)
   const [urlState, setUrlState] = useState<RunicUrlState>(DEFAULT_RUNIC_URL_STATE);
+  const [visaKontaktformular, setVisaKontaktformular] = useState(false);
   const isInitializedRef = useRef(false);
   const lastHistoryStateRef = useRef<RunicUrlState>(DEFAULT_RUNIC_URL_STATE);
   const querySeqRef = useRef(0);
@@ -816,11 +818,32 @@ export default function RunorDirectoryClient({ inscriptions }: Props) {
             </p>
             <p>
               Har du funnit en felaktighet, en föråldrad tolkning eller vill bidra med runologiska anmärkningar?
-              Kontakta redaktionen på{' '}
-              <a href="mailto:kontakt@fornsvenska.se" className="runor-footer-link">
-                kontakt@fornsvenska.se
-              </a>.
+              Kontakta redaktionen via{' '}
+              <button
+                type="button"
+                onClick={() => setVisaKontaktformular((v) => !v)}
+                className="runor-footer-link"
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  padding: 0,
+                  cursor: 'pointer',
+                  font: 'inherit',
+                  textDecoration: 'underline',
+                }}
+              >
+                {visaKontaktformular ? 'dölj kontaktformuläret' : 'kontaktformuläret'}
+              </button>
+              {' '}eller gå till <Link href="/kontakt" className="runor-footer-link">kontaktsidan</Link>.
             </p>
+            {visaKontaktformular && (
+              <KontaktFormular
+                kompakt
+                defaultAmne="Runologisk rättelse / källkritik"
+                rubrik="Skicka rättelse till redaktionen"
+                beskrivning="Dina synpunkter skickas direkt till redaktionen via Netlify Forms."
+              />
+            )}
           </div>
         </div>
       </footer>

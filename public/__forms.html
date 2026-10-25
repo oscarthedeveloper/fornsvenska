@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Netlify Forms Fallback - Fornsvenska.se</title>
+</head>
+<body>
+  <!-- 
+    Denna dolda statiska HTML-mall läses av Netlifys form-detection bot vid bygg- och driftsättningstid.
+    Fältnamnen nedan måste matcha exakt de som skickas i Next.js-klienten (KontaktFormular).
+  -->
+  <form name="kontakt" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="kontakt" />
+    <input type="text" name="bot-field" />
+    <input type="text" name="namn" />
+    <input type="email" name="epost" />
+    <input type="text" name="amne" />
+    <textarea name="meddelande"></textarea>
+  </form>
+</body>
+</html>

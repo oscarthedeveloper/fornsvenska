@@ -110,7 +110,7 @@ test('E40 Lansering: Inga provisoriska BETA- eller byggarbetsbeteckningar i de p
   );
   assert.match(
     directoryClientSource,
-    /kontakt@fornsvenska\.se/i,
+    /kontaktformulär|\/kontakt/i,
     'RunorDirectoryClient måste erbjuda kontaktväg för rättelser'
   );
 });

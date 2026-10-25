@@ -90,7 +90,7 @@ export default function RunorServerListReserve({ inscriptions }: Props) {
       </ol>
 
       <div style={{ marginTop: '20px', padding: '12px 16px', background: '#f8fafc', border: '1px solid var(--line)', borderRadius: '6px', fontSize: '12px', color: 'var(--text-muted)' }}>
-        <strong>Dataset:</strong> <code>2026.1-pilot</code> (fastställd 2026-10-22) · Omfattning: 20 granskade inskrifter (Öland, Uppland, Östergötland, Södermanland, Västmanland). Källor: <em>Sveriges runinskrifter</em> och <em>Samnordisk runtextdatabas</em>. Rättelser: <a href="mailto:kontakt@fornsvenska.se" style={{ color: '#8b1e0f' }}>kontakt@fornsvenska.se</a>.
+        <strong>Dataset:</strong> <code>2026.1-pilot</code> (fastställd 2026-10-22) · Omfattning: 20 granskade inskrifter (Öland, Uppland, Östergötland, Södermanland, Västmanland). Källor: <em>Sveriges runinskrifter</em> och <em>Samnordisk runtextdatabas</em>. Rättelser: <a href="/kontakt" style={{ color: '#8b1e0f', textDecoration: 'underline' }}>kontakta redaktionen via formulär</a>.
       </div>
     </section>
   );

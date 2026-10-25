@@ -18,6 +18,7 @@ const VANSTER = [
 
 const HOGER = [
   { label: "Ordbok", href: "/ordbok" },
+  { label: "Kontakt", href: "/kontakt" },
 ];
 
 export default function Toppnav({ active }: { active?: string }) {

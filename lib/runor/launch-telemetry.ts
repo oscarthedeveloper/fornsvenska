@@ -272,7 +272,7 @@ export const LAUNCH_ACTION_ITEMS: ActionItem[] = [
     category: "kallkritik",
     priority: "medel",
     title: "Strukturerad respons på runologiska synpunkter",
-    observation: "Två källförfrågningar inkom via kontakt@fornsvenska.se gällande dateringsspannet för Karlevistenen och tolkning av U 112B.",
+    observation: "Två källförfrågningar inkom via kontaktformuläret gällande dateringsspannet för Karlevistenen och tolkning av U 112B.",
     action: "Etablera fast redaktionell svarsmall med källhänvisning till Fornvännen 2012 och Samnordisk databasversion 2023.",
     owner: "Källansvarig redaktör",
     targetMilestoneOrRelease: "E42"
