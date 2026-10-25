@@ -31,3 +31,11 @@ Källor/*.xml
 .DS_Store
 Thumbs.db
 
+
+# Källmaterial ska endast finnas lokalt, inte i GitHub
+/Källor/
+/Källor/
+/public/bocker/
+/underlag/
+/output/
+/tmp/
