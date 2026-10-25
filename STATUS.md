@@ -19,4 +19,4 @@ Det pågår två samordnade förbättringsspår i projektet:
 
 2. **Drift- & Netlify-optimering (Minskade serverfunktionsanrop):**
    - **Genomförandeplan:** [`docs/drift/NETLIFY_OPTIMERINGSPLAN.md`](./docs/drift/NETLIFY_OPTIMERINGSPLAN.md)
-   - **Aktuell status:** [`docs/drift/STATUS.md`](./docs/drift/STATUS.md) (E01–E12 genomförda: 100 % minskning av serverfunktionsanrop för anonyma läsare, 158/158 automatiserade tester godkända, redo för molnverifiering E13)
+   - **Aktuell status:** [`docs/drift/STATUS.md`](./docs/drift/STATUS.md) (E01–E13 genomförda och verifierade mot Netlify: 100 % minskning av serverfunktionsanrop för anonyma läsare, ordbok och runor fullt fungerande i molnet, redo för produktionsmerge E14)

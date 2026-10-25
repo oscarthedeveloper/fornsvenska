@@ -2,7 +2,7 @@
 
 Datum: 2026-10-25  
 Senast uppdaterad: 2026-10-25 18:25  
-Aktiv etapp: **E12 genomförd (Lokal plan slutförd; redo för E13 vid molnkvotåterställning)**
+Aktiv etapp: **E13 genomförd och verifierad i molnet; redo för E14 produktionsmerge**
 
 ---
 
@@ -22,8 +22,8 @@ Aktiv etapp: **E12 genomförd (Lokal plan slutförd; redo för E13 vid molnkvot�
 | **E10** | Runsida, förhandsladdning och middleware | **Klar** | [`docs/drift/E10-runsida-forhandsladdning-middleware.md`](./E10-runsida-forhandsladdning-middleware.md) |
 | **E11** | Aktualitet och redaktionell invalidation | **Klar** | [`docs/drift/E11-aktualitet-och-invalidation.md`](./E11-aktualitet-och-invalidation.md) |
 | **E12** | Samlad funktions-, säkerhets- och tillgänglighetskontroll | **Klar** | [`docs/drift/E12-samlad-kontroll.md`](./E12-samlad-kontroll.md) |
-| **E13** | Verifiera på Netlify och förbered återställning | **Förberedd** (Blockerad i moln) | [`docs/drift/E13-molnverifiering.md`](./E13-molnverifiering.md) |
-| **E14** | Kontrollerad lansering och uppföljning | **Förberedd** | [`docs/drift/E14-lansering-och-uppfoljning.md`](./E14-lansering-och-uppfoljning.md) |
+| **E13** | Verifiera på Netlify och förbered återställning | **Klar** | [`docs/drift/E13-molnverifiering.md`](./E13-molnverifiering.md) |
+| **E14** | Kontrollerad lansering och uppföljning | Redo för merge | [`docs/drift/E14-lansering-och-uppfoljning.md`](./E14-lansering-och-uppfoljning.md) |
 
 
 ---

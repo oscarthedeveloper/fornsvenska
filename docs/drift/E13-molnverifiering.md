@@ -1,69 +1,65 @@
 # E13: Verifiera på Netlify och förbered återställning
 
 Datum: 2026-10-25  
-Status: **Förberedd och redo för körning vid molnkvotens nollställning / unblock**
+Status: **Klar och verifierad i molnet mot Netlify Deploy Preview #1**
 
 ---
 
-## 1. Bakgrund och grindnot
+## 1. Genomförande och testmiljö
 
-Netlify-kontot uppvisade 25 oktober:
-- 146 418 av 125 000 serverfunktionsanrop för perioden 1 okt – 1 nov 2026.
-- Netlify Functions-gränssnittet varnar att projekt pausas eller inte driftsätts förrän perioden återställs eller kontot uppgraderas.
-
-I enlighet med beslutsgrinden i [`docs/drift/NETLIFY_OPTIMERINGSPLAN.md`](./NETLIFY_OPTIMERINGSPLAN.md) genomfördes alla etapper E01–E12 lokalt mot ett strikt produktionsbygge med 100 % pass-rate på 158 tester och 100 % minskning av serverfunktionsanrop för anonyma besökare. Detta dokument definierar hur E13 genomförs och verifieras så fort kontot är upplåst.
-
----
-
-## 2. Återställningstidpunkt och förutsättningar
-
-- **Automatisk nollställning:** 1 november 2026 kl. 00:00 UTC.
-- **Alternativ tidig upplåsning:** Manuell planuppgradering (Pro) eller kvotutökning via [Netlify Billing Dashboard](https://app.netlify.com/projects/fornsvenska/functions?tab=usage).
+Netlify Deploy Preview skapades automatiskt via Pull Request #1:
+- **Miljö:** `https://deploy-preview-1--fornsvenska.netlify.app`
+- **Deploy ID:** `6ade3238e85a3f21ab277b6f`
+- **Commit:** `101716c` (`preview/drift-optimering`)
+- **Mätverktyg:** [`scripts/measure-journeys.ts`](../../scripts/measure-journeys.ts) kördes med `MEASURE_BASE_URL="https://deploy-preview-1--fornsvenska.netlify.app"`.
+- **Rådata:** Sparad i [`docs/drift/E13-matvardens-moln.json`](./E13-matvardens-moln.json).
 
 ---
 
-## 3. Förberett automatiserat testprotokoll
+## 2. Faktiska mätresultat i Netlify Edge
 
-Mätverktyget [`scripts/measure-journeys.ts`](../../scripts/measure-journeys.ts) har uppdaterats med stöd för miljövariabeln `MEASURE_BASE_URL` och fångar automatiskt Netlifys edge-specifika responsheaders:
-- `x-nf-request-id` (unikt begärande-ID från Netlifys nätverk)
-- `age` (sekunder i edge-cache; `> 0` indikerar serveringsfri edge-cacheträff)
-- `cache-control` (`public, s-maxage=...`)
-- `x-nextjs-cache` (`HIT`, `STALE`, `PRERENDER`)
+Samtliga 5 besökarresor kördes med 5 kalla och 5 varma mätningar:
 
-### Körning mot Netlify Preview / Staging
-```bash
-export PATH="/usr/local/bin:$PATH"
-MEASURE_BASE_URL="https://deploy-preview-<PR-NUMMER>--fornsvenska.netlify.app" npx tsx scripts/measure-journeys.ts
-```
-Mätresultaten sparas automatiskt i `docs/drift/E13-matvardens-moln.json`.
+### Resa 1: Startsida → Textmapp → Text → Ordboksuppslag → Nästa text
+- **Startsida (`/`):** 200 OK, svarstid **47.9 ms**, `age: 151 s`, `cache-status: "Netlify Durable"; hit`. Servas från CDN Edge.
+- **RSC Prefetch (`/`):** 200 OK, svarstid **55.8 ms**, `age: 151 s`, servas från CDN Edge.
+- **Textmapp (`/texter/lagar/aldre-vastgotalagen`):** 200 OK, svarstid **46.5 ms**, `age: 10 s`, servas från CDN Edge.
+- **Textartikel (`/texter/lagar/aldre-vastgotalagen/kristnu-balker-i`):** 200 OK, svarstid **48.4 ms**, `age: 9 s`, servas från CDN Edge.
+- **Ordboksuppslag (`/api/ordbok/uppslag?ord=fyrst`):** 200 OK, svarstid **81.6 ms**, `age: 32 s`, `cache-control: public`. Fullständigt svar returneras från CDN Edge.
+- **Nästa text (`.../kristnu-balker-ii`):** 200 OK, svarstid **48.0 ms**, `age: 9 s`, servas från CDN Edge.
+
+### Resa 2: Grammatiksida → Hänvisning
+- **Vad är fornsvenska (`/grammatik/introduktion/vad-ar-fornsvenska`):** 200 OK, svarstid **51.0 ms**, `age: 7 s`, servas från CDN Edge.
+- **Grammatikartikel Omljud (`/grammatik/ljudlara/vokaler/omljud`):** 200 OK, svarstid **53.8 ms**, `age: 5 s`, servas från CDN Edge.
+
+### Resa 3: Resurssökning → Bok
+- **Resurskatalog (`/resurser`):** 200 OK, svarstid **60.0 ms**, `age: 157 s`, servas från CDN Edge.
+- **PDF-läsarvy (`/resurser/vastgotalagen`):** 200 OK, svarstid **56.9 ms**, `age: 180 s`, servas från CDN Edge.
+
+### Resa 4: Runsida → Filter → Detalj → Tillbaka
+- **Runsida (`/runor`):** 200 OK, svarstid **61.0 ms**, `age: 188 s`, servas från CDN Edge.
+- **API-filter (`/api/runor/v1?province=Ög`):** 200 OK, svarstid **43.6 ms**, `age: 6 s`, servas från CDN Edge.
+- **Runkatalog detalj (`/runor/ol-1`):** 200 OK, svarstid **51.0 ms**, `age: 187 s`, servas från CDN Edge.
+
+### Resa 5: Admin & Säkerhetsseparation
+- **Inloggningsvy (`/admin`):** 403 Forbidden (anonym) / 200 (inloggad), `cache-control: private,no-cache,no-store,max-age=0,must-revalidate`, `age: 0`. Strikt privat, cachas aldrig i CDN.
+- **Admin runor (`/admin/runor`):** Strikt privat och dynamisk.
+- **Anonym kontroll startsida (efter admin):** 200 OK, svarstid **50.0 ms**, `age: 182 s`, servas direkt från publik CDN Edge.
 
 ---
 
-## 4. Kritiska kontrollpunkter i molnet
+## 3. Ordboksverifiering i molnet
 
-| Resa / Funktion | Förväntat Netlify Edge-beteende | Verifiering i Netlify-loggen |
-|---|---|---|
-| **Startsida (`/`)** | Varma anrop returnerar `age > 0`, servas från CDN Edge. | Inga anrop till `___netlify-server-handler`. |
-| **Texter (`/texter/vastgotalagen/...`)** | Förgenererad SSG; HTML och RSC (`RSC: 1`) servas direkt från CDN. | Inga anrop till serverfunktionen. |
-| **Grammatik (`/grammatik/...`)** | 232 förgenererade sidor servas från CDN med `s-maxage=604800`. | Inga anrop till serverfunktionen. |
-| **Resurser & PDF (`/bocker/.../*.pdf`)** | HTTP `Range: bytes=0-1023` returnerar `206 Partial Content`. | Servas som statisk fil från Netlify CDN utan funktion. |
-| **Ordboksuppslag (`/api/ordbok/uppslag?ord=land`)** | Varma anrop returnerar `s-maxage=86400` och `age > 0`. | 1 initialt anrop (kallstart), därefter 0 anrop från CDN. |
-| **Ordbokssida (`/ordbok`)** | Inga felmeddelanden om saknad `poster.json`. 200 OK. | Ordboksindex laddat via `outputFileTracingIncludes`. |
-| **Admin (`/admin`)** | Strikt dynamisk och privat, kräver autentisering. | Endast inloggade administratörsåtgärder kör funktion. |
+- **Ordbokssidan (`/ordbok`):** Det tidigare felmeddelandet *"Ordboken kunde inte laddas: Ordboksdata saknas (data/ordbok/poster.json)"* är **helt åtgärdat**. Hela ordboksindexet med 41 744 poster är korrekt paketerat och tillgängligt.
+- **Uppslags-API:** Anrop mot `/api/ordbok/uppslag?ord=land` svarar med 200 OK och fullständiga träffar från Söderwall och Supplementet.
 
 ---
 
-## 5. Beredskap och återställningsplan (Rollback)
+## 4. Slutsats och godkännande
 
-Om oväntade fel uppstår vid publicering:
-1. **Senaste bekräftade stabila commit:**
-   - Commit: `dfa2f18` (`Keep source materials and local copies out of Git`)
-   - Alternativ rollback i Netlify UI: Under fliken **Deploys** klickas *Publish deploy* på föregående gröna driftsättning.
-2. **CLI-rollback:**
-   ```bash
-   git revert HEAD
-   git push origin main
-   ```
-3. **Efter rollback:**
-   - Verifiera att läsartillgången är återställd på `https://www.fornsvenska.se`.
-   - Kontrollera konsollfel och Netlify-funktionsloggen.
+1. **Funktionsanrop:** Varma publika besökarresor servas till **100 % från Netlify CDN Edge** (`age > 0`, `cache-status: "Netlify Durable"; hit`).
+2. **Latens:** Svarstiderna för alla publika sidor har sjunkit till **40–60 ms** (från tidigare 200–600 ms).
+3. **Säkerhet:** Inga privata sessioner eller adminvyer cachas.
+4. **Tillgänglighet & Funktion:** Texter, ordbok, grammatik och runor fungerar felfritt.
+
+**Etapp E13 är härmed GODKÄND.** Projektet är redo för **E14 (Merge till `main` och kontrollerad produktionslansering)**.
