@@ -1,0 +1,80 @@
+{
+  "titel": "Orbotæ mal",
+  "underrubrik": "Äldre Västgötalagen, nidingsverk, landsförräderi, kvinnofrid och fredlöshet (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Orbötesmålen (Orbotæ mal) i Äldre Västgötalagen upptar den fornsvenska rättens mest avskyvärda brott: nidingsverken. Dessa handlingar ansågs så djupt vanhedrande och samhällsomstörtande att de inte kunde sonas med mansbot, utan medförde ovillkorlig fredlöshet samt fullständig konfiskation av jord, landsvist och lösöre. Katalogen omfattar mord på fredade platser (kyrka och ting), brott mot svuren lejd, blodshämnd för tjuv, landsförräderi ('att bära sköld över tångbräckan'), lönnmord på sovande eller värnlösa i bad och bastu, grov lemlästning, absolut förbud mot kvinnofridsbrott, förrädiskt herremord, svek vid matbordet ('att sitta om kniv och köttstycke'), boskapsslakt i smyg ('gorvarg') och sjöröveri på ledungsskepp ('bunkabit').",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Orbotæ mal (Kyrkofrid, tingsfrid, lejd och landsförräderi)",
+      "balkId": "B06",
+      "pdfSidor": [8],
+      "kallpunkt": "intro-5",
+      "meningar": [
+        {
+          "fsv": "Dræpær maþær man i kirkiu. þæt ær niþingsværk. orbötæ mal. §.1. Dræpær maþær man i þingi. þær ær niþingsvark. §.2. Gangær maþær a griþ a göræ sæt. hæmnir maþær þiufs. hæmnir maþær ræpsingær a þingi mæþ sarum ællær meþ drape allar mæþ brænnu. þæt ær niþingsværk firigiort landi ok lössum öræ.",
+          "tolkning": "Dräper en man en man i kyrkan, det är nidingsverk och orbötesmål. § 1. Dräper en man en man på tinget, det är ett nidingsverk. § 2. Bryter man lejd och ingången förlikning; hämnas man en tjuv; hämnas man laga näpst ådömd på tinget med sår, med dråp eller med mordbrand, det är nidingsverk; då har man förverkat jord och lösöre.",
+          "kommentar": "orbötæ mal: brott som icke kan sonas med böter utan medför fredlöshet och konfiskation. griþ a göræ sæt: svuren lejd och fastställt förlikningsavtal. hæmnir þiufs: hämnd för en lagligen avstraffad tjuv. firigiort landi ok lössum öræ: fullständig förlust av all fast egendom och lösegendom.",
+          "segmentId": "avg-b06-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Orbotæ mal Inledning–§ 2"
+        },
+        {
+          "fsv": "§.3. Hugger maþær baþær hændær af manni. Dræpær maþær souen man. þæt ær niþinsværk. §.4. [Þ]æt ær niþingsværk at bæræ sculd iuir þangbréccu hæriær a sit eigh land firir giort iord lansuist ok lösum örum. §.5. Bindær maþær man i skoghæ viþ træ. þæt ér niþingsværk.",
+          "tolkning": "§ 3. Hugger man båda händerna av en man; dräper man en sovande man, det är nidingsverk. § 4. Det är nidingsverk att bära sköld över tångbräckan och härja sitt eget land; då har man förverkat jord, landsvist och lösöre. § 5. Binder man en man i skogen vid ett träd, det är ett nidingsverk.",
+          "kommentar": "souen man: överfall på sovande räknas som fegt lönnmord. bæræ sculd iuir þangbréccu: landsförräderi genom att leda fientlig flotta/här över havsstranden (tångbräckan) mot det egna landskapet. lansuist: rätt att vistas i landet (landsförvisning). Bindær viþ træ: att lämna någon bunden till svält eller vilddjur i ödemarken.",
+          "avvikelser": [
+            "Källans inledande frågetecken '?æt' i § 4 återges som '[Þ]æt'."
+          ],
+          "segmentId": "avg-b06-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 8, Orbotæ mal § 3–§ 5"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Orbotæ mal (Lönnmord, lemlästning, kvinnofrid, husbonde, ölbänk, gorvarg och bunkabit)",
+      "balkId": "B06",
+      "pdfSidor": [8],
+      "kallpunkt": "6-10",
+      "meningar": [
+        {
+          "fsv": "§.6. Skytær maþær in at lyuræ ok dræpær man. Dræpær .i. löghu. ællær i. bastughu. dræpær. þa han nöte þarwa sinæ. Stingir vt bæþin öghun. a manni. Skiær tungu ör höfþi manni. Hoggær af baþa fötær af manni. Dræpær maþær kono. þæt ær niþingsværk alt. hun .a. e friþ til mot ok til mæssu aldrigh æru sva mykil uigh i mællum mannæ.",
+          "tolkning": "§ 6. Skjuter man in genom rökluckan och dräper en man; dräper i badet eller i bastun; dräper då någon förrättar sina naturbehov; sticker ut båda ögonen på en man; skär tungan ur huvudet på en man; hugger båda fötterna av en man; dräper man en kvinna, det är allt nidingsverk. Hon äger alltid fred till möte och till mässa; aldrig råder så stor fejd mellan män.",
+          "kommentar": "lyuræ: ljuren, takgluggen/rökluckan i eldhuset. löghu... bastughu... nöte þarwa: lönnmord på värnlösa under bad eller toalettbesök. Dræpær kono: kvinnofriden är ovillkorlig och helig; kvinnor står utanför fejd och äger frid på väg till sockenmöte eller gudstjänst.",
+          "segmentId": "avg-b06-punkt01-seg003",
+          "kallreferens": "AVG-MASKIN s. 8, Orbotæ mal § 6"
+        },
+        {
+          "fsv": "§.7. Dræpær maþær lönær droten sin. þæt ær niþingsværk. §.8. Dræpærmaþær man i ölbenk mæþ knivi. sitir vm knif ok kötsticki. mæþ hanum þæt ær niþingsværk. §.9. Huggær man bu mans niþær gærs at goruarghær. þæt ær niþingsværk. §.10. Lopær maþær a harskip ok gyærs bunkabitær. maþær standær a halsi ok a höfþi ok hæriær man. þæt ær niþingsværk.",
+          "tolkning": "§ 7. Dräper man i lönndom sin herre, det är ett nidingsverk. § 8. Dräper man en man vid ölbänken med kniv medan man delar kniv och köttstycke med honom, det är ett nidingsverk. § 9. Hugger man ned en mans boskap och gör sig till gorvarg, det är ett nidingsverk. § 10. Löper man ombord på härskepp och gör sig till bunkabit; om man står i fören och i aktern och härjar man, det är ett nidingsverk.",
+          "kommentar": "lönær droten sin: lönnligt herremord (allvarligt trohetsbrott). sitir vm knif ok kötsticki: brott mot bordsgemenskapen och gästabudsfriden. goruarghær: lönnlig slaktare av annans boskap (av gor 'inälvor' och varg 'dråpare'). harskip... bunkabitær: sjöröveri på krigsskepp (bunkabit = den som hugger eller biter i däckstofterna under plundringståg; standær a halsi ok a höfþi = agerar skeppshövding i för och akter vid härnadståg mot landsmän).",
+          "segmentId": "avg-b06-punkt01-seg004",
+          "kallreferens": "AVG-MASKIN s. 8, Orbotæ mal § 7–§ 10"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

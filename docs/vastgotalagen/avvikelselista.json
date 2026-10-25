@@ -1,0 +1,916 @@
+{
+  "matris": [
+    {
+      "ref_id": "kristnu-balker-i-s1-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 1,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Inledning)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": true,
+      "norm_i_kallan": true,
+      "diff_notes": [],
+      "fsv": "Krister ær fyrst i laghum warum",
+      "tolkning": "Kristus är främst i våra lagar.",
+      "kommentar": "laghum warum: dativ pluralis efter prepositionen i med lokativ funktion. Kongruerande possessivt pronomen warum. Subjektet Krister uppvisar fornsvensk nominativändelse -er."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s1-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 1,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Inledning)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": true,
+      "norm_i_kallan": true,
+      "diff_notes": [],
+      "fsv": "þa ær cristna var oc allir cristnir konongær",
+      "tolkning": "Därnäst vår kristenhet och alla kristna konungar.",
+      "kommentar": "cristna var: feminin nominativ singularis med efterställt possessivt pronomen. allir cristnir konongær: nominativ pluralis av starkt maskulint substantiv konongær (a-stam) med full kongruens i allir och starkt böjda cristnir."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s1-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 1,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Inledning)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "böndær oc allir bocarlær biscupær oc allir boclærðir mæn",
+      "tolkning": "Bönder och alla bofasta män, biskopar och alla boklärda män.",
+      "kommentar": "Nominativ pluralis: böndær (rotstam), bocarlær och biscupær (a-stammar på -ær), samt boclærðir mæn där participadjektivet kongruerar med oregelbundna rotstamssubstantivet mæn."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s2-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 2,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Dopet)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": true,
+      "norm_i_kallan": true,
+      "diff_notes": [],
+      "fsv": "Varþær barn til kirkiu boret oc beþiz cristnu",
+      "tolkning": "Varder barn buret till kyrka och bedes kristning,",
+      "kommentar": "Konditionalt framställd huvudsats med inversion (varþær barn). Prepositionen til styr genitivformen kirkiu (svag ōn-stam). Passiv med varþær och perfekt particip boret (nom. sg. neutr.). Deponensen beþiz styr genitivobjektet cristnu."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s2-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 2,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Dopet)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "þa scal faþir ok moðer fa guðfæþur oc guðmoþor oc salt oc uatn",
+      "tolkning": "då skall fader och moder skaffa gudfader och gudmoder och salt och vatten.",
+      "kommentar": "faþir ok moðer: r-stammar i nominativ singularis. guðfæþur och guðmoþor: ackusativ singularis av fadderbeteckningarna; salt oc uatn: ackusativ singularis neutrum som sakobjekt."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s2-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 2,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Dopet)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "þæt scal bæræ til kirkiu þa scal a prést kallæ han skal a kirkiu bole boæ",
+      "tolkning": "Det skall bäras till kyrkan, då skall man kalla på präst; han skall bo på kyrkobolet.",
+      "kommentar": "bæræ: aktiv infinitiv med passivisk betydelse efter scal. a prést: ackusativ efter prepositionen a. a kirkiu bole: dativ singularis efter befintlighets-a; förleden kirkiu är sammansättningsgenitiv."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s2-m4",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 2,
+      "m": 4,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Dopet)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "barn scal brymsignæ firi utan kirkiu dyr",
+      "tolkning": "Barnet skall primsignas utanför kyrkodörren.",
+      "kommentar": "brymsignæ: kristet lånord (fornengelska primsignian). firi utan styr ackusativformen kirkiu dyr (ack. pl. neutr.)."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s3-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 3,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Nöddop och dopformel)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Siþen scal font wigyæ prester barn döpæ oc gudfaþir a haldæ gudmoþer til namns sygiæ",
+      "tolkning": "Sedan skall dopfunten vigas, prästen döpa barnet och gudfadern hålla i, och gudmodern säga namnet.",
+      "kommentar": "Parallella infinitivsatser underställda hjälpverbet scal. til namns: genitiv efter prepositionen til."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s3-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 3,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Nöddop och dopformel)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "prester scal byuþe husu lengi faþir oc moþer sculu vardvetæ",
+      "tolkning": "Prästen skall påbjuda hur länge fader och moder skola vårda det.",
+      "kommentar": "vardvetæ: sammansättning med urgermanskt varð ('vakt') och vita ('veta/iaktta'). sculu: presens pluralis, kongruerar med sammansatt subjekt."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s3-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 3,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Nöddop och dopformel)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Hændir þæt sot a vegh oc ma igh til kyrkiu coma þa scal gudfaþir döpæ oc gudmoþer a haldæ i vatn",
+      "tolkning": "Händer det att sjukdom kommer på vägen och det icke kan komma till kyrkan, då skall gudfadern döpa och gudmodern hålla i vatten.",
+      "kommentar": "sot: feminin nominativ singularis ('sjukdom'). Negationsadverbet igh är en västgötsk sidovariant till eigh. Nöddopets giltighet fastslås."
+    },
+    {
+      "ref_id": "kristnu-balker-i-s3-m4",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "sec": 3,
+      "m": 4,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Nöddop och dopformel)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "æn uatn ær til i namn faþurs oc suner oc andæs hælagha þa scal þét .j. kyrkiu gard gravæ",
+      "tolkning": "om vatten finns till hands, i faderns och sonens och den helige andes namn; dör det sedan skall det begravas på kyrkogården.",
+      "kommentar": "faþurs (stark genitiv på -s), suner (u-stamsgenitiv på -er), andæs hælagha (svag maskulin genitiv på -a med efterställt bestämt adjektiv). j kyrkiu gard: riktningsackusativ efter i."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s1-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 1,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §2 & §5 (Biskopens rättigheter)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Byscupi scal gengyærd geræ twar næter oc til quels hins þridia med tolf mannum",
+      "tolkning": "Åt biskopen skall man göra gengärd två nätter och till den tredje dagens kväll med tolv män,",
+      "kommentar": "Byscupi: dativ singularis som indirekt objekt vid scal geræ. twar næter: ackusativ pluralis i tidsadverbial funktion (femininum av räkneordet två). hins þridia: svagt böjt ordningstal i genitiv med framställd artikel."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s1-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 1,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §2 & §5 (Biskopens rättigheter)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "sialuer han hin þrættandi oc han drikki myod oc allir klerkar hans",
+      "tolkning": "själv han den trettonde, och han dricke mjöd och alla hans klerker.",
+      "kommentar": "hin þrættandi: bestämd form av ordningstalet ('den trettonde'). drikki: presens konjunktiv (optativ/preskriptiv funktion). allir klerkar hans: nominativ pluralis maskulinum."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s1-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 1,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §2 & §5 (Biskopens rättigheter)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Crusszur oc klokchor calka oc messufat þa scal byscuper vighia firi tyundæ",
+      "tolkning": "Kors och klockor, kalkar och mässkrudar skall biskopen viga för tionden.",
+      "kommentar": "Ackusativobjekt i framställd topikalisering före finita verbet scal. firi tyundæ: prepositionsfras med genitiv/ackusativ som uttrycker vederlag."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s2-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 2,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §6 (Kyrkobyggnadens bestånd)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Taker kyrkia at fyrnass standæ stulpær liggia sillir er helt dyrni oc festiband",
+      "tolkning": "Börjar en kyrka att åldras, men stolparna står, syllarna ligger och dörrträ och bindbjälke är hela,",
+      "kommentar": "Konditional huvudsats utan bisatsinledare med omvänd ordföljd. fyrnass: deponent infinitiv ('åldras'). stulpær och sillir: nominativ pluralis av starka feminina och maskulina byggnadstermer."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s2-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 2,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §6 (Kyrkobyggnadens bestånd)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": false,
+      "diff_notes": [
+        "Ordföljd eller böjningsformer avviker från källan."
+      ],
+      "fsv": "ligger kamber hell haltæræ sten oc altare haui kyrkya vixl sinæ samu",
+      "tolkning": "ligger takåsen hel och altarstenen och altaret helt, då skall kyrkan behålla sin samma vigning,",
+      "kommentar": "kamber: takås (mask. nom. sg.). haui: presens konjunktiv av hava ('må hava'). vixl sinæ samu: ackusativ singularis femininum med demonstrativ/identitetsmarkör samu."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s2-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 2,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §6 (Kyrkobyggnadens bestånd)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": true,
+      "norm_i_kallan": true,
+      "diff_notes": [],
+      "fsv": "þo at hana böte en þessi æru all hel",
+      "tolkning": "ändock att man reparerar den, om dessa delar alla äro hela.",
+      "kommentar": "þo at: medgivande underordnad konjunktion ('fastän'). hana: ackusativobjekt (fem. sg., syftar på kyrkia). þessi æru all hel: full kongruens i predikativ neutrum pluralis hel med kvantifikatorn all."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s2-m4",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 2,
+      "m": 4,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §6 (Kyrkobyggnadens bestånd)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Værþer altæræ sten lös þa scal prester byscup uid væræ",
+      "tolkning": "Varder altarsten lös, då skall prästen tillkalla biskopen.",
+      "kommentar": "altæræ sten: sammansättning med genitivförled. byscup uid væræ: biskopen skall vara tillstädes/tillkallas för återinvigning."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s3-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 3,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §3 & §7 (Nidingsverk i kyrkan)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Uerder maþer .i. kyrkiu dræpin þet ær niþings værk þa er kyrkia al vuighz",
+      "tolkning": "Varder en man dräpt i kyrkan, det är ett nidingsverk; då är kyrkan alldeles ovigd.",
+      "kommentar": "niþings værk: rättsterm för vanärande brott som icke kan botas med böter. al vuighz: predikativ genitiv med förstärkande adverb al ('helt och hållet')."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s3-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 3,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §3 & §7 (Nidingsverk i kyrkan)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Uerdher kyrkia brutin oc mæssu fat stolen þet er niþingsværk",
+      "tolkning": "Varder kyrka inbruten och mässkärl stulna, det är ett nidingsverk;",
+      "kommentar": "Passiv med varþa och kongruerande particip: brutin (fem. nom. sg.) och stolen (neutr. nom. pl., i handskriften som kollektiv singularis)."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s3-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 3,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §3 & §7 (Nidingsverk i kyrkan)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "þat er niv marcha sak kyrky swa hæreþe sva konogge",
+      "tolkning": "det är en sak om nio marker, till kyrkan så, till häradet så och till konungen så.",
+      "kommentar": "niv marcha sak: genitivattribut efter räkneord (niv marcha). kyrky, hæreþe, konogge: dativformer som uttrycker mottagare av bötesandelarna."
+    },
+    {
+      "ref_id": "kristnu-balker-ii-s3-m4",
+      "doc_slug": "lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "sec": 3,
+      "m": 4,
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §3 & §7 (Nidingsverk i kyrkan)",
+      "seg_id": "avg-b01-pt1-seg001",
+      "balk": "B01",
+      "punkt": "1",
+      "pdf_sidor": [
+        1
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Varþer in gangit at opnom dorom þa scal prester gialdæ skaþa apter",
+      "tolkning": "Varder ingånget genom öppna dörrar, då skall prästen återgälda skadan.",
+      "kommentar": "opnom dorom: dativ pluralis med instrumentell/lokativ funktion efter at. prester: nominativ singularis, bär vårdnadsansvaret för inventarierna."
+    },
+    {
+      "ref_id": "arfda-balker-s1-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 1,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §1 (Arvsföljden)",
+      "seg_id": "avg-b07-pt1-seg059",
+      "balk": "B07",
+      "punkt": "1",
+      "pdf_sidor": [
+        8
+      ],
+      "exakt_i_kallan": true,
+      "norm_i_kallan": true,
+      "diff_notes": [],
+      "fsv": "Svn ær faþurs arvi",
+      "tolkning": "Son är faders arvinge.",
+      "kommentar": "Klassisk nominalsats med kopula ær. faþurs: genitiv singularis av r-stammen faþir (med sekundärt -s). arvi: svag maskulin nominativ singularis (an-stam)."
+    },
+    {
+      "ref_id": "arfda-balker-s1-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 1,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §1 (Arvsföljden)",
+      "seg_id": "avg-b07-pt1-seg059",
+      "balk": "B07",
+      "punkt": "1",
+      "pdf_sidor": [
+        8
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Ær eig svn þa ær dottær",
+      "tolkning": "Finns ej son, då är dotter arvinge.",
+      "kommentar": "Konditional sats med inversion utan konjunktion. dottær: nominativ singularis av feminin r-stam."
+    },
+    {
+      "ref_id": "arfda-balker-s1-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 1,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §1 (Arvsföljden)",
+      "seg_id": "avg-b07-pt1-seg059",
+      "balk": "B07",
+      "punkt": "1",
+      "pdf_sidor": [
+        8
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Ær eig dottær þa ær faþir Ær eig faþir þa ær moþer þa ær broþer",
+      "tolkning": "Finns ej dotter, då är fader; finns ej fader, då är moder; därefter är broder.",
+      "kommentar": "Sukcessiv uppräkning av arvsberättigade släktingar med arkaiska r-stamsformer i nominativ singularis."
+    },
+    {
+      "ref_id": "arfda-balker-s1-m4",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 1,
+      "m": 4,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §1 (Arvsföljden)",
+      "seg_id": "avg-b07-pt1-seg059",
+      "balk": "B07",
+      "punkt": "1",
+      "pdf_sidor": [
+        8
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Ær eig broþér þa er systir Ær eig systir þa æru sunærbörn",
+      "tolkning": "Finns ej broder, då är syster; finns ej syster, då äro söners barn arvingar.",
+      "kommentar": "sunærbörn: sammansättning med genitiv pluralis av sun som förled och börn i nominativ pluralis neutrum."
+    },
+    {
+      "ref_id": "arfda-balker-s1-m5",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 1,
+      "m": 5,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §1 (Arvsföljden)",
+      "seg_id": "avg-b07-pt3-seg061",
+      "balk": "B07",
+      "punkt": "3",
+      "pdf_sidor": [
+        9
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Kollum skal ærvi skiptæ sundær i tu halft a fæþærni ok halft a moþærni",
+      "tolkning": "Mellan kullarna skall arv skiftas sönder i två delar, hälften på fädernet och hälften på mödernet.",
+      "kommentar": "Kollum: dativ pluralis efter prepositionen vid fördelning. halft: substantiverat neutrum. fæþærni och moþærni: dativ singularis av neutrala ja-stammar betecknande fäderne- och mödernesläkt."
+    },
+    {
+      "ref_id": "arfda-balker-s2-m1",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 2,
+      "m": 1,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §2 (Romresan och Greklandsfararen)",
+      "seg_id": "avg-b07-pt10-seg068",
+      "balk": "B07",
+      "punkt": "10",
+      "pdf_sidor": [
+        9,
+        10
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "Far maþær af landi sætær brytiæ firi bo sighir at han skal gangæ til roms",
+      "tolkning": "Far en man ur landet, sätter förvaltare för sitt bo och säger att han skall gå till Rom,",
+      "kommentar": "Inversionsinledd villkorskedja. brytiæ: svag maskulin ackusativ singularis (bryte, förvaltare). firi bo: ackusativ efter firi. til roms: genitiv efter prepositionen til."
+    },
+    {
+      "ref_id": "arfda-balker-s2-m2",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 2,
+      "m": 2,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §2 (Romresan och Greklandsfararen)",
+      "seg_id": "avg-b07-pt10-seg068",
+      "balk": "B07",
+      "punkt": "10",
+      "pdf_sidor": [
+        9,
+        10
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": false,
+      "diff_notes": [
+        "Ordföljd eller böjningsformer avviker från källan."
+      ],
+      "fsv": "þa skal bryti bo varþa til iamlangæ sidan skal arvi varþæ ok iki bryti længer num arvi uili",
+      "tolkning": "då skall förvaltaren svara för boet under ett års tid; sedan skall arvingen svara för det och icke förvaltaren längre, om icke arvingen vill.",
+      "kommentar": "til iamlangæ: tidsadverbial konstruktion ('under ett helt år'). num: arkaisk villkorskonjunktion ('om icke, såvida inte')."
+    },
+    {
+      "ref_id": "arfda-balker-s2-m3",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 2,
+      "m": 3,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §2 (Romresan och Greklandsfararen)",
+      "seg_id": "avg-b07-pt10-seg068",
+      "balk": "B07",
+      "punkt": "10",
+      "pdf_sidor": [
+        9,
+        10
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": false,
+      "diff_notes": [
+        "Ordföljd eller böjningsformer avviker från källan."
+      ],
+      "fsv": "Far maþær af landi sytær husprø i bo havir i knæ ok annat i kviþi far cristindom",
+      "tolkning": "Far en man ur landet medan hustrun sitter i boet, har ett barn i knä och ett annat i kvedet som får kristning,",
+      "kommentar": "husprø: hustru (ack./nom. fem.). i knæ ok annat i kviþi: allittererande och rytmisk juridisk formel för spädbarn och ofött foster. far cristindom: får dop/kristning."
+    },
+    {
+      "ref_id": "arfda-balker-s2-m4",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 2,
+      "m": 4,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §2 (Romresan och Greklandsfararen)",
+      "seg_id": "avg-b07-pt10-seg068",
+      "balk": "B07",
+      "punkt": "10",
+      "pdf_sidor": [
+        9,
+        10
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": true,
+      "diff_notes": [
+        "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan."
+      ],
+      "fsv": "vændir han hæl ok nakkæ at hemkynnum ok stighær fotum af fostær landi",
+      "tolkning": "vänder han häl och nacke åt hembygden och stiger med fötterna från fosterlandet,",
+      "kommentar": "hæl ok nakkæ: ackusativobjekt i allittererande parformel. at hemkynnum: dativ pluralis efter riktningsprepositionen at. fotum: instrumentell dativ pluralis ('med fötterna')."
+    },
+    {
+      "ref_id": "arfda-balker-s2-m5",
+      "doc_slug": "lagar/aldre-vastgotalagen/arfda-balker",
+      "sec": 2,
+      "m": 5,
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §2 (Romresan och Greklandsfararen)",
+      "seg_id": "avg-b07-pt10-seg068",
+      "balk": "B07",
+      "punkt": "10",
+      "pdf_sidor": [
+        9,
+        10
+      ],
+      "exakt_i_kallan": false,
+      "norm_i_kallan": false,
+      "diff_notes": [
+        "Ordföljd eller böjningsformer avviker från källan."
+      ],
+      "fsv": "Ingsins manss arv takær hæn mæn i girklandi sitær",
+      "tolkning": "Ingen mans arv tager han medan han i Grekland sitter.",
+      "kommentar": "Ingsins manss: dubblerad genitivändelse hos det sammansatta negerande pronomenet ingsins och substantivet manss. girklandi: dativ singularis (Grekland/Bysans, vanligt resmål för nordiska väringagarden)."
+    }
+  ],
+  "avvikelser": [
+    {
+      "id": "AVV-001",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s1-m3 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "böndær oc allir bocarlær biscupær oc allir boclærðir mæn",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-002",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s2-m2 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "þa scal faþir ok moðer fa guðfæþur oc guðmoþor oc salt oc uatn",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-003",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s2-m3 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "þæt scal bæræ til kirkiu þa scal a prést kallæ han skal a kirkiu bole boæ",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-004",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s2-m4 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "barn scal brymsignæ firi utan kirkiu dyr",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-005",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s3-m1 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Siþen scal font wigyæ prester barn döpæ oc gudfaþir a haldæ gudmoþer til namns sygiæ",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-006",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s3-m2 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "prester scal byuþe husu lengi faþir oc moþer sculu vardvetæ",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-007",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s3-m3 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Hændir þæt sot a vegh oc ma igh til kyrkiu coma þa scal gudfaþir döpæ oc gudmoþer a haldæ i vatn",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-008",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-i-s3-m4 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "æn uatn ær til i namn faþurs oc suner oc andæs hælagha þa scal þét .j. kyrkiu gard gravæ",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-009",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s1-m1 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Byscupi scal gengyærd geræ twar næter oc til quels hins þridia med tolf mannum",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-010",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s1-m2 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "sialuer han hin þrættandi oc han drikki myod oc allir klerkar hans",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-011",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s1-m3 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Crusszur oc klokchor calka oc messufat þa scal byscuper vighia firi tyundæ",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-012",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s2-m1 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Taker kyrkia at fyrnass standæ stulpær liggia sillir er helt dyrni oc festiband",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-013",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s2-m2 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Ordföljd eller böjningsformer avviker från källan.",
+      "befintlig_fsv": "ligger kamber hell haltæræ sten oc altare haui kyrkya vixl sinæ samu",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-014",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s2-m4 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Værþer altæræ sten lös þa scal prester byscup uid væræ",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-015",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s3-m1 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Uerder maþer .i. kyrkiu dræpin þet ær niþings værk þa er kyrkia al vuighz",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-016",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s3-m2 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Uerdher kyrkia brutin oc mæssu fat stolen þet er niþingsværk",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-017",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s3-m3 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "þat er niv marcha sak kyrky swa hæreþe sva konogge",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-018",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "kristnu-balker-ii-s3-m4 -> avg-b01-pt1-seg001 (punkt 1, s. [1])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Varþer in gangit at opnom dorom þa scal prester gialdæ skaþa apter",
+      "kallstalle": "avg-b01-pt1-seg001"
+    },
+    {
+      "id": "AVV-019",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s1-m2 -> avg-b07-pt1-seg059 (punkt 1, s. [8])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Ær eig svn þa ær dottær",
+      "kallstalle": "avg-b07-pt1-seg059"
+    },
+    {
+      "id": "AVV-020",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s1-m3 -> avg-b07-pt1-seg059 (punkt 1, s. [8])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Ær eig dottær þa ær faþir Ær eig faþir þa ær moþer þa ær broþer",
+      "kallstalle": "avg-b07-pt1-seg059"
+    },
+    {
+      "id": "AVV-021",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s1-m4 -> avg-b07-pt1-seg059 (punkt 1, s. [8])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Ær eig broþér þa er systir Ær eig systir þa æru sunærbörn",
+      "kallstalle": "avg-b07-pt1-seg059"
+    },
+    {
+      "id": "AVV-022",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s1-m5 -> avg-b07-pt3-seg061 (punkt 3, s. [9])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Kollum skal ærvi skiptæ sundær i tu halft a fæþærni ok halft a moþærni",
+      "kallstalle": "avg-b07-pt3-seg061"
+    },
+    {
+      "id": "AVV-023",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s2-m1 -> avg-b07-pt10-seg068 (punkt 10, s. [9, 10])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "Far maþær af landi sætær brytiæ firi bo sighir at han skal gangæ til roms",
+      "kallstalle": "avg-b07-pt10-seg068"
+    },
+    {
+      "id": "AVV-024",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s2-m2 -> avg-b07-pt10-seg068 (punkt 10, s. [9, 10])",
+      "beskrivning": "Ordföljd eller böjningsformer avviker från källan.",
+      "befintlig_fsv": "þa skal bryti bo varþa til iamlangæ sidan skal arvi varþæ ok iki bryti længer num arvi uili",
+      "kallstalle": "avg-b07-pt10-seg068"
+    },
+    {
+      "id": "AVV-025",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s2-m3 -> avg-b07-pt10-seg068 (punkt 10, s. [9, 10])",
+      "beskrivning": "Ordföljd eller böjningsformer avviker från källan.",
+      "befintlig_fsv": "Far maþær af landi sytær husprø i bo havir i knæ ok annat i kviþi far cristindom",
+      "kallstalle": "avg-b07-pt10-seg068"
+    },
+    {
+      "id": "AVV-026",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s2-m4 -> avg-b07-pt10-seg068 (punkt 10, s. [9, 10])",
+      "beskrivning": "Interpunktion, radbrytning eller skiljetecken skiljer sig från källan.",
+      "befintlig_fsv": "vændir han hæl ok nakkæ at hemkynnum ok stighær fotum af fostær landi",
+      "kallstalle": "avg-b07-pt10-seg068"
+    },
+    {
+      "id": "AVV-027",
+      "typ": "textavvikelse",
+      "prioritet": "medel",
+      "lokalisering": "arfda-balker-s2-m5 -> avg-b07-pt10-seg068 (punkt 10, s. [9, 10])",
+      "beskrivning": "Ordföljd eller böjningsformer avviker från källan.",
+      "befintlig_fsv": "Ingsins manss arv takær hæn mæn i girklandi sitær",
+      "kallstalle": "avg-b07-pt10-seg068"
+    }
+  ]
+}

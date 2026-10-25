@@ -1,0 +1,226 @@
+{
+  "titel": "Giptar bolkær",
+  "underrubrik": "Äldre Västgötalagen, fästning, giftorätt, morgongåva och bannlysta led (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Giftermålsbalken (Giptar bolkær) i Äldre Västgötalagen reglerar äktenskapets ingående och förmögenhetsrättsliga verkningar i det medeltida Västergötland. Balken spänner över kungligt frieri och pantgods, bondesonens formella fästningsstämma hos giftomannen med hemgift, vingåva och sängledning, dryga böter för brudrov och kvinnofridsbrott, frigivnas och trälars giftermål, anklagelse om otrohet och nämndened, fästning av änkor gentemot möar, lägersmålstaxor för olika samhällsklasser, kyrkliga släktskapshinder och skilsmässa, reserverade påvliga fall vid blodskam och parenticid med botfärd till Rom, samt bryggningstider vid Mårtensmässa, laga förfall vid bröllop och trolovningsbrott.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 1 (Konungens frieri och brudfärd)",
+      "balkId": "B08",
+      "pdfSidor": [11],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "1. Konongær vil sær kono biþia. Ær þæt vtæn konongrikiz. þa skal mæn sinæ latæ faræ. ok ærændi sit vrakæ ok fæst takæ. þa skal konongær brudfærþ gen gæræ. þa skal konongær gen fara ok giua tolf mærkær gulz allær tvæ byæ at væþium sætiæ.",
+          "tolkning": "Vill konungen bedja sig en kvinna till äkta, och är det utom konungariket, då skall han låta sina män fara och sitt ärende uträtta och fästning taga. Då skall konungen göra brudfärd till mötes; då skall konungen fara till mötes och giva tolv marker guld eller sätta två byar till pant.",
+          "kommentar": "biþia kono: formell anhållan om giftermål via sändebud. vtæn konongrikiz: utom riket, dvs. utländsk furstlig förbindelse. ærændi sit vrakæ: fullborda sitt uppdrag (fsv. vræka = driva, uträtta). fæst takæ: mottaga fästningslöftet av brudens giftoman. brudfærþ gen gæræ: rusta följe för att möta brudtåget. at væþium sætiæ: pantsätta egendom (två byar eller tolv marker guld) såsom säkerhet för morgongåva eller livgeding.",
+          "segmentId": "avg-b08-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 11, Giptar bolker Punkt 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 2 (Bondesons frieri, fästning, vingåva och fästerån)",
+      "balkId": "B08",
+      "pdfSidor": [11, 12],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "2. Bondæ son vil sær kono bydiæ. han skal hin skyldæstæ at hittæ. ok bön sinæ byriæ. han fæstnæþær stæmnu leggæ a hænni skal til fæ sighiæ næmnæ iord æn til ær. ok alt þæt giuæ vill. þrear markær skal lagha vingæf. uæræ. þaghar firi fæst ær skilt ok handum saman takit. þa ær tilgævær allær intær. æn vingævær eigh fyr æn þer komæ bæþi a en bulstær ok vndir ena bleo.",
+          "tolkning": "Vill en bondeson bedja sig en kvinna till äkta, skall han uppsöka den närmaste giftomannen och framföra sin bön. Han skall utsätta fästningsstämma för henne; därtill skall han utfästa lösören, nämna jord om han äger sådan, och allt vad han vill giva. Tre marker skall laga vingåva vara. Så snart det är avtalat om fästningen och man tagit varandra i hand, då är hemgiften gällande i allo, men vingåvan dock icke förrän de kommit båda på samma bolster och under samma lakan.",
+          "kommentar": "hin skyldæstæ: den närmaste fränden (fader eller broder) som innehar giftomannaskapet. fæstnæþær stæmnu: lagstadgad fästningsstämma med vittnen. til fæ sighiæ: tillförsäkra hemgift och lösören. handum saman takit: handsöl som juridiskt fullbordar trolovningsavtalet. vingæf: vingåva, mannens personliga gåva till bruden, bunden vid sängledningen (en bulstær ok vndir ena bleo: samma bolster och under samma lakan).",
+          "segmentId": "avg-b08-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 11–12, Giptar bolker Punkt 2"
+        },
+        {
+          "fsv": "§.1. Af fæstæ ruf a biscopær. III. markær.",
+          "tolkning": "§ 1. För fästerån (bruten trolovning) äger biskopen tre marker.",
+          "kommentar": "fæstæ ruf: fästerån, dvs. oberättigat brytande av ingånget fästningsavtal, vilket ansågs som ett kyrkorättsligt brott mot trohetseden och böttes till biskopen.",
+          "segmentId": "avg-b08-punkt02-seg002",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 2 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 3 (Bortförande av annans fästekvinna)",
+      "balkId": "B08",
+      "pdfSidor": [12],
+      "kallpunkt": "3",
+      "meningar": [
+        {
+          "fsv": "3. Værþær fæsti konæ manss takin .a. IX. markær þæn skyldastæ ok sva fæstimaþær. ok sva konongær ok sva ællir. mæn. boe hæne aldrigh. þer skulu friþær hans eghæ uald. kome aldrigh i friþ. fyr. æn þer uiliæ ær sak sökiæ.",
+          "tolkning": "Varder en mans fästekvinna bortförd med våld, äger den närmaste giftomannen nio marker, och likaså fästmannen, och likaså konungen, och likaså alla män (häradet). Han må aldrig sammanbo med henne. De skola råda över hans fred; han komme aldrig i fred förrän de vilja det som söka saken.",
+          "kommentar": "fæsti konæ takin: brudrov och kvinnofridsbrott mot trolovad kvinna. Gärningsmannen beläggs med fyrdubbla niomarksböter (sammanlagt 36 marker) fördelade på giftoman, fästman, konung och häradsmän, samt fullständig fredlöshet utan rätt att någonsin äkta kvinnan.",
+          "segmentId": "avg-b08-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 4 (Frigiven mans giftermål, hindradagsgåva och huskvinna)",
+      "balkId": "B08",
+      "pdfSidor": [12],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "4. Far frælsgiui ættaþæ kono. þa ær mark uin gæf. ok mark hindradaxgæf. barn þerræ skolu ætboren væræ. §.1. hurn staþ hindradaxgæf. ær. þa ær þriþiungs. skipti a fæ þerræ ær eigh hindradax gæf givin. þa skal hvn up takæ. þriðiung ok. III. markær.",
+          "tolkning": "Tager en frigiven man en friboren kvinna till äkta, då är vingåvan en mark och hindradagsgåvan en mark; deras barn skola vara ättburna. § 1. Oavsett vad hindradagsgåvan är, skiftas deras egendom i tredjedelar; är ingen hindradagsgåva given, då skall hon taga upp en tredjedel och därtill tre marker.",
+          "kommentar": "frælsgiui: frigiven man (libertinus). ættaþæ kono: friboren kvinna av fri ätt. hindradaxgæf: morgongåva given på hindradagen (morgonen efter bröllopsnatten). hurn staþ: 'oavsett hurdan/hur stor än'. þriþiungs skipti: änkans lagstadgade tredjedel i boet.",
+          "segmentId": "avg-b08-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 4–§1"
+        },
+        {
+          "fsv": "§.2. Far frælsgiui. fostro. giffs eigh vin gæf ællær hindradax gæf. þa giptis. hun til hælfnings. §.3. Vill þræll fa huskono giui tva öræ til þem ær hana a. ækki kiæpsir i barnum.",
+          "tolkning": "§ 2. Tager en frigiven man en fostra (halvfri kvinna) till äkta och gives varken vingåva eller hindradagsgåva, då giftes hon till hälften (hälftendelning i boet). § 3. Vill en träl taga en huskvinna (trälinna), give han två örar till den som äger henne; ingen köpeskilling utgår för barnen.",
+          "kommentar": "fostro: fostrad kvinna i huset, av lägre stånd. til hælfnings: giftorätt till halva boet i stället för morgongåva. huskono: ofri kvinna/trälinna i hushållet. ækki kiæpsir i barnum: ingen särskild friköpsavgift för avkomman, som följer moderns ofria tillstånd hos husbonden.",
+          "segmentId": "avg-b08-punkt04-seg002",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 4 §2–3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 5 (Lägersmål med huskvinna och anklagelse om hustrus otrohet)",
+      "balkId": "B08",
+      "pdfSidor": [12],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "5. Giuær maþær manni sak. at han havir lighæt hos huskono hans. þa skal firi gangæ tilptær eþ. ællær bötæ. VI. öræ.",
+          "tolkning": "Beskyller en man en annan för att hava legat hos hans huskvinna, då skall en tolftared gå därför, eller också böte han sex örar.",
+          "kommentar": "huskono: trälkvinna/tjänarinna i huset. Husbonden företräder henne och uppbär skadestånd för fridskränkning i huset.",
+          "segmentId": "avg-b08-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 5"
+        },
+        {
+          "fsv": "§.1. Havir konæ hor giort ok givær bondæ kono sinni sak. þa væri sik. mæþ siv mannum af næmdinni. Værdær hun varþ böte hænni. III. markær. þem skal aptær til bos lagiæ. ægæ hun þem huat þem skil hæl ællær hughær. Verþer hun eigh varþ. þa skal hun gangæ fræ bo ok boslöt .i. hvarþax clæþum sinum.",
+          "tolkning": "§ 1. Har en kvinna begått hor och anklagar bonden sin hustru för sådan sak, då värje hon sig med sju män ur nämnden. Varder hon friad, böte han tre marker till henne; dem skall han lägga tillbaka i boet, och hon skall äga dem vare sig de skiljas genom döden eller sämjan brister. Varder hon icke friad, då skall hon gå från bo och boslott i endast sina vardagskläder.",
+          "kommentar": "hor: äktenskapsbrott. siv mannum af næmdinni: kvalificerad reningsed ur tingsnämnden. hæl ællær hughær: fornnordisk allitterationsformel; 'vare sig döden skiljer dem åt (hæl) eller sinnet/viljan (hughær)'. Verþer hun eigh varþ: fälls hon förlorar hon all giftorätt och morgongåva och utdrivs med blott sina vardagskläder.",
+          "segmentId": "avg-b08-punkt05-seg002",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 5 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 6 (Änkas fästning, mökränkning, lägersmål och trälkvinna)",
+      "balkId": "B08",
+      "pdfSidor": [12],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "6. Fæstir maþær ænkiu ok flytær hem ok lægs hos ok aslær hanni barn þar a ængin sak .a. Værþær. barn siþæn föt. öl ær giört. þæt ær aþalkono barn. þy hetir fingin fæst ænkia. §.1. Fæstir maþær mö. gær viþ lönþær læghær han ær. sakær at. sex markum uid faþur hænnær. §.2. Ligær maþær uid kono ok fæstir hana siþæn mælir vingæf þa ær læghær böt.",
+          "tolkning": "Fäster en man en änka, flyttar hem till henne, lägrar henne och avlar barn med henne, då har ingen talerätt mot detta; varder barnet sedan fött och fästningsöl är gjort, är det ett äkta barns rätt, därför heter det 'fången fäst änka'. § 1. Fäster en man en mö och bedriver lönnligt lägersmål med henne före bröllopet, är han skyldig sex marker till hennes fader. § 2. Ligger en man hos en kvinna och fäster henne sedan och utfäster vingåva, då är lägersmålet sonat.",
+          "kommentar": "fingin fæst ænkia: änkans rättsliga särställning där samlägret efter fästning ger barnet full äktenskaplig börd om ölet firas. lönþær læghær: hemligt samlag med trolovad mö före bröllopsölet, vilket kränker faderns giftomansmyndighet. mælir vingæf: utfäster vingåva och legaliserar förbindelsen.",
+          "segmentId": "avg-b08-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 6–§2"
+        },
+        {
+          "fsv": "§.3. Liggær viþ fralsæ fostro bötæ tolf öræ. firi ambut VI. öræ. firi ætborna kono. sex markær þen barn .a. vid ambut. han skal varþæ hanni. til þæs ær hun gitær kuærn draghit. ok ko molkæt. Dör hun af barni bötæ han. III. markær. §.4. En löpæ kono læghær skal. væria mæþ tilptar eþe. baþe ætbornær annöþogher.",
+          "tolkning": "§ 3. Ligger man hos en fri fostra bötes tolv örar; för trälinna (ambut) sex örar; för en ättburen kvinna sex marker. Den som avlar barn med en trälinna skall sörja för henne till dess hon förmår draga handkvarn och mjölka ko. Dör hon i barnsäng, böte han tre marker. § 4. Lägersmål med löskvinna (löpukona) skall värjas med tolftared, vare sig hon är ättburen eller nödställd.",
+          "kommentar": "ambut: trälinna (fsv. ambót). kuærn draghit ok ko molkæt: traditionellt rättsligt kriterium för återvunnen arbetsförmåga efter barnsbörd. Dör af barni: död i barnsäng medförde skadeståndsansvar gentemot husbonden. löpæ kono: löskvinna utan fast hushåll.",
+          "segmentId": "avg-b08-punkt06-seg002",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 6 §3–4"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 07",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 7 (Släktskapshinder och skilsmässa på grund av kognation)",
+      "balkId": "B08",
+      "pdfSidor": [12],
+      "kallpunkt": "7",
+      "meningar": [
+        {
+          "fsv": "7. Tals frænsim mællin hionæ tveggiæ. þa skal a þingi tæliæ. ok biscups lof til fa. at væriæ mæþ tvanni tylptum biþiæ sva sær guþ hull. ok vattum sinum at frændsim vkur ær sva skyuld sum nu havir. iak taltt. þa ma iak eigh boa hanni. at gusz rætti. Givær bondé sær sialvær sak. kallar sik sva skyldæ kono hava at sinni kono at han ma eigh bo hænni at gusz rætti. þa fulli þæt mæþ tvænni tylptum. værþær han fælþær þa skal han botæ hænni.",
+          "tolkning": "Uppstår tal om förbjuden frändskap mellan två makar, då skall det uppräknas på tinget och biskopens lov inhämtas därtill, att värja sig med två tolfter och bedja så Gud vara sig huld och sina vittnen, att vår frändskap är så nära som jag nu har uppräknat, så att jag icke må sammanbo med henne efter Guds rätt. Beskyller bonden sig själv och påstår sig hava en kvinna så nära besläktad till hustru att han icke må sammanbo med henne efter Guds rätt, då fullgöre han det med två tolfter; fälles han i eden, då skall han böta till henne.",
+          "kommentar": "frænsim: förbjuden släktskap enligt kanonisk rätt (impedimentum consanguinitatis). biscups lof: biskoplig jurisdiktion i äktenskapsmål. tvanni tylptum: 24 edsmän som bekräftar släktskapsträdet. Givær bondé sær sialvær sak: bonden försöker på egen hand få äktenskapet upplöst; misslyckas eden döms han till böter till hustrun för vanära och övergivande.",
+          "segmentId": "avg-b08-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 7"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 08",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 8 (Blodskam, incest och grova frändedråp – pilgrimsbot till Rom)",
+      "balkId": "B08",
+      "pdfSidor": [12],
+      "kallpunkt": "8",
+      "meningar": [
+        {
+          "fsv": "8. Liggær maþær hos dottor sinni. þæt mal skal af landi bort skiptæ ok til roms. Egho faþghar tver ena kono. Egho bröþær tver ena kono. Eghv bröþvngær tvær enæ kono. Eghu systrungær tver ena kono. Egho moþghur tva en man. Egho systær tua en man. Egho systrungur ællær bröþvngor tvar en man. þæt ær firnærværk.",
+          "tolkning": "Ligger en man hos sin dotter, skall det målet hänskjutas bort ur landet och till Rom. Hava far och son haft samma kvinna, hava två bröder haft samma kvinna, hava två kusiner på fädernet (brödrungar) haft samma kvinna, hava två kusiner på mödernet (systrungar) haft samma kvinna; hava mor och dotter haft samme man, hava två systrar haft samme man, hava två kusiner haft samme man: allt sådant är nidingsdåd (firnærværk).",
+          "kommentar": "firnærværk: oerhörda försyndelser och incestuösa förbindelser i de kanoniskt förbjudna leden (afinitet och konsangvinitet). Dessa utgjorde reserverade påvliga fall (casus papales) som icke kunde försonas i hemlandet utan fordrade botgöringsresa till Rom.",
+          "segmentId": "avg-b08-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 8"
+        },
+        {
+          "fsv": "§.1. Myrþir kona barn sit. Dræpær svn faþur sin. Ellær faþir son sin. Allær broþir broþor sin. Ellær bröþrungær broþrung sin. Allær systrungi systrung sin. Allær faþur faþur sin. Allær moþer faþur sin. Allær svnarsun sin. Allær dottorsvn sin. Allær broþor son sin. Allær systur. svn sin. Allum slikum malum skal af landi skiptæ mæþ brevi til pavæns i rom þer skulu af pavanum bref takæ. ok aptær til byscups föræ latæ han sea huilkæ miskun þer fingu. biscuper skal þem bref fa firi tyundæ sin. §.2. Af allum firnaruærkum. a biskupær. þrer markær. [Þ]er sum skriptæ. brut gæræ. þer eghu biscupi. III. markær.",
+          "tolkning": "§ 1. Mördar en kvinna sitt barn, dräper en son sin fader, eller en fader sin son, eller en broder sin broder, eller en brorson sin farbror, eller en systerson sin morbror, eller farfar, eller morfar, eller sonson, eller dotterson, eller brorson, eller systerson: i alla sådana mål skall saken hänskjutas ur landet med brev till påven i Rom; de skola mottaga brev från påven och föra tillbaka till biskopen och låta honom se vilken nåd de fingo; biskopen skall giva dem brev för deras tionde. § 2. Av alla nidingsdåd äger biskopen tre marker. De som begå skriftemålsbrott äro skyldiga biskopen tre marker.",
+          "kommentar": "Parenticid och grova frändedråp krävde biskopligt rekommendationsbrev och pilgrimsfärd till påvestolen för absolution. skriptæ brut: försummelse av ålagd kyrkobot och skriftemål böttes till biskopen med tre marker. Textkritisk notis: Källan har '?er sum skriptæ.' på s. 12 rad 44; frågetecknet är här diplomatariskt återgivet som [Þ] enligt transkriptionsreglerna.",
+          "segmentId": "avg-b08-punkt08-seg002",
+          "kallreferens": "AVG-MASKIN s. 12, Giptar bolker Punkt 8 §1–2",
+          "avvikelser": [
+            "Källtexten har '?er sum skriptæ.' på s. 12 rad 44; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 09",
+      "hanvisning": "Cod. Holm. B 59, Giptar bolkær Punkt 9 (Bröllopstider vid Mårtensmässa, laga förfall och trolovningsbrott)",
+      "balkId": "B08",
+      "pdfSidor": [13],
+      "kallpunkt": "9",
+      "meningar": [
+        {
+          "fsv": "9. Svnnudaghin þæn ær næst ær æptir martens mæssu dagh. at qvældi þa æru mungæts tiþir lagh taknær. §.1. Hæptir bonde fæsti kono mansz þa skal bruþmæn til gæræ. a mungats tiþæ daghi. tva mæn til garsz. gæræ. griþær at beþæs. þa skal hvar þerræ aþrum grid sækæ. i gard ok or. þa skal klæþi miætæ ok siþæn firi gipt skiliæ. §.2. Sva ær firi gipt at skiliæ. þaghær þer kumæ baþi a en bulstær ok vnþir ena bleo. þa a hvn þridiungh i bo. ok. III. markær at hindradax gæf. af hans lot.",
+          "tolkning": "Söndagen som är närmast efter Mårtensmässodagen på aftonen, då äro bryggningstiderna laga fastställda. § 1. Fäster en bonde en mans fästekvinna, skall han utse brudmän; på ölbryggningsdagen skall han sända två män till gården för att begära fred; då skall vardera parten söka fred hos den andre, i gården och utanför gården; då skall brudkläderna måttas och sedan upprättas villkoren för giftermålet. § 2. Så skola giftermålsvillkoren förstås: så snart de komma båda på samma bolster och under samma lakan, äger hon en tredjedel i boet och tre marker i hindradagsgåva ur hans lott.",
+          "kommentar": "martens mæssu dagh: Mårtensmässodagen den 11 november. Hösten efter skörd och slakt var den sedvanliga tiden för ölbrygd (mungæt) och bröllopsfester. bruþmæn: brudgumssvenner/brudfölje. grid: formell fred under gästabudet. klæþi miætæ: brudklädernas måttning och tillskärning. en bulstær ok vnþir ena bleo: den rituella sängledningen som gav hustrun full giftorätt till en tredjedel i boet samt morgongåvan.",
+          "segmentId": "avg-b08-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 13, Giptar bolker Punkt 9–§2"
+        },
+        {
+          "fsv": "§.3. Svn han hanum sinæ fæstikono a þrim laghæ ölstæmpnum. þa ær han sakar at. IX. markum viþ saksokiæ. ok sua viþ konong ok sva viþ allæ mæn. §.4. Sva skal bonde byudæ fæstikono. at laghum at þrim ölstæmnum sva sum. beþæs §.5. þæt ær laghæ forfal manz ok kono at þer siuk æru ællær bruþ vaþir inni brænþær. þær ær forfal bæggiæ. þerræ æn þiufnæþær ællær bosran havir iuir gangit. Æn han latær þing. visæ. þa skal tva mæn a þingi. lata forfal bæræ. Vill. han eigh at þy litæ. þa skal a endaghæ mæþ. tylptær eþe. ok tuænni vittnum biþia sva sær guþ holl. ok vat sinni. at han fæk laghæ forfæll. ok þy ma iak eigh giptæ þær hanæ.",
+          "tolkning": "§ 3. Förvägrar han honom hans fästekvinna vid tre laga ölstämmor, då böte han nio marker till målsäganden, och likaså till konungen och likaså till alla män. § 4. Så skall en bonde bjuda till sin fästekvinna enligt lag vid tre ölstämmor såsom det begäres. § 5. Detta är laga förfall för man och kvinna: att de äro sjuka eller att brudkläderna brunnit inne; där är förfall för dem båda om stöld eller hemgångsrån övergått dem. Men vill han hänskjuta till tinget, skall han låta två män vittna om förfallet på tinget. Vill han icke nöja sig därmed, skall han på endagen med en tolftared och två vittnen svära, och bedja Gud och sitt vittne vara sig huld, att han fick laga förfall och att 'därför förmår jag icke gifta henne till dig'.",
+          "kommentar": "Svn han: förvägrar/tredskas han. ölstæmpnum: fastställda bröllopsdagar. Tre kallelser fordrades innan böter inträdde. laghæ forfal: godtagbara juridiska hinder (litis contestatio) såsom akut sjukdom, vådeld där brudkläderna brunnit upp (bruþ vaþir inni brænþær) eller rån och stöld. endaghæ: fastställd svarsdag på tinget med tolftared.",
+          "segmentId": "avg-b08-punkt09-seg002",
+          "kallreferens": "AVG-MASKIN s. 13, Giptar bolker Punkt 9 §3–5"
+        },
+        {
+          "fsv": "§.6. Vill han væriæ firi hanum. þa skal firi gangæ mæþ tvænni tylptum biþiæ sva sær guþ holl ok uattum sinum. at frænsim þerræ ær sva skylþ at þer mughv eigh bo mæþ gusz rætti. ællær sifskapær. §.7. Kvæþær han ne viþ kallæss eigh fæst havæ þa skal han firi ganga mæþ tvannum tylptum. biþiæ sva sær guþ holl ok vattum sinum at han fæsti hana eigh sva sum lagh sighiæ i landi þæssu.",
+          "tolkning": "§ 6. Vill han värja sig emot honom, skall han träda fram med två tolfter och bedja Gud och sina vittnen vara sig huld, att deras släktskap eller svågerskap är så nära att de icke förmå sammanbo efter Guds rätt. § 7. Svarar han nej och säger sig icke hava fäst henne, då skall han träda fram med två tolfter och svära, och bedja Gud och sina vittnen vara sig huld, att han icke fäste henne såsom lagen säger i detta land.",
+          "kommentar": "tvænni tylptum: 24 edsmän för att bevisa släktskapshinder (frænsim) eller svågerskap (sifskapær) som upphäver trolovningen, alternativt förneka att giltig fästning alls ägt rum enligt landets lag.",
+          "segmentId": "avg-b08-punkt09-seg003",
+          "kallreferens": "AVG-MASKIN s. 13, Giptar bolker Punkt 9 §6–7"
+        }
+      ]
+    }
+  ]
+}

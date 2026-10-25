@@ -1,0 +1,78 @@
+{
+  "titel": "Huru mylnu skal gæræ",
+  "underrubrik": "Äldre Västgötalagen, kvarnbygge, dämning, kungsådra och vattenrätt (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Vattenrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Kvarnbalken (Huru mylnu skal gæræ) i Äldre Västgötalagen utgör en av de allra äldsta kodifieringarna av svensk vattenrätt och miljörätt. Balken reglerar anläggandet av vattenkvarnar med hänsyn till grannars tomter, åkrar, ängar, vägar, forta (byallmänning) och äldre vattenverk. Texten fastställer den berömda kungsådrans föregångare — att en tredjedel av strömfåran i allmänt vatten alltid måste lämnas öppen medan två tredjedelar må dämmas —, krav på laga köp av landfäste på motstående strand, treårig förfallotid för ödelagda kvarnställen innan de må återtas, vägrätt framför kvarndörren vid intaga på allmänning, samt ett ovillkorligt förbud mot att avleda vatten ur dess urgamla fåra till förfång för andra.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Huru mylnu skal gæræ Inledning–§ 1 (Kvarnanläggning, dämning och fiskeverk)",
+      "balkId": "B11",
+      "pdfSidor": [18],
+      "kallpunkt": "intro-1",
+      "meningar": [
+        {
+          "fsv": "Uill maþær mylnu gæræ han ma eig sua gæræ at topt annærs manss spillis eig akri. eig æng eig væghum mannæ. eig forta grannæ. ok eig mylnu þerre ær för var gör eig fiski uærkum. §.1. fiskigarþi ma ok eig sua gæræ at þem ælþri fiskigarþi spillir. Eig ma fiskiæ .i. stæmmum manss annar æn þæn ær .a. eigh i diki. annar manss.",
+          "tolkning": "Vill en man bygga en kvarn, må han icke göra det så att en annans tomt skadas, ej åker, ej äng, ej människors vägar, ej grannars forta (fägata/byallmänning), och ej den kvarn som förr var byggd, ej heller fiskeverk. § 1. Fiskegård må man icke heller göra så att den skadar en äldre fiskegård. Ingen annan må fiska i en mans kvarndamm än den som äger den, och ej i en annans dike.",
+          "kommentar": "forta: byallmänning, öppen gata eller fägata mellan gårdarna. stæmmum: uppdämt vatten/kvarndamm. Förbud mot uppdämning som orsakar dämvattenskada eller översvämning på uppströms belägen tomt, åker, väg eller äldre kvarnar och fiskeverk.",
+          "segmentId": "avg-b11-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 18, Huru mylnu skal gæræ Inledning–§ 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Huru mylnu skal gæræ § 2–§ 3 (Ödekvarnar, timmerverk och syn)",
+      "balkId": "B11",
+      "pdfSidor": [18],
+      "kallpunkt": "2-3",
+      "meningar": [
+        {
+          "fsv": "§.2. Mylnu staþer ligær öþe. þrea uettær allær þrim vættrum længær æru fang af roten. þa sa wald at takæ ær uill. Sighir sua þén ær mylnustaþ atti. at fang æru eigh al af roten viti mæþ tvænni tylptum at stiborþ. stoþu ok stulpær. ok dræskulli la ok holagh. Æ a maþær mylnustaþ. mæþæn. þe fang æru. all vroten. Sa maþær a mylnu stad. ær fyrst gær uærk a hvat. þæt ær hældæ a aldra götæ æng. ællær alþra grænnæ. §.3. Delæ mæn vm mylnu stad kallær huar sik eghæ. þa skal asyn til næmnæ. þen skal lagh fa vittnum uærþær siþæri havæ baþir iammargh vitni. þa skal lanz asyn næmnæ til ok skiliæ mælli. þerræ.",
+          "tolkning": "§ 2. Ligger ett kvarnställe öde i tre vintrar eller längre än tre vintrar och äro virket och anläggningen bortmultnade, då har den rätt att taga det som vill. Säger den så som ägde kvarnstället att virket icke är helt förmultnat, då styrke han med två tolfter att stigbord (dammluckor), stolpar och trösklar samt ränna och hjulhus ännu voro bevarade; alltid äger man kvarnstället så länge detta timmerverk icke är helt multnat. Den mannen äger kvarnstället som först uppför anläggning där, vare sig det är på alla götars allmänning eller alla grannars. § 3. Tvista män om ett kvarnställe och påstår sig vardera äga det, då skall syn tillsättas; den skall få laglig rätt som senare framträder med vittnen; hava båda lika många vittnen, skall landssyn tillsättas och avgöra emellan dem.",
+          "kommentar": "stiborþ: stigbord, rörlig dammlucka för att reglera vattenpådraget. stulpær: bärande stolpar i dammen. dræskulli: tröskel i dämmet. holagh: hjulhus eller vattenränna. öþe þrea uettær: treårig preskriptionstid för övergivet kvarnställe. lanz asyn: landssyn (lagmannens syn) vid oenighet bland lokala synemän.",
+          "segmentId": "avg-b11-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 18, Huru mylnu skal gæræ § 2–§ 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Huru mylnu skal gæræ § 4–§ 8 (Kungsådra, landfäste, kvarndörr och vattenfåra)",
+      "balkId": "B11",
+      "pdfSidor": [18],
+      "kallpunkt": "4-8",
+      "meningar": [
+        {
+          "fsv": "§.4. Gær maþær mylnu i almænnisz vattni a annar maþær eing annænuagh þa skal þridiungær löss faræ af vattni æn tua löte ma han stæmnæ. eig iuir a land num han fa landfæstu mæþ fæst ok vmfærþ laghæ. §.5. Takæ grænnær almænnig in firi mylnu dörom. þa skal han sær uæghær kræfiæ. þer skulu hanum uægh læggiæ. Gaar maþær þæt eig laghskiptæ þer iorþo lyutær annær firi mylnu dorom. þa ær mylnæ han vnit. §.6. Maþer gær myulnu. a æng sinni liggær grænnæ almænnigær i gen annanuagh. a byr annær. þa skal han landfæstu köpæ af þem ær þær a iorþ i by. §.7. Vatn skal eigh vændæ af fornu fari. aþrum manni til andmarkæ aþruvis æn fyr hauir runnit. §.8. Iorþ ma eigh at mutu takæ.",
+          "tolkning": "§ 4. Bygger man kvarn i allmänt vatten och äger en annan äng på andra sidan, då skall en tredjedel av vattnet löpa fritt (kungsådran), men två tredjedelar må han dämma; han må icke dämma över på annans land såvida han icke erhållit laga landfäste med fastar och umfärd. § 5. Göra grannarna intaga på allmänning framför kvarndörrarna, då skall han kräva väg och de skola lägga väg för honom; sker icke lagligt skifte där och tillfaller jorden framför kvarndörrarna en annan, då har han dock vunnit kvarnen. § 6. Bygger man kvarn på sin egen äng och grannarnas allmänning eller en annan by ligger mittemot på andra sidan ån, då skall han köpa landfäste av dem som äga jorden i den byn. § 7. Vatten skall man icke vända ur sin gamla fåra till annans förfång, annorlunda än det förr har runnit. § 8. Jord må man icke taga med mutor.",
+          "kommentar": "þridiungær löss faræ af vattni: tidigaste föregångaren till kungsådran i svensk rätt (fri genomströmning för fisk och båtled). landfæstu: servitut/rättighet att fästa dammfäste i motstående strandbrink. Vatn eigh vændæ af fornu fari: strikt förbud mot att leda om naturliga vattendrag.",
+          "segmentId": "avg-b11-punkt01-seg003",
+          "kallreferens": "AVG-MASKIN s. 18, Huru mylnu skal gæræ § 4–§ 8"
+        }
+      ]
+    }
+  ]
+}

@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "validate:kallor": "tsx scripts/validate-kallor.ts",
+    "validate:texter": "tsx scripts/validate-texter.ts",
     "import:ordbok": "tsx scripts/import-ordbok.ts",
     "sync:grammar-tree": "tsx scripts/sync-grammar-tree.ts",
     "start": "next start",
@@ -14,21 +15,24 @@
     "seed:ordbok": "tsx scripts/seed-ordbok-supabase.ts"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.5.1",
+    "@supabase/supabase-js": "^2.45.0",
+    "@types/leaflet": "^1.9.22",
+    "leaflet": "^1.9.4",
     "next": "14.2.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "@supabase/supabase-js": "^2.45.0",
-    "@supabase/ssr": "^0.5.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.11",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
+    "dotenv": "^16.4.5",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
-    "typescript": "^5.5.4",
     "tsx": "^4.16.2",
-    "dotenv": "^16.4.5"
+    "typescript": "^5.5.4"
   }
 }

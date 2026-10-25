@@ -13,7 +13,7 @@ import { TEXTER_DOKUMENT } from "@/data/textdokument";
 import type { Dokument } from "@/lib/dokument";
 import type { Textdokument } from "@/lib/text";
 import { HAR_SUPABASE } from "@/lib/supabase/config";
-import { skapaServerKlient } from "@/lib/supabase/server";
+import { skapaPublikServerKlient } from "@/lib/supabase/server";
 import { ROTNAMN, type Crumb, type Node, type NodeKind } from "@/lib/typer";
 
 export type { Crumb, Node, NodeKind };
@@ -80,7 +80,7 @@ export const getRoot = cache(async (root: string): Promise<Node[]> => {
   if (!ANVAND_SUPABASE_ARKIV) return FILTRAD[root] ?? [];
 
   try {
-    const supabase = skapaServerKlient();
+    const supabase = skapaPublikServerKlient();
     const { data, error } = await supabase
       .from("nodes")
       .select("id, parent_id, slug, title, kind, note, position")
@@ -155,6 +155,29 @@ export function countTree(nodes: Node[]): { folders: number; docs: number } {
   );
 }
 
+/**
+ * Samlar alla befintliga sökvägar (mappar och dokument) för en given rot,
+ * inklusive den tomma roten [] för arkivets rotvy.
+ */
+export async function getAllPaths(root: string): Promise<string[][]> {
+  const tree = await getRoot(root);
+  const paths: string[][] = [[]];
+
+  function samla(nodes: Node[], prefix: string[]) {
+    for (const node of nodes) {
+      const current = [...prefix, node.slug];
+      paths.push(current);
+      if (node.children && node.children.length > 0) {
+        samla(node.children, current);
+      }
+    }
+  }
+
+  samla(tree, []);
+  return paths;
+}
+
+
 /** Innehåll (JSONB) för ett dokument, oavsett rot. */
 async function hamtaInnehall<T>(
   root: string,
@@ -165,7 +188,7 @@ async function hamtaInnehall<T>(
     const nod = await getNode(root, path);
     if (nod?.id) {
       try {
-        const supabase = skapaServerKlient();
+        const supabase = skapaPublikServerKlient();
         const { data, error } = await supabase
           .from("nodes")
           .select("content")

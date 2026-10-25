@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "kallaId": "AVG-MASKIN",
+  "titel": "Äldre Västgötalagen enligt Holm B 59",
+  "relativSokvag": "Källor/Västgötalagen i maskintext.pdf",
+  "publikSokvag": "public/bocker/vastgotalagen/vastgotalagen-maskintext.pdf",
+  "filstorlekBytes": 330564,
+  "sha256": "b1065ce2871bf49afa9f3bb046f0a1d053632bd48bffb110f13204cdf48f4f5b",
+  "sidantal": 25,
+  "skapadDatum": "2026-06-27T17:22:43",
+  "granskadDatum": "2026-10-22",
+  "pdfGenerator": "PDFium",
+  "extraktionsverktyg": "python3 pypdf (med unicodedata NFC-hantering)",
+  "formedlingsled": {
+    "handskrift": {
+      "signum": "Cod. Holm. B 59",
+      "forvaring": "Kungliga biblioteket, Stockholm",
+      "datering": "ca 1280 (huvudhanden)"
+    },
+    "trycktForlaga": {
+      "titel": "Corpus iuris Sueo-Gotorum antiqui: Samling af Sweriges Gamla Lagar (SSGL I)",
+      "utgivare": "H.S. Collin & C.J. Schlyter",
+      "tryckort": "Stockholm",
+      "tryckar": 1827
+    },
+    "maskintext": {
+      "upphov": "Lars-Olof Delsing",
+      "institution": "Institutionen för nordiska språk, Lunds universitet",
+      "inledandeTextdeklaration": "enligt Holm B 59 / Texten är inskriven efter Collin/Schlyters utgåva (SSGL I) av Lars-Olof Delsing vid institutionen för nordiska språk i Lund."
+    }
+  },
+  "jamforelseMedPublikKopia": {
+    "arIdentisk": true,
+    "publikSha256": "b1065ce2871bf49afa9f3bb046f0a1d053632bd48bffb110f13204cdf48f4f5b",
+    "publikStorlekBytes": 330564
+  },
+  "avgransningOchKallstatus": {
+    "typ": "kalltrogen atergivning av lokal maskintext",
+    "arDiplomatariskAvskriftAvHandskrift": false,
+    "hanvisningsprincip": "Alla sidhänvisningar avser den lokala maskintextens PDF-sidor 1–25. Fiktiva handskriftsfolier eller SSGL-sidnummer får inte fabriceras."
+  }
+}

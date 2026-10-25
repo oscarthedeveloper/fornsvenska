@@ -1,0 +1,266 @@
+{
+  "titel": "Fornamix bolkær",
+  "underrubrik": "Äldre Västgötalagen, stängselsyn, vallhjon, jakträtt, vildbin, mordbrand och legofolk (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Sakrätt, arbetsrätt och jaktlagstiftning"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Andra avsnittet märkt 13 (Fornamix bolkær / Åverkansmål II) i Äldre Västgötalagen reglerar byalagets gemensamma hägnad, boskapsskötsel, skogsfång och arbetsavtal. Balken fastställer gärdesgårdstvång vid Kristi himmelsfärdsdag, åkerbök av svin och häst, grässätens förlust av betesrätt, prästens rätt till sockenhäst i gärdet för sockenbud (husla och olja), samt det forntida smittskyddsförbudet mot införsel av fä från Falbygden. Vidare innehåller balken den klassiska ansvarsfördelningen mellan herdens vårdslöshet (vangömsla) och övermakt (ofævli), fynd av vildbin (koppofynd), den berömda allittererande jakträttsformeln för vilt, förbud mot ekbarkning och skadegörelsebränder, herdevittnesbörd vid kadaverfynd, samt fardagar (påsk och mickelsmäss) och ömsesidiga avtalsbrottssanktioner för legofolk.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 1 (Utgärden, led och gärdesgårdssyn vid Kristi himmelsfärdsdag)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "1. Utgarþær allir ok liþ skulu uæræ firi. ok gild vm hælgha þorsdagh. Liggær lid ugilt þær ær sax öræ sak. öre firi enkæ gap a utgardhum. attæ ortoghær firi bolgar.",
+          "tolkning": "1. Alla utgärden och grindar (led) skola vara för och gilda vid Kristi himmelsfärdsdag (helga torsdag). Ligger ett led ogillt, då är det en sak om sex örar; en öre för varje öppning (gap) i utgärden; åtta örtugar för bolstergärde.",
+          "kommentar": "hælgha þorsdagh: Kristi himmelsfärdsdag var den lagstadgade fristen då samtliga byns inhägnader kring inägor och slåtteräng måste vara synade och iståndsatta. liþ: grind/fäled. bolgar: bolstergärde (huvudgärdesgård kring inägorna). enkæ gap: enstaka stängselöppning.",
+          "segmentId": "avg-b13b-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 2 (Hästvältrande och svinbök i uppkommen säd)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "2. Væltær hestær. rotær svin a akri vprunnum. bote firir slickt korn sum a ær sat. skæppv firir huæriæ þriðiu valtran ællær þriþiu rotæn.",
+          "tolkning": "2. Vältrar sig häst eller rotar svin i uppkommen åker: böte med samma slags korn som där är sått, en skäppa för var tredje vältrande eller var tredje bökning.",
+          "kommentar": "akri vprunnum: åker där sädden grott och skjutit strå. skæppv: skäppa (fornsvenskt spannmålsmått). Ersättning in natura med samma kornslag för tramp- och bökskador.",
+          "segmentId": "avg-b13b-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 3 (Grässäte och förlust av betesrätt)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "3",
+      "meningar": [
+        {
+          "fsv": "3. Sitær græssæti i by mansz a hvarti i garþum allær lidum eigh eng ok eigh akær. þa a han eigh mæþ laghum utængarz at hawæ nokot þæt ær kuikændis ær num han sæki sik at þrænnisaxtanörtoghum.",
+          "tolkning": "3. Sitter en grässäte (inhyseshjon utan jord) i en mans by och äger varken i gärden eller led, varken äng eller åker: då har han icke enligt lag rätt att ha något kreatur utom gärdesgården, såvida han ej vill plikta tre sextonörtugar (sex marker).",
+          "kommentar": "græssæti: grässäte, jordlös person eller inhysing som bebor stuga på annans tomt utan odelsandel i byns mark. Betesrätten på byns utmark tillkommer uteslutande hemmansägare; olovlig betning straffas med 3 sextonörtugar (6 marker).",
+          "segmentId": "avg-b13b-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 4 (Tjuderfä och prästens sockenhäst)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "4. Eig a tiuþærfæ i gærþi at gangæ ulowandiss num han sæki sik viþ allæ grannæ at attaörtoghum.",
+          "tolkning": "4. Inget tjuderfä har rätt att gå i gärdet utan lov, såvida han ej vill plikta mot alla grannarna med åtta örtugar.",
+          "kommentar": "Förbud mot att släppa tjudrat fä i byns inhägnad utan samfällt grannelov; boten är 8 örtugar.",
+          "segmentId": "avg-b13b-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 4"
+        },
+        {
+          "fsv": "§.1. Præstær a meþ laghum en hæst i garþi at havæ firi þy. at han skal i sokn riþæ æn braþlikæ kumæ buþ bondæ at huslæ allær oliæ.",
+          "tolkning": "§ 1. Prästen har enligt lag rätt att ha en häst i gärdet, emedan han skall rida i socknen om det hastigt kommer bud från en bonde för att ge sista smörjelsen eller bereda till döden (husla eller olja).",
+          "kommentar": "huslæ: ge sakramentet / sista nattvarden (viaticum). oliæ: ge sista smörjelsen (unctio extrema). Prästens pastorala plikt vid dödsbud ger honom laglig dispens att hålla beteshäst redo inom byns hägn.",
+          "segmentId": "avg-b13b-punkt04-seg002",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 4 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 5 (Inköp av fä från Falbygden och smittskydd)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "5. Chöper man fæ af falby. vrakær hem vlowandisz grannum þa skal niþær guggæ sum stæþær.",
+          "tolkning": "5. Köper en man fä från Falbygden och driver hem utan lov från grannarna: då skall det huggas ned där det står.",
+          "kommentar": "falby: Falbygden. niþær guggæ: huggas ned / avlivas direkt på stället. Ett av Nordens tidigaste veterinärmedicinska smittskyddsstadganden för att hindra spridning av boskapspest och mjältbrand genom okontrollerad djurflytt.",
+          "segmentId": "avg-b13b-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 5"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 6 (Ansvarsfördelning för fä: vårdslöshet gentemot övermakt)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "6. Foþær fæ ok leghu fæ tækkiu fæ ok nam fæ. þy skal warþæ firi aldri vangömslu. fult ok klaui. byargh ok bro. vatn ok dy. varghi ok þiuvi. þæssi æru al wangömslæ. þem skal aptær bötæ mæþ typltær eþe.",
+          "tolkning": "6. Foderfä och legofä, tackfä (mottaget fä) och namfä (pantfä): för dessa skall man svara mot all vårdslöshet (vangömslu). Fåll och klave, berg och bro, vatten och gyttja (dy), varg och tjuv: alla dessa äro vårdslöshet; för dem skall man ersätta med tylfted.",
+          "kommentar": "Klassisk uppräkning av förmögenhetsrättsliga skadefall som tillskrivs herdens eller fodervärdens culpa/vårdslöshet (wangömslæ). Vargangrepp och drunkningsolyckor presumeras bero på bristande tillsyn.",
+          "segmentId": "avg-b13b-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 6"
+        },
+        {
+          "fsv": "§.1. Firi ofævli skal eigh warþæ. þæssi æru ofævli asikkiæ. eldær. raan byorn. stingær ok starui.",
+          "tolkning": "§ 1. För övermakt (ofævli) skall man icke svara; dessa äro övermakt: blixtnedslag (asikkiæ), eldsvåda, rån, björn, stingsjuka och svält/farsot (starui).",
+          "kommentar": "ofævli: force majeure / oundviklig övermakt som befriar från skadeståndsansvar. asikkiæ: blixtnedslag (egentligen 'as-syn/asablot', gudsdom). björn (som ansågs oövervinnelig för herden), rån och dödliga epidemier.",
+          "segmentId": "avg-b13b-punkt06-seg002",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 6 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 07",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 7 (Koppofynd, den klassiska jakträttsformeln och falkjakt)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "7",
+      "meningar": [
+        {
+          "fsv": "7. Hittir maþær koppo fund a annærs mansz éng sæmbær þem .a. þa a halft sa ær stok hitti ok halft sa ær aghu a. Skil þem a þa a sar uitu ær æng a suæriæ mæþ tylptær eþe ok tuæggiæ mannæ vittum at stok þænnæ þu klandær mærkti iak fyrræ. þy a iak ok þv eigh.",
+          "tolkning": "7. Finner en man ett koppofynd (vildbisvärm i ihåligt träd) på en annans äng och enas de därom, då äger den hälften som fann stocken och den hälften som äger marken. Skiljer dem åt, då har ängsägaren vittnesföreträde att svärja med tylfted och två mäns vittne att 'denna stock som du klandrar märkte jag förr; därför äger jag och du icke'.",
+          "kommentar": "koppo fund: fynd av vilda bin och honung i ihåligt träd (kopp). Hälftendelning mellan upphittare och markägare om sämja råder; eljest vittnesföreträde för markägaren.",
+          "segmentId": "avg-b13b-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 7"
+        },
+        {
+          "fsv": "§.1. [Þ]æn a hæræ ær hændir þæn a ræf ær refer. þæn a vargh ær vinþær þæn a biorn ær betir þæn a ælgh ær fællir. þæn a otær ær or a taker.",
+          "tolkning": "§ 1. Den äger hare som fångar (händer); den äger räv som river; den äger varg som övervinner; den äger björn som biter (sårar först); den äger älg som fäller; den äger utter som tager ur å.",
+          "kommentar": "Den odödliga fornsvenska allittererande jakträttsformeln som fastställer tillägnelsekriterierna för vilt. Textkritisk notis: Källan har '?æn a hæræ' på s. 23 rad 20; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna.",
+          "segmentId": "avg-b13b-punkt07-seg002",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 7 § 1",
+          "avvikelser": [
+            "Källtexten har '?æn a hæræ' på s. 23 rad 20; frågetecknet diplomatariskt återgivet som [Þ]."
+          ]
+        },
+        {
+          "fsv": "§.2. Hittir þæn koppofund ær. a lagha lot i skoghæ haui allæn koppofund eghi ma huggæ ek niþ vtæn grannæ lof. Hittir maþær hökæ a skoghi sinum allær a almanningi bindær værpplæ vm fötær eig ma annær bort takæ num han sæki sik at þrænni sæxtanörtoghum.",
+          "tolkning": "§ 2. Finner den ett koppofynd som äger laga lott i skogen, have han hela koppofyndet; dock må han icke hugga ned ek utan grannars lov. Finner en man hökar i sin skog eller på allmänning och binder varplar (fotremmar) om fötterna: då må ingen annan taga bort dem, såvida han ej vill plikta tre sextonörtugar.",
+          "kommentar": "værpplæ: varplar, läderremmar om fötterna på unga jaktfalkar i boet som tecken på inmutning för falkjakt. Stöld av märkt falkunge bötar 3 sextonörtugar (6 marker).",
+          "segmentId": "avg-b13b-punkt07-seg003",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 7 § 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 08",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 8 (Barka ollonbärande ek och undervid)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "8",
+      "meningar": [
+        {
+          "fsv": "8. Flar maþær enæ ek aldinbæræ i skoghe manss. þæt ær sæx öra sak hæn han kombær eigh. dulum viþ. Flar maþær þreæ. allær. III. flere þæt ær. þrænni saxtanörtoghæ sak. Flar vndirviþv til las. viþær þæt ær. sax öræ sak. Flar han. III. lass allær. III. flerre böte þrannisæxtanörtoghær. Kvæþæer maþær ne viþ þa skal hanum uisa siunatting. væri sik mæþ tolf mannum.",
+          "tolkning": "8. Flår (barkar) en man en ollonbärande ek i en mans skog, det är en sak om sex örar om han icke förnekar det. Flår en man tre eller fler än tre, det är en sak om tre sextonörtugar. Flår han undervid till ett lass virke, det är en sak om sex örar; flår han tre lass eller fler än tre, böte han tre sextonörtugar. Säger en man nej därtill, då skall man sätta sjunattastämma för honom; värje sig med tolv män.",
+          "kommentar": "flar: flår, avbarkar ek för garvämnen (vilket dödade trädet och förstörde ollonbetet). Boten graderas från 6 örar till 3 sextonörtugar (6 marker) med tolvmannaned vid förnekande.",
+          "segmentId": "avg-b13b-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 8"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 09",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 9 (Skadegörelsebränder på hö, kvarnar, broar och virke)",
+      "balkId": "B13b",
+      "pdfSidor": [23],
+      "kallpunkt": "9",
+      "meningar": [
+        {
+          "fsv": "9. Brænnir maþær hö manss a æng vti. þæt ær rætlösæ. þa skal sökiæ til mæþ sivnattingi hin skal variæ sik mæþ tylptar eþe. ok tvæggiæ mannæ vittnum. at iak brændi eigh hö þit ok eigh ær iak sanþær at sak þerre þu giuær mær.",
+          "tolkning": "9. Bränner en man en mans hö ute på äng, det är rättslöshet (våldsdåd). Då skall man söka med sjunattastämma; den andre skall värja sig med tylfted och två mäns vittne: att 'jag icke brände ditt hö och icke är jag sann till den sak som du tillmäler mig'.",
+          "kommentar": "Mordbrand på höstackar ute på slåtteräng betraktas som grovt våldsdåd (rætlösæ) som fordrar tylfted och två vittnen.",
+          "segmentId": "avg-b13b-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 9"
+        },
+        {
+          "fsv": "§.1. sva ær vm al þy mal annur æn brænnir mylnu ællær v fiskigarþ. risgarþ. bro ællær fang manss huggin i skoghe. þæt ær alt rætlösæ. þæt skal alt aftær gialdæ mæþ suornom eþe. at þæt var eigh bætræ ok ouan a þranisaxtanörtoghær.",
+          "tolkning": "§ 1. Likaså är om alla andra sådana mål, om man bränner kvarn eller fiskegård, risgärde, bro eller en mans virke hugget i skog: det är allt rättslöshet; allt detta skall gäldas åter med svuren ed att det icke var bättre (värderingsed), och därutöver tre sextonörtugar.",
+          "kommentar": "Uppsåtlig brand på vattenverk, gärden, broar eller virke medför skadeersättning fastställd med ed samt 3 sextonörtugar (6 marker) i bot.",
+          "segmentId": "avg-b13b-punkt09-seg002",
+          "kallreferens": "AVG-MASKIN s. 23, Fornamix bolkær Punkt 9 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 10",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 10 (Rovdjursangrepp, herdeansvar och avläster)",
+      "balkId": "B13b",
+      "pdfSidor": [23, 24],
+      "kallpunkt": "10",
+      "meningar": [
+        {
+          "fsv": "10. Takæ diur fæ fran hirþingiæ far eigh aflæstir aftær hætti viþ sva mykli leghu sum han skuldi hauæ firi þæt fæ far han aflæstir aftær vari saklös.",
+          "tolkning": "10. Taga vilda djur fä från en herde och får han icke lämningar (avläster/kadaverdelar) åter: böte han med så mycket i lön som han skulle ha för det fäet; får han lämningar åter, vare han saklös.",
+          "kommentar": "aflæstir: avläster (rester, skinn, öron eller ben av det rivna djuret som bevisar att det fallit offer för rovdjur). Får herden inte fram avläster dras skadan från hans lön.",
+          "segmentId": "avg-b13b-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 23–24, Fornamix bolkær Punkt 10"
+        },
+        {
+          "fsv": "§.1. Liggær fæ i dyæ döt. þa skal hirþingi staf sin hos stingæ hat sin vndir hovoþ læggiæ. allær kapu. allær. ris. vnþir brytæ. þær skulu vittni bæræ at vangömslæ hans gek eigh at.",
+          "tolkning": "§ 1. Ligger fä dött i dy (kärr): då skall herden sticka sin stav bredvid, lägga sin hatt under huvudet eller kappa eller bryta ris därunder; dessa skola bära vittne om att det icke skedde genom hans vårdslöshet.",
+          "kommentar": "staf sin hos stingæ... hat sin vndir hovoþ læggiæ: arkaisk bevisprocedur i skog och mark. Herden lämnar sina personliga plagg och stav vid det omkomna djuret för att säkra platsen och bevisa att han inte övergett hjorden genom vangömsla.",
+          "segmentId": "avg-b13b-punkt10-seg002",
+          "kallreferens": "AVG-MASKIN s. 24, Fornamix bolkær Punkt 10 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 11",
+      "hanvisning": "Cod. Holm. B 59, Fornamix bolkær Punkt 11 (Fardagar, städjeavtal, legofolk och avtalsbrott)",
+      "balkId": "B13b",
+      "pdfSidor": [24],
+      "kallpunkt": "11",
+      "meningar": [
+        {
+          "fsv": "11. Laghæ stæmnudaghæer æru tver. Paskær ok mikyalsmæssæ.",
+          "tolkning": "11. Laga flyttningsdagar (stämnodagar) äro två: påsk och mickelsmäss (29 september).",
+          "kommentar": "Paskær ok mikyalsmæssæ: de två lagstadgade till- och frånträdesdagarna för tjänstehjon och jordbruksavtal i medeltida svensk rätt.",
+          "segmentId": "avg-b13b-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 24, Fornamix bolkær Punkt 11"
+        },
+        {
+          "fsv": "§.1. Fæstir maþær leghoman ær eigh gangin a wist hans. þa ær þæt vitæ hans mæþ tylptær eþe. ok tvæggiæ mannæ uittnum at iak fæstis eigh mæþ þær ok ængin staþvæ giorþi iak uið. þor han eigh þæt suæriæ. luki vp sva myklæ legho sum hanum var mælt. Gangær han a uist hans ætæt nætorþ ok daghor þa kombær han eigh laghum uiþ. luki up sua myklæ legho sum hanum uar mælt. ok böte þranni þrannisaxtanörtoghær ovan a. Hvar haldær sin bonde hauir lagkklandæt sin legho man. böte þranni saxtanörtoghær.",
+          "tolkning": "§ 1. Städjer en man en legodräng och har denne icke trätt i hans tjänst (vist): då är det dennes värjemål med tylfted och två mäns vittne att 'jag lejde mig icke hos dig och inget städjeavtal slöt jag med dig'. Tör han icke svärja det, gälde han så stor lön som avtalats åt honom. Har han trätt i hans tjänst och ätit kvällsmat och dagsmål, då gitter han icke avvärja med lag; gälde han så stor lön som avtalats och böte tre sextonörtugar därutöver. Håller en bonde en annans legoman som blivit lagligen klandrad, böte han tre sextonörtugar.",
+          "kommentar": "ætæt nætorþ ok daghor: fullbordat tjänsteavtal genom deltagande i hushållets måltider (nattvard och dagsmål). Avtalsbrott från legodrängens sida bestraffas med förverkad lön samt 3 sextonörtugar (6 marker) i bot. Likaledes bötar den bonde som olovligen härbärgerar annans legodräng.",
+          "segmentId": "avg-b13b-punkt11-seg002",
+          "kallreferens": "AVG-MASKIN s. 24, Fornamix bolkær Punkt 11 § 1"
+        },
+        {
+          "fsv": "§.2. Hætti bondi sliku samu viþær æn an vrakær bröt legho man af hæskap ok af uist sinni. Geri huemledær sik vreþæn.",
+          "tolkning": "§ 2. Våge bonden detsamma om han driver bort sin legoman ur sitt hushåll och sin tjänst. Göre vemhelst sig vred därmed.",
+          "kommentar": "Ömsesidigt avtalsansvar: husbonden svarar för samma påföljd om han utan laga skäl fördriver sin legoman under tjänsteåret.",
+          "segmentId": "avg-b13b-punkt11-seg003",
+          "kallreferens": "AVG-MASKIN s. 24, Fornamix bolkær Punkt 11 § 2"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

@@ -1,0 +1,265 @@
+{
+  "titel": "Kristnu balkær, del III",
+  "underrubrik": "Äldre Västgötalagen, klockfall, kyrkogård och prästens förfall (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Tredje delen av kristendomsbalken i Äldre Västgötalagen reglerar vådaeld i kyrkobyggnad och prästens ljusansvar, ersättning för förlorade mässkärl, skadestånd vid fallande kyrkklockor, majoritetsbeslut vid prästval, kyrkogårdsfrid och gärdesgårdsunderhåll, företrädesordning mellan dop och dödssakrament, prästens laga förfall vid sjukbud samt arvoden vid likvaka och sockenbud.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 8–9 (Vådaeld och mässkärl)",
+      "balkId": "B01",
+      "pdfSidor": [2],
+      "kallpunkt": "8-9",
+      "meningar": [
+        {
+          "fsv": "Brender up kyrkia þa skal prester böta. þrer markær. prester skal wardæ framlyvsum. oc þen baklyvsum er tænder",
+          "tolkning": "Brinner en kyrka upp, då skall prästen böta tre marker. Prästen skall svara för framljusen, och den för bakljusen som tänder.",
+          "kommentar": "Brender up kyrkia: inversionsinledd villkorssats. framlyvsum: dativ pluralis med lokativ funktion; ljusen i koret vid högaltaret. baklyvsum: ljusen i långhuset bland församlingen.",
+          "segmentId": "avg-b01-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 8"
+        },
+        {
+          "fsv": "§.1. Brender .i. kirkiu. scruþer af framlyvsum. gialdi prester apter hvat sum varþ er til þés þrer mærchær æru. eigh þy meræ at mere se skaþi gör",
+          "tolkning": "§ 1. Brinner skrud i kyrkan av framljusen, gälde prästen åter vad den var värd, upp till tre marker, och icke mer ändock att skadan gjordes större.",
+          "kommentar": "scruþer: skrudar/mässkläder (nominativ singularis maskulinum). gialdi: presens konjunktiv med preskriptiv innebörd. Ersättningsskyldigheten har ett legalt maxtak om tre marker.",
+          "segmentId": "avg-b01-punkt08-seg002",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 8 §1"
+        },
+        {
+          "fsv": "§.2. Skil þem .a. bondæ oc presti. kaller prester. bondi tende. oc bonde kuaþer ne vid. byvþer firir sik tylftér éþ. at han tændi. eigh. þa er han hauir svoret. þa skal prester bötæ",
+          "tolkning": "§ 2. Skiljer det dem emellan, bonden och prästen, så att prästen påstår att bonden tände och bonden nekar därtill, bjuder han för sig en tolftared att han icke tände; då han har svurit, då skall prästen böta.",
+          "kommentar": "Skil þem a: opersonligt idiomatiskt uttryck ('om tvist uppstår'). kuaþer ne vid: bestrider med ed. tylftér éþ: edgång med tolv edgärdsmän.",
+          "segmentId": "avg-b01-punkt08-seg003",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 8 §2"
+        },
+        {
+          "fsv": "Bær prester messufat hém oc glatass. þer skal prester þem apter gialdæ sum þer varu. værð. med suornum eþe at þer varu eigh bætri",
+          "tolkning": "Bär prästen mässkärl hem och de förloras, då skall prästen gälda dem åter efter vad de voro värda, med svuren ed att de icke voro bättre.",
+          "kommentar": "glatass: reflexiv/mediopassiv infinitiv ('komma bort, förstöras'). suornum eþe: instrumentell dativ singularis ('under edsförpliktelse').",
+          "segmentId": "avg-b01-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 9"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 10–11 (Klockfall och socknens prästval)",
+      "balkId": "B01",
+      "pdfSidor": [2],
+      "kallpunkt": "10-11",
+      "meningar": [
+        {
+          "fsv": "Hængir klocka i. kyrkiu falder .i. hovod mannæ. böte sopn firi. niv marchum kirkiudroten iardeghendi en bana far",
+          "tolkning": "Hänger klocka i kyrkan och faller i huvudet på en man så att han får bane, böte socknen nio marker för det till kyrkoägaren eller jordägaren.",
+          "kommentar": "Hængir klocka: konditional paratax. böte sopn: sockenmännen bär det kollektiva ansvaret för klockstolens underhåll. en bana far: villkorssats med dödlig utgång.",
+          "segmentId": "avg-b01-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 10"
+        },
+        {
+          "fsv": "§.1. Falder klockæ rummi nider .i. hovoþ manni. böti sopcn marchum. þrim en han far banæ af",
+          "tolkning": "§ 1. Faller klockkläppen ned i huvudet på en man så att han får bane därav, böte socknen tre marker.",
+          "kommentar": "klockæ rummi: klockkläpp. sopcn: handskriftens variantstavning för socknen.",
+          "segmentId": "avg-b01-punkt10-seg002",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 10 §1"
+        },
+        {
+          "fsv": "§.2. Falder .i. hovod presti æller klocchæræ varþi sær sialvar. §.3. Brester klockæ firi þem. þa ér hvn vgild",
+          "tolkning": "§ 2. Faller den i huvudet på präst eller klockare, svare de för sig själva. § 3. Brister klockan för dem under ringning, då är den ogill (utan skadeståndsansvar).",
+          "kommentar": "varþi sær sialvar: yrkesansvar åvilar ringarna själva. vgild: rättsterm för sak eller skada som icke medför ersättningsskyldighet.",
+          "segmentId": "avg-b01-punkt10-seg003",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 10 §2-3"
+        },
+        {
+          "fsv": "§.4. En annar maþar felli. kloccho niþer bræster hvn viþer er hun værri en þrer marcher böte sum hun ær værð. oc iki mære. en þrer marcher. þo at hun se bættri",
+          "tolkning": "§ 4. Men om en annan man fäller klockan ned så att den brister därvid, är den mindre värd än tre marker böte han vad den är värd, och icke mer än tre marker ändock att den vore bättre.",
+          "kommentar": "felli: kausativt svagt verb ('orsakar att den faller'). Maxtak om 3 marker skyddar vållaren mot orimliga skadeståndsanspråk.",
+          "segmentId": "avg-b01-punkt10-seg004",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 10 §4"
+        },
+        {
+          "fsv": "Scill sopn valdi þer sum flere æru",
+          "tolkning": "Skiljer det sockenmännen åt (vid prästval), råde de som flera äro (majoritetsprincipen).",
+          "kommentar": "Scill sopn: opersonlig inversion. valdi: presens konjunktiv av valda/valia ('bestämma, råda'). Fornsvensk lagstadgad majoritetsdemokrati i sockenstämman.",
+          "segmentId": "avg-b01-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 11"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 12–13 (Kyrkogårdsfrid, våld och hägnad)",
+      "balkId": "B01",
+      "pdfSidor": [2],
+      "kallpunkt": "12-13",
+      "meningar": [
+        {
+          "fsv": "Værþer marder .i. kyrkiugardhi. dræpin ællær sargheþer. gialde biscupe þrer marcher. þa skal eighi tiþir uetæ. fyr æn hauir biscups lof til. num han hætti uid sinum þrim marchum. Biscuper skal viþ sopn mælæ. æn þær viþer þen vihit uan",
+          "tolkning": "Varder en man dräpt eller sårad på kyrkogården, gälde man tre marker till biskopen; då skall man icke hålla gudstjänst förrän man har biskopens lov därtill, såvida prästen icke vill riskera sina tre marker. Biskopen skall tala till socknen, men bönderna till den som vanhelgelsen begick.",
+          "kommentar": "marder: skrivfel i källan för maþer, bevarat i fsv. eighi tiþir uetæ: förbud mot tidegärd efter blodsutgjutelse på vigd mark. vihit uan: fornnordisk rättsformel för vanhelgelse av helgat rum.",
+          "segmentId": "avg-b01-punkt12-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 12",
+          "avvikelser": ["Källans skrivfel 'marder' (för maþer) bevarat oförändrat med textkritisk anmärkning."]
+        },
+        {
+          "fsv": "§.1. Værþer maþer lustin .i. kyrkiugarþi. æller .i. har takin þa skal eigh prester mæssu sæghia fyr æn han hauir biscups lof til ællar hans lænsprests böte biscupi tolf öra. Æn þer mali. til þæs ær friþ bröt",
+          "tolkning": "§ 1. Varder en man slagen på kyrkogården eller tagen i håret, då skall prästen icke säga mässa förrän han har biskopens eller hans prosts lov därtill; biskopen böte han tolv örar, och sockenmännen söke sak mot den som friden bröt.",
+          "kommentar": "lustin: slagen (av liusta). .i. har takin: håravdrag (ærekränkande våldshandling). lænsprests: biskopens prost (kontraktsprost).",
+          "segmentId": "avg-b01-punkt12-seg002",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 12 §1"
+        },
+        {
+          "fsv": "§.2. Dylia sopnær mæn kalla eigh friþ brutin þa skal biscups lensprester se af sopnar mannum tylptar eþ biþia sær sva gud holl oc uatum sinum at þer eigh fridbrut giöt suat biscuper a sak. af",
+          "tolkning": "§ 2. Dölja sockenmännen saken och säga att friden icke är bruten, då skall biskopens prost kräva en tolftared av sockenmännen, att Gud vare dem och deras vittnen huld så sant de icke gjorde något fridsbrott som biskopen äger böter för.",
+          "kommentar": "Dylia: dölja, förneka sak. tylptar eþ: ed av tolv män. sær sva gud holl: traditionell fornsvensk edsvärjelseformel.",
+          "segmentId": "avg-b01-punkt12-seg003",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 12 §2"
+        },
+        {
+          "fsv": "kirkiu gard skal scipæ bolæ mælli slict a bol at gærþe. sum annat",
+          "tolkning": "Kyrkogård skall skiftas emellan gårdarna, så att lika mycket hägnad lägges på varje gård som på en annan.",
+          "kommentar": "scipæ bolæ mælli: fördela inhägnadsskyldigheten proportionellt mellan byns hemman (bol).",
+          "segmentId": "avg-b01-punkt13-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 13"
+        },
+        {
+          "fsv": "Liggær kirkiugardær alþer open. þet er. þriggia marcha sak. þet a biscopér. Ligger þridiunger vpen. þæt ér siax oræ sak. þæt .a. biscopær. siþan a. hæræd firi balka han atta örtoghor. Oc e skal kirkiugarþær gilder varæ. baþi vinter oc somar",
+          "tolkning": "Ligger kyrkogården alldeles öppen, det är en sak om tre marker; det äger biskopen. Ligger en tredjedel öppen, det är en sak om sex örar som tillfaller biskopen; sedan äger häradet åtta örtugar för varje balk. Och alltid skall kyrkogården vara fullgod både vinter och sommar.",
+          "kommentar": "alþer open: helt ohägnad (3 markers böter till biskopen). þridiunger vpen: 6 örars böter. firi balka han: för varje ogillt balkled tillfaller 8 örtugar häradet. gilder: i fullgott och lagligt skick året om.",
+          "segmentId": "avg-b01-punkt13-seg002",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 13"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 14 (Dop, sockenbud och prästens laga förfall)",
+      "balkId": "B01",
+      "pdfSidor": [2],
+      "kallpunkt": "14",
+      "meningar": [
+        {
+          "fsv": "Barn þorf kristnu maþer huls. fyrra scal barn cristna æn man huslæ. þorf maþer oling. ok annar husl. þa skal fyrræ man huslæ æn olæ",
+          "tolkning": "Tarvas barn kristning och man nattvard, skall man förr kristna barnet än husla mannen. Tarvas en man smörjelse och en annan nattvard, då skall man förr husla mannen än smörja.",
+          "kommentar": "þorf: presens av þurfa ('behöva'). huslæ: meddela den sista nattvarden (viaticum). oling: den sista oljningen/smörjelsen. Teologisk rangordning: dop går före nattvard, som går före sista smörjelsen.",
+          "segmentId": "avg-b01-punkt14-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 14"
+        },
+        {
+          "fsv": "§.1. Barn far eigh kristnu maþer eigh husl. ællér öleng. ær prester forfallalös. þa ær han sæker at marchum þrim. viþ biscup oc þrim marchum vid saksöchenden",
+          "tolkning": "§ 1. Får barn icke kristning eller man icke nattvard eller smörjelse därför att prästen är utan laga förfall, då är han förfallen till tre markers böter till biskopen och tre marker till målsäganden.",
+          "kommentar": "forfallalös: utan giltig frånvaroorsak. sæker at marchum þrim: bötfälld till tre marker vardera till biskopen och målsäganden.",
+          "segmentId": "avg-b01-punkt14-seg002",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 14 §1"
+        },
+        {
+          "fsv": "§.2. Forfal prests æru æn biscuper hauir hanum buþ sænt oc ær bortfarin för. Annur æn han siukær ligher. [Þ]ridiæ æn han þighiændæ mæssu sighir. Fyardæ æn han ær i. sokn farin siukum. at hiælpæ",
+          "tolkning": "§ 2. Prästens laga förfall äro om biskopen har sänt honom bud och han är bortrest förut; det andra om han ligger sjuk; det tredje om han håller tyst mässa; det fjärde om han är faren i socknen för att bistå de sjuka.",
+          "kommentar": "[Þ]ridiæ: källans frågetecken '?' representerar versalt Thorn och återges enligt transkriptionsreglerna som [Þ]. þighiændæ mæssu: tyst mässa (missa secreta/kanonbönen), vilken icke fick avbrytas.",
+          "segmentId": "avg-b01-punkt14-seg003",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 14 §2",
+          "avvikelser": ["Källans frågetecken '?' transkriberat till [Þ] med textkritisk notering."]
+        },
+        {
+          "fsv": "§.3. Vr skal mæssufatum fara ok sivkum hialpæ. æn han sivngær æigh þighianda mæssu",
+          "tolkning": "§ 3. Ur mässkläderna skall han stiga och hjälpa den sjuke, om han icke sjunger tyst mässa.",
+          "kommentar": "Vr mæssufatum fara: prästen är skyldig att omedelbart avbryta en vanlig sjungen gudstjänst för att ila till en döende sockenbo.",
+          "segmentId": "avg-b01-punkt14-seg004",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 14 §3"
+        },
+        {
+          "fsv": "§.4. Skil þæm a bonda ok prest kallær bondi han forfallalösan. þa scal han væriæ sik a mote mæder siax prestum. at han laghæ forfall fæk",
+          "tolkning": "§ 4. Skiljer det dem emellan, bonden och prästen, så att bonden kallar honom förfallolös, då skall han värja sig mot det med sex präster som edsmän, att han hade laga förfall.",
+          "kommentar": "mæder siax prestum: sexmannaed av prästerliga ämbetsbröder för att fria från tjänstefelsansvar.",
+          "segmentId": "avg-b01-punkt14-seg005",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 14 §4"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 15 (Sista smörjelsen, likvaka och biskopens bud)",
+      "balkId": "B01",
+      "pdfSidor": [2, 3],
+      "kallpunkt": "15",
+      "meningar": [
+        {
+          "fsv": "Prester scal bondæ ola oc bonda kono. bonda svn oc dottor hans ælstæ barn firi. tyunda sin. æn firi hiona huart er olia scal giui öra tva ok sva firi alla þa mæn eigh tyundæ sin ok öri firi lægher. staþ allum frælsum mannum. þem huls taca. ok ortogh firi natuaku",
+          "tolkning": "Prästen skall smörja bonden och bondens hustru, bondens son och hans dotter och äldsta barn för sin tionde; men för vart och ett av tjänstehjonen som skall smörjas give man två örar, och likaså för alla de män som icke erlägga tionde, samt en öre för lägerstad för alla frälsemän som mottaga nattvard, och en örtug för nattvaka.",
+          "kommentar": "hiona huart: tjänstehjon. lægherstaþ: gravplats på kyrkogården. natuaku: likvaka.",
+          "segmentId": "avg-b01-punkt15-seg001",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 15"
+        },
+        {
+          "fsv": "Eigh mæra þit fleræ vaki. Eigh ok flera vaka num prester uili. æller bondi uili. oc þy at þrer nætær liggi. lik inni. Vill han lengær læta inni liggia giui örtogh naat huaria",
+          "tolkning": "Icke mera ändock att flera vaka. Icke heller må flera vaka såvida icke prästen eller bonden vill, och det om liket ligger inne i tre nätter. Vill han låta det ligga inne längre, give han en örtug för varje natt.",
+          "kommentar": "Sedvanerättslig gräns vid tre nätters likvaka före begravning.",
+          "segmentId": "avg-b01-punkt15-seg002",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 15"
+        },
+        {
+          "fsv": "§.1. Gæster dör at bonda taki öris mun af fatum hans. oc giui presti firi lægherstad oc örtogh at natvaku. præster ær skyldugher gest at husla sum bondæ",
+          "tolkning": "§ 1. Dör en gäst hos en bonde, tage man ett öres värde av hans kläder och give prästen för lägerstad och en örtug för nattvaka; prästen är skyldig att ge gästen nattvard likaväl som bonden.",
+          "kommentar": "öris mun: ett öres värde ur den döde gästens tillhörigheter.",
+          "segmentId": "avg-b01-punkt15-seg003",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 15 §1"
+        },
+        {
+          "fsv": "§.2. Dör stafkarl. þa a prester pik ok screppu ok læghærstad",
+          "tolkning": "§ 2. Dör en stavkarl (fattig tiggare), då äger prästen hans pikstav och skräppa och skall ge honom lägerstad.",
+          "kommentar": "stafkarl: vandrande tiggare. Prästen bekostar begravningen mot tiggarens få personliga ägodelar.",
+          "segmentId": "avg-b01-punkt15-seg004",
+          "kallreferens": "AVG-MASKIN s. 2, Kirkiu Bolkær Punkt 15 §2"
+        },
+        {
+          "fsv": "§.3. Sitær biscuper innan soknæ far bondi buþ hanum biþær ola sik. þa ær han skyldugher han at ola. haui half mark firir",
+          "tolkning": "§ 3. Vistas biskopen inom socknen och bonden sänder bud till honom och beder honom smörja sig, då är han skyldig att smörja honom; för det må han erhålla en halv mark.",
+          "kommentar": "Sidövergång: meningen börjar på s. 2 rad 46–47 och slutar på s. 3 rad 1. Återges intakt i samma segment enligt transkriptionsreglerna med pdfSidor: [2, 3].",
+          "segmentId": "avg-b01-punkt15-seg005",
+          "kallreferens": "AVG-MASKIN s. 2–3, Kirkiu Bolkær Punkt 15 §3"
+        }
+      ]
+    }
+  ],
+  "fotnoter": [
+    {
+      "id": 1,
+      "kallaId": "AVG-MASKIN",
+      "lokalisering": "s. 2–3, Kirkiu Bolkær Punkt 8–15",
+      "stod": "primarbelagg"
+    },
+    {
+      "id": 2,
+      "kallaId": "PET-SJUHUNDRA",
+      "lokalisering": "s. 58–62",
+      "stod": "regel"
+    },
+    {
+      "id": 3,
+      "kallaId": "LIN2024",
+      "lokalisering": "s. 17–20",
+      "stod": "analys"
+    }
+  ]
+}

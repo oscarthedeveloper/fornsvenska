@@ -1,0 +1,50 @@
+{
+  "titel": "Lecara rætar",
+  "underrubrik": "Äldre Västgötalagen, lekarerätten och gycklares ställning (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Skymfrätt och ståndsrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Fjortonde balken (Lecara rætar) i Äldre Västgötalagen reglerar gycklares, spelmännens och de kringvandrande underhållarnas rättslösa ställning i det medeltida bondesamhället. Texten fastställer att misshandel mot en lekare är ogill, och vid sårskada underkastas lekaren det berömda skymfliga provet med den nysmorda otämjda kvigan uppför backen: förmår han hålla henne i svansen under piskrappen får han behålla djuret, men gitter han icke hålla henne have han endast skam och skada.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Lecara rætar (Lekarerätten och den smorda kvigans svans)",
+      "balkId": "B14",
+      "pdfSidor": [24],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "[Þ]attæ ær lecara rætar. Uarþær lekæri barþær þæt skal e vgilt uaræ. Varþær lekari sargaþær þen sum mæþ gihu gangar allær mæþ fiþlu far allær bambu. þa skal kuighu taka otamæ ok flytiæ up a bæsing. þa skal alt har af roppo rakæ. ok siþæn smyriæ. þa skal hanum fa sko nysmurþæ. þa skal lekærin takæ quighuna vm roppo. maþær skal til huggæ mæþ huassi gesl. Gitær han haldit. þa skal han hauæ þæn goþa grip. ok niutæ sum hundær græss. Gitær han eigh haldit. havi ok þole þæt sum han fek skama ok skaþæ biði alþrigh halldær ræt æn huskonæ hudstrukin. E. a variændi vit ok skyldæsti arf at takæ.",
+          "tolkning": "Detta är lekarerätten. Varder en lekare (gycklare/spelman) slagen, skall det städse vara ogillt (utan mansbot). Varder en lekare sårad, den som går med giga eller far med fela eller trumma: då skall man taga en otämjd kviga och föra upp på en backe (bäsäng). Då skall man raka allt håret av svansen och sedan smörja den. Då skall man ge honom nysmorda skor. Då skall lekaren fatta kvigan om svansen; en man skall tillhugga med en vass piska. Gitter han hålla henne, då skall han ha den goda klenoden och njuta den såsom hund njuter gräs. Gitter han icke hålla henne, have och tåle det som han fick: skam och skada; bedje aldrig mer om rätt än en hudstruken frilla. Städse har svaranden vittnesbörd och den närmast skylde rätt att taga arv.",
+          "kommentar": "lekæri: lekare, gycklare eller kringvandrande musiker (gihu = giga, fiþlu = fela, bambu = trumma). Dessa saknade ätteskydd och åtnjöt ingen mansbot (vgilt). Den förnedrande ceremonin med den rakade och smorda kvigsvansen (roppo) uppför kullen och talesättet 'niutæ sum hundær græss' understryker lekarnas sociala och rättsliga utanförskap i landskapslagarna. Textkritisk notis: Rubriken inleds med '?attæ ær lecara rætar' på s. 24 rad 14; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna.",
+          "segmentId": "avg-b14-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 24, Lecara rætar",
+          "avvikelser": [
+            "Källrubriken på s. 24 har '?attæ ær lecara rætar'; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

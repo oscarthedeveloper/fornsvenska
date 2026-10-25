@@ -9,7 +9,7 @@
  */
 
 import { HAR_SUPABASE } from "@/lib/supabase/config";
-import { skapaServerKlient } from "@/lib/supabase/server";
+import { skapaPublikServerKlient } from "@/lib/supabase/server";
 import { SODERWALL_ALFABET } from "./normalisering";
 import { byggExternaLankar } from "./proveniens";
 import type {
@@ -170,7 +170,7 @@ function mappaDbRadTillListPost(rad: DbPostRad): OrdbokListPost {
  * Hämtar en enskild ordbokspost från Supabase.
  */
 export async function hamtaOrdbokPostDb(id: string): Promise<OrdbokPost | null> {
-  const supabase = skapaServerKlient();
+  const supabase = skapaPublikServerKlient();
   const { data, error } = await supabase
     .from("ordbok_poster")
     .select("*, ordbok_rattelser(*), ordbok_moderna_definitioner(*)")
@@ -188,7 +188,7 @@ export async function sokOrdbokDb(
   parametrar: OrdbokSokParametrar
 ): Promise<OrdbokSokResultat> {
   const start = performance.now();
-  const supabase = skapaServerKlient();
+  const supabase = skapaPublikServerKlient();
 
   const {
     q = "",
@@ -270,7 +270,7 @@ export async function sokOrdbokDb(
  * Hämtar statistik per bokstav ur Supabase.
  */
 export async function hamtaBokstavsStatistikDb(): Promise<OrdbokBokstavsStatistik[]> {
-  const supabase = skapaServerKlient();
+  const supabase = skapaPublikServerKlient();
   const { data, error } = await supabase
     .from("ordbok_poster")
     .select("letter_section, source_dataset");

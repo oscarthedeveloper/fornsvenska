@@ -1,0 +1,50 @@
+{
+  "titel": "Horo þing lot skal skiptæ",
+  "underrubrik": "Äldre Västgötalagen, tingslott och bonens skifte (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Förvaltningsrätt och tingstaxor"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Sextonde balken (Horo þing lot skal skiptæ) i Äldre Västgötalagen avslutar själva lagtexten med stadganden om hur tingslotten och allmänna pålagor fördelas mellan Västergötlands åtta traditionella bon och härader vid allramannatinget. Texten innehåller bland annat den kulturhistoriskt ovärderliga bestämmelsen att Skåningsborna uppbär Dalbons lott emedan de ha skyldighet att underhålla och täcka domkyrkan i Skara ('firi at þer sculu crakæ ok flacæ mariu kirkiu i skarum').",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Horo þing lot skal skiptæ (Tingslott och bonens skifte vid allramannatinget)",
+      "balkId": "B16",
+      "pdfSidor": [24, 25],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "Hær sighær horo þing lot skal skiptæ bo mællum a aldræmannæ þingi. Vaðsbo. þæt ær helt bo. takar slit madær sum. madær. Kinda hareð halft. bo. Valla haræd ok kakind. halft bo. takar tua löte ualla haræþ ok þridiungin cakin. Guðems bo. guðems haræd ok frökinshæræþ. halft. bo. takar fæmtungin frokinshæræd ok fiura löte. guðems hæræd. Vilshæræd ashæræd. ok mark. þæt ær halft bo. takar marc fæmtungin oc siðæn skiptis i tu mællir uilskæhæræd. ok ashæræd. Lung bo. skal skiptæ driðiungum. En þridiungin ær alfhæræd ok barcnahæræd ok laskæhæræd. taka tuæ löte barcnahæræd oc þre löte. alshæræd ok laskæhæræd. Annær þriðiungær. ær giæsini ok vidðunhæræd. ok ballæbygð. takar fæmtungin viðunhæræd. ok ballæbygð. ok fiura löte giæsini siðan takar fæmtungin ballæbygd uið viðunhæræd. [Þ]riði þriðiungær af lung bo. ær colanshæræd. oc all vtlandin. tuer löter ær colandshæræd. oc þriðiungær vt landin. Nu byriæs asbo skanungshæræd halft bo. asuhæræd. vistæhæræd ok nordal halft bo. takær nordal attundæ lot. siþan takar tua löte asuhæræd. ok driðiungin. uistahæræd. hær taka scanungs bor dalbo. lot. firi at þer sculu crakæ ok flacæ. mariu kirkiu i skarum. Nu byriæs holæsio bo. allir oc biarkæhæræd. halft. bo. floðnæhæræd. oc viniæhæræd. halft bo. Nu byriæs skalandæ bo. tuer löter. qualni ok þriðiungær. væbohæræd oc alt syndal. Nu byriæs uartoptæ bo vartoptæ hæræd halft bo. ræðuægh. ok kind halft bo. takær hwært. þerræ halft. Fyrst skiptæ. þry bo. viþ fæm bo. vartoptæ bo. guðems bo. ok lung bo. þe þry. taka halft. við hin fæm.",
+          "tolkning": "Här sägs hur tingslott skall skiftas boen emellan på allramannatinget. Vadsbo, det är ett helt bo; det tar likt man för man. Kinds härad är ett halvt bo. Valle härad och Kåkind är ett halvt bo: Valle härad tar två lotter och tredingen Kåkind. Gudhems bo: Gudhems härad och Frökinds härad är ett halvt bo; Frökinds härad tar femtedelen och fyra lotter Gudhems härad. Vilske härad, Ås härad och Mark, det är ett halvt bo: Mark tar femtedelen och sedan skiftas det i två delar mellan Vilske härad och Ås härad. Lungs bo skall skiftas i tredingar: En treding är Ale härad och Barne härad och Laske härad; Barne härad tar två lotter och tre lotter Ale härad och Laske härad. Den andra tredingen är Gäsene och Veden härad och Bollebygd: Veden härad och Bollebygd tar femtedelen och fyra lotter Gäsene; sedan tar Bollebygd femtedelen mot Veden härad. Tredje tredingen av Lungs bo är Kållands härad och alla Utlanden; två lotter är Kållands härad och en treding Utlanden. Nu börjas Åsbo: Skånings härad är ett halvt bo; Åse härad, Viste härad och Nordal är ett halvt bo; Nordal tar åttonde lotten; sedan tar Åse härad två lotter och Viste härad tredingen; här tar Skåningsborna Dalbons lott, därför att de skola timra och spåna Sankta Maria kyrka i Skara. Nu börjas Hålsiö bo: Ale och Bjärke härad är ett halvt bo; Flundre härad och Väne härad är ett halvt bo. Nu börjas Skalunda bo: två lotter Kålland och en treding Vadsbo härad och hela Söndral. Nu börjas Vartofta bo: Vartofta härad är ett halvt bo; Redväg och Kind är ett halvt bo; vartdera av dem tar hälften. Först skifta tre bo mot fem bo: Vartofta bo, Gudhems bo och Lungs bo, dessa tre taga hälften mot de andra fem.",
+          "kommentar": "Stadgande om fördelningen av tingslott och pålagor vid allramannatinget mellan de traditionella åtta boen i Västergötland (Vadsbo, Gudhems bo, Lungs bo, Åsbo, Hålsiö bo, Skalunda bo, Vartofta bo och Kinds/andra boindelningar). Notera den unika kulturhistoriska och kyrkliga klausulen: 'firi at þer sculu crakæ ok flacæ. mariu kirkiu i skarum' (därför att de skola timra/kräka och spåna/flaka Sankta Maria kyrka, domkyrkan i Skara). Källans inledande frågetecken '?riði' på sid. 24 rad 41 har återgetts diplomatariskt som '[Þ]riði'.",
+          "segmentId": "avg-b16-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 24–25, Horo þing lot skal skiptæ",
+          "avvikelser": [
+            "Källtexten har '?riði þriðiungær af lung bo' på s. 24 rad 41; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

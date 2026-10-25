@@ -353,18 +353,25 @@ export default function OrdbokKlient({
               const arVald = sokResultat.letter === b.letter && !sokResultat.query;
               const arFilterUnderSok =
                 sokResultat.letter === b.letter && Boolean(sokResultat.query);
+              const href = `/ordbok${byggOrdbokQueryString({
+                letter: b.letter,
+                dataset: sokResultat.dataset !== "alla" ? sokResultat.dataset : undefined,
+              })}`;
               return (
-                <button
+                <Link
                   key={b.letter}
-                  type="button"
-                  onClick={() => {
-                    setSokText("");
-                    navigera({
-                      q: "",
-                      letter: b.letter,
-                      page: 1,
-                      entry: null,
-                    });
+                  href={href}
+                  onClick={(e) => {
+                    if (!e.metaKey && !e.ctrlKey && !e.shiftKey) {
+                      e.preventDefault();
+                      setSokText("");
+                      navigera({
+                        q: "",
+                        letter: b.letter,
+                        page: 1,
+                        entry: null,
+                      });
+                    }
                   }}
                   aria-current={arVald ? "page" : undefined}
                   title={`${b.label}: ${b.total} artiklar (${b.mainCount} i huvudverket, ${b.suppCount} i supplementet)`}
@@ -375,7 +382,7 @@ export default function OrdbokKlient({
                   }`}
                 >
                   {b.label}
-                </button>
+                </Link>
               );
             })}
           </div>
@@ -635,37 +642,59 @@ export default function OrdbokKlient({
           {/* Pagineringskontroller */}
           {sokResultat.totalPages > 1 && (
             <div className="border-t border-ink px-3.5 py-2.5 bg-paper flex items-center justify-between gap-2">
-              <button
-                type="button"
-                disabled={sokResultat.page <= 1}
-                onClick={() =>
-                  navigera({
+              {sokResultat.page > 1 ? (
+                <Link
+                  href={`/ordbok${byggOrdbokQueryString({
+                    q: sokResultat.query,
+                    mode: sokResultat.mode,
+                    letter: sokResultat.letter,
+                    dataset: sokResultat.dataset !== "alla" ? sokResultat.dataset : undefined,
                     page: sokResultat.page - 1,
-                    entry: null,
-                  })
-                }
-                className="border border-ink bg-panel px-2.5 py-1 nano disabled:opacity-35 hover:bg-ink hover:text-paper transition-colors"
-              >
-                ← Föregående
-              </button>
+                  })}`}
+                  onClick={(e) => {
+                    if (!e.metaKey && !e.ctrlKey && !e.shiftKey) {
+                      e.preventDefault();
+                      navigera({ page: sokResultat.page - 1, entry: null });
+                    }
+                  }}
+                  className="border border-ink bg-panel px-2.5 py-1 nano hover:bg-ink hover:text-paper transition-colors"
+                >
+                  ← Föregående
+                </Link>
+              ) : (
+                <span className="border border-ink/40 bg-panel px-2.5 py-1 nano opacity-35 cursor-not-allowed">
+                  ← Föregående
+                </span>
+              )}
 
               <span className="nano opacity-70">
                 Sida {sokResultat.page} / {sokResultat.totalPages}
               </span>
 
-              <button
-                type="button"
-                disabled={sokResultat.page >= sokResultat.totalPages}
-                onClick={() =>
-                  navigera({
+              {sokResultat.page < sokResultat.totalPages ? (
+                <Link
+                  href={`/ordbok${byggOrdbokQueryString({
+                    q: sokResultat.query,
+                    mode: sokResultat.mode,
+                    letter: sokResultat.letter,
+                    dataset: sokResultat.dataset !== "alla" ? sokResultat.dataset : undefined,
                     page: sokResultat.page + 1,
-                    entry: null,
-                  })
-                }
-                className="border border-ink bg-panel px-2.5 py-1 nano disabled:opacity-35 hover:bg-ink hover:text-paper transition-colors"
-              >
-                Nästa →
-              </button>
+                  })}`}
+                  onClick={(e) => {
+                    if (!e.metaKey && !e.ctrlKey && !e.shiftKey) {
+                      e.preventDefault();
+                      navigera({ page: sokResultat.page + 1, entry: null });
+                    }
+                  }}
+                  className="border border-ink bg-panel px-2.5 py-1 nano hover:bg-ink hover:text-paper transition-colors"
+                >
+                  Nästa →
+                </Link>
+              ) : (
+                <span className="border border-ink/40 bg-panel px-2.5 py-1 nano opacity-35 cursor-not-allowed">
+                  Nästa →
+                </span>
+              )}
             </div>
           )}
         </section>

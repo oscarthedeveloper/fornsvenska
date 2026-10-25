@@ -1,0 +1,158 @@
+{
+  "titel": "Kristnu balkær, del II",
+  "underrubrik": "Äldre Västgötalagen, kyrkans bestånd, vigning och kyrkofrid (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Andra delen av kristendomsbalkens första blad i Äldre Västgötalagen reglerar kyrkobyggnadens invigning och altarsten, biskopens avgifter och konfirmation, de arkitektoniska kraven för att kyrkan skall behålla sin vigning vid reparationer samt straff och skadeståndsansvar vid inbrott och stöld av mässkärl. Texten återges här i strikt källordning enligt förlagan.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 5 (Altarsten, biskopens närvaro och kyrkobyggnadens avgifter)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "Værþer altæræ sten lös. þa scal prester byscup uid væræ. eller hetta uid sinum þrim marcum",
+          "tolkning": "Varder altarsten lös, då skall prästen tillkalla biskopen eller sätta sina tre marker i pant.",
+          "kommentar": "altæræ sten: sammansättning med genitivförled altæræ (av altare) till sten. hetta uid: sätta i pant, riskera böter om. sinum þrim marcum: dativ pluralis med possessivt pronomen.",
+          "segmentId": "avg-b01-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 5"
+        },
+        {
+          "fsv": "þa sculu bönder giuæ byscupi þrer marcher firi altæræ vixls oc natter gengerð",
+          "tolkning": "Då skola bönderna giva biskopen tre marker för altarets invigning och en natts gengärd.",
+          "kommentar": "bönder: rotstamspluralis. byscupi: dativ singularis som indirekt objekt. firi altæræ vixls: genitiv vixls av vígsla ('vigning'). natter gengerð: ackusativ/genitiv betecknande tidsmått för härbärge och förplägnad.",
+          "segmentId": "avg-b01-punkt05-seg002",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 5"
+        },
+        {
+          "fsv": "Oc firi kyrkiu gærð allen. þrer marcher. firi s[...] kyrkiu gærd. tolf öra. oc firi stapul tolf öra",
+          "tolkning": "Och för en hel kyrkobyggnad (vid nyinvigning) tre marker; för en [reparerad] kyrkobyggnad tolv örar, och för en klockstapel tolv örar.",
+          "kommentar": "kyrkiu gærð allen: ackusativ singularis femininum av hela kyrkans uppförande. s[...]: lakun i källan, bevarad oförvanskad enligt transkriptionsreglerna. tolf öra: tolv örar (motsvarande 1½ mark). stapul: klockstapel.",
+          "segmentId": "avg-b01-punkt05-seg003",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 5",
+          "avvikelser": ["Källans lakun s[...] bevarad med klamrar utan gissad rekonstruktion."]
+        },
+        {
+          "fsv": "Crusszur oc klokchor. calka oc messufat. þa scal byscuper vighia firi tyundæ. þen. er bonder giuæ hanum oc börn fermæ",
+          "tolkning": "Kors och klockor, kalkar och mässkärl skall biskopen viga för den tionde som bönderna giva honom, och konfirmera barn.",
+          "kommentar": "Crusszur oc klokchor. calka oc messufat: framställda ackusativobjekt. firi tyundæ þen: för den ordinarie biskopstionden. börn fermæ: lånat från kyrkligt latin (firmare), konfirmera.",
+          "segmentId": "avg-b01-punkt05-seg004",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 5"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 6 (Kyrkobyggnadens bestånd och underhåll)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "Taker kyrkia. at fyrnass. standæ stulpær. liggia sillir er helt dyrni. oc festiband",
+          "tolkning": "Börjar en kyrka att åldras, men stolparna står, syllarna ligger, dörromfattningen och bindbjälken äro hela,",
+          "kommentar": "fyrnass: deponent infinitiv ('åldras, förfalla'). stulpær: bärande stolpar i stavkonstruktionen. sillir: grundstockar/syllar. dyrni: dörromfattning (neutrum). festiband: bindbjälke.",
+          "segmentId": "avg-b01-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 6"
+        },
+        {
+          "fsv": "ligger kamber. hell. haltæræ sten. oc altare haui kikya vixl sinæ samu. þo at hana böte en þessi æru all hel",
+          "tolkning": "takåsen ligger hel, altarstenen och altaret helt, då skall kyrkan behålla sin samma vigning, fastän man reparerar den, om dessa delar alla äro hela.",
+          "kommentar": "kamber: takås. haltæræ sten: altarsten (med initialt h- i handskriften). kikya: skrivfel i källan för kyrkia, bevarat enligt transkriptionsreglerna. haui vixl sinæ samu: behålla sin ursprungliga invigning utan ny biskopsvigning.",
+          "segmentId": "avg-b01-punkt06-seg002",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 6",
+          "avvikelser": ["Källans skrivfel 'kikya' bevarat oförändrat med textkritisk anmärkning."]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 7 (Nidingsverk i kyrka, mässkärlsstöld och prästens ansvar)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "7",
+      "meningar": [
+        {
+          "fsv": "Uerdher kyrkia brutin oc mæssu fat stolen. þet er niþingsværk. þat er niv marcha sak. kyrky. swa hæreþe. sva konogge",
+          "tolkning": "Varder en kyrka inbruten och mässkärl stulna, det är ett nidingsverk; det är en sak om nio marker: till kyrkan så, till häradet så, till konungen så.",
+          "kommentar": "niþingsværk: vanärande brott mot kyrkofriden. niv marcha sak: nio markers böter med tredelning (3 marker vardera till kyrka, härad och kung).",
+          "segmentId": "avg-b01-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 7"
+        },
+        {
+          "fsv": "§.1. Varþer in gangit at opnom dorom. þa scal prester. gialdæ skaþa apter þen sum kyrkia fik til þes er þrer marcher. æru. oc eigh þy meræ at skaþi se mere gör",
+          "tolkning": "§ 1. Varder det ingånget genom öppna dörrar, då skall prästen gälda tillbaka den skada som kyrkan led, upp till tre marker, och icke mer ändock att skadan gjordes större.",
+          "kommentar": "at opnom dorom: instrumentell/lokativ dativ pluralis. Prästens vållande genom öppna dörrar begränsas till 3 markers skadeståndsansvar.",
+          "segmentId": "avg-b01-punkt07-seg002",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 7 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 7 forts. (Inbrott under syll och återfunnet stöldgods)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "7 §2-3",
+      "meningar": [
+        {
+          "fsv": "§.2. Er grauit vndir syll. þa skal ecki prester værþæ",
+          "tolkning": "§ 2. Är det grävt under syllen, då skall prästen intet svara för.",
+          "kommentar": "Er grauit vndir syll: forcerat undergrävningsinbrott under grundstockarna frikallar prästen från ersättningsansvar.",
+          "segmentId": "avg-b01-punkt07-seg003",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 7 §2"
+        },
+        {
+          "fsv": "§.3. Spyrs vp scaþi. þa a presti böta þrer marcher. þagher kyrkia hauir sit alt",
+          "tolkning": "§ 3. Spörjs skadan upp (återfinns stöldgodset), då äger man böta tre marker till prästen, så snart kyrkan har återfått allt sitt.",
+          "kommentar": "Spyrs vp scaþi: mediopassiv/reflexiv preteritum-presens ('uppdagas, återfinns'). Skadeståndet återförs till prästen efter att kyrkans egendom återställts.",
+          "segmentId": "avg-b01-punkt07-seg004",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 7 §3"
+        }
+      ]
+    }
+  ],
+  "fotnoter": [
+    {
+      "id": 1,
+      "kallaId": "AVG-MASKIN",
+      "lokalisering": "s. 1, Kirkiu Bolkær Punkt 5–7",
+      "stod": "primarbelagg"
+    },
+    {
+      "id": 2,
+      "kallaId": "PET-SJUHUNDRA",
+      "lokalisering": "s. 113–115",
+      "stod": "regel"
+    },
+    {
+      "id": 3,
+      "kallaId": "LIN2024",
+      "lokalisering": "s. 14–17",
+      "stod": "analys"
+    }
+  ]
+}

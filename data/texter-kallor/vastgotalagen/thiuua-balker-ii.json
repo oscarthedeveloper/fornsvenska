@@ -1,0 +1,241 @@
+{
+  "titel": "Þiuuæ bollkær, del II",
+  "underrubrik": "Äldre Västgötalagen, laga tak, utländskt köp, trälars stöld och köpvittnen (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Handelsrätt, sakrätt och processrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Andra delen av Tjuvbalken (Þiuuæ bollkær) i Äldre Västgötalagen reglerar lösöreköp, gränsöverskridande rättsförhållanden och stöld av ofria. Balken fastställer de tre laga taken (brötartak, kvargsätetak och skälatak), processen vid köp från utländska män med stämma vid landamärket mot Svealand och Danmark, samt den berömda reciprocitetsprincipen i internationell privaträtt. Vidare behandlas stöld av dräktigt sto och fölsvittne, bortförande av trälar med den gripande vittnesformeln om uppfödning i vagga vid moderns spene, flyktande trälar på löpstighum, samt det ovillkorliga kravet på köpvittnen (vinar) och skyddet vid öppet torgköp.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 10 (Klander av lån, tak och sjunattastämma)",
+      "balkId": "B12",
+      "pdfSidor": [20],
+      "kallpunkt": "10",
+      "meningar": [
+        {
+          "fsv": "10. En maþær kænnir grip sin i annærs mans handum kallær sa sik at lane havær takit ær i handum havir. þa skal æftir fara ær sik kællær eighæ ok tak firi beþæs af þem ar i handum hauir. han ma eigh synnia num han sæki sik taksætær han firi raan þær skal lösæ ær stæþær ællær væriæ firi hemæföt. syunatting skal firi gæræ at lösæ mæþ laghæ vittnum. æn eigh vindær hin lagha uærn firi.",
+          "tolkning": "10. Känner en man igen sin klenod i en annans händer och säger den som har den i händerna att han har tagit den som lån, då skall den efterfölja som säger sig äga och begära tak av den som har den i händerna. Han må icke vägra om han ej vill fällas till sak. Sätter han tak för rån, skall man lösa där den står eller värja såsom hemfött fä. Sjunattastämma skall sättas för att lösa med laga vittnen, om den andre ej framlägger laga värn.",
+          "kommentar": "at lane havær takit: invändning om att godset innehas med lånerätt (prekarium eller lån). Förfarandet för att skilja mellan lån, stöld och rån medelst sjunattastämma och hemfödslovittne.",
+          "segmentId": "avg-b12-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 10"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 11 (De tre laga taken: brötartak, kvargsätetak och skälatak)",
+      "balkId": "B12",
+      "pdfSidor": [20],
+      "kallpunkt": "11",
+      "meningar": [
+        {
+          "fsv": "11. [Þ]ry æru laghæ tak. et ær brötar tak til hus ok til hems. Annæz ær kuarsætu tak mæþ þem sæmbær. a baþum. þriþiæ ær skiælæ tak firi lanð ok galman þet ma eigh bonde aþrum syniæ num han sæki sik.",
+          "tolkning": "11. Tre äro laga tak: Ett är brötartak till hus och till hem; det andra är kvargsätetak när båda parter enas därom; det tredje är skälatak inför landsmän och allmoge (galman); detta må en bonde icke vägra en annan om han ej vill fällas till sak.",
+          "kommentar": "Klassisk kodifiering av de tre formerna av laga kvarstad (tak): brötar tak (reselejd/hemfärdsskydd), kuarsætu tak (godset står kvar mot borgen) och skiælæ tak (bevisbunden säkerhetskvarstad). Textkritisk notis: Källan har '?ry' på s. 20 rad 29; återgivet som [Þ]ry.",
+          "segmentId": "avg-b12-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 11",
+          "avvikelser": [
+            "Källtexten har '?ry' på s. 20 rad 29; frågetecknet återgivet som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 12 (Köp av utländsk man, gränsstämma och ömsesidig rätt)",
+      "balkId": "B12",
+      "pdfSidor": [20],
+      "kallpunkt": "12",
+      "meningar": [
+        {
+          "fsv": "12. Taksætær maþær grip sin kallær hin i handum hauir sik hauæ köpt af vtlænskum manni. ok ær vin innæn lanz. þa skal han syunatting firi hanum gæræ. ær i handum hauir grip. han skal sinum salæ bud fa. kumbær han til uil vinnæ firi. hemæ föt. þer a han vitu til. Kumbær han eigh. þa skal han uita til sins mæþ tylptær eþe ok tvæggiæ mannæ vittnum.",
+          "tolkning": "12. Gör en man tak på sin klenod och säger den som har den i händerna att han har köpt den av en utländsk man, och köpvittnet (vinen) är inom landet, då skall sjunattastämma sättas för honom som har klenoden i händerna; han skall sända bud till sin säljare. Kommer denne och vill vittna om att den är hemfödd, då har han vittnesrätt därtill. Kommer han icke, då skall ägaren styrka sin rätt med tylfted och två mäns vittne.",
+          "kommentar": "vtlænskum manni: man från annat landskap eller rike. vin: köpvittne (vīn). salæ bud fa: sända bud till säljaren för hemul/auktorisation.",
+          "segmentId": "avg-b12-punkt12-seg001",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 12"
+        },
+        {
+          "fsv": "§.1. Æru baþir utlænzkir. þer uid hauæ köpt þa skulu þer fiughurra natta stæmnv gæræ kumi þa allir til þæs landæmærkiz ar þæm ær næst. Sali ok vin. ok þæn i hændi havir. ok þæn ær illir. þær skal væriæ firi hemæ föt ællær laghvm lösæ.",
+          "tolkning": "§ 1. Äro de båda utländska som köpt av varandra, då skola de sätta fyranättersstämma; komme då alla till det landamärke (gränsmärke) som är dem närmast: säljare och köpvittne och den som har klenoden i hand och den som klandrar. Där skall den värjas såsom hemfödd eller lösas med lagen.",
+          "kommentar": "fiughurra natta stæmnv: fyradagarsfrist. landæmærkiz: landskapsgränsen, där rättsliga tvister mellan invånare i olika lagsagor förhandlades vid gränssten eller gränsmärke.",
+          "segmentId": "avg-b12-punkt12-seg002",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 12 § 1"
+        },
+        {
+          "fsv": "§.2. Köpæss þer vid annar i varu landi. ok annar hinvagh kiægglu. ællær i danmark. þa skal manæþær stæmnu til gæræ ok leþiss til landæmærkiz. ok giers annattuigiæ lösis sum lagh sighia ællær væri þen i handum hauir. [Þ]y lik lagh ok ræt sum vtlænskir man göra os. þylikæn uilium uir þem göræ.",
+          "tolkning": "§ 2. Göra de köp med varandra, den ene i vårt land och den andre hinsides Käckle (Käglan/Tiveden) eller i Danmark, då skall en månads stämma utsättas och möte ske vid landamärket, och varde klenoden antingen löst såsom lagen säger eller värje den som har i hand. Slik lag och rätt som utländska män göra oss, slikt vilja vi göra dem.",
+          "kommentar": "hinvagh kiægglu: hinsides Käglan (skogsryggen Käglan mot Svealand). danmark: Danmark (innefattande Halland och Skåne). Formulerar den historiska reciprocitetsprincipen: '[Þ]y lik lagh ok ræt sum vtlænskir man göra os. þylikæn uilium uir þem göræ'. Textkritisk notis: Källan har '?y' på s. 20 rad 42; återgivet som [Þ]y.",
+          "segmentId": "avg-b12-punkt12-seg003",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 12 § 2",
+          "avvikelser": [
+            "Källtexten har '?y' på s. 20 rad 42; frågetecknet återgivet som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 13 (Återköpt stöldgods och gränsgång mellan landskap)",
+      "balkId": "B12",
+      "pdfSidor": [21],
+      "kallpunkt": "13",
+      "meningar": [
+        {
+          "fsv": "13. Tapær maþær grip sin köpir aptær ok kænnir eigh þa. kænniss viþ siþæn. þa skal hans vin vid uaræ flyti hinum grip ær hanum faldi. Ok illi þæn grip ær firi uar guldin. ok leþe siþen til þriþia salæ þer skal fyls wath firi gangæ. ællær lösæ mæþ laghum. En varir landa kænnæ sin grip i aþru landi. ællær utlænskir mæn i uaru landi þa skal syunattingh til gæræ. ok lösæ grip sin mæþ þrim mannum æn skal þæn væriæ ær grip illir. Annær hans landi mæþ hanum. [Þ]riþi af þy landi ær havir grip sin i kænt. Löst skal hin latæ ær i handum havir mæþ þæssi uitu. num væriæ uili mæþ tylptær eþe. at i hanss gardi þer var þænni gripær hemæ föder. ok þv at han ok þu iki i. þor han eigh þet suæriæ. þa skal hin til uita mæþ þrim mannum at han a þæn grip ok þu iki. Leþe til þriþiæ mansz ællær böte sum lagh sighia.",
+          "tolkning": "13. Förlorar en man sin klenod och köper den åter utan att känna igen den då, men känner igen den sedan, då skall hans köpvittne vara tillstädes och återföra klenoden till den som sålde den åt honom, och klandra den klenod som gavs i betalning, och leda den sedan till tredje säljaren. Där skall fölsvittne gå före eller lösas med lagen. Men om våra landsmän känna igen sin klenod i ett annat land, eller utländska män i vårt land, då skall sjunattastämma sättas och klenoden lösas med tre män, och den skall värja som klandrar klenoden: en annan landsman med honom och den tredje från det land där klenoden igenkändes. Lös skall den lämna som har klenoden i händerna mot detta vittnesbörd, såvida han ej vill värja sig med tylfted att klenoden var hemfödd i hans gård och att han äger den och du icke. Tör han icke svärja det, då skall den andre intyga med tre män att han äger klenoden och du icke. Lede han till tredje man eller böte såsom lagen säger.",
+          "kommentar": "Reglering av godtroförvärv och återkrav när den ursprunglige ägaren ovetande köpt tillbaka sin egen stulna egendom. Rättegång med tremannanämnd sammansatt över landskapsgränserna. Textkritisk notis: Källan har '?riþi' på s. 21 rad 6; återgivet som [Þ]riþi.",
+          "segmentId": "avg-b12-punkt13-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 13",
+          "avvikelser": [
+            "Källtexten har '?riþi' på s. 21 rad 6; frågetecknet återgivet som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 14 (Gods fråntaget tjuv, lysning och vinningslön)",
+      "balkId": "B12",
+      "pdfSidor": [21],
+      "kallpunkt": "14",
+      "meningar": [
+        {
+          "fsv": "14. Hittir man grip sin i þivfs haptum ællær altir þiuf af. þa skal han lysæ sum lagh sighiæ ok gieræ sik orþiuvæ. Kombær hin aptir ær kannir sit þa skal han til gængæ mæþ tylptær eþe ok tuæggiæ manna vittnum biþi sva sær guþ hollæn ok uattum sinum at iak hitti þennæ grip i þiufs handum. ællær ælti iak þiuf af. þy æm iæk verþer vnnitigiæ laghæ. ok lysti firi fyrstæ mots manni ok næstæ by. ok þriþiæ þingi. þy æm iak uarþær orþiuua at varæ. þa skal hin til gangæ ær grip sin hauir kænt ok sværiæ at gripær sar var fran mæær stolen ok huarghi sankiændi iak fyr ær hær ok iak a ok þu iki. [Þ]a skal þen löst hauir grip sin luca tva öræ firi hæst at vnningia laghum æn han steþer han vtan haraz ok öre en han innan hæræz lösir ok eigh þy meræ at flere se an en maþær a.",
+          "tolkning": "14. Finner en man sin klenod i tjuvs förvar eller jagar tjuven därifrån, då skall han lysa såsom lagen säger och göra sig fri från tjuvsak (orþiuua). Kommer då den efter som känner igen sitt, skall denne gå fram med tylfted och två mäns vittne: bedje så Gud vara sig och sina vittnen huld att 'jag fann denna klenod i tjuvs händer, eller jagade jag tjuven därifrån; därför är jag värd vinningslön enligt lag, och lyste inför förste mötande man och i nästa by och på tredje tinget; därför är jag värd att vara fri från tjuvnad'. Då skall den träda fram som har känt igen sin klenod och svärja att 'den klenoden var stulen från mig och ingenstädes kände jag igen den förr än här, och jag äger och du icke'. Då skall den som löst ut sin klenod erlägga två örtugar för häst i vinningslön om han finner den utanför häradet, och en örtug om han löser den inom häradet, och icke mer även om de äro flera än en häst som man äger.",
+          "kommentar": "vnningia laghum: vinningslön / bärgelön för tillvarataget stöldgods (två örtugar utom häradet, en örtug inom häradet). Strikt formell lysningsplikt: för förste mötande man, i närmaste by och på tre ting i rad för att undgå tjuvnadsansvar. Textkritisk notis: Källan har '?a' på s. 21 rad 19; återgivet som [Þ]a.",
+          "segmentId": "avg-b12-punkt14-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 14",
+          "avvikelser": [
+            "Källtexten har '?a' på s. 21 rad 19; frågetecknet återgivet som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 15 (Stulet sto och fölsvittne)",
+      "balkId": "B12",
+      "pdfSidor": [21],
+      "kallpunkt": "15",
+      "meningar": [
+        {
+          "fsv": "15. Varþær hyrsæ stolen ok ær eigh i fol. uærþær i fol siþæn annær far at köpæ. Hittir hin sit at stæþiæ han skal taksætiæ ok syunatting til gæræ ok lösæ sit mæþ laghum æn eigh gangær fyls uat firir hin skal fyl hauæ ær föt hauir hema.",
+          "tolkning": "15. Varder ett sto stulet som icke är dräktigt med föl, och varder det dräktigt sedan en annan har köpt det: finner då den förre sitt sto, skall han sätta i tak och göra sjunattastämma och lösa sitt med lagen; såvida icke fölsvittne går före, skall den ha fölet som har fött det hemma.",
+          "kommentar": "hyrsæ: sto (hyssa/hross). i fol: dräktig med föl. fyls uat: fölsvittne (intyg om var fölet avlats och fötts). Äganderätten till fölet tillfaller den som fött upp det i sitt hägn om dräktigheten uppstått efter stölden.",
+          "segmentId": "avg-b12-punkt15-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 15"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 07",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 16 (Bortförande och stöld av träl eller trälinna)",
+      "balkId": "B12",
+      "pdfSidor": [21],
+      "kallpunkt": "16",
+      "meningar": [
+        {
+          "fsv": "16. Stiæll maþær þræl manz ællær ambut löpær bort faar hin æptir ær a far sit eighit aptær ok leþer aptær a hand hanum ær han þiuf kallær til garþ. ok til grinder mæþ vittnum. þæt at han gitær eigh þiufsak rundit mæþ laghum rættum hanum skal bötæ firi þa þiufsak atta örtoghor min æn fiurar markær. sua konongi ok sua allum mannum.",
+          "tolkning": "16. Stjäl en man en annans träl eller löper en trälinna bort, far då ägaren efter och får sitt eget åter, och återför trälen till honom som han kallar tjuv, till gård och grind med vittnen: om denne icke förmår avvärja tjuvsaken med laglig rätt, skall han böta för den tjuvsaken åtta örtugar mindre än fyra marker, likaså till konungen och likaså till allmogen.",
+          "kommentar": "Stöld av ofri arbetskraft (träl eller ambut). Bötessatsen är treskiftad: 'atta örtoghor min æn fiurar markær' (3 marker = 24 örtugar, minus 8 örtugar = 16 örtugar eller 2 marker) vardera till målsäganden, konungen och häradet (allum mannum).",
+          "segmentId": "avg-b12-punkt16-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 16"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 08",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 17 (Klander av träl och vittnesed om födsel i vagga)",
+      "balkId": "B12",
+      "pdfSidor": [21],
+      "kallpunkt": "17",
+      "meningar": [
+        {
+          "fsv": "17. Stæþær maþær þræl sin ællær ambut . kallær fra sæ stolet uæræ ællær rantakit. þa skal han taksætiæ. þa skal syunatting firi þem gæræ sum i tak gæk taki skal þæn uæræ viþ siunatting ar i handum hauir. Sa a vittni ær i handum hauir æn uittni fæss. Vittni firi hemæ föt mæþ tylptær eþe. ok tvæggiæ mannæ vittnum. Biþi sua sær guð holl. ok vattum sinum at iak födde han hemæ i husum ok hæskap þer diþi ok drak miolk af moþor spina. þær uar i klæþum uafþær ok i uaggu lagþer. þy a iak han ok þu iki. falz han. þa skal hin sit hauir taksæt suæriæ mæþ tylptar eþe ok tuæggiæ mannæ uittnum at þanni maþær allær. konæ uar fra mær stolen ælllær rantær. ok huarghi þa rætkændi iak han fyr æn hær . iak a ok þu iki i.",
+          "tolkning": "17. Finner en man sin träl eller trälinna och säger den vara från sig stulen eller råntagen, då skall han sätta i tak. Då skall sjunattastämma sättas för den som gick i borgen; till sjunattastämman skall den inställa klenoden som har den i händerna. Den har vittnesföreträde som har i händerna om vittnen finnas. Han vittne för hemfött fä med tylfted och två mäns vittne; bedje så Gud och sina vittnen vara sig huld: 'att jag födde honom hemma i mina hus och hushåll, där diade han och drack mjölk ur moderns spene, där var han svept i kläder och lagd i vagga; därför äger jag honom och du icke'. Fälles han, då skall den som satte i tak svärja med tylfted och två mäns vittne att 'denne man eller kvinna var från mig stulen eller rånad, och ingenstädes rättkände jag honom förr än här; jag äger och du icke'.",
+          "kommentar": "En av de mest gripande fornnordiska rättsformlerna: 'iak födde han hemæ i husum ok hæskap þer diþi ok drak miolk af moþor spina. þær uar i klæþum uafþær ok i uaggu lagþer. þy a iak han ok þu iki'. Vittnesbördet om spädbarnsvård och uppfödning i hushållet utgjorde det yttersta beviset för äganderätt till en träl född av en trälkvinna på gården.",
+          "segmentId": "avg-b12-punkt17-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 17"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 09",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 18 (Träl gripen på flykt och vinningslön)",
+      "balkId": "B12",
+      "pdfSidor": [21],
+      "kallpunkt": "18",
+      "meningar": [
+        {
+          "fsv": "18. Takær maþær þræll allær. ambut a löpstighum. þa skal lysæ sum lagh sighia hin skal lucæ firi vnningiæ lagh tua öræ innan lanz half mark utæn lanz. Vinni til sum lagh ær.",
+          "tolkning": "18. Griper en man en träl eller trälinna på flyktstig (löpstighum), då skall han lysa såsom lagen säger; den som äger skall gälda i vinningslön två örtugar inom landet och en halv mark (fyra örtugar) utom landet. Han bevise sin rätt såsom lagen föreskriver.",
+          "kommentar": "löpstighum: på flykt / flyktstig. Hittelön/vinningslön (vnningiæ lagh) för infångad förrymd träl: två örtugar inom landskapet, en halv mark (4 örtugar) utanför landskapet.",
+          "segmentId": "avg-b12-punkt18-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 18"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 10",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 19 (Köpvittnen, vingång, fä- och vapenköp samt torgköp)",
+      "balkId": "B12",
+      "pdfSidor": [21, 22],
+      "kallpunkt": "19",
+      "meningar": [
+        {
+          "fsv": "19. þræl ok ambut þem. skal vingæ. Bonde ær til vinordz biþin þæss ær sæl ok hins ær köpir. þa skal sa vingæ ær til uinordz ær biþin. Bonde skal værþe sa ær sæl. þræl ok ambut. þem ær köpir bæþi ny ok naþær þar næstu firi brote. æn firi griþum allæn aldær.",
+          "tolkning": "19. Träl och trälinna, dem skall man köpa med köpvittne (vingæ). En bonde är ombedd om köpvittnesord av den som säljer och den som köper; då skall den bekräfta köpet som är ombedd om köpvittnesord. Bonden skall gå i borgen, den som säljer träl eller trälinna, till förmån för köparen: både ny och nåder (under den närmaste månaden) för fallandesot (broti), men för dråp och fredsbrott för all tid.",
+          "kommentar": "vingæ: bekräfta köp med köpvittne (vīn). ny ok naþær: under den närmaste månaden från nymåne till nedan. firi brote: garanti mot fallandesot/epilepsi. firi griþum allæn aldær: evig garanti mot tidigare begångna fredsbrott och dråp begångna av den sålde trälen.",
+          "segmentId": "avg-b12-punkt19-seg001",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 19"
+        },
+        {
+          "fsv": "§.1. [Þ]y skal uin takæ til alþræ köpæ at han skal orþiuua gæra um al köp. Vil hin han þiuf kallæ. þa skal uin vittnæ ok þer tver samæn mæþ tylptær eþe. at iak köpti grip þænnæ. mæþ vin ok mæþ vittni. sva sum lagh varu. ok þy ualt iak eigh sak þerre. þu giuær mær.",
+          "tolkning": "§ 1. Därför skall man taga köpvittne (vin) vid alla köp, att han skall göra köparen fri från tjuvnad (orþiuua) vid alla köp. Vill någon kalla honom tjuv, då skall köpvittnet vittna och de två samman med en tylfts ed: 'att jag köpte denna klenod med köpvittne och med vittnen såsom lagen föreskrev, och därför vållade jag icke den sak som du tillmäler mig'.",
+          "kommentar": "orþiuua gæra: göra köparen saklös mot anklagelse om stöldgodsförvärv. Köpvittnet (vīn) fungerade som personlig garant och mededshjälpare vid köp av lösöre. Textkritisk notis: Källan har '?y' på s. 21 rad 37; återgivet som [Þ]y.",
+          "segmentId": "avg-b12-punkt19-seg002",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 19 § 1",
+          "avvikelser": [
+            "Källtexten har '?y' på s. 21 rad 37; frågetecknet återgivet som [Þ]."
+          ]
+        },
+        {
+          "fsv": "§.2. Horss ok nöt hof fæ ok hornfæ. skapat klæþi ok skiept uakn. þem skal köpæ ok sæliæ mæþ vin ok vittni.",
+          "tolkning": "§ 2. Häst och nöt, hovfä och hornfä, tillskurna kläder och skaftade vapen: dem skall man köpa och sälja med köpvittne och vittnen.",
+          "kommentar": "Lagstadgad förteckning över dyrare lösöregrupper som ovillkorligen fordrade formellt köpvittne (vin ok vittni): hästar och nötkreatur (hof fæ ok hornfæ), färdigsydda kläder och skaftade vapen.",
+          "segmentId": "avg-b12-punkt19-seg003",
+          "kallreferens": "AVG-MASKIN s. 21, Þiuuæ bollkær Punkt 19 § 2"
+        },
+        {
+          "fsv": "§.3. Dikur swærþ ok oskapaþ klæþi ok alt þæt i boþom liggær. ok þæt a torghe köpess vtæn boþær sva sum i. Illir ennor þy. þa skal han haua tuæggiæ mannæ uittni ok tylptær eþ. þæss. at sværiæ at han köpte torghköpe rættu ok þy ær han eigh þiuuær at.",
+          "tolkning": "§ 3. Deger svärd (dyrbart prytt svärd) och otillskurna kläder (tygstycken) och allt det som ligger i salubodar, och det som köps på torget utanför bodar såsom ett stycke: klandrar någon detta, då skall han ha två mäns vittne och tylfted att svärja att han köpte med rätt torgköp, och därför är han icke tjuv däröver.",
+          "kommentar": "Dikur swærþ: kostbart, prytt svärd. oskapaþ klæþi: tygstycken/väv i stycke. torghköpe rættu: torgköp på marknadsplats med publik omsättning åtnjöt särskilt rättsskydd; köparen frias från tjuvsak genom att svärja att godset köpts i öppen handelsbod eller på torget.",
+          "segmentId": "avg-b12-punkt19-seg004",
+          "kallreferens": "AVG-MASKIN s. 21–22, Þiuuæ bollkær Punkt 19 § 3"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

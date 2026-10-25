@@ -15,6 +15,8 @@ import {
 } from "@/lib/ordbok/ordbokDb";
 import type { OrdbokKallfilter, OrdbokSoklage } from "@/lib/ordbok/typer";
 
+export const revalidate = 86400; // 24 timmar ISR för ordboksartiklar
+
 export async function generateMetadata({
   params,
 }: {
@@ -25,20 +27,60 @@ export async function generateMetadata({
       ? await hamtaOrdbokPostDb(params.id)
       : hamtaOrdbokPost(params.id);
     if (!post) {
-      return { title: "Ordbokspost hittades inte · Fornsvenska Studielabbet" };
+      return {
+        title: "Ordbokspost hittades inte | Fornsvenska.se",
+        robots: { index: false, follow: false },
+      };
     }
     const band =
       post.sourceDataset === "soederwall"
         ? "Söderwalls huvudverk"
         : "Söderwalls supplement";
+
+    let sammanfattning = "";
+    if (post.modernDefinition?.kortForklaring) {
+      sammanfattning = post.modernDefinition.kortForklaring;
+    } else if (post.modernDefinition?.modernGlos?.length) {
+      sammanfattning = `Betydelse: ${post.modernDefinition.modernGlos.join(", ")}.`;
+    } else if (post.articlePlainText) {
+      const renad = post.articlePlainText.replace(/\s+/g, " ").trim();
+      sammanfattning =
+        renad.length > 130
+          ? renad.slice(0, 127).replace(/\s+\S*$/, "") + "…"
+          : renad;
+    }
+
+    const ordklasser =
+      post.partOfSpeech && post.partOfSpeech.length > 0
+        ? ` (${post.partOfSpeech.join(", ")})`
+        : "";
+
+    const titelText = `${post.headwordDisplay}${
+      post.homonymNumber ? ` (${post.homonymNumber})` : ""
+    } — ${band}`;
+
+    const beskrivning = sammanfattning
+      ? `${sammanfattning} Fornsvenskt uppslagsord i ${band}${ordklasser}.`
+      : `Uppslagsordet ${post.headwordDisplay} i ${band}${ordklasser}. Källbelägg och fornsvensk ordbokstext.`;
+
+    const kanoniskUrl = `/ordbok/${encodeURIComponent(params.id)}`;
+
     return {
-      title: `${post.headwordDisplay}${
-        post.homonymNumber ? ` (${post.homonymNumber})` : ""
-      } — ${band} · Fornsvenska Studielabbet`,
-      description: post.articlePlainText.slice(0, 160),
+      title: titelText,
+      description: beskrivning.slice(0, 160),
+      alternates: {
+        canonical: kanoniskUrl,
+      },
+      openGraph: {
+        title: `${titelText} | Fornsvenska.se`,
+        description: beskrivning.slice(0, 160),
+        url: `https://www.fornsvenska.se${kanoniskUrl}`,
+        siteName: "Fornsvenska.se",
+        type: "article",
+      },
     };
   } catch {
-    return { title: "Ordbok · Fornsvenska Studielabbet" };
+    return { title: "Ordbok | Fornsvenska.se" };
   }
 }
 

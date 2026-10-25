@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import SiteFrame from "@/components/SiteFrame";
 import LoginForm from "@/components/admin/LoginForm";
@@ -7,6 +8,14 @@ import { HAR_SUPABASE, saknadeVariabler } from "@/lib/supabase/config";
 import { loggaUt } from "@/lib/actions";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Administration",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function AdminPage() {
   const { arAdmin, anvandarnamn } = await hamtaSession();

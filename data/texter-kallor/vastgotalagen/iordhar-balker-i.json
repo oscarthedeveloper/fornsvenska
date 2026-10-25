@@ -1,0 +1,235 @@
+{
+  "titel": "Iordþær bolkær, del I",
+  "underrubrik": "Äldre Västgötalagen, jordafång, köp, fastar, bördsrätt och byamål (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Fastighetsrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Första delen av Jordabalken (Iordþær bolkær) i Äldre Västgötalagen fastställer de fundamentala grundreglerna för fast egendom i det medeltida Västergötland. Texten inleds med den berömda uppräkningen av jordens fem lagliga fång: arv, sons hemgåva, dotters hemföljd, köp och skötning. Vidare regleras det högtidliga köpeavtalet inför fastar och styresfast med rituell umfärd kring ägorna, hembud och bördsrätt gentemot arvingar vid månadstämma på tinget, förbud mot sämjeköp mellan makar (väggaköp), pantsättning med tre vintrars inlösenfrist, vittnesföreträde där bönder går före ländmän i byamål, samt byns indelning i åttungar, gärdestvång vid Kristi himmelsfärdsdag och tomtgränsens tjäldrastenar med rätt till takdropp.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 1 (Jordens fem fång)",
+      "balkId": "B10",
+      "pdfSidor": [
+        15
+      ],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "1. Fæm æru fang iorþær. Et ær arvær. Annæt ær. hemgæf sunær. [Þ]riþiæ ær hemfylgð. dottor. Fiærþæ ær köp. Fæmtæ ær sköting.",
+          "tolkning": "Fem äro jordens laga fång: Ett är arv; det andra är sons hemgåva; det tredje är dotters hemföljd; det fjärde är köp; det femte är skötning.",
+          "kommentar": "Fæm æru fang iorþær: den klassiska fornsvenska uppdelningen av laga fång till fast egendom. hemgæf sunær: förskott på arv till son vid giftermål eller etablering. hemfylgð dottor: hemgift till dotter. sköting: skötning, formlig överlåtelse genom att jord läggs i mottagarens sköte inför vittnen. Textkritisk notis: Källan har '?riþiæ' på s. 15 rad 22; frågetecknet återgivet som [Þ] enligt transkriptionsreglerna.",
+          "segmentId": "avg-b10-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 15, Iordþær bolkær Punkt 1",
+          "avvikelser": [
+            "Källtexten har '?riþiæ' på s. 15 rad 22; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 2 (Köp, fastar, umfärd och klander)",
+      "balkId": "B10",
+      "pdfSidor": [
+        15
+      ],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "2. Köpe skal taka at þæs hænde ær iord sæl umfærd at varþæ. ok han tua af hændi værþi at værþæ. þer allir skulu takæ i hand baþvm þem þa ær ok köpfæstum bundit. Ryvi mæþ. III. markum þæn ryuæ uill. Comber eig köpruui uid sin farit ær þa siunætting garæ firi þem svm vmfærþ værþær ok allum þem ær ioþ æghu i by skal gangæ um akræ. ok ængiær. ok sua aptær a topt siþæn. Illiz þa ennor staþér. þa skal þen variæ ær iorþ sæl æn fyr illiz æn umfærþ kombær .a. Illiz siþæn þa skal þæn varþæ sum köpir. Attæ skulu oþolfæstir varæ. niunde styrisfæstær. Siu nattæ gamall skal siunattingær. væræ. Sa skal iorþ. væriæ. ær .a. maþ tuænni tylptum. ok tuænni vittnum skal iorþ væriæ. Siunætting skal uisæ þem manni ær köpæ varþæþæ æn annættvægiæ quæls værþ ællær vmfærþ firi hanum. Siunattingh skal firi hanum halþæ þor han uitæ firi mæþ tylptær eþe at han eigh köpe. værþaþe. þa ær han uarþær. falz han böta. III. markær firi köpruf.",
+          "tolkning": "Köparen skall taga å säljarens vägnar en man som borgar för umfärden, och säljaren skall taga två män ur sin hand som borga för köpeskillingen; alla dessa skola taga i hand med båda parterna, då är köpet bundet med fastar. Den som vill bryta köpet bryte det med tre marker. Brytes köpet icke då det ingicks, skall man utlysa sjunätting inför den som borgar för umfärden och alla dem som äga jord i byn; man skall gå omkring åkrar och ängar och så tillbaka till tomten sedan. Klandras jorden annorstädes, skall säljaren försvara den om klandret sker innan umfärd ägt rum; klandras den därefter, skall köparen försvara den. Åtta skola odalsfastarna vara och den nionde styresfasten. Sju nätter gammal skall sjunättingen vara. Den skall värja jorden som äger den, med två tolfter och två vittnen. Sjunätting skall utlysas för den man som borgade för köpet om antingen köpeskillingen eller umfärden uteblir inför honom; fälles han, böte han tre marker för köpbrott.",
+          "segmentId": "avg-b10-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 15, Iordþær bolkær Punkt 2",
+          "kommentar": "oþolfæstir: odalsfastar, fastighetsvittnen ur bygden. styrisfæstær: ordförande bland fastarna. vmfærþ: rituell inspektionsgång kring fastighetens alla rågångar. köpruf: böter för kontraktsbrott."
+        },
+        {
+          "fsv": "§.1. Illiz arftakin iorþ hana skal væriæ. mæþ ærfþær vittnum. Tver mæn skulu vittni bæræ ok i tylpt standæ. Sva skal uittni bæræ. Bær iak. þæs vittni ok uir mæn tver at þu tokt iorþ þæssæ at arvi. at v iltu mæþ vittni borno binþum. uit slikt svm lagh sighiæ. þa skal han firi tylpt ganga at biþiæ svæ guþ holl ok uattum sinum. at iac tok iorþ þæssæ at arvi ok at v iltu. ok iac a ok þu ikki vættæ .i. §.2. Illiz iorþ at þem köpt havir. þa skal han værnæ mæþ tuanni tylptum ok tuanni vittnum. biþi sva sær guþ holl. ok uattum sinum at iak köptæ iorþ. þæssæ maþ fæst ok mæþ vmfærþ at v iltu. ok sva svm lagh sighiæ ok iak. a ok þv iki vætæ i. þa skal firi. aþræ tylpt gangæ ok sværiæ samalund. köpæ vittni skal latæ bæræ. i tylfpt hvarri. tvæggiæ manna.",
+          "tolkning": "§ 1. Klandras arvtagen jord, skall den värjas med arvsvittnen; två män skola bära vittnesbörd och stå i tolften. Så skall vittnesbörd bäras: 'Jag bär vittnesbörd därom och vi två män, att du tog denna jord i arv utan klander, och vi binda det med framburet vittne såsom lagen säger.' Då skall han träda fram inför tolften och bedja så Gud och sina vittnen vara sig huld: 'Att jag tog denna jord i arv och utan klander, och jag äger den och du äger intet däri.' § 2. Klandras jord hos den som har köpt, då skall han värja med två tolfter och två vittnen: 'Att jag köpte denna jord med fastar och med umfärd utan klander och såsom lagen säger, och jag äger och du äger intet däri'; sedan skall han gå fram inför den andra tolften och svära på samma sätt; köpvittnen skall han låta framträda med två män i vardera tolften.",
+          "segmentId": "avg-b10-punkt02-seg002",
+          "kallreferens": "AVG-MASKIN s. 15, Iordþær bolkær Punkt 2 §1–2",
+          "kommentar": "Illiz: klandras (fsv. illa = klandra, anfäkta äganderätten). at v iltu: oklandrad, i fredlig besittning. Tvåpassprövning med dubbla tolfter och köpvittnen garanterar lagfartens orubblighet."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 3 (Bördsrätt, månadstämma och sämjeköp)",
+      "balkId": "B10",
+      "pdfSidor": [
+        15,
+        16
+      ],
+      "kallpunkt": "3",
+      "meningar": [
+        {
+          "fsv": "3. Æn sæliæ uill iorþ sinæ þa skal biuþæ arvæ sinum siunatting skal firi arva gæræ. ok sva biuþa hanum iorþ at köpæ. Siþæn skal þing uisæ ok manæþær stæmnu skulu þingmæn þem gæræ. Combær han til at köpæ iorþ a manæþær stæmnu. þæt ær vald. kombær han eigh. þa skal han til þings faræ læti þömæ sær at sæliæ þem mæst biuþær værþ firi. Sva skal konæ lagh byþæ sum karmaþar",
+          "tolkning": "Vill man sälja sin jord, då skall man hembjuda den åt sin arvinge; sjunätting skall man utlysa för arvingen och så bjuda honom att köpa jorden. Sedan skall man hänskjuta till tinget och tingsmännen skola sätta en månads frist för dem. Kommer han till att köpa jorden vid månadstämman, då är saken avgjord; kommer han icke, då skall säljaren fara till tinget och låta döma sig rätt att sälja till den som bjuder mest för den. På samma sätt skall en kvinna hembjuda jorden enligt lag som en karl.",
+          "segmentId": "avg-b10-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 15–16, Iordþær bolkær Punkt 3",
+          "kommentar": "biuþæ arvæ sinum: bördsrätt (börþ / naustr), släktingarnas lagstadgade förköpsrätt till ättejord. manæþær stæmnu: lagstadgad betänketid om en månad på tinget innan jorden fick avyttras till utomstående."
+        },
+        {
+          "fsv": "§.1. Eig skal a slæt faræ num vili hvat þæt ær maþær ællær konæ æn i bo sitær. §.2. Eig ma maþær af kono sinni iorþ köpæ mæþ laghmæli. þæt kallær. væggiær köp. Köpe bonde iorþ i iorþ æn han. vill. §.3. Sa svm iorþ sæl sialuær skal han. köpfæstum. bindæ. ok uiþ vmfærþ uæræ. hvat þæt ær hældér kona ællær barn. ællær maþær. a þingi skal owormaghæ köpæ lysæ. §.4. Maþær köpe mæþ lösom örom ok uill sæliæ vid lösom örom han skal þem lægbiudæ ær han köpte af. han skal sua firi iorþ lukæ sum þa ær til buþit. Vill han i iord skiptæ. þa skal han lag eigh biuþæ.",
+          "tolkning": "§ 1. Ingen skall drivas bort från sitt hemman mot sin vilja, vare sig man eller kvinna, så länge denne sitter i boet. § 2. Ingen man må köpa jord av sin hustru enligt lag, det kallas 'väggaköp' (sämjeköp inom husets väggar); dock må bonden byta jord mot jord med henne om han vill. § 3. Den som säljer jord skall själv binda köpet med fastar och närvara vid umfärden, vare sig det är kvinna, barn eller man; på tinget skall omyndigs köp kungöras. § 4. Köper man jord med lösören och vill sälja åter mot lösören, skall han hembjuda den åt den han köpte av; denne skall betala för jorden vad som då bjudits; vill han byta mot annan jord, behöver han icke hembjuda.",
+          "segmentId": "avg-b10-punkt03-seg002",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 3 §1–4",
+          "kommentar": "væggiær köp: väggaköp, förbjudet köp mellan makar under bestående äktenskap till skydd för hustruns egendom. owormaghæ köpæ lysæ: offentlig tingslysning vid omyndigs jordtransaktioner för att förhindra förskingring."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 4 (Makars jord, lösören och tillökning)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "4. Konæ sæl iorþ sinæ ællær maþær laggær eig .i. bo. köpir sæ iorþ aþræ. þæt ær þæs þerræ ær iorþæ wærþi. atti. §.1. Köpir maþær iorþo sinni gær agærþ till. mæþ fæ. bæggiæ þerræ. þaghær. bo. skiptis. þa skal sva marhæ oræ. aptær til skiptis læggiæ sum agærþ. var. §.2. Skil a hion tu. ær iorþ mæþ lösom örom köpt kallæs annat eigh eghæ. þæt. a vitu baþvm þem uil uitæ til egho. §.3. Værþær iorþ farin siþæn hion tv komæ samæn þa ær hun bæggiæ þerræ.",
+          "tolkning": "Säljer en kvinna eller en man sin jord och lägger icke köpeskillingen i det gemensamma boet utan köper sig annan jord, då tillhör den jorden den av dem som ägde köpeskillingen. § 1. Köper en man till sin jord och gör tillökning med bådas gemensamma gods, då skall vid boskiftet så många örar läggas tillbaka till delning som tillökningen kostade. § 2. Tvista två makar om jord som köpts med lösören och påstår den ene att den andre icke äger del däri, då äger den vittnesbörd som vill styrka äganderätten för båda. § 3. Förvärvas jord sedan två makar kommit samman, då tillhör den dem båda.",
+          "segmentId": "avg-b10-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 4–§3",
+          "kommentar": "agærþ: tillökning eller förbättring av fastighet med gemensamma medel. Subrogationsprincipen: egendom som träder i stället för enskild jord förblir enskild, medan förvärv under äktenskapet blir makars gemensamma egendom."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 5 (Vittnesföreträde: biskop, ländman och bonde)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "5. Biskupær a vitu firi kononge. ok lændær maþær firi biscupi. ok bonde firi allum. þem. Egho böndær by. ok annan lændir. mæn skil þem a. þa æghu bönþer uitu ok eigh lændir mæn. bya þerræ mælli. Boæ bönþær i by mæþ lendum manni. eig mughu þer uitu mistæ. þy hældær.",
+          "tolkning": "Biskopen äger vittnesföreträde framför konungen, och ländmannen framför biskopen, men bonden äger företräde framför dem alla. Äga bönder en by och ländmän en annan och skiljer det dem emellan, då äga bönderna vittnesbörd mellan byarna och icke ländmännen. Bo bönder i samma by som en ländman, förlora de icke heller då sitt vittnesbörd.",
+          "segmentId": "avg-b10-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 5",
+          "kommentar": "bonde firi allum þem: den häpnadsväckande västgötska rättsregeln om den självägande bondens absoluta vittnesföreträde i lokala jordamål framför såväl ländmän, biskop som konung."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 6 (Jordapant och förpantning)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "6. Vill maþær iorþ at væþium takæ þa skal. vmfærþ til þeræ skiliæ hanum sua iorþ til vaþia sum lagh til sighia. Lösær han innæn þriggiæ vintra. þa ær eigh iorþ foruæþiæ standær hun þrea vinter ællær þrim længær. þa ær forvæþia. §.1. Læggær maþær annvr. væþ. gull ællær silvær. þa skal han gæræ siunatting firi hanum ok halþa at lösæ uæþ sit ok kuld kræfiæ. Han skal skyld lucæ eþ sin eptir at skuld ær eig mere æn nu ar fram lagþ. Vil eig skyld lukæ ok eig lagh gangæ. þa skal vaþium halþæ ok til þings föræ latæ dömæ sær at sæliæ.",
+          "tolkning": "Vill man taga jord till pant, då skall umfärd avtalas därtill och jorden pantsättas såsom lagen säger. Löser han den inom tre vintrar, då är jorden icke förpantad; står den tre vintrar eller längre än tre vintrar, då är den förpantad (förverkad). § 1. Lämnar man andra panter, i guld eller silver, då skall han hålla sjunätting för honom för att lösa sin pant och kräva skulden; gäldenären skall betala skulden och svära ed att skulden icke är större än vad som framlagts; vill han varken betala skulden eller gå edgång efter lag, då skall borgenären behålla panten, föra den till tinget och låta döma sig rätt att sälja den.",
+          "segmentId": "avg-b10-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 6–§1",
+          "kommentar": "foruæþiæ: förpantad egendom, panträtt som efter tre vintrars utebliven inlösen förvandlas till definitiv äganderätt eller försäljningsrätt genom tingsdom."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 07",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 7 (Bolsköp, utskifte och tomt med åttung)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "7",
+      "meningar": [
+        {
+          "fsv": "7. Köpir maþær bol. æru af köptir. akrær skil þem a han eig vitu num til ennær skipt. þa skal sær firi gangé ær bol. a mæþ tvem tylptum. ok biþi sva sær guþ holl ok uattum sinum at skipt þæssi var aldrigh farin af bole þæssu mæþ fæst ællær mæþ vmfærþ ok eig afhænd sum lagh sighiæ.",
+          "tolkning": "Köper man ett bol (ett helt hemman) och äro åkrar frånköpta, och tvista de därom, då äger han icke vittnesbörd annat än till enas skifte; då skall den som äger bolet träda fram med två tolfter och bedja så Gud och sina vittnen vara sig huld: 'Att detta skifte aldrig avhändes från detta bol med fastar eller med umfärd, och icke avhändes såsom lagen säger.'",
+          "segmentId": "avg-b10-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 7",
+          "kommentar": "bol: odalhemman, stamgård. Tvist om frånsålda tegar eller skiften avgörs med dubbla tolfter till skydd för hemmanets integritet."
+        },
+        {
+          "fsv": "§.1. Kallær annær. sik hauæ herft skipt ok annar copt. sa a vitu ær ærst kallæs havæ. §.2. Kallær annar vtskipt eghæ ok annar a bol. sa a uitu ær bol a. Vtskiptir ok garþær. þær skulu all til toptær at lagmæli. §.3. Hauir maþær topt i by ok oræss land ok sex lassa æng. þa a han uitu til vtskiptæ attundæ löter attungz til löf ok lok vndir viþær. A maþær eig meæ firi en atundær löt attungx far iki uitæt a han.",
+          "tolkning": "§ 1. Påstår den ene sig hava ärvt ett skifte och den andre att han har köpt, då äger den vittnesbörd som först påstår sig innehava det. § 2. Påstår den ene sig äga utskifte och den andre att det hör till bolet, då äger den vittnesbörd som äger bolet; utskiften och gärden skola alla ligga till tomten enligt lag. § 3. Har en man tomt i byn och två plogland (oræss land) samt äng om sex lass hö, då äger han vittnesbörd till utskifte av en åttondedel av en åttung till lövtäkt och vedfång; äger han icke mer än en åttondedels lott av en åttung, må intet frånkännas honom med vittnesbörd.",
+          "segmentId": "avg-b10-punkt07-seg002",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 7 §1–3",
+          "kommentar": "vtskiptir: utägor utanför byns ordinarie tegskifte. oræss land: plogland (fsv. oræss land = oxdraget land, areal måttad efter ett plogspänn). attundæ löter attungz: minsta legala brukningsenhet för fullständiga byarättigheter."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 08",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 8 (Åttungar och byorganisation)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "8",
+      "meningar": [
+        {
+          "fsv": "8. Attungum skal by byggiæ. Fiurir væghær skulu af by rinnæ. Liþ ok garþa ok bror skal attungum. skiptæ.",
+          "tolkning": "Efter åttungar skall by byggas. Fyra vägar skola löpa ut ur byn. Grindar, gärdesgårdar och broar skola skiftas efter åttungar.",
+          "segmentId": "avg-b10-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 8",
+          "kommentar": "Attungum skal by byggiæ: byalagens grundläggande förvaltnings- och skattesystem i medeltidens Götalandskap; åttungen (1/8 av ett bol eller attungatal) styrde byns ansvar för gemensamma anläggningar såsom vägar, broar och hägnader."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 09",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 9 (Gärdesgårdstvång och Kristi himmelsfärdsdag)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "9",
+      "meningar": [
+        {
+          "fsv": "9. Hittis at kirkiugarþær ok toptærgarþar. þa sokn gærþæ. ok eig top Hittis a akær ok topt. sa skal gærþæ ær topt .a. §.2. Garþær skal standæ mælli topt ok akræ lukttær a hælghaþorsdagh. Halfgærþi mællin toptæ. tvæggiæ. han skal e. gildær væræ. æn hvarghin böte firi utæn annær kærir a annæn.",
+          "tolkning": "Mötas kyrkogård och tomtgård, då skall socknen hägna och icke tomten; mötas åker och tomt, skall den hägna som äger tomten. § 2. Gärdesgård skall stå stängd mellan tomt och åker senast på Kristi himmelsfärdsdag (helatorsdag). Halvgärde mellan två tomter skall alltid vara i laga skick, men ingendera parten böte såvida icke den ene klandrar den andre.",
+          "segmentId": "avg-b10-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 9–§2",
+          "kommentar": "Garþær lukttær a hælghaþorsdagh: traditionell vårlig stängseldag för att skydda nysådda åkrar mot betande boskap. Halfgærþi: gemensamt stängselansvar mellan grannar."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 10",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 10 (Tjäldrastenar och takdropp)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16
+      ],
+      "kallpunkt": "10",
+      "meningar": [
+        {
+          "fsv": "10. Tialdru. stenæ. skal tua i iorþ grawæ. þriþiæ a læggiæ. þer skulu vitni bæræ ar i iorþ liggiæ. §.1. hus skal sva nær tyaldru. sættiæ at stuþer rum ær mællum ok opsædrup.",
+          "tolkning": "Tjäldrastenar (rågångsstenar på tomtgräns) skall man gräva två i jorden och lägga den tredje ovanpå; de skola bära vittnesbörd där de ligga i jorden. § 1. Hus skall sättas så nära tjäldran att det finnes utrymme för stöttor och takdropp (opsædrup) emellan.",
+          "segmentId": "avg-b10-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 16, Iordþær bolkær Punkt 10–§1",
+          "kommentar": "Tialdru stenæ: tjäldrastenar, medeltida gränsröse av tre stenar (två som fotstenar och en hjärtsten ovanpå) som utvisade tomtens exakta rågång. opsædrup: rätten till takdropp och väggutrymme gentemot grannens tomtgräns."
+        }
+      ]
+    }
+  ]
+}

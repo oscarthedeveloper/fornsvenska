@@ -1,0 +1,181 @@
+{
+  "titel": "Ærfþa balkær, del I",
+  "underrubrik": "Äldre Västgötalagen, arvsordning, kullar och Greklandsfararen (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Första delen av ärvdabalken i Äldre Västgötalagen fastställer arvsföljden enligt det strikta nordiska parentelsystemet, där barn och efterkommande utesluter sidoarvingar och fädernet skiljs från mödernet. Balken reglerar moderns och döttrars arvsrätt, fördelning mellan olika barnkullar, havande änkas rätt till gården och fostermors förmyndarskap, arvsdelning vid flera på varandra följande äktenskap, arvsrätt för mundgift dotter och frillobarn, inträde i kloster, förbud mot dödsdagsgåvor utan arvingens samtycke, dråpares förlust av arvsrätt, samt den berömda paragrafen om Rom- och Greklandsfararen.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 1–2 (Arvsföljden och moderns arv)",
+      "balkId": "B07",
+      "pdfSidor": [8],
+      "kallpunkt": "1-2",
+      "meningar": [
+        {
+          "fsv": "Svn ær faþurs arvi. Ær eig svn. þa ær dottær. Ær eig dottær þa ær faþir. Ær eig faþir þa ær moþer. þa ær broþer. Ær eig broþér. þa er. systir. Ær eig systir. þa æru sunærbörn. Ær eig sunærbörn þa ær dottor börn. Ær eig dottor börn. þa æru broþor börn. Ær eig broþorbörn. þa æru systör börn. Ær eig. systor börn. þa ær faþurfaþir. Ær moþor moþær. ok faþur broþær. þa takar moþor moþer. ok faþur broþer gangær fra.",
+          "tolkning": "Son är faders arvinge. Finns ej son, då är dotter arvinge. Finns ej dotter, då är fader. Finns ej fader, då är moder; därefter är broder. Finns ej broder, då är syster. Finns ej syster, då äro söners barn arvingar. Finns ej söners barn, då äro döttrars barn. Finns ej döttrars barn, då äro bröders barn. Finns ej bröders barn, då äro systrars barn. Finns ej systrars barn, då är farfader. Finnas mormoder och farbroder, då tager mormoder arv och farbroder viker undan.",
+          "kommentar": "Den klassiska arvsordningen i Västgötalagen enligt parentelprincipen. Notera den successiva uppräkningen och hur kvinnliga linjer i rakt nedstigande led går före sidoarvingar.",
+          "segmentId": "avg-b07-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Ærfþa balkær Punkt 1"
+        },
+        {
+          "fsv": "Moþir takar syna arf. til enge sun dör. þa gange dotter til ok taki slit sum moþir af ærvi. §.1. Havir moþir tua collæ dör enge sun. af aþrum coll. þa skvlu dötær til gangæ. ær vm faþur æru maþ hanum. skiptæ viþ moþor sinæ ærvi. taki slickt huarin sum annur.",
+          "tolkning": "Modern tager söners arv till dess ende sonen dör; då träde dotter till och tage sådan del som modern av arvet. § 1. Har en moder två kullar och dör en son av den andra kullen, då skola döttrar träda till som hava samma fader som han, och skifta arvet med modern; varenda en tage lika mycket som den andra.",
+          "kommentar": "Moþir takar syna arf: moderns arvsrätt efter söner samt samverkan mellan moder och helsystrar vid halvsyskons död i olika kullar.",
+          "segmentId": "avg-b07-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Ærfþa balkær Punkt 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 3–4 (Morföräldrar, kullar och havande änka)",
+      "balkId": "B07",
+      "pdfSidor": [9],
+      "kallpunkt": "3-4",
+      "meningar": [
+        {
+          "fsv": "Moþor faþir. ok faþur moþer. þer æru iamnærvi. Moþorbroþer ok faþur systir. þer æru iamnærve. Dottor sun ok svnædottir. þer æru iamnærvi. Systur sun ok broþor dottir. þer æru iamnærvi. §.1. Kollum skal ærvi skiptæ. sundær i tu. halft a fæþærni. ok halft a moþærni. æn baþir æru iamnskyldir.",
+          "tolkning": "Morfar och farmor, de äro jämnarvingar. Morbror och faster, de äro jämnarvingar. Dotterson och sondotter, de äro jämnarvingar. Systerson och brorsdotter, de äro jämnarvingar. § 1. Mellan kullarna skall arv skiftas sönder i två delar, hälften på fädernet och hälften på mödernet, om båda äro lika nära skylda.",
+          "kommentar": "Kollum skal ærvi skiptæ: klyvningsprincipen där arvet delas lika mellan fädernes- och mödernesidan vid jämbördiga släktskapsförhållanden.",
+          "segmentId": "avg-b07-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 3"
+        },
+        {
+          "fsv": "Sitær konæ i bo dör bonde kallæs havandæ. varæ. hon skal i bo sittia tyughu ukur. þa skal a seæ æn hun ær havande. þa skal bo skiptæ skal hun a bolæ sittiæ. til fardaghæ næstu. Ær bonde döþer firi fardagha. þa hun af faræ. havir hun sat. þa nyute þes far hun barn far cristændom. þa huir hun ærv hægnæt. §.1. Bondæ a sun kona ær maþ barni dighær þa skulu þer baþ i bo sittiæ.",
+          "tolkning": "Sitter en kvinna i boet när bonden dör och sägs vara havande, skall hon sitta kvar i boet i tjugo veckor; då skall man se efter om hon är havande. Då skall boet skiftas, och hon skall sitta på gården till nästa fardag. Är bonden död före fardag, då skall hon fara därifrån; har hon sått, njute hon av det; får hon ett barn och det får kristning (dop), då har hon fredat arvet. § 1. Har bonden en son och kvinnan är havande, då skola de båda sitta kvar i boet.",
+          "kommentar": "tyughu ukur: tjugo veckors väntetid för att fastställa havandeskap. far cristændom: om barnet föds levande och döps, ärver det fadern och modern ärver barnet om det därefter avlider.",
+          "segmentId": "avg-b07-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 4"
+        },
+        {
+          "fsv": "§.2. Kona giftiss bort fræ barnum sinum. eghu barn ambut ællær þræll. þa ma þem firi bo sætiæ. þa mughu fæþærnis frænþer skiptæ or barnæ lot. Faþur broþir barnæ mæli mælæ. ok fostræ skal firi bo sitiæ. Moþer skal raþæ arkær. lyklum ok lætæ skyldir takæ. ok skyldir lukæ. Ær moþorfaþir. til þa skal raþa ok eig faþur broþer. Ær faþurfaþir til þa skal han raþæ. ok eig modorfaþir. Eigh gitær moþor uidær bo skilt num folstra se til. firi at sættiæ. Moþir skal til faræ. þrysvar a iamlangæ bos at vittiæ. æn bryti firi sitir.",
+          "tolkning": "§ 2. Gifter sig en kvinna bort från sina barn och äga barnen en trälinna eller träl, må man sätta dem att sköta boet; då må fädernefränderna skifta ut barnens lott. Farbrodern skall föra barnens talan och en fostrare skall sitta för boet. Modern skall råda över kistans nycklar och låta uppbära fordringar och betala skulder. Finns morfar, skall han råda och icke farbror; finns farfar, skall han råda och icke morfar. Modern kan icke skilja sig från boet utan att fostrare finnes att sätta däröver. Modern skall fara dit tre gånger om året för att bese boet om en förvaltare sitter däröver.",
+          "kommentar": "Förmyndarskapsregler och tillsyn av omyndiga barns egendom vid moderns omgifte. Fostrarens och farbrödernas roller jämte mor- och farföräldrars företrädesrätt.",
+          "segmentId": "avg-b07-punkt04-seg002",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 4"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 5–7 (Tre kullar, omgifte och mundgift dotter)",
+      "balkId": "B07",
+      "pdfSidor": [9],
+      "kallpunkt": "5-7",
+      "meningar": [
+        {
+          "fsv": "Maþær far sær aþalkono gætær uiþ barn dör sv. fær aþra gætær viþ barn. far hina þriðiu. þör. bondé. þa en konæ er livændi. þa skal af takæ. hemfylgh sinæ alt þét ær vnöt ær. hun ællær hænær börn. þa skal hin ælsti koldær boskipti. kræfiæ. takær af þriþiung af bono. þa takar hin annær koldær sit mæþæri ok læggær aptær til skiptis siðæn takær han af sin þriþiung. hvat. þæt ær hældær konæ ællær hin yngsti. kolder. þa skal þæt aptær til lægiæ. takær siþan af sin þriþiung. þa skal af allum hindradaxgæf lucæ. Tax eig fæ til. þa skal slikt enum af uatæ. sum aþrum.",
+          "tolkning": "Tager en man sig en äkta hustru och avlar barn med henne och dör hon; tager en annan och avlar barn; tager den tredje och dör bonden medan den hustrun lever: då skall hon eller hennes barn taga undan sin hemföljd, allt som är orört. Då skall den äldsta kullen kräva boskifte och taga en tredjedel av boet; då tager den andra kullen sitt möderne och lägger tillbaka till skifte och tager sedan sin tredjedel; vare sig det är hustrun eller den yngsta kullen, skall det läggas tillbaka och tages sedan dess tredjedel. Därefter skall morgongåva betalas åt alla. Förslår icke egendomen, skall avdrag göras lika för den ene som för den andre.",
+          "kommentar": "Komplicerat boskifte mellan tre på varandra följande barnkullar efter samma fader med avräkning för möderne, hemföljd och hindradagsgåvor.",
+          "segmentId": "avg-b07-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 5"
+        },
+        {
+          "fsv": "Gyptis kona aþrum manni gyptis þridia sin. dör konæ a barn .i. hæskæp. þa skal þen yngsti. koldær arf takæ. lösæ öræ alla ok iord þa ær köpt .i. garþi. §.1. Gyptis konæ far eig börn .i. efstu giftu. þa giftis hun allum barnum sinum aptær til alfs.",
+          "tolkning": "Gifter sig en kvinna med en andre man och gifter sig en tredje gång, och dör kvinnan och har barn i det sista giftet, då skall den yngsta kullen taga arv: alla lösören och den jord som är köpt till gården. § 1. Gifter sig en kvinna och får icke barn i det sista giftet, då gifter hon sig åter till hälften med alla sina barn.",
+          "kommentar": "hæskæp: sista giftet (av efsta skep). Barn i det sista boet ärver förvärvad jord och lösören framför äldre kullar.",
+          "segmentId": "avg-b07-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 6"
+        },
+        {
+          "fsv": "En bonde gyptir dotur sinæ mæþ mund ok mæþ mælæ. skal vitæ mæþ tvænni tylptum. en þem skil .a. at hun var sva gyft. sum lægh sigiæ ok þy æghu. barn ærf at lægmæli.",
+          "tolkning": "Gifter en bonde bort sin dotter med mund och med giftomålsmans talan, skall det styrkas med två tolfter om det blir tvist därom, att hon var så gift som lagen säger; och därför äga barnen arv efter lagens föreskrift.",
+          "kommentar": "mæþ mund ok mæþ mælæ: lagligt äktenskap med brudköp/mundr och giftomannens formella samtycke.",
+          "segmentId": "avg-b07-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 7"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 8–9 (Horbarn, frillobarn och klostergåva)",
+      "balkId": "B07",
+      "pdfSidor": [9],
+      "kallpunkt": "8-9",
+      "meningar": [
+        {
+          "fsv": "Gangær mæþr fran kono sinni mungiptri i siang annarrar kono aflar barn. þæt ér horbarn. takær eig. at lægmæli fæþærni sit. §.1. Mæle þær frændær bondæ eptir han döþæn vid kono hans mundgypftæ at han atti eig barn. þættæ. þæn skal barn æghæ ær huærriæ nat liggær hoss. ok gyptær ær til mæþ lagmælum. §.2. Kona .a. slokifrillu son. ok annan aþalkono son. þer skulu baþir hænnær arf takæ. slikt hvar sum annar.",
+          "tolkning": "Går en man från sin lagvigda hustru i en annan kvinnas säng och avlar barn, det är ett horbarn; det tager icke fädernearv efter lag. § 1. Påstår bondens fränder efter hans död gentemot hans lagvigda hustru att han icke var fader till detta barn, skall den äga barnet som ligger hos henne varje natt och är gift med henne enligt lag. § 2. Har en kvinna en son med en lönnfrilla och en son med äkta man, skola de båda taga hennes arv, den ene lika mycket som den andre.",
+          "kommentar": "Pater est-regeln formuleras pregnant: den äkta maken presumeras vara fader till barnet ('þæn skal barn æghæ ær huærriæ nat liggær hoss'). Moderns alla barn ärver däremot hennes möderne oavsett börd.",
+          "segmentId": "avg-b07-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 8"
+        },
+        {
+          "fsv": "§.3. Lægz maþær viþ. kono giætær viþ barn. þæt ær aþalkono barn. æn han fæstir hana siþen ok far mæþ laghum. far han hana siþæn mæþ mund. ok mæþ mæli. gætær ok barn. þæt ær aþalkonobarn. skiutær þa kono af handum. sær. ma eig. bo hænni. mæþ guss rætti. stiæls siþæn ok aflær barn. þæt ær frillu barn. takær mæþærni. ok eig fæþærni.",
+          "tolkning": "§ 3. Ligger en man hos en kvinna och avlar barn med henne, är det ett äkta barns rätt om han fäster henne därefter och gifter sig lagligen; får han henne därefter med mund och giftermålstal och avlar barn, är det äkta barn. Skjuter han sedan kvinnan ifrån sig och kan icke bo med henne enligt Guds rätt, men smyger sedan till henne och avlar barn, det är frillobarn; det tager möderne och icke fäderne.",
+          "kommentar": "Legitimation genom efterföljande äktenskap samt barns status efter skilsmässa och otillåtna förbindelser.",
+          "segmentId": "avg-b07-punkt08-seg002",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 8"
+        },
+        {
+          "fsv": "Giuær maþær sik i klostær. han skal fæ skiptæ viþ aruæ sinæ. taki han en lot. ok annan skal arvi taka. sva marghir. ærvær æru i sva margha lyti skal skiptæ. giuiss han mæþ sinum lot in. Dör han i klostré. þa ær kloster hans arui. §.1. Vill han or faræ firi iamlangadægh. þæt ær vald hans. Ær han ena nat ok iamlangæ. þa ma han eig or faræ. ok engsins mans arf takæ. ok. ikki skulu frændær hans værkum værþæ.",
+          "tolkning": "Giver en man sig in i kloster, skall han skifta egendom med sina arvingar: han tage en lott och arvingen tager en lott; så många arvingarna äro, i så många lotter skall skiftas; han giver sig in med sin lott. Dör han i klostret, är klostret hans arvinge. § 1. Vill han träda ut före ett års tid, står det i hans makt; har han varit där ett år och en natt, må han icke träda ut, icke taga någon mans arv, och hans fränder skola icke ansvara för hans gärningar.",
+          "kommentar": "Novitiatet och det civila dödsbegreppet vid klosterlöften. Efter natt och år inträder fullständig rättsverkan: munkens förmögenhet stannar i klostret och släktingarna befrias från allt ansvar för hans handlingar.",
+          "segmentId": "avg-b07-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 9, Ærfþa balkær Punkt 9"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 10–12 (Dödsdagsgåva, arvsdråp och Greklandsfararen)",
+      "balkId": "B07",
+      "pdfSidor": [9, 10],
+      "kallpunkt": "10-12",
+      "meningar": [
+        {
+          "fsv": "A dözsdæghi ma ikki fra aruæ giuæ at laghmæli. num arvi. quædær sialvær ia viþr. sva sigiæ. lærþir mæn at eig ma ne uid kvæþæ mæþ gusz ræt.",
+          "tolkning": "På sin dödsdag må man icke giva något bort från arvingen enligt lag, såvida icke arvingen själv svarar ja därtill; så säga de lärde männen (prästerna) att man icke må säga nej därtill enligt Guds rätt.",
+          "kommentar": "Spänningen mellan landskapslagens skydd för ättens arvsrätt och den kanoniska rättens strävan att främja själagåvor och testamenten till kyrkan på dödsbädden.",
+          "segmentId": "avg-b07-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 9–10, Ærfþa balkær Punkt 10"
+        },
+        {
+          "fsv": "Dræpær maþær man wil hava arf hans. han skal iki arvi hans væræ. Sighir han at han drap han mæþ vaþæ værki. han skal væria sik mæþ luktri hæræsz namd. Varþær han varþær han skal arf takæ. Fals han at laghum þa skal annær þær arf takæ. þæn dræpæ ær skyldæstær.",
+          "tolkning": "Dräper en man en man för att få hans arv, skall han icke vara hans arvinge. Säger han att han dräpte honom av våda, skall han värja sig med en sluten häradsnämnd. Värjer han sig, skall han taga arv; fälls han efter lag, skall den andre taga arv som är närmast skyld den dräpte.",
+          "kommentar": "Arvslöshet på grund av brott: arvinge som uppsåtligen dräper arvlåtaren mister ovillkorligen all arvsrätt.",
+          "segmentId": "avg-b07-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 11"
+        },
+        {
+          "fsv": "Far maþær af landi sætær brytiæ firi bo. sighir at han skal. gangæ til roms. þa skal bryti bo varþa til iamlangæ. siþan skal arvi varþæ. ok iki bryti længær num arvi uili.",
+          "tolkning": "Far en man ur landet, sätter en förvaltare för sitt bo och säger att han skall gå till Rom, då skall förvaltaren svara för boet under ett års tid; därefter skall arvingen svara för det och icke förvaltaren längre, om icke arvingen vill.",
+          "kommentar": "Romresan: pilgrimsfärd till Rom med ett års förvaltaransvar innan arvingarna övertar boet.",
+          "segmentId": "avg-b07-punkt12-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 12"
+        },
+        {
+          "fsv": "§.1. Far maþær af. landi. sytær huspreæ i bo. havir i knæ ok annat i kviþi. far cristindom vændir han hæl ok nakkæ at hemkynnum ok stighær fotum af fostær landi. þær skulu arvær væræ. er skyldasti. uaru hanum þa han heman for en han kombær eig aftær til hemkynnæ. §.2. Ingsinss manss arv takær hæn mæn i girklandi sitær.",
+          "tolkning": "§ 1. Far en man ur landet medan hustrun sitter i boet, har ett barn i knä och ett annat i kvedet som får kristning (dop); vänder han häl och nacke åt hembygden och stiger med fötterna från fosterlandet, då skola de vara hans arvingar som voro honom närmast skylda då han for hemifrån, om han icke kommer tillbaka till hembygden. § 2. Ingen mans arv tager han medan han sitter i Grekland.",
+          "kommentar": "Den berömda passusen om Greklandsfararen (väringen i Bysans). Den som lämnar fosterlandet förlorar rätten att uppbära arv hemma så länge han kvarstannar i Grekland, och hemmavarande hustru och barns rättigheter skyddas.",
+          "segmentId": "avg-b07-punkt12-seg002",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 12"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

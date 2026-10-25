@@ -12,6 +12,7 @@ import BokmarkenTrigger from "./ordbok/BokmarkenTrigger";
 const VANSTER = [
   { label: "Grammatik", href: "/grammatik" },
   { label: "Texter", href: "/texter" },
+  { label: "Runor", href: "/runor" },
   { label: "Resursbibliotek", href: "/resurser" },
 ];
 

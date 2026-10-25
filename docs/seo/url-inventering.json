@@ -1,0 +1,2291 @@
+{
+  "genererad": "2026-10-25T17:02:00Z",
+  "sammanfattning": {
+    "startsida": 1,
+    "samlingssida_rot": 2,
+    "samlingssida_mapp": 46,
+    "artikel_grammatik": 193,
+    "artikel_text": 35,
+    "samlingssida_katalog": 1,
+    "specialvy_boklasare": 1,
+    "samlingssida_ordbok": 1,
+    "alias_omdirigering": 1,
+    "administration": 2,
+    "avdelning_under_arbete": 1,
+    "ordbok_artiklar_population": 41744
+  },
+  "rutter": [
+    {
+      "route": "/",
+      "typ": "startsida",
+      "publikStatus": "publicerad",
+      "innehallskalla": "app/page.tsx, lib/sidor.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Huvudingång till fornsvenska.se"
+    },
+    {
+      "route": "/grammatik",
+      "typ": "samlingssida_rot",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Huvudarkiv och innehållsstruktur för grammatiken"
+    },
+    {
+      "route": "/grammatik/introduktion",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Att studera fornsvenska (Avgränsning, källor och arbetssätt)"
+    },
+    {
+      "route": "/grammatik/introduktion/vad-ar-fornsvenska",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Vad är fornsvenska?"
+    },
+    {
+      "route": "/grammatik/introduktion/periodisering",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Periodisering"
+    },
+    {
+      "route": "/grammatik/introduktion/kallor-och-texttyper",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Källor och texttyper"
+    },
+    {
+      "route": "/grammatik/introduktion/variation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Variation i materialet"
+    },
+    {
+      "route": "/grammatik/introduktion/notation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Notation och normalisering"
+    },
+    {
+      "route": "/grammatik/introduktion/grammatiska-termer",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Grammatiska termer"
+    },
+    {
+      "route": "/grammatik/introduktion/sa-anvands-grammatiken",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Så används grammatiken"
+    },
+    {
+      "route": "/grammatik/ljudlara",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Ljudlära (Ljudsystemet som förklaring till böjningsformerna)"
+    },
+    {
+      "route": "/grammatik/ljudlara/ljud-och-skrift",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Ljud och skrift"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Vokaler (Kvalitet, kvantitet och växling)"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/vokalsystemet",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Vokalsystemet"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/kvantitet",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kvantitet och stavelselängd"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/diftonger",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Diftonger"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/omljud",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Omljud"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/brytning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Brytning"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/vokalbalans",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Vokalbalans och vokalharmoni"
+    },
+    {
+      "route": "/grammatik/ljudlara/vokaler/reduktion",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Ändelsevokalernas reduktion"
+    },
+    {
+      "route": "/grammatik/ljudlara/konsonanter",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Konsonanter (System och morfologiskt viktiga förändringar)"
+    },
+    {
+      "route": "/grammatik/ljudlara/konsonanter/konsonantsystemet",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Konsonantsystemet"
+    },
+    {
+      "route": "/grammatik/ljudlara/konsonanter/thorn-och-t",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Från þ till t"
+    },
+    {
+      "route": "/grammatik/ljudlara/konsonanter/palatalt-r",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Palatalt r och nominativändelsen"
+    },
+    {
+      "route": "/grammatik/ljudlara/konsonanter/inskottskonsonanter",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Inskottskonsonanter"
+    },
+    {
+      "route": "/grammatik/ljudlara/konsonanter/assimilation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Assimilation och konsonantmöten"
+    },
+    {
+      "route": "/grammatik/ortografi",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Ortografi och textläsning (Skrivsystem, handskrifter och utgåvor)"
+    },
+    {
+      "route": "/grammatik/ortografi/runor-och-latinskrift",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Runor och latinsk skrift"
+    },
+    {
+      "route": "/grammatik/ortografi/alfabet-och-grafem",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Alfabet och grafem"
+    },
+    {
+      "route": "/grammatik/ortografi/handskriftsbruk",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Handskriftsbruk"
+    },
+    {
+      "route": "/grammatik/ortografi/forkortningar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Förkortningstecken"
+    },
+    {
+      "route": "/grammatik/ortografi/interpunktion",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Ordgränser och interpunktion"
+    },
+    {
+      "route": "/grammatik/ortografi/diplomatisk-normaliserad",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Diplomatisk och normaliserad text"
+    },
+    {
+      "route": "/grammatik/ortografi/textkritik",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Textkritik och handskriftsvarianter"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Morfologins grunder (Begreppen som används i all böjningslära)"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/morfem-stam-andelse",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Morfem, stam och ändelse"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/bojning-och-ordbildning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Böjning och ordbildning"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/grammatiska-kategorier",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Grammatiska kategorier"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/stark-och-svag",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Stark och svag böjning"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/allomorfi",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Allomorfi och stamväxling"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/kongruens",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kongruens"
+    },
+    {
+      "route": "/grammatik/morfologins-grunder/paradigm",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Att läsa ett paradigm"
+    },
+    {
+      "route": "/grammatik/substantiv",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Substantiv (Genus, numerus, kasus, species och stamklasser)"
+    },
+    {
+      "route": "/grammatik/substantiv/oversikt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Substantivens böjningssystem"
+    },
+    {
+      "route": "/grammatik/substantiv/genus",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Genus (Maskulinum, femininum och neutrum)"
+    },
+    {
+      "route": "/grammatik/substantiv/genus/maskulinum",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Maskulinum"
+    },
+    {
+      "route": "/grammatik/substantiv/genus/femininum",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Femininum"
+    },
+    {
+      "route": "/grammatik/substantiv/genus/neutrum",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Neutrum"
+    },
+    {
+      "route": "/grammatik/substantiv/genus/genusvariation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Genusvariation"
+    },
+    {
+      "route": "/grammatik/substantiv/numerus",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Numerus"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Fyrkasussystemet (Kasusens former, funktioner och växelbruk)"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet/oversikt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasussystemets uppbyggnad"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet/nominativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Nominativ"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet/genitiv",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Genitiv"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet/dativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Dativ"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet/ackusativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Ackusativ"
+    },
+    {
+      "route": "/grammatik/substantiv/fyrkasussystemet/kasussynkretism",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasussynkretism"
+    },
+    {
+      "route": "/grammatik/substantiv/starka",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Starka substantiv (Vokalstammar och rotnomina)"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/a-stammar-maskulinum",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Maskulina a-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/a-stammar-neutrum",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Neutrala a-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/ja-wa-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: ja- och wa-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/i-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: i-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/u-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: u-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/o-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: ō-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/rotstammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Rotstammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/r-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: r-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/starka/nd-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: nd-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/svaga",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Svaga substantiv (Konsonantstammar med enhetlig oblik böjning)"
+    },
+    {
+      "route": "/grammatik/substantiv/svaga/an-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: an-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/svaga/on-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: ōn-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/svaga/in-stammar",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: īn-stammar"
+    },
+    {
+      "route": "/grammatik/substantiv/svaga/svaga-maskuliner-e-a",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Svaga maskuliner på e och a"
+    },
+    {
+      "route": "/grammatik/substantiv/bestamd-form",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Bestämd form (Slutartikel och dubbel böjning)"
+    },
+    {
+      "route": "/grammatik/substantiv/bestamd-form/slutartikelns-ursprung",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Slutartikelns ursprung"
+    },
+    {
+      "route": "/grammatik/substantiv/bestamd-form/slutartikelns-bojning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Slutartikelns böjning"
+    },
+    {
+      "route": "/grammatik/substantiv/bestamd-form/fullstandig-bestamd-form",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Fullständig bestämd form"
+    },
+    {
+      "route": "/grammatik/substantiv/bestamd-form/artikelvariation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Variation i artikelbruket"
+    },
+    {
+      "route": "/grammatik/substantiv/oregelbundna",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Oregelbundna substantiv"
+    },
+    {
+      "route": "/grammatik/substantiv/runsvenska-former",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Substantiv i runsvenskan"
+    },
+    {
+      "route": "/grammatik/substantiv/medeltida-runinskrifter",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Substantiv i medeltida runinskrifter"
+    },
+    {
+      "route": "/grammatik/substantiv/substantivens-forandring",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Substantivböjningens förändring"
+    },
+    {
+      "route": "/grammatik/adjektiv",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Adjektiv (Kongruens, stark och svag böjning samt komparation)"
+    },
+    {
+      "route": "/grammatik/adjektiv/oversikt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Adjektivens böjningssystem"
+    },
+    {
+      "route": "/grammatik/adjektiv/stark-bojning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Stark adjektivböjning"
+    },
+    {
+      "route": "/grammatik/adjektiv/svag-bojning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Svag adjektivböjning"
+    },
+    {
+      "route": "/grammatik/adjektiv/kongruens",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Adjektivkongruens"
+    },
+    {
+      "route": "/grammatik/adjektiv/attributiv-predikativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Attributiv och predikativ böjning"
+    },
+    {
+      "route": "/grammatik/adjektiv/komparation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Komparation"
+    },
+    {
+      "route": "/grammatik/adjektiv/oregelbunden-komparation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Oregelbunden komparation"
+    },
+    {
+      "route": "/grammatik/adjektiv/adjektiviska-particip",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Particip som adjektiv"
+    },
+    {
+      "route": "/grammatik/adjektiv/adjektivens-forandring",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Adjektivböjningens förändring"
+    },
+    {
+      "route": "/grammatik/pronomen",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Pronomen och determinativer (Referens, deixis och nominal böjning)"
+    },
+    {
+      "route": "/grammatik/pronomen/oversikt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Pronomensystemet"
+    },
+    {
+      "route": "/grammatik/pronomen/personliga",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Personliga pronomen"
+    },
+    {
+      "route": "/grammatik/pronomen/dualis",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Dualis"
+    },
+    {
+      "route": "/grammatik/pronomen/reflexiva",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Reflexiva pronomen"
+    },
+    {
+      "route": "/grammatik/pronomen/possessiva",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Possessiva pronomen"
+    },
+    {
+      "route": "/grammatik/pronomen/demonstrativa",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Demonstrativa pronomen"
+    },
+    {
+      "route": "/grammatik/pronomen/interrogativa",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Interrogativa pronomen"
+    },
+    {
+      "route": "/grammatik/pronomen/relativa",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Relativa pronomen och partiklar"
+    },
+    {
+      "route": "/grammatik/pronomen/indefinita",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Indefinita pronomen"
+    },
+    {
+      "route": "/grammatik/pronomen/reciproka",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Reciproka uttryck"
+    },
+    {
+      "route": "/grammatik/pronomen/personreferens",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Personreferens i text"
+    },
+    {
+      "route": "/grammatik/pronomen/pronomensystemets-forandring",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Pronomensystemets förändring"
+    },
+    {
+      "route": "/grammatik/rakneord",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Räkneord (Böjning och syntaktiskt bruk)"
+    },
+    {
+      "route": "/grammatik/rakneord/grundtal",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Grundtal"
+    },
+    {
+      "route": "/grammatik/rakneord/ordningstal",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Ordningstal"
+    },
+    {
+      "route": "/grammatik/rakneord/en-tva-tre-fyra",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: En, två, tre och fyra"
+    },
+    {
+      "route": "/grammatik/rakneord/bada-och-andra",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Båda och närliggande mängdord"
+    },
+    {
+      "route": "/grammatik/rakneord/rakneord-i-fras",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Räkneord i nominalfrasen"
+    },
+    {
+      "route": "/grammatik/verb",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Verb (Konjugation, tempus, modus, diates och kongruens)"
+    },
+    {
+      "route": "/grammatik/verb/oversikt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbens böjningssystem"
+    },
+    {
+      "route": "/grammatik/verb/person-och-numerus",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Person och numerus (Finita verbformer och subjektkongruens)"
+    },
+    {
+      "route": "/grammatik/verb/person-och-numerus/personandelse",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Personändelser"
+    },
+    {
+      "route": "/grammatik/verb/person-och-numerus/numerusandelse",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Numerusändelser"
+    },
+    {
+      "route": "/grammatik/verb/person-och-numerus/personkongruens",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Personkongruens"
+    },
+    {
+      "route": "/grammatik/verb/person-och-numerus/kongruensbortfall",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kongruensbortfallet"
+    },
+    {
+      "route": "/grammatik/verb/tempus",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Tempus (Presens, preteritum och sammansatta tidsformer)"
+    },
+    {
+      "route": "/grammatik/verb/tempus/presens",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Presens"
+    },
+    {
+      "route": "/grammatik/verb/tempus/preteritum",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Preteritum"
+    },
+    {
+      "route": "/grammatik/verb/tempus/perfekt-och-pluskvamperfekt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Perfekt och pluskvamperfekt"
+    },
+    {
+      "route": "/grammatik/verb/tempus/framtid",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Framtidsuttryck"
+    },
+    {
+      "route": "/grammatik/verb/modus",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Modus (Indikativ, konjunktiv och imperativ)"
+    },
+    {
+      "route": "/grammatik/verb/modus/indikativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Indikativ"
+    },
+    {
+      "route": "/grammatik/verb/modus/konjunktiv",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Konjunktiv"
+    },
+    {
+      "route": "/grammatik/verb/modus/konjunktiv-at-satser",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Konjunktiv i at-satser"
+    },
+    {
+      "route": "/grammatik/verb/modus/imperativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Imperativ"
+    },
+    {
+      "route": "/grammatik/verb/infinita-former",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Infinita former (Infinitiv, particip och verbalsubstantiv)"
+    },
+    {
+      "route": "/grammatik/verb/infinita-former/infinitiv",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Infinitiv"
+    },
+    {
+      "route": "/grammatik/verb/infinita-former/presens-particip",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Presensparticip"
+    },
+    {
+      "route": "/grammatik/verb/infinita-former/preteritum-particip",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Preteritumparticip"
+    },
+    {
+      "route": "/grammatik/verb/infinita-former/participkongruens",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Participkongruens och supinumets uppkomst"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Starka verb (Avljud och sju huvudklasser)"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/avljud",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Avljudssystemet"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-1",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass I"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-2",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass II"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-3",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass III"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-4",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass IV"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-5",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass V"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-6",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass VI"
+    },
+    {
+      "route": "/grammatik/verb/starka-verb/klass-7",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Starka verb: klass VII"
+    },
+    {
+      "route": "/grammatik/verb/svaga-verb",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Svaga verb (Dentalsuffix och konjugationsklasser)"
+    },
+    {
+      "route": "/grammatik/verb/svaga-verb/svag-klass-1",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Svaga verb: klass I"
+    },
+    {
+      "route": "/grammatik/verb/svaga-verb/svag-klass-2",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Svaga verb: klass II"
+    },
+    {
+      "route": "/grammatik/verb/svaga-verb/svag-klass-3",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Svaga verb: klass III"
+    },
+    {
+      "route": "/grammatik/verb/svaga-verb/svag-klass-4",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Svaga verb: klass IV och oregelbundna svaga verb"
+    },
+    {
+      "route": "/grammatik/verb/svaga-verb/dentalsuffix",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Dentalsuffixets former och assimilation"
+    },
+    {
+      "route": "/grammatik/verb/preteritopresentia",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Preteritopresentiska verb"
+    },
+    {
+      "route": "/grammatik/verb/oregelbundna",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Oregelbundna verb (Suppletion och särskilda paradigm)"
+    },
+    {
+      "route": "/grammatik/verb/oregelbundna/vara",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbet vara (vera, vesa)"
+    },
+    {
+      "route": "/grammatik/verb/oregelbundna/hava",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbet hava"
+    },
+    {
+      "route": "/grammatik/verb/oregelbundna/gora",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbet göra (gøra, gæra, giora)"
+    },
+    {
+      "route": "/grammatik/verb/oregelbundna/ga-och-sta",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verben gå och stå (gā/ganga och stā/standa)"
+    },
+    {
+      "route": "/grammatik/verb/diates-och-reflexivitet",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Diates och reflexivitet (Aktiv, passiv och reflexiva former)"
+    },
+    {
+      "route": "/grammatik/verb/diates-och-reflexivitet/s-passiv",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: s-passiv och medio-passiva verbformer"
+    },
+    {
+      "route": "/grammatik/verb/diates-och-reflexivitet/perifrastisk-passiv",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Perifrastisk passiv"
+    },
+    {
+      "route": "/grammatik/verb/diates-och-reflexivitet/reflexiva-verbformer",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Reflexiva verbformer"
+    },
+    {
+      "route": "/grammatik/verb/hjalpverb",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Hjälpverb och verbkedjor (Modalitet, tempus och passiv)"
+    },
+    {
+      "route": "/grammatik/verb/hjalpverb/modala-hjalpverb",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Modala hjälpverb"
+    },
+    {
+      "route": "/grammatik/verb/hjalpverb/varda",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbet varda (varþa)"
+    },
+    {
+      "route": "/grammatik/verb/hjalpverb/bliva",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbet bliva (blīva)"
+    },
+    {
+      "route": "/grammatik/verb/verbbojningens-forandring",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbböjningens förändring och upplösning"
+    },
+    {
+      "route": "/grammatik/adverb",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Adverb (Bildning, böjning och grammatikalisering)"
+    },
+    {
+      "route": "/grammatik/adverb/adverbens-bildning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Adverbens bildning"
+    },
+    {
+      "route": "/grammatik/adverb/adverbial-kasusformer",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasusformer som adverb"
+    },
+    {
+      "route": "/grammatik/adverb/komparation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Adverbens komparation"
+    },
+    {
+      "route": "/grammatik/adverb/lagom",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: lagom"
+    },
+    {
+      "route": "/grammatik/prepositioner",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Prepositioner (Rektion, betydelse och kasusväxling)"
+    },
+    {
+      "route": "/grammatik/prepositioner/oversikt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Prepositionernas kasusstyrning"
+    },
+    {
+      "route": "/grammatik/prepositioner/med-genitiv",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Prepositioner med genitiv"
+    },
+    {
+      "route": "/grammatik/prepositioner/med-dativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Prepositioner med dativ"
+    },
+    {
+      "route": "/grammatik/prepositioner/med-ackusativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Prepositioner med ackusativ"
+    },
+    {
+      "route": "/grammatik/prepositioner/dativ-ackusativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Dativ–ackusativ-växling"
+    },
+    {
+      "route": "/grammatik/prepositioner/rektionens-forandring",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Rektionens förändring"
+    },
+    {
+      "route": "/grammatik/konjunktioner",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Konjunktioner och subjunktioner (Samordning och underordning)"
+    },
+    {
+      "route": "/grammatik/konjunktioner/samordnande",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Samordnande konjunktioner"
+    },
+    {
+      "route": "/grammatik/konjunktioner/underordnande",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Subjunktioner"
+    },
+    {
+      "route": "/grammatik/konjunktioner/at",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: at"
+    },
+    {
+      "route": "/grammatik/negation",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Negation (Negationsordens former och syntaktiska utveckling)"
+    },
+    {
+      "route": "/grammatik/negation/ei",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: ei och eigi"
+    },
+    {
+      "route": "/grammatik/negation/akke",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: äkke"
+    },
+    {
+      "route": "/grammatik/negation/enkte",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: enkte"
+    },
+    {
+      "route": "/grammatik/negation/negationscykel",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Negationens förändring"
+    },
+    {
+      "route": "/grammatik/ordbildning",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Ordbildning (Avledning, sammansättning och ordklassväxling)"
+    },
+    {
+      "route": "/grammatik/ordbildning/sammansattning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Sammansättning"
+    },
+    {
+      "route": "/grammatik/ordbildning/substantivavledning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Substantivavledning"
+    },
+    {
+      "route": "/grammatik/ordbildning/adjektivavledning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Adjektivavledning"
+    },
+    {
+      "route": "/grammatik/ordbildning/verbavledning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Verbavledning"
+    },
+    {
+      "route": "/grammatik/ordbildning/ordklassvaxling",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Ordklassväxling"
+    },
+    {
+      "route": "/grammatik/ordbildning/namnbildning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Namn och binamn"
+    },
+    {
+      "route": "/grammatik/syntax",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Syntax (Sats, fras, ordföljd och argumentstruktur)"
+    },
+    {
+      "route": "/grammatik/syntax/nominalfras",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Nominalfrasen (Huvudord, attribut och bestämdhet)"
+    },
+    {
+      "route": "/grammatik/syntax/nominalfras/attribut",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Attribut"
+    },
+    {
+      "route": "/grammatik/syntax/nominalfras/attributens-ordfoljd",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Attributens ordföljd"
+    },
+    {
+      "route": "/grammatik/syntax/nominalfras/definitmarkering",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Definitmarkering"
+    },
+    {
+      "route": "/grammatik/syntax/satsdelar",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Satsdelar och kasus (Subjekt, objekt, predikativ och adverbial)"
+    },
+    {
+      "route": "/grammatik/syntax/satsdelar/subjekt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Subjekt"
+    },
+    {
+      "route": "/grammatik/syntax/satsdelar/objekt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Objekt"
+    },
+    {
+      "route": "/grammatik/syntax/satsdelar/predikativ",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Predikativ"
+    },
+    {
+      "route": "/grammatik/syntax/satsdelar/oblika-subjekt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Oblika subjektliknande led"
+    },
+    {
+      "route": "/grammatik/syntax/ordfoljd",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Ordföljd (Huvudsats, bisats och verbplacering)"
+    },
+    {
+      "route": "/grammatik/syntax/ordfoljd/grundmonster",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Grundläggande ordföljdsmönster"
+    },
+    {
+      "route": "/grammatik/syntax/ordfoljd/v2",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: V2 och finit verb"
+    },
+    {
+      "route": "/grammatik/syntax/ordfoljd/ov-vo",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: OV- och VO-ledföljd"
+    },
+    {
+      "route": "/grammatik/syntax/ordfoljd/inversion",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Inversion"
+    },
+    {
+      "route": "/grammatik/syntax/ordfoljd/kilkonstruktion",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kilkonstruktionen"
+    },
+    {
+      "route": "/grammatik/syntax/subjektsloshet",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Subjektslöshet (Satser utan utsatt subjekt)"
+    },
+    {
+      "route": "/grammatik/syntax/subjektsloshet/referentiella-subjekt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Utelämnade referentiella subjekt"
+    },
+    {
+      "route": "/grammatik/syntax/subjektsloshet/expletiva-subjekt",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Expletiva subjekt"
+    },
+    {
+      "route": "/grammatik/syntax/subjektsloshet/subjektsloshetens-forandring",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Subjektslöshetens förändring"
+    },
+    {
+      "route": "/grammatik/syntax/bisatser",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Bisatser (Underordning och modus)"
+    },
+    {
+      "route": "/grammatik/syntax/bisatser/at-satser",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: at-satser"
+    },
+    {
+      "route": "/grammatik/syntax/bisatser/relativsatser",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Relativsatser"
+    },
+    {
+      "route": "/grammatik/syntax/bisatser/villkorssatser",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Villkorssatser"
+    },
+    {
+      "route": "/grammatik/syntax/paratax-hypotax",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Paratax och hypotax"
+    },
+    {
+      "route": "/grammatik/syntax/informationsstruktur",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Informationsstruktur"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Förändring och variation (Tvärgående diakrona studier)"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/kasussammanfallet",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasussammanfallet"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/kasus-i-diplom",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasus i diplom"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/kasus-i-lagsprak",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasus i lagspråk"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/kasus-i-religios-prosa",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasus i religiös prosa"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/geografisk-variation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Geografisk variation"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/genrevariation",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Genrevariation"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/personkongruensens-avveckling",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Personkongruensens avveckling"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/bestamdhetens-grammatikalisering",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Bestämdhetens grammatikalisering"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/tyskt-inflytande",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Lågtyskt inflytande"
+    },
+    {
+      "route": "/grammatik/forandring-och-variation/morfologisk-datering",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Morfologi som dateringsstöd"
+    },
+    {
+      "route": "/grammatik/studieverktyg",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Ämnesmapp: Studieverktyg (Systematisk inlärning och analys)"
+    },
+    {
+      "route": "/grammatik/studieverktyg/paradigmtraning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Paradigmträning"
+    },
+    {
+      "route": "/grammatik/studieverktyg/formanalys",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Formanalys steg för steg"
+    },
+    {
+      "route": "/grammatik/studieverktyg/kasusanalys",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Kasusanalys steg för steg"
+    },
+    {
+      "route": "/grammatik/studieverktyg/textlasning",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Textläsning steg för steg"
+    },
+    {
+      "route": "/grammatik/studieverktyg/facitprinciper",
+      "typ": "artikel_grammatik",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/grammatik.ts, data/dokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Grammatikartikel: Facit och osäkra svar"
+    },
+    {
+      "route": "/texter",
+      "typ": "samlingssida_rot",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Huvudarkiv för fornsvenska textkällor"
+    },
+    {
+      "route": "/texter/lagar",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Lagar"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Äldre Västgötalagen"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Kristnu balkær, del I"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Kristnu balkær, del II"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-iii",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Kristnu balkær, del III"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-iv",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Kristnu balkær, del IV"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/mandraps-balker-i",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Af mandrapi, del I"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/mandraps-balker-ii",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Af mandrapi, del II"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/sara-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Af særæ malum"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/vada-sara-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Af vaþæ sarum"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/bardagha-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Bardaghæ"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/orbota-mal",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Orbotæ mal"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/arfda-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Ærfþa balkær, del I"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/arfda-balker-ii",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Ærfþa balkær, del II"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/giptar-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Giptar bolkær"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/raetlosa-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Rætlosæ bolkær"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/iordhar-balker-i",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Iordþær bolkær, del I"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/iordhar-balker-ii",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Iordþær bolkær, del II"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/mylnu-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Huru mylnu skal gæræ"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/thiuua-balker-i",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Þiuuæ bollkær, del I"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/thiuua-balker-ii",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Þiuuæ bollkær, del II"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/fornaemis-sakir",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Fornæmix sakir"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/fornamix-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Fornamix bolkær"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/lecara-raetar",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Lecara rætar"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/conongs-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Conongs bolkær"
+    },
+    {
+      "route": "/texter/lagar/aldre-vastgotalagen/horo-thing-lot",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Horo þing lot skal skiptæ"
+    },
+    {
+      "route": "/texter/lagar/upplandslagen",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Upplandslagen"
+    },
+    {
+      "route": "/texter/lagar/upplandslagen/foretalet",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Företalet"
+    },
+    {
+      "route": "/texter/lagar/upplandslagen/kyrkiu-balker",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Kyrkiu balkær"
+    },
+    {
+      "route": "/texter/lagar/magnus-erikssons-landslag",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Magnus Erikssons landslag"
+    },
+    {
+      "route": "/texter/urkunder",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Urkunder och brev"
+    },
+    {
+      "route": "/texter/urkunder/sdhk-4512",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: SDHK 4512"
+    },
+    {
+      "route": "/texter/urkunder/sdhk-1121",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: SDHK 1121"
+    },
+    {
+      "route": "/texter/urkunder/formler",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Brevformler"
+    },
+    {
+      "route": "/texter/runinskrifter",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Runinskrifter"
+    },
+    {
+      "route": "/texter/runinskrifter/uppland",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Uppland"
+    },
+    {
+      "route": "/texter/runinskrifter/uppland/u-240",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: U 240"
+    },
+    {
+      "route": "/texter/runinskrifter/uppland/u-489",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: U 489"
+    },
+    {
+      "route": "/texter/runinskrifter/gotland",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Gotland"
+    },
+    {
+      "route": "/texter/runinskrifter/gotland/g-104",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: G 104"
+    },
+    {
+      "route": "/texter/religios-prosa",
+      "typ": "samlingssida_mapp",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Textkategori/verk: Religiös prosa"
+    },
+    {
+      "route": "/texter/religios-prosa/fornsvenska-legendariet",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Fornsvenska legendariet"
+    },
+    {
+      "route": "/texter/religios-prosa/birgitta",
+      "typ": "artikel_text",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/texter.ts, data/textdokument.ts",
+      "onskadIndexering": "index, follow",
+      "motivering": "Källkritisk textutgåva: Birgittas uppenbarelser"
+    },
+    {
+      "route": "/resurser",
+      "typ": "samlingssida_katalog",
+      "publikStatus": "publicerad",
+      "innehallskalla": "lib/resurser.ts, app/resurser/page.tsx",
+      "onskadIndexering": "index, follow",
+      "motivering": "Resursbibliotek med vetenskaplig litteratur och medeltida skrifter"
+    },
+    {
+      "route": "/resurser/vastgotalagen",
+      "typ": "specialvy_boklasare",
+      "publikStatus": "publicerad",
+      "innehallskalla": "app/resurser/vastgotalagen/page.tsx",
+      "onskadIndexering": "index, follow",
+      "motivering": "Maskintextläsare för Äldre Västgötalagen efter Cod. Holm. B 59"
+    },
+    {
+      "route": "/ordbok",
+      "typ": "samlingssida_ordbok",
+      "publikStatus": "publicerad",
+      "innehallskalla": "data/ordbok/poster.json, app/ordbok/page.tsx",
+      "onskadIndexering": "index, follow",
+      "motivering": "Sökbar huvudingång till Söderwalls fornsvenska ordbok"
+    },
+    {
+      "route": "/kallor",
+      "typ": "alias_omdirigering",
+      "publikStatus": "omdirigering",
+      "innehallskalla": "app/kallor/page.tsx",
+      "onskadIndexering": "noindex, follow",
+      "motivering": "Permanent omdirigering (308/301) till /resurser; ska exkluderas ur sitemap"
+    },
+    {
+      "route": "/admin",
+      "typ": "administration",
+      "publikStatus": "privat",
+      "innehallskalla": "app/admin/page.tsx",
+      "onskadIndexering": "noindex, nofollow",
+      "motivering": "Privat redigerings- och inloggningssida"
+    },
+    {
+      "route": "/admin/runor",
+      "typ": "administration",
+      "publikStatus": "privat",
+      "innehallskalla": "app/admin/runor/page.tsx",
+      "onskadIndexering": "noindex, nofollow",
+      "motivering": "Privat redaktionell kö för runmaterial"
+    },
+    {
+      "route": "/runor",
+      "typ": "avdelning_under_arbete",
+      "publikStatus": "ej_driftsatt",
+      "innehallskalla": "app/runor/page.tsx",
+      "onskadIndexering": "noindex, nofollow",
+      "motivering": "Pågående lokalt arbete; ger 404 på produktion och exkluderas ur sitemap tills driftsatt"
+    }
+  ]
+}

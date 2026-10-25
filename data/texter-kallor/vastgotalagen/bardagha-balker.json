@@ -1,0 +1,153 @@
+{
+  "titel": "Bardaghæ",
+  "underrubrik": "Äldre Västgötalagen, slagsmål, fridsbrott, kvinnofrid och giftmord (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Slagsmålsbalken (Bardaghæ) i Äldre Västgötalagen reglerar misshandel och överfall som icke medfört sår, formell tingslysning och sjunätting, fredlöshetsproceduren med fällande vittnesmål av två tolfter, graderade böter för utlänningar och trälar, omyndigas slagsmål, hustrumisshandel vid ölbänk och i kyrka, svarteslag, skydd mot vrång dråpsanklagelse, boskifte och skydd för hustruns lott vid ogäldad fred, dödsstraff för giftmord och trolldom med frist till skogs, samt den klassiska preskriptionstiden natt och år för sårfeber.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Bardaghæ Punkt 1 (Misshandel, tingslysning, sjunätting och fredlöshet)",
+      "balkId": "B05",
+      "pdfSidor": [7],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "Uærþær maþær barþær ok friþir a brutin. þa skal han saku latæ lysæ .i. garþ hans ok syunættingh latæ göræ at siundæ daghi. scal syunættingh haldæ sanna siunættings gyarþ mæd þem. an þer uilia. þa skal latæ bæræ asynæ uittni. at somi hans uar skærdær ok manhælghi hans brutit. Annær skal skærscutæ vittni uetæ. þa skal þing uisæ aldra götæ.",
+          "tolkning": "Varder en man slagen och hans fred bruten, då skall han låta lysa saken på dennes gård och låta hålla sjunätting på sjunde dagen; han skall hålla sjunätting och sann sjunättingsgärd med dem om de vilja. Då skall han låta frambära synvittnesbörd om att hans ära blev kränkt och hans manhelgd bruten. En annan skall styrka vittnesbördet med faste-ed. Då skall man hänskjuta till alla götars ting.",
+          "kommentar": "friþir a brutin: personlig fridskränkning. lysæ i garþ: formellt tillkännagivande på gärningsmannens gård. syunættingh: undersökningsmöte på sjunde dagen efter dådet. manhælghi: den personliga friden och okränkbarheten som fri man. þing uisæ aldra götæ: hänskjuta till landstinget.",
+          "segmentId": "avg-b05-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 1"
+        },
+        {
+          "fsv": "þa skal þem letæ endaghæ dömæ þingsmannæ uittni lætæ bæræ vittnæ a héndær hanum bardaghæ maþ tvenni tylptum. þa skulu hörængiær æptir gangæ tvænni tylptum. þa skal læghæ vnd firi sær. hauæ æn han vil friþ sin hægnæ. fiarðungs næmd æn han ær. lughin sakar.",
+          "tolkning": "Då skall man för dem fastställa endag på tinget och låta tingsmännens vittnesmål fälla saken mot honom för slagsmål med två tolfter; då skola hans arvingar träda fram med två tolfter. Då skall han hava laga ursäkt för sig om han vill freda sin fred: en fjärdingsnämnd om han är falskeligen anklagad.",
+          "kommentar": "tvenni tylptum: 24 edsmän som vittnar mot svaranden. hörængiær: arvingar eller nära släktingar som träder fram till stöd för saken. fiarðungs næmd: tolvmannanämnd från häradets fjärding för att avvärja falsk anklagelse (lughin sakar).",
+          "segmentId": "avg-b05-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 1"
+        },
+        {
+          "fsv": "§.1. Æn læghæ bötær vill biuþæ þæt æru atta örtoghær ok fæm mærkær. Örtogh min æn ælliw öræ. þa a. haræþ sva .a. konongær. A sægnær þingi. skal han laghæ buþ firi sær haua latæ þöma sik i. friþ æptir. §.2. Vill. han eigh bötær biuþa þa skal saksökæ latæ dömæ sic af þingi mæþ vmstaþu mannum. vitæ. þæs at han inti alt a endæghæ til friþær hans. þæt ær lagh sighiæ. latæ siþæn dömæ han fridlösæn af þingi.",
+          "tolkning": "§ 1. Vill han bjuda laga böter, då äro de åtta örtugar och fem marker; en örtug mindre än elva örar äger häradet och likaså konungen. På sägnartinget skall han hava laga bud för sig och låta döma sig i fred därefter. § 2. Vill han icke bjuda böter, då skall målsäganden låta döma sig ut från tinget med kringstående tingsmän, och styrka att han fullgjort allt på endagen för hans fred som lagen säger; låte sedan döma honom fredlös från tinget.",
+          "kommentar": "atta örtoghær ok fæm mærkær: lagstadgad bötesmängd för slagsmålsbrott. vmstaþu mannum: kringstående tingsmenighet som bevittnar fredlöshetsdomen.",
+          "segmentId": "avg-b05-punkt01-seg003",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Bardaghæ Punkt 2–3 (Böter för utlänningar och trälar; omyndigas slagsmål)",
+      "balkId": "B05",
+      "pdfSidor": [7],
+      "kallpunkt": "2-3",
+      "meningar": [
+        {
+          "fsv": "Bær maþær ænskan man ællær sundirskæn bötæ firi saksökæ örtugh min æn. siu öræ. ok. IIII. örtoghor konongær. §.1. Slikæ samu æru frælsgiuæ bötær ok. siax örer. æru þrals æn barþær ær.",
+          "tolkning": "Slår en man en engelsk man eller en sydlänning (tysk), böte till målsäganden en örtug mindre än sju örar, och fyra örtugar till konungen. § 1. Detsamma äro böterna för en frigiven man, och sex örar äro trälens böter om han varder slagen.",
+          "kommentar": "sundirskæn: sunderländsk man (tysk). Boten för utländska köpmän och frigivna är sex örar och två örtugar till målsäganden samt fyra örtugar till konungen; för träl utgår sex örar till husbonden.",
+          "segmentId": "avg-b05-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 2"
+        },
+        {
+          "fsv": "Diungær maghændæ maþær ouormaghæ böte firi öræ. tvæ. Slikt skal ovormaghi bötæ sum takæ. §.1. Bæriæss. ovormagha tver. far annar værræ af bötæ firi öræ tuæ.",
+          "tolkning": "Dänger en myndig man en omyndig, böte därför två örar. Lika skall omyndig böta som taga emot böter. § 1. Slåss två omyndiga och får den ene värre skada därav, böte två örar.",
+          "kommentar": "Diungær: slår kraftigt, dänger. maghændæ maþær: fullmyndig man. ouormaghæ: omyndig person (barn eller person under förmyndarskap). Barns inbördes slagsmål regleras med schabloniserad bot om två örar vid ojämnt utfall.",
+          "segmentId": "avg-b05-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Bardaghæ Punkt 4–5 (Kvinnofrid i äktenskapet samt svarteslag)",
+      "balkId": "B05",
+      "pdfSidor": [7],
+      "kallpunkt": "4-5",
+      "meningar": [
+        {
+          "fsv": "Lystær bondæ kono sinæ. i. ölbénk. bötæ hænni. III. markær. lystær han hanæ i kiurkiu bötæ hænnæ. III. markær. liggi aptær til bos taki. or huat þem skil hælþér hughær ællær hæl.",
+          "tolkning": "Slår en bonde sin hustru vid ölbänken, böte till henne tre marker; slår han henne i kyrkan, böte till henne tre marker. Böterna skola ligga kvar i boet; hon tager ut dem när de skiljas, antingen genom död eller skilsmässa.",
+          "kommentar": "Hustrumisshandel på allmän plats (ölstuga/gästabud eller kyrka) bestraffas med tre marker som tillfaller hustrun personligen som säreget gods vid äktenskapets upplösning genom skilsmässa ('hughær') eller död ('hæl').",
+          "segmentId": "avg-b05-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 4"
+        },
+        {
+          "fsv": "Far maþær uaþæ hug. værþær huarti blat ællær bloþukt. þæt kallær suartæ slagh. a. eki. ræt .a.",
+          "tolkning": "Får en man ett vådahugg som varken varder blått eller blodigt, det kallas svarteslag; det äger man ingen rätt till.",
+          "kommentar": "suartæ slagh: ett slag som varken lämnar blånad eller blodsutgjutelse. Sådana bagatellskador åsamkade av våda ger ingen rätt till böter.",
+          "segmentId": "avg-b05-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 7, Bardaghæ Punkt 5"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Bardaghæ Punkt 6–7 (Falsk dråpsanklagelse och boskifte vid ogäldad fred)",
+      "balkId": "B05",
+      "pdfSidor": [8],
+      "kallpunkt": "6-7",
+      "meningar": [
+        {
+          "fsv": "Varþær manni vrang banæ sak giuin. þa skal hæræþshöfþingi væriæ han med tvenni tylptum. næmdær mannæ af hæræþi.",
+          "tolkning": "Varder falsk dråpsanklagelse given mot en man, då skall häradshövdingen värja honom med två tolfter nämndemän från häradet.",
+          "kommentar": "vrang banæ sak: oriktig eller illvillig anklagelse för dråp. Häradshövdingen utser en dubbel tolft (24 nämndemän) ur häradet för att rentvå den oskyldigt anklagade.",
+          "segmentId": "avg-b05-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Bardaghæ Punkt 6"
+        },
+        {
+          "fsv": "Ær friþær mans u böttær. þa skal boskipti kræfiæ ok skildir lucæ ængin meræ. æn til þrigiæ markæ. þa skal konæ takæ þridiungh sin. ok. III. markær at hindradax. gæf. þa arvi takæ þæt alt sum æptir ær. siþan skal þén lot æptir ær skiptæ .i. þry. takar en lot saksökæn. annæn konongær þriþiæ hæræþ.",
+          "tolkning": "Är en mans fred ogäldad, då skall man kräva boskifte och skulder betalas, dock inga mera än upp till tre marker. Då skall hustrun taga sin tredjedel och tre marker i morgongåva; sedan tager arvingen allt det som är kvar. Därefter skall den lott som är kvar skiftas i tre delar: en lott tager målsäganden, den andra konungen, den tredje häradet.",
+          "kommentar": "friþær mans u böttær: när en fredlös man inte har betalat sina fredslösensböter. Boskifte förrättas där hustruns giftorätt (en tredjedel) och morgongåva (hindradax gæf) skyddas före konfiskation till målsägande, kung och härad.",
+          "segmentId": "avg-b05-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Bardaghæ Punkt 7"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Bardaghæ Punkt 8–9 (Giftmord och sårfeber inom natt och år)",
+      "balkId": "B05",
+      "pdfSidor": [8],
+      "kallpunkt": "8-9",
+      "meningar": [
+        {
+          "fsv": "Kona firigær manni. fællir hana lukt hærasznæmd. þa skal hun haua griþ til skogs. dax ok nattær. þa skal latæ dömæ hanæ. vgill. firi arva. ok eptimælændæ ok dræpæ þær næst.",
+          "tolkning": "Förgör en kvinna en man (med trolldom eller gift), och fäller en fulltalig häradsnämnd henne, då skall hon hava lejd till skogs i en dag och en natt; då skall man döma henne ogill för arvingar och målsägande, och dräpa henne därefter.",
+          "kommentar": "firigær manni: förgör en man genom trolldom eller förgiftning. lukt hærasznæmd: sluten, enhällig häradsnämnd. griþ til skogs dax ok nattær: ett dygns frist att fly till skogs innan hon får dräpas ogillt.",
+          "segmentId": "avg-b05-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Bardaghæ Punkt 8"
+        },
+        {
+          "fsv": "Far maþær sarr liggær. i længi gangær i mælli. ok dör i þérri giuær arui sak þem ær sargæþi ok kallær han banæ væræ. þa skal han væriæ sik mæþ luctri hæræssnæmd æn han dör innan nath ok iamlangæ. gangær þær iuir. þa böti ængtæ falls han at sak bötæ manin aptær.",
+          "tolkning": "Får en man sår, ligger sjuk länge, är uppe emellanåt och dör i sotesäng, och ger arvingen sak åt den som sårade honom och kallar honom baneman, då skall denne värja sig med sluten häradsnämnd om han dör inom natt och år; går det därutöver, böte intet, men fälls han till saken, böte för mannen.",
+          "kommentar": "gangær i mælli: är uppe och går mellan sjukperioderna. dör i þérri: dör i sotesäng/feber. innan nath ok iamlangæ: den klassiska medeltida tidsfristen natt och år (ett år och en dag) för orsakssamband mellan våld och död.",
+          "segmentId": "avg-b05-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 8, Bardaghæ Punkt 9"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

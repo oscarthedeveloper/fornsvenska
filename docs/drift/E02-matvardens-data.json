@@ -1,0 +1,3452 @@
+[
+  {
+    "id": "resa-1",
+    "name": "Startsida → Textmapp → Text → Ordboksuppslag → Nästa text",
+    "runs": {
+      "cold": [
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 13.02,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 7.55,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 26.13,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.68,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 12.34,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.69,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 976.9,
+            "byteLength": 26671,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.82,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.32,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 4.12,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.35,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.17,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.98,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.44,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.52,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.57,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 11.1,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.65,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.3,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.82,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.98,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.6,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.5,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.21,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.96,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.59,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.29,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.83,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.58,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.85,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.94,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.31,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.38,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.04,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.08,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.09,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.82,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.12,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.83,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.75,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.2,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.31,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.77,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.23,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ],
+      "warm": [
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.13,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.01,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.87,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.89,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 13.38,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.28,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.33,
+            "byteLength": 26668,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.15,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.49,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.07,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.15,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.83,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.97,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.12,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.31,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.16,
+            "byteLength": 26668,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.66,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.44,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.49,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.88,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.8,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.61,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.59,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.92,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.87,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.12,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.28,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.59,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.62,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.42,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.7,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.01,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.24,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.96,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.47,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.67,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.84,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.82,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.59,
+            "byteLength": 34162,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Textmapp (Lagar) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.74,
+            "byteLength": 13772,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.21,
+            "byteLength": 182389,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Text (Kristnu balkær I) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-i",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.39,
+            "byteLength": 44572,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Ordboksuppslag i text (ord: fyrst)",
+            "path": "/api/ordbok/uppslag?ord=fyrst",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.07,
+            "byteLength": 26669,
+            "cacheControl": "public, s-maxage=86400, stale-while-revalidate=604800",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 4.99,
+            "byteLength": 152824,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "5. Nästa text (Kristnu balkær II) (RSC)",
+            "path": "/texter/lagar/aldre-vastgotalagen/kristnu-balker-ii",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.19,
+            "byteLength": 42240,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "resa-2",
+    "name": "Grammatiksida → Hänvisning",
+    "runs": {
+      "cold": [
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 12.17,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.95,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 11.6,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.99,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.26,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.34,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.75,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.34,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.09,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.73,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.74,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.22,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 14.35,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.66,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.52,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.27,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 36.88,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 5.23,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.47,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.72,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ],
+      "warm": [
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.61,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.54,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.04,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.43,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.22,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.55,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.29,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.33,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.8,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.3,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.12,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.14,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.29,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.45,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.61,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.28,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 24.33,
+            "byteLength": 241902,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Grammatiksida (Vad är fornsvenska) (RSC)",
+            "path": "/grammatik/introduktion/vad-ar-fornsvenska",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 13.52,
+            "byteLength": 135629,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.5,
+            "byteLength": 240243,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Grammatikartikel (Omljud) (RSC)",
+            "path": "/grammatik/ljudlara/vokaler/omljud",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.31,
+            "byteLength": 134404,
+            "cacheControl": "s-maxage=604800, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "resa-3",
+    "name": "Resurssökning → Bok/PDF-visning",
+    "runs": {
+      "cold": [
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.51,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.37,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.37,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.65,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.2,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.81,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.04,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.64,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.6,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.77,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.18,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.52,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.26,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.04,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.11,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.6,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.3,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.14,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.41,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.98,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ],
+      "warm": [
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 17.67,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.57,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.98,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.91,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.46,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.81,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.15,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.49,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 10.62,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.36,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.7,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.58,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.26,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.62,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Resurser",
+            "path": "/resurser",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.43,
+            "byteLength": 179423,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Resurser (RSC)",
+            "path": "/resurser",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.82,
+            "byteLength": 124996,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare",
+            "path": "/resurser/vastgotalagen",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.09,
+            "byteLength": 20542,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. Västgötalagen PDF-läsare (RSC)",
+            "path": "/resurser/vastgotalagen",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.28,
+            "byteLength": 8751,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "resa-4",
+    "name": "Runsida → Filter → Detalj → Tillbaka",
+    "runs": {
+      "cold": [
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 17.38,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.74,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 4.07,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.22,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.93,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.39,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 7.28,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.5,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.47,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.18,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.36,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.66,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.55,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.83,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.7,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.84,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.91,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.12,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.94,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.41,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.35,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 13.16,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.09,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.82,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.76,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.73,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.73,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.56,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.73,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.82,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.47,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 3.06,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.93,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.57,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.58,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ],
+      "warm": [
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.6,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.03,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.5,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.83,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.86,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.11,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.65,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.04,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.76,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.74,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.98,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 2.16,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.3,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.49,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.57,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.51,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.6,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.55,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.98,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.16,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.32,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 6.81,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.68,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.97,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.77,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.78,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 13.99,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.98,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Runsida",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.92,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "1. Runsida (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.57,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "2. API-filter (Ög)",
+            "path": "/api/runor/v1?province=Ög",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.79,
+            "byteLength": 10182,
+            "cacheControl": "public, s-maxage=3600, stale-while-revalidate=86400",
+            "nextCache": null,
+            "serverRenderType": "API"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1)",
+            "path": "/runor/ol-1",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 4.86,
+            "byteLength": 44580,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Runkatalog detalj (Öl 1) (RSC)",
+            "path": "/runor/ol-1",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.77,
+            "byteLength": 18300,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor",
+            "path": "/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 5.6,
+            "byteLength": 200922,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "4. Tillbaka till runor (RSC)",
+            "path": "/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.65,
+            "byteLength": 111377,
+            "cacheControl": "s-maxage=31536000, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ]
+    }
+  },
+  {
+    "id": "resa-5",
+    "name": "Inloggning → Adminvyer → Anonym kontroll",
+    "runs": {
+      "cold": [
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 36.33,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 5.75,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 11.94,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.19,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.22,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.83,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 11.05,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 5.34,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.44,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.52,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.98,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.65,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 10.65,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.96,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.81,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.82,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.22,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.79,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 10.45,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.86,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 10.35,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 5.31,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.52,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.72,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.73,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 5.13,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.03,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.58,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.32,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.59,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ],
+      "warm": [
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.12,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 5.08,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.94,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.46,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 2.21,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.72,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 11.38,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.75,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.75,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.58,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.92,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.49,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.59,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 3.44,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 7.23,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.6,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.95,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.48,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.09,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.64,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.58,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.46,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.98,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.43,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ],
+        [
+          {
+            "step": "1. Admin inloggningsvy",
+            "path": "/admin",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 9.28,
+            "byteLength": 19965,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "1. Admin inloggningsvy (RSC)",
+            "path": "/admin",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.47,
+            "byteLength": 10016,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor",
+            "path": "/admin/runor",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 8.4,
+            "byteLength": 19747,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "2. Admin runor (RSC)",
+            "path": "/admin/runor",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 4.39,
+            "byteLength": 10377,
+            "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+            "nextCache": null,
+            "serverRenderType": "DYNAMIC"
+          },
+          {
+            "step": "3. Anonym kontroll startsida",
+            "path": "/",
+            "mode": "HTML",
+            "status": 200,
+            "durationMs": 1.86,
+            "byteLength": 21366,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          },
+          {
+            "step": "3. Anonym kontroll startsida (RSC)",
+            "path": "/",
+            "mode": "RSC",
+            "status": 200,
+            "durationMs": 1.33,
+            "byteLength": 6105,
+            "cacheControl": "s-maxage=86400, stale-while-revalidate",
+            "nextCache": "HIT",
+            "serverRenderType": "CACHED"
+          }
+        ]
+      ]
+    }
+  }
+]

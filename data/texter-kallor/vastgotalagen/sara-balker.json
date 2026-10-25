@@ -1,0 +1,140 @@
+{
+  "titel": "Af særæ malum",
+  "underrubrik": "Äldre Västgötalagen, fulsår, lyten, lemlästning och bötestaxa (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Såramålsbalken (Af særæ malum) i Äldre Västgötalagen reglerar uppsåtliga kroppsskador, den formella processen för fulsår med tingslysning och sårabesiktning, skroksak (falsk anklagelse), skadeståndsrätt för inländska män, danskar, norrmän och utlänningar, samt en detaljerad graderad botstaxa för lemlästning av hand, enskilda fingrar, tår, näsa, ögon, hår, tänder och kastration med ett års prövotid för bestående men.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Af særæ malum Punkt 1 (Fulsår och tingslysning)",
+      "balkId": "B03",
+      "pdfSidor": [6],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "Uærþær maþær a manni sar. þa skal sarum lysa a þingi þy fyrstæ. væt eigh hvat hældr æptir mælir quikum ællær döþom. ok a adru þingi. æn .a. þriðiæ æptir mælæ. ællær. ær mal hans spilt. þa skal han sar synæ.",
+          "tolkning": "Varder en man sårad av en man, då skall man lysa såret på det första tinget — man vet icke om man fullföljer talan för en levande eller död — och likaså på det andra tinget; men på det tredje skall man fullfölja talan, eljest är hans sak förspilld. Då skall han visa upp såret.",
+          "kommentar": "lysa a þingi: formell kungörelse av såret inför tingsmenigheten. quikum ællær döþom: man vet ännu inte om den sårade överlever eller avlider (vilket ändrar saken till dråp). sar synæ: okulärbesiktning av såret på tinget.",
+          "segmentId": "avg-b03-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 1"
+        },
+        {
+          "fsv": "þa skulu þingsmæn vittni vm bæræ. æn þét ær fulsæri. þorf viþ spik ok spiær. lin ok lækirsgæf. þa ær þæt. fulsæri. þa skal þem latæ. dömæ endaghæ ok vitæ .a. hændær hanum. mæd tvem tylptum. ok. þriðiæ þingsmannæ vittni. byþia sva sær gud hol ok vattum sinum at han ær sandær maþær hans ok sva gaf iak þar næmni til a þingi. þa skal þæn. ær farghaþi laghæ buþ firi sær hauæ. IX. markær a sægnærþingi. bötær fram bæræ. ok tækkiumæn kræfiæ. þa skal han sik frid lösæ dömæ bötæ. viþ hæræþ. IX. markær ok sva uiþ konong. Er han sændær at sak. þa skal hæræþ hanum vt. dömæ ællar skal han friþ fly.",
+          "tolkning": "Då skola tingsmännen bära vittnesbörd om huruvida det är fulsår: kräver det fläsk och spjälor, linne och läkarlön, då är det fulsår. Då skall man låta döma en förfallodag för dem och fälla saken mot honom med två tolfter och som tredje tingsmännens vittnesmål. Han skall bedja så sig Gud huld och sina vittnen, att han är hans rätte sårman, 'och så gav jag där namn till på tinget'. Då skall den som sårade hava lagbud för sig: nio marker på stämningstinget, bära fram böterna och kräva borgesmän. Då skall han döma sig fri från fredlöshet och böta nio marker till häradet och likaså till konungen. Är han fälld till saken, då skall häradet döma honom fredlös, eller skall han fly för freden.",
+          "kommentar": "fulsæri: allvarligt, livshotande sår med fyra lagfästa kriterier: spik (fläsk/fett till sårsalva), spiær (spjälor vid benbrott), lin (förband) och lækirsgæf (läkararvode). farghaþi: sårade, tillfogade kroppsskada. sægnærþingi: utsatt svarsting. tækkiumæn: borgesmän som går i borgen för böternas gäldande. vt dömæ: döma fredlös.",
+          "segmentId": "avg-b03-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Af særæ malum Punkt 2–3 (Skroksak och landsomfattande sårabot)",
+      "balkId": "B03",
+      "pdfSidor": [6],
+      "kallpunkt": "2-3",
+      "meningar": [
+        {
+          "fsv": "Værdær skroksak giuin saræ mal. þa skal a þingi. næmd gæræ. tryggiæ mannæ af fiarþungi þæs at sværiæ at han ær eigh sændær saræmaþær hans ok eigh var maþ væsviliæ. a vighualli.",
+          "tolkning": "Varder falsk anklagelse given i såramål, då skall man på tinget tillsätta en nämnd av tre män från fjärdingen till att svära på att han icke är hans rätte sårman och icke var med illvilligt uppsåt på stridsplatsen.",
+          "kommentar": "skroksak: diktad, grundlös anklagelse. fiarþungi: fjärding (administrativ fjärdedel av häradet). væsviliæ: ond vilja/illasinnat uppsåt. vighualli: stridsplatsen (av vig 'strid, vapenskifte').",
+          "segmentId": "avg-b03-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 2"
+        },
+        {
+          "fsv": "Innæn konongrikiss maþær iamgildær at sarum sum hærlænskær maþær. §.1. Danski ok norin æghu bötær a sarum sum hærlænskær maþær.",
+          "tolkning": "Inländsk man från sveariket är jämngill i såramål med en härländsk västgöte. § 1. Dansk och norrman äga böter för sår såsom en härländsk man.",
+          "kommentar": "Innæn konongrikiss maþær: undersåte i det svenska kungadömet utanför Västergötland. hærlænskær: infödd västgöte. Danski ok norin: danskar och norrmän ges samma rättsliga skydd vid sår som landskapets egna män.",
+          "segmentId": "avg-b03-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Af særæ malum Punkt 4 (Lemlästning, fingrar, anlete och prövotid för lyte)",
+      "balkId": "B03",
+      "pdfSidor": [6],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "Huggar maþær hand af man. bötæ niv markær. firi sar. ok. III. markær firi læst. §.1. Huggær maþær þumulfingær. af manni bötæ. IX. markær firi sær ok tolf öræ. firi læst. Firi. þæn þær. nest. IX. markær firi sær ok sæx. öræ. firi læst. Firi længstæ fingær. IX. markær firi sar. ok half mark firi læst. Firi. þæn. þær. ær næst. IX. markær firi sær. ok tva. öræ firi læst. Firi litlæn fingær. IX. markær firi sær. ok. oræ firi læst.",
+          "tolkning": "Hugger en man handen av en man, böte nio marker för såret och tre marker för lytet. § 1. Hugger en man tumfingret av en man, böte nio marker för såret och tolv örar för lytet; för det finger som är nästintill: nio marker för såret och sex örar för lytet; för det längsta fingret: nio marker för såret och en halv mark för lytet; för det som är näst därefter: nio marker för såret och två örar för lytet; för lillfingret: nio marker för såret och en öre för lytet.",
+          "kommentar": "læst: bestående lyte eller men. Notera den matematiskt genomtänkta och hierarkiska botstaxan för handens fingrar: tumme (12 örar), pekfinger (6 örar), långfinger (en halv mark = 4 örar), ringfinger (2 örar) och lillfinger (1 öre).",
+          "segmentId": "avg-b03-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 4"
+        },
+        {
+          "fsv": "§.2. Huggér næsær af. manni. bötæ. þræa markær firi læst. ok. IX. markær firi sær. §.3. Huggær öghæ. vr höfþi. manni. bötæ. III. markær firi ögha. ok. IX. markær firi sær. §.4. Huggær maþær har. af manni bötæ. III. markær firi læst. ok. IX. markær firi sar. §.5. Lystær. tændær. vr hösþi. læstir mal. hans. bötæ. III. markær firi læst. ok. IX. markær firi sar. §.6. Gældir. man. IX. markær firi læst. ok. IX. firi. sar. §.7. Huggær. tær af. manni. sva skal firir tær. sum firi fingræ.",
+          "tolkning": "§ 2. Hugger man näsan av en man, böte tre marker för lytet och nio marker för såret. § 3. Hugger man ögat ur huvudet på en man, böte tre marker för ögat och nio marker för såret. § 4. Hugger en man håret av en man, böte tre marker för lytet och nio marker för såret. § 5. Slår man tänderna ur huvudet och lyter hans tal, böte tre marker för lytet och nio marker för såret. § 6. Kastrerar man en man, gälde nio marker för lytet och nio för såret. § 7. Hugger man tårna av en man, skall det gälla för tår likasom för fingrar.",
+          "kommentar": "hösþi: skrivarform/variant för höfþi (huvud). læstir mal: fördärvar talförmågan. Gældir man: snöper eller kastrerar (gör till gälling); medför dubbla maxböter: 9 marker för såret och 9 marker för lytet.",
+          "segmentId": "avg-b03-punkt04-seg002",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 4"
+        },
+        {
+          "fsv": "§.8. Læstir skulu til iamlangæ standæ. þa skal a sea æn læst ær ok læstær bot vt takæ. Slikt skal væþæ læst væræ sum uilia. læst.",
+          "tolkning": "§ 8. Lyten skola stå till prövning i ett helt år; då skall man bese om lytet består och uttaga lytesboten. Sådant skall vådalyte vara som uppsåtligt lyte.",
+          "kommentar": "iamlangæ: en tidsrymd av ett fullt år ('jämnt så lång tid'), under vilken kroppsskadan får läka innan lytet slutligt bedöms. væþæ læst: men vållat av våda (olyckshändelse).",
+          "segmentId": "avg-b03-punkt04-seg003",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 4"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Af særæ malum Punkt 5–6 (Utländska köpmän, frigivna och trälar)",
+      "balkId": "B03",
+      "pdfSidor": [6],
+      "kallpunkt": "5-6",
+      "meningar": [
+        {
+          "fsv": "Værþær suþær maþær ællær ænskær maþær sar. þeir. æghu. at botum örtogh min æn ælliw. oræ. ok konongær örtogh ok öra fem. ok sva frælsgui. bondæ hvar. gaf þær aþrum af sin ræt.",
+          "tolkning": "Varder en sydman eller en engelsk man sårad, äga de i böter en örtug mindre än elva örar, och konungen en örtug och fem örar; och likaså en frigiven man. Varje bonde gav där den andre av sin rätt.",
+          "kommentar": "suþær maþær: sydman (tysk). ænskær maþær: engelsman. örtogh min æn ælliw oræ: tio örar och två örtugar. frælsgui: frigiven träl (frigesgiven). Bestämmelsen belyser utländska gästers och frigivnas rättsliga ställning i förhållande till de friborna bönderna.",
+          "segmentId": "avg-b03-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 5"
+        },
+        {
+          "fsv": "[Þ]ræl. far sar. botæ maþær firi. mark. ækki æghu fleri mæn sak a. æn saksölæ.",
+          "tolkning": "Får en träl sår, böte man en mark för honom; icke äga flera män sak däri än målsäganden.",
+          "kommentar": "saksölæ: sakägaren, målsäganden (trälens herre som äger rätten till boten). [Þ]ræl: handskriftsutgåvan har initialt frågetecken för versalt Þ.",
+          "avvikelser": [
+            "Källans inledande frågetecken '?ræl' återges som '[Þ]ræl'."
+          ],
+          "segmentId": "avg-b03-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 6"
+        },
+        {
+          "fsv": "§.1. Vétir fræsgiui sar ællær þrell. mans ætbornum manni þa skal han sökiæ til ugils. vil han hældær bötær takæ æn. værk a uinnæ. bötæ. hanum firi. markum. III.",
+          "tolkning": "§ 1. Tillfogar en frigiven man eller en annans träl sår på en ättboren man, då skall han söka honom till ogill; vill han hellre taga böter än arbeta av skadan, böte för honom med tre marker.",
+          "kommentar": "Vétir: vållar, tillfogar (presens av väta). ætbornum manni: fullmyndig fri odalman med ättens bördsrätt. til ugils: att dräpa eller straffa ogillt utan bötesplikt. værk a uinnæ: avtjäna skulden genom tvångsarbete.",
+          "segmentId": "avg-b03-punkt06-seg002",
+          "kallreferens": "AVG-MASKIN s. 6, Af særæ malum Punkt 6"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

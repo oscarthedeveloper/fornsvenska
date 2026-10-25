@@ -1,322 +1,55 @@
 # -*- coding: utf-8 -*-
 import json
+import os
+import glob
 
 # Generator for data/textdokument.ts
 
-DATA = {
-  "lagar/aldre-vastgotalagen/kristnu-balker-i": {
-    "titel": "Kristnu balkær, del I",
-    "underrubrik": "Äldre Västgötalagen, inledningen och dopet (Cod. Holm. B 59)",
-    "meta": [
-      { "nyckel": "Handskrift", "varde": "Cod. Holm. B 59" },
-      { "nyckel": "Datering", "varde": "Omkr. 1280" },
-      { "nyckel": "Genre", "varde": "Landskapslag" },
-      { "nyckel": "Dialekt", "varde": "Äldre västgötska" },
-      { "nyckel": "Utgåva", "varde": "Schlyter, SSGL I / Delsing" }
-    ],
-    "ingress": "Balkens inledning fastslår den kristna trons och kyrkans primat i det västgötska lagsamhället. Texten är skriven på arkaisk äldre fornsvenska med fullt bevarat fyrkasussystem och strikt kongruens. Efter den högtidliga inledningen följer noggranna föreskrifter om hur ett nyfött barn skall föras till kyrkan och döpas, hur nöddop skall förrättas om barnet insjuknar på vägen, samt föräldrarnas och faddrarnas skyldigheter.",
-    "sektioner": [
-      {
-        "rubrik": "Sektion 01",
-        "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Inledning)",
-        "meningar": [
-          {
-            "fsv": "Krister ær fyrst i laghum warum",
-            "tolkning": "Kristus är främst i våra lagar.",
-            "kommentar": "laghum warum: dativ pluralis efter prepositionen i med lokativ funktion. Kongruerande possessivt pronomen warum. Subjektet Krister uppvisar fornsvensk nominativändelse -er."
-          },
-          {
-            "fsv": "þa ær cristna var oc allir cristnir konongær",
-            "tolkning": "Därnäst vår kristenhet och alla kristna konungar.",
-            "kommentar": "cristna var: feminin nominativ singularis med efterställt possessivt pronomen. allir cristnir konongær: nominativ pluralis av starkt maskulint substantiv konongær (a-stam) med full kongruens i allir och starkt böjda cristnir."
-          },
-          {
-            "fsv": "böndær oc allir bocarlær biscupær oc allir boclærðir mæn",
-            "tolkning": "Bönder och alla bofasta män, biskopar och alla boklärda män.",
-            "kommentar": "Nominativ pluralis: böndær (rotstam), bocarlær och biscupær (a-stammar på -ær), samt boclærðir mæn där participadjektivet kongruerar med oregelbundna rotstamssubstantivet mæn."
-          }
-        ]
-      },
-      {
-        "rubrik": "Sektion 02",
-        "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Dopet)",
-        "meningar": [
-          {
-            "fsv": "Varþær barn til kirkiu boret oc beþiz cristnu",
-            "tolkning": "Varder barn buret till kyrka och bedes kristning,",
-            "kommentar": "Konditionalt framställd huvudsats med inversion (varþær barn). Prepositionen til styr genitivformen kirkiu (svag ōn-stam). Passiv med varþær och perfekt particip boret (nom. sg. neutr.). Deponensen beþiz styr genitivobjektet cristnu."
-          },
-          {
-            "fsv": "þa scal faþir ok moðer fa guðfæþur oc guðmoþor oc salt oc uatn",
-            "tolkning": "då skall fader och moder skaffa gudfader och gudmoder och salt och vatten.",
-            "kommentar": "faþir ok moðer: r-stammar i nominativ singularis. guðfæþur och guðmoþor: ackusativ singularis av fadderbeteckningarna; salt oc uatn: ackusativ singularis neutrum som sakobjekt."
-          },
-          {
-            "fsv": "þæt scal bæræ til kirkiu þa scal a prést kallæ han skal a kirkiu bole boæ",
-            "tolkning": "Det skall bäras till kyrkan, då skall man kalla på präst; han skall bo på kyrkobolet.",
-            "kommentar": "bæræ: aktiv infinitiv med passivisk betydelse efter scal. a prést: ackusativ efter prepositionen a. a kirkiu bole: dativ singularis efter befintlighets-a; förleden kirkiu är sammansättningsgenitiv."
-          },
-          {
-            "fsv": "barn scal brymsignæ firi utan kirkiu dyr",
-            "tolkning": "Barnet skall primsignas utanför kyrkodörren.",
-            "kommentar": "brymsignæ: kristet lånord (fornengelska primsignian). firi utan styr ackusativformen kirkiu dyr (ack. pl. neutr.)."
-          }
-        ]
-      },
-      {
-        "rubrik": "Sektion 03",
-        "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §1 (Nöddop och dopformel)",
-        "meningar": [
-          {
-            "fsv": "Siþen scal font wigyæ prester barn döpæ oc gudfaþir a haldæ gudmoþer til namns sygiæ",
-            "tolkning": "Sedan skall dopfunten vigas, prästen döpa barnet och gudfadern hålla i, och gudmodern säga namnet.",
-            "kommentar": "Parallella infinitivsatser underställda hjälpverbet scal. til namns: genitiv efter prepositionen til."
-          },
-          {
-            "fsv": "prester scal byuþe husu lengi faþir oc moþer sculu vardvetæ",
-            "tolkning": "Prästen skall påbjuda hur länge fader och moder skola vårda det.",
-            "kommentar": "vardvetæ: sammansättning med urgermanskt varð ('vakt') och vita ('veta/iaktta'). sculu: presens pluralis, kongruerar med sammansatt subjekt."
-          },
-          {
-            "fsv": "Hændir þæt sot a vegh oc ma igh til kyrkiu coma þa scal gudfaþir döpæ oc gudmoþer a haldæ i vatn",
-            "tolkning": "Händer det att sjukdom kommer på vägen och det icke kan komma till kyrkan, då skall gudfadern döpa och gudmodern hålla i vatten.",
-            "kommentar": "sot: feminin nominativ singularis ('sjukdom'). Negationsadverbet igh är en västgötsk sidovariant till eigh. Nöddopets giltighet fastslås."
-          },
-          {
-            "fsv": "æn uatn ær til i namn faþurs oc suner oc andæs hælagha þa scal þét .j. kyrkiu gard gravæ",
-            "tolkning": "om vatten finns till hands, i faderns och sonens och den helige andes namn; dör det sedan skall det begravas på kyrkogården.",
-            "kommentar": "faþurs (stark genitiv på -s), suner (u-stamsgenitiv på -er), andæs hælagha (svag maskulin genitiv på -a med efterställt bestämt adjektiv). j kyrkiu gard: riktningsackusativ efter i."
-          }
-        ]
-      }
-    ],
-    "fotnoter": [
-      {
-        "id": 1,
-        "kallaId": "AVG-MASKIN",
-        "lokalisering": "s. 1, Kirkiu Bolkær §1",
-        "stod": "primarbelagg"
-      },
-      {
-        "id": 2,
-        "kallaId": "PET-SJUHUNDRA",
-        "lokalisering": "s. 56 och 101–103",
-        "stod": "regel"
-      },
-      {
-        "id": 3,
-        "kallaId": "NOR1904",
-        "lokalisering": "§ 400–405",
-        "stod": "analys"
-      }
+def load_vastgotalagen_sources():
+    kallkatalog = os.path.join(os.path.dirname(__file__), "..", "data", "texter-kallor", "vastgotalagen")
+    canonical_order = [
+        "kristnu-balker-i",
+        "kristnu-balker-ii",
+        "kristnu-balker-iii",
+        "kristnu-balker-iv",
+        "mandraps-balker-i",
+        "mandraps-balker-ii",
+        "sara-balker",
+        "vada-sara-balker",
+        "bardagha-balker",
+        "orbota-mal",
+        "arfda-balker",
+        "arfda-balker-ii",
+        "giptar-balker",
+        "raetlosa-balker",
+        "iordhar-balker-i",
+        "iordhar-balker-ii",
+        "mylnu-balker",
+        "thiuua-balker-i",
+        "thiuua-balker-ii",
+        "fornaemis-sakir",
+        "fornamix-balker",
+        "lecara-raetar",
+        "conongs-balker",
+        "horo-thing-lot",
     ]
-  },
+    def sort_key(f):
+        base = os.path.splitext(os.path.basename(f))[0]
+        if base in canonical_order:
+            return (0, canonical_order.index(base))
+        return (1, base)
+    filer = sorted(glob.glob(os.path.join(kallkatalog, "*.json")), key=sort_key)
+    docs = {}
+    for fil in filer:
+        basename = os.path.splitext(os.path.basename(fil))[0]
+        with open(fil, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        nyckel = data.pop("dokumentStig", f"lagar/aldre-vastgotalagen/{basename}")
+        data.setdefault("fotnoter", [])
+        docs[nyckel] = data
+    return docs
 
-  "lagar/aldre-vastgotalagen/kristnu-balker-ii": {
-    "titel": "Kristnu balkær, del II",
-    "underrubrik": "Äldre Västgötalagen, biskopens gengärd och kyrkans underhåll (Cod. Holm. B 59)",
-    "meta": [
-      { "nyckel": "Handskrift", "varde": "Cod. Holm. B 59" },
-      { "nyckel": "Datering", "varde": "Omkr. 1280" },
-      { "nyckel": "Genre", "varde": "Landskapslag" },
-      { "nyckel": "Dialekt", "varde": "Äldre västgötska" },
-      { "nyckel": "Utgåva", "varde": "Schlyter, SSGL I / Delsing" }
-    ],
-    "ingress": "Andra delen av kristendomsbalken i Äldre Västgötalagen reglerar biskopens visitationer och rätt till gengärd (härbärge och förplägnad), sockenmännens skyldighet att underhålla kyrkobyggnaden samt de rättsliga följderna när en kyrka vanhelgas genom våld eller stöld. Texten belyser hur kanonisk rätt och inhemsk sedvänja integrerades i det tidiga medeltida lagsamhället och uppvisar arkaisk västgötsk morfologi och syntax.",
-    "sektioner": [
-      {
-        "rubrik": "Sektion 01",
-        "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §2 & §5 (Biskopens rättigheter)",
-        "meningar": [
-          {
-            "fsv": "Byscupi scal gengyærd geræ twar næter oc til quels hins þridia med tolf mannum",
-            "tolkning": "Åt biskopen skall man göra gengärd två nätter och till den tredje dagens kväll med tolv män,",
-            "kommentar": "Byscupi: dativ singularis som indirekt objekt vid scal geræ. twar næter: ackusativ pluralis i tidsadverbial funktion (femininum av räkneordet två). hins þridia: svagt böjt ordningstal i genitiv med framställd artikel."
-          },
-          {
-            "fsv": "sialuer han hin þrættandi oc han drikki myod oc allir klerkar hans",
-            "tolkning": "själv han den trettonde, och han dricke mjöd och alla hans klerker.",
-            "kommentar": "hin þrættandi: bestämd form av ordningstalet ('den trettonde'). drikki: presens konjunktiv (optativ/preskriptiv funktion). allir klerkar hans: nominativ pluralis maskulinum."
-          },
-          {
-            "fsv": "Crusszur oc klokchor calka oc messufat þa scal byscuper vighia firi tyundæ",
-            "tolkning": "Kors och klockor, kalkar och mässkrudar skall biskopen viga för tionden.",
-            "kommentar": "Ackusativobjekt i framställd topikalisering före finita verbet scal. firi tyundæ: prepositionsfras med genitiv/ackusativ som uttrycker vederlag."
-          }
-        ]
-      },
-      {
-        "rubrik": "Sektion 02",
-        "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §6 (Kyrkobyggnadens bestånd)",
-        "meningar": [
-          {
-            "fsv": "Taker kyrkia at fyrnass standæ stulpær liggia sillir er helt dyrni oc festiband",
-            "tolkning": "Börjar en kyrka att åldras, men stolparna står, syllarna ligger och dörrträ och bindbjälke är hela,",
-            "kommentar": "Konditional huvudsats utan bisatsinledare med omvänd ordföljd. fyrnass: deponent infinitiv ('åldras'). stulpær och sillir: nominativ pluralis av starka feminina och maskulina byggnadstermer."
-          },
-          {
-            "fsv": "ligger kamber hell haltæræ sten oc altare haui kyrkya vixl sinæ samu",
-            "tolkning": "ligger takåsen hel och altarstenen och altaret helt, då skall kyrkan behålla sin samma vigning,",
-            "kommentar": "kamber: takås (mask. nom. sg.). haui: presens konjunktiv av hava ('må hava'). vixl sinæ samu: ackusativ singularis femininum med demonstrativ/identitetsmarkör samu."
-          },
-          {
-            "fsv": "þo at hana böte en þessi æru all hel",
-            "tolkning": "ändock att man reparerar den, om dessa delar alla äro hela.",
-            "kommentar": "þo at: medgivande underordnad konjunktion ('fastän'). hana: ackusativobjekt (fem. sg., syftar på kyrkia). þessi æru all hel: full kongruens i predikativ neutrum pluralis hel med kvantifikatorn all."
-          },
-          {
-            "fsv": "Værþer altæræ sten lös þa scal prester byscup uid væræ",
-            "tolkning": "Varder altarsten lös, då skall prästen tillkalla biskopen.",
-            "kommentar": "altæræ sten: sammansättning med genitivförled. byscup uid væræ: biskopen skall vara tillstädes/tillkallas för återinvigning."
-          }
-        ]
-      },
-      {
-        "rubrik": "Sektion 03",
-        "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær §3 & §7 (Nidingsverk i kyrkan)",
-        "meningar": [
-          {
-            "fsv": "Uerder maþer .i. kyrkiu dræpin þet ær niþings værk þa er kyrkia al vuighz",
-            "tolkning": "Varder en man dräpt i kyrkan, det är ett nidingsverk; då är kyrkan alldeles ovigd.",
-            "kommentar": "niþings værk: rättsterm för vanärande brott som icke kan botas med böter. al vuighz: predikativ genitiv med förstärkande adverb al ('helt och hållet')."
-          },
-          {
-            "fsv": "Uerdher kyrkia brutin oc mæssu fat stolen þet er niþingsværk",
-            "tolkning": "Varder kyrka inbruten och mässkärl stulna, det är ett nidingsverk;",
-            "kommentar": "Passiv med varþa och kongruerande particip: brutin (fem. nom. sg.) och stolen (neutr. nom. pl., i handskriften som kollektiv singularis)."
-          },
-          {
-            "fsv": "þat er niv marcha sak kyrky swa hæreþe sva konogge",
-            "tolkning": "det är en sak om nio marker, till kyrkan så, till häradet så och till konungen så.",
-            "kommentar": "niv marcha sak: genitivattribut efter räkneord (niv marcha). kyrky, hæreþe, konogge: dativformer som uttrycker mottagare av bötesandelarna."
-          },
-          {
-            "fsv": "Varþer in gangit at opnom dorom þa scal prester gialdæ skaþa apter",
-            "tolkning": "Varder ingånget genom öppna dörrar, då skall prästen återgälda skadan.",
-            "kommentar": "opnom dorom: dativ pluralis med instrumentell/lokativ funktion efter at. prester: nominativ singularis, bär vårdnadsansvaret för inventarierna."
-          }
-        ]
-      }
-    ],
-    "fotnoter": [
-      {
-        "id": 1,
-        "kallaId": "AVG-MASKIN",
-        "lokalisering": "s. 1–2, Kirkiu Bolkær §2, §5–7",
-        "stod": "primarbelagg"
-      },
-      {
-        "id": 2,
-        "kallaId": "PET-SJUHUNDRA",
-        "lokalisering": "s. 113–115",
-        "stod": "regel"
-      },
-      {
-        "id": 3,
-        "kallaId": "LIN2024",
-        "lokalisering": "s. 14–17",
-        "stod": "analys"
-      }
-    ]
-  },
-
-  "lagar/aldre-vastgotalagen/arfda-balker": {
-    "titel": "Ærfþa balkær",
-    "underrubrik": "Äldre Västgötalagen, arvsordning och arvsrätt (Cod. Holm. B 59)",
-    "meta": [
-      { "nyckel": "Handskrift", "varde": "Cod. Holm. B 59" },
-      { "nyckel": "Datering", "varde": "Omkr. 1280" },
-      { "nyckel": "Genre", "varde": "Landskapslag" },
-      { "nyckel": "Dialekt", "varde": "Äldre västgötska" },
-      { "nyckel": "Utgåva", "varde": "Schlyter, SSGL I / Delsing" }
-    ],
-    "ingress": "Ärvdabalken i Äldre Västgötalagen reglerar arvsordningen enligt det strikta nordiska parentelsystemet, där barn och efterkommande utesluter sidoarvingar och fädernet skiljs från mödernet. Paragrafen om utlandsresor och Greklandsfarare är en av svensk rättshistorias mest berömda texter och visar hur medeltida lagstiftning skyddade hemmavarande hustrus och barns egendom vid långväga pilgrims- och handelsfärder.",
-    "sektioner": [
-      {
-        "rubrik": "Sektion 01",
-        "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §1 (Arvsföljden)",
-        "meningar": [
-          {
-            "fsv": "Svn ær faþurs arvi",
-            "tolkning": "Son är faders arvinge.",
-            "kommentar": "Klassisk nominalsats med kopula ær. faþurs: genitiv singularis av r-stammen faþir (med sekundärt -s). arvi: svag maskulin nominativ singularis (an-stam)."
-          },
-          {
-            "fsv": "Ær eig svn þa ær dottær",
-            "tolkning": "Finns ej son, då är dotter arvinge.",
-            "kommentar": "Konditional sats med inversion utan konjunktion. dottær: nominativ singularis av feminin r-stam."
-          },
-          {
-            "fsv": "Ær eig dottær þa ær faþir Ær eig faþir þa ær moþer þa ær broþer",
-            "tolkning": "Finns ej dotter, då är fader; finns ej fader, då är moder; därefter är broder.",
-            "kommentar": "Sukcessiv uppräkning av arvsberättigade släktingar med arkaiska r-stamsformer i nominativ singularis."
-          },
-          {
-            "fsv": "Ær eig broþér þa er systir Ær eig systir þa æru sunærbörn",
-            "tolkning": "Finns ej broder, då är syster; finns ej syster, då äro söners barn arvingar.",
-            "kommentar": "sunærbörn: sammansättning med genitiv pluralis av sun som förled och börn i nominativ pluralis neutrum."
-          },
-          {
-            "fsv": "Kollum skal ærvi skiptæ sundær i tu halft a fæþærni ok halft a moþærni",
-            "tolkning": "Mellan kullarna skall arv skiftas sönder i två delar, hälften på fädernet och hälften på mödernet.",
-            "kommentar": "Kollum: dativ pluralis efter prepositionen vid fördelning. halft: substantiverat neutrum. fæþærni och moþærni: dativ singularis av neutrala ja-stammar betecknande fäderne- och mödernesläkt."
-          }
-        ]
-      },
-      {
-        "rubrik": "Sektion 02",
-        "hanvisning": "Cod. Holm. B 59, Ærfþa balkær §2 (Romresan och Greklandsfararen)",
-        "meningar": [
-          {
-            "fsv": "Far maþær af landi sætær brytiæ firi bo sighir at han skal gangæ til roms",
-            "tolkning": "Far en man ur landet, sätter förvaltare för sitt bo och säger att han skall gå till Rom,",
-            "kommentar": "Inversionsinledd villkorskedja. brytiæ: svag maskulin ackusativ singularis (bryte, förvaltare). firi bo: ackusativ efter firi. til roms: genitiv efter prepositionen til."
-          },
-          {
-            "fsv": "þa skal bryti bo varþa til iamlangæ sidan skal arvi varþæ ok iki bryti længer num arvi uili",
-            "tolkning": "då skall förvaltaren svara för boet under ett års tid; sedan skall arvingen svara för det och icke förvaltaren längre, om icke arvingen vill.",
-            "kommentar": "til iamlangæ: tidsadverbial konstruktion ('under ett helt år'). num: arkaisk villkorskonjunktion ('om icke, såvida inte')."
-          },
-          {
-            "fsv": "Far maþær af landi sytær husprø i bo havir i knæ ok annat i kviþi far cristindom",
-            "tolkning": "Far en man ur landet medan hustrun sitter i boet, har ett barn i knä och ett annat i kvedet som får kristning,",
-            "kommentar": "husprø: hustru (ack./nom. fem.). i knæ ok annat i kviþi: allittererande och rytmisk juridisk formel för spädbarn och ofött foster. far cristindom: får dop/kristning."
-          },
-          {
-            "fsv": "vændir han hæl ok nakkæ at hemkynnum ok stighær fotum af fostær landi",
-            "tolkning": "vänder han häl och nacke åt hembygden och stiger med fötterna från fosterlandet,",
-            "kommentar": "hæl ok nakkæ: ackusativobjekt i allittererande parformel. at hemkynnum: dativ pluralis efter riktningsprepositionen at. fotum: instrumentell dativ pluralis ('med fötterna')."
-          },
-          {
-            "fsv": "Ingsins manss arv takær hæn mæn i girklandi sitær",
-            "tolkning": "Ingen mans arv tager han medan han i Grekland sitter.",
-            "kommentar": "Ingsins manss: dubblerad genitivändelse hos det sammansatta negerande pronomenet ingsins och substantivet manss. girklandi: dativ singularis (Grekland/Bysans, vanligt resmål för nordiska väringagarden)."
-          }
-        ]
-      }
-    ],
-    "fotnoter": [
-      {
-        "id": 1,
-        "kallaId": "AVG-MASKIN",
-        "lokalisering": "s. 8–9, Ærfþa balkær §1–2",
-        "stod": "primarbelagg"
-      },
-      {
-        "id": 2,
-        "kallaId": "PET-SJUHUNDRA",
-        "lokalisering": "s. 56",
-        "stod": "regel"
-      },
-      {
-        "id": 3,
-        "kallaId": "NOR1904",
-        "lokalisering": "§ 402–408",
-        "stod": "analys"
-      }
-    ]
-  },
-
+OVRIGA_TEXTER = {
   "lagar/upplandslagen/foretalet": {
     "titel": "Företalet",
     "underrubrik": "Upplandslagen (1296), Land skal mæþ laghum byggias",
@@ -1303,15 +1036,26 @@ DATA = {
   }
 }
 
-out = 'import type { Textdokument } from "@/lib/text";\n\n'
-out += '/**\n * Textinnehåll, nycklat på full sökväg under roten "texter".\n'
-out += ' * Samtliga 14 dokument är fullständigt publicerade med autentisk\n'
-out += ' * fornsvensk text, översättning, grammatisk analys och källhänvisningar.\n */\n'
-out += 'export const TEXTER_DOKUMENT: Record<string, Textdokument> = '
-out += json.dumps(DATA, indent=2, ensure_ascii=False)
-out += ';\n'
+DATA = {}
+# Västgötalagen laddas modulärt från data/texter-kallor/vastgotalagen/
+DATA.update(load_vastgotalagen_sources())
+# Övriga texter
+DATA.update(OVRIGA_TEXTER)
 
-with open("data/textdokument.ts", "w", encoding="utf-8") as f:
-    f.write(out)
+def generate():
+    out = 'import type { Textdokument } from "@/lib/text";\n\n'
+    out += '/**\n * Textinnehåll, nycklat på full sökväg under roten "texter".\n'
+    out += ' * Samtliga 14 dokument är fullständigt publicerade med autentisk\n'
+    out += ' * fornsvensk text, översättning, grammatisk analys och källhänvisningar.\n */\n'
+    out += 'export const TEXTER_DOKUMENT: Record<string, Textdokument> = '
+    out += json.dumps(DATA, indent=2, ensure_ascii=False)
+    out += ';\n'
 
-print(f"Generated data/textdokument.ts with {len(DATA)} published texts.")
+    out_path = os.path.join(os.path.dirname(__file__), "..", "data", "textdokument.ts")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(out)
+
+    print(f"Generated data/textdokument.ts with {len(DATA)} published texts.")
+
+if __name__ == "__main__":
+    generate()

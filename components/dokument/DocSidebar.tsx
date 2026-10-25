@@ -33,6 +33,7 @@ function Rows({
           <div key={key}>
             <Link
               href={href}
+              prefetch={false}
               className="doc-tree-row"
               data-kind={node.kind}
               data-current={arCurrent ? "1" : undefined}

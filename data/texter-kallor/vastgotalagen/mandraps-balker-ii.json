@@ -1,0 +1,194 @@
+{
+  "titel": "Af mandrapi, del II",
+  "underrubrik": "Äldre Västgötalagen, hemgång, ölstuga, okänd baneman och vådadöd (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Andra delen av dråpsbalken i Äldre Västgötalagen behandlar dråp av sinnessjuka män, nödvärnsdråp vid hemgång och överfall av lösvitingar, på bar gärning gripet äktenskapsbrott, vapenansvar och dråp i ölstuga, byamännens och häradets kollektiva ansvar vid dråp på allmänning samt strikt ägaransvar för vådadöd vållad av kvarnhjul, brunnar, jaktspjut och husdjur.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 7–8 (Galen man och dråp på tjuv)",
+      "balkId": "B02",
+      "pdfSidor": [5],
+      "kallpunkt": "7-8",
+      "meningar": [
+        {
+          "fsv": "Dræpær galin man man löpær or bandum bötæ han aptær mæd niv markum",
+          "tolkning": "Dräper en galen man en man och löper ur banden, böte hans ätt för honom med nio marker.",
+          "kommentar": "galin man: sinnessjuk person. Ättens tillsynsansvar vid försummad bindning regleras med nedsatt bot (nio marker).",
+          "segmentId": "avg-b02-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 7"
+        },
+        {
+          "fsv": "Takær maþær alt sæman þiuf oc þiuft. hauir stolet til tvæggiæ oræ. ællær þrem örum. meræ. bindi handær a bak ok föri sva til þingss. lati tva mæn bæræ vittni a hændær hanum. at æn ær þiwær at þyft þeræ. ok uiti æptir mæþ tylptær eþe. lati siþæn dómæ. vgildæn han til vgs ok til hangæ. til torf ok til tyæru. vgildæn firi arvæ ok æptir mælændæ",
+          "tolkning": "Tager man en tjuv samman med stöldgodset, och har han stulit till ett värde av två örar eller tre örar eller mera, binde man hans händer på ryggen och före honom så till tings; låte två män bära vittnesmål mot honom att han är skyldig till den stölden, och styrke det därefter med en tolftared. Låte sedan döma honom ogill till yxa och till galge, till torva och till tjära, ogill för arvingar och målsägande.",
+          "kommentar": "alt sæman þiuf oc þiuft: tagen på bar gärning med godset. til vgs ok til hangæ, til torf ok til tyæru: arkaisk allittererande fyrfaldig dödsstraffsformel.",
+          "segmentId": "avg-b02-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 8"
+        },
+        {
+          "fsv": "Værþær maþær stolen fæér sins far eptir standær þiuvær mötæ gitær eighi sinu nait fyr æn han dræpær han. þa skal döþum sak giuæ döma vgildæn han a þingi",
+          "tolkning": "Varder en man bestulen på sin boskap, sätter efter och möter tjuven, och kan icke återfå sitt förrän han dräper honom, då skall han giva den döde sak och låta döma honom ogill på tinget.",
+          "kommentar": "Rättmätigt dråp vid förföljande av boskapstjuv som bjuder motstånd.",
+          "segmentId": "avg-b02-punkt08-seg002",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 8"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 9–11 (Hemgång, lösviting och dråp i säng)",
+      "balkId": "B02",
+      "pdfSidor": [5],
+      "kallpunkt": "9-11",
+      "meningar": [
+        {
+          "fsv": "Far maþær hem at manni. væittar hanum hemsokn. dræpær han af sær a hyrnustokkæ sinum giui döþum sak dömi vgildæn han a þingi",
+          "tolkning": "Far en man hem till en man och vållar honom hemsökelse, och dräper husbonden honom i nödvärn på sin hörnstock, give han den döde sak och låte döma honom ogill på tinget.",
+          "kommentar": "hemsokn: grovt hemfridsbrott. hyrnustokkæ: husets grundknut/tröskel. Oinskränkt nödvärnsrätt i eget bo.",
+          "segmentId": "avg-b02-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 9"
+        },
+        {
+          "fsv": "Gærs maþær lösvittingær liggær a skoghum ok rænir. dræpær maþær man af sær. giui döþum sak dömi vgildæn han. a þingi",
+          "tolkning": "Gör sig en man till lösviting, ligger i skogarna och rånar, och dräper en man honom till sitt fredande, give han den döde sak och låte döma honom ogill på tinget.",
+          "kommentar": "lösvittingær: fredlös stråtrövare som vistas i skogen.",
+          "segmentId": "avg-b02-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 10"
+        },
+        {
+          "fsv": "Dræpær maþær man. i siangu hos kono sinni. ællær annarstad laglika maþ vittnum takin taki. bulstær oc blæiur. föri til þings lati sea blod ok bænð. giui döþum sak. ok uittni mæd tuanni tylftum. næmdar mans uittnum ok hærasshöfþingæ. ok læggi siþan vgildæn han a þingi",
+          "tolkning": "Dräper en man en man i sängen hos sin hustru eller annorstädes lagligen gripen med vittnen, tage han bolstrar och lakan, före till tings och låte se blod och band; give han den döde sak och vittne med två tylfter, nämndemans vittne och häradshövdingens, och lägge sedan honom ogill på tinget.",
+          "kommentar": "Dråp på bar gärning vid lägersmål med annans hustru. Beviskrav på förevisande av sängkläder inför tinget.",
+          "segmentId": "avg-b02-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 11"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 12–13 (Vapenansvar och ölstuga)",
+      "balkId": "B02",
+      "pdfSidor": [5],
+      "kallpunkt": "12-13",
+      "meningar": [
+        {
+          "fsv": "Haldær maþær a uakni. sinu löpær maþær a. far af banæ. böti firi niv markum. §.1. Fællir maþær træ a man far af bana böti firi niv markum. §.2. Skiutær man vp a lopt kombær niþ i. hovoþ manni far af. bana. böta firi niv markum",
+          "tolkning": "Håller en man i sitt vapen och en man springer därpå och får bane därav, böte han nio marker. § 1. Fäller en man ett träd över en man så att han får bane därav, böte han nio marker. § 2. Skjuter en man upp mot taket och pilen kommer ned i huvudet på en man som får bane därav, böte han nio marker.",
+          "kommentar": "Vållande och olycksdråp med vapen och fällande föremål; fast bot om nio marker.",
+          "segmentId": "avg-b02-punkt12-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 12"
+        },
+        {
+          "fsv": "Dræpær. man man i. ölstuvu. þær skulu banæ fa ællær bötæ firi markum. niv. §.1. [Þ]ær æru. þry öl. ær iammykit. skal bötæ at. þral sunr þiængn. Æit ær brullöp annat giftæröl. þridiæ ær ærvitöl",
+          "tolkning": "Dräper en man en man i en ölstuga, skola gästerna antingen utlämna banemannen eller böta nio marker. § 1. Där äro tre gästabud vid vilka boten är lika stor, vare sig för träls son eller fri thégn: ett är bröllop, det andra fästningsöl, det tredje är gravöl (arvöl).",
+          "kommentar": "[Þ]ær æru: källans '?' återgivet som [Þ]. De tre gästabudens allmänna och klassöverskridande frid.",
+          "segmentId": "avg-b02-punkt13-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 13",
+          "avvikelser": ["Källans frågetecken '?' transkriberat till [Þ] med textkritisk notering."]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 14 (Dråp på allmänning och okänd gärningsman)",
+      "balkId": "B02",
+      "pdfSidor": [5],
+      "kallpunkt": "14",
+      "meningar": [
+        {
+          "fsv": "Værþær maþær vtæn garzliþ. dræpin. þa skulu grænnæ bötæ firi.niv marchum. ællær banæ. fæ. þær skal bænæ til þings. föræ hanum griþær æftæ til þings ok fra. han skal viþ banorþi ganga æghi siþæn friþ dax ok nattær til skogs",
+          "tolkning": "Varder en man dräpt utanför bygränsen, då skola grannarna böta nio marker eller skaffa fram banemannen; då skall banemannen föras till tings och givas lejd till tings och därifrån; han skall gå vid dråpsanklagelsen och äger sedan ingen fred, dag eller natt, utan skall till skogs.",
+          "kommentar": "Byamännens kollektiva ansvar för dråp begånget på byns territorium.",
+          "segmentId": "avg-b02-punkt14-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 14"
+        },
+        {
+          "fsv": "§.1. Værþær maþær dræpin. þriggiæ by markum. kallær huar þærræ sik eig .i. mark. æghæ. þa skulu þer. værriæ sik mæþ. tvenni tylptum. Værþær en hvar full. þa skal þen aptær bötæ. Værþæ þær allir fulir. þa skulu þer allir aptær bötæ. niu markum. ællær ok banæn fa siþen skulu. þer allir marku mælli sin skiptæ. §.2. Værþær boræn a mark a byrd ma se bloð ok bænd hinnugh sum dræpit var. þa skal. þen böta sum. þa mark .a",
+          "tolkning": "§ 1. Varder en man dräpt på tre byars allmänning och påstår var och en att dråpet icke skedde på dess mark, då skola de värja sig med två tylfter. Fälls en by vid eden, då skall den böta; fällas alla, då skola de alla gemensamt böta nio marker eller skaffa fram banemannen; sedan skola de skifta marken emellan sig. § 2. Varder ett lik buret in på en bys mark och man kan se blod och spår dit där dråpet skedde, då skall den böta på vars mark dråpet begicks.",
+          "kommentar": "Gränsdragningstvister och brottsplatsundersökning med ledning av blodspår.",
+          "segmentId": "avg-b02-punkt14-seg002",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 14 §1-2"
+        },
+        {
+          "fsv": "§.3. Værþær maþær dræpin .a. aldra götæ marku vita mæn eigh banæ. til giui sak. þem. by þer næstæ. Vil han igh uiþ banorþæ gangæ. þa giui sak. þem by þær ær næst. han skal væriæ sik mæð. tvem tylptum sva skal ok hin. þriði sik væriæ. þa þer æru allir værdir. þa skal hæræþ bötæ. þét næst ær. ok þingæt sökær fang. þæt skal bötæ niv markum. ællær banæ fa",
+          "tolkning": "§ 3. Varder en man dräpt på alla götars allmänning och vet man ingen baneman därtill, give man sak mot den by som ligger närmast; vill den byn icke kännas vid dråpet, give man sak mot nästa by, som skall värja sig med två tylfter; så skall ock den tredje värja sig. Då de alla hava värjt sig, då skall det härad böta som ligger närmast och dit tingsrätten söker fäste; det skall böta nio marker eller skaffa fram banemannen.",
+          "kommentar": "aldra götæ marku: landskapets gemensamma allmänning. Successiv prövning från by till härad.",
+          "segmentId": "avg-b02-punkt14-seg003",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 14 §3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 15 (Vådadöd och djuransvar)",
+      "balkId": "B02",
+      "pdfSidor": [5],
+      "kallpunkt": "15",
+      "meningar": [
+        {
+          "fsv": "Faldær maþær vndir mylnohivl. fær. þær banæ af. böte þrim markum. þæn ær. mylnu .a. §.1. Faldér maþær i. brun. ællær diki. ællær af. fiskigarþi. far bana af bötæ firi þrim markum. þen ær .a",
+          "tolkning": "Faller en man under kvarnhjul och får bane därav, böte den tre marker som äger kvarnen. § 1. Faller en man i en brunn eller ett dike eller från ett fiskeverk och får bane därav, böte tre marker den som äger anläggningen.",
+          "kommentar": "Strikt ägaransvar vid farliga inrättningar; fast olycksbot om tre marker.",
+          "segmentId": "avg-b02-punkt15-seg001",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 15"
+        },
+        {
+          "fsv": "§.2. Gangær maþær a. biorn spiut. ællær ok ælgspiut. far bana af. böte fyri markum III. þæn ær .a. §.3. Resir maþær træ. vp. fælder niþar. far maþær banæ af. böti. firi. markum III. þæn up resti",
+          "tolkning": "§ 2. Går en man på ett björnspjut eller älgspjut (gillrat jaktspjut) och får bane därav, böte för det tre marker den som äger det. § 3. Reser en man upp ett träd och fäller ned det, och får en man bane därav, böte för det tre marker den som reste upp det.",
+          "kommentar": "Ansvar för gillrade jaktvapen och skogsavverkning.",
+          "segmentId": "avg-b02-punkt15-seg002",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 15 §2-3"
+        },
+        {
+          "fsv": "§.4. Stangær. þiur huggær runi. bitær. hundær far af. bænæ böte. firi III. markum",
+          "tolkning": "§ 4. Stångar en tjur, hugger en galt eller biter en hund så att någon får bane därav, böte för det tre marker den som äger djuret.",
+          "kommentar": "Stangær þiur huggær runi bitær hundær: allittererande och rytmisk lagformel för husdjursvållande.",
+          "segmentId": "avg-b02-punkt15-seg003",
+          "kallreferens": "AVG-MASKIN s. 5, Af mandrapi Punkt 15 §4"
+        }
+      ]
+    }
+  ],
+  "fotnoter": [
+    {
+      "id": 1,
+      "kallaId": "AVG-MASKIN",
+      "lokalisering": "s. 5, Af mandrapi Punkt 7–15",
+      "stod": "primarbelagg"
+    },
+    {
+      "id": 2,
+      "kallaId": "PET-SJUHUNDRA",
+      "lokalisering": "s. 72–76",
+      "stod": "regel"
+    },
+    {
+      "id": 3,
+      "kallaId": "LIN2024",
+      "lokalisering": "s. 28–32",
+      "stod": "analys"
+    }
+  ]
+}

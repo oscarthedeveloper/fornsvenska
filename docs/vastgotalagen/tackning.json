@@ -1,0 +1,4729 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "kallaId": "AVG-MASKIN",
+  "kallfil": "Källor/Västgötalagen i maskintext.pdf",
+  "sha256": "b1065ce2871bf49afa9f3bb046f0a1d053632bd48bffb110f13204cdf48f4f5b",
+  "sidantal": 25,
+  "datum": "2026-10-22",
+  "sidkarta": [
+    {
+      "sida": 1,
+      "radantal": 41,
+      "teckenantal": 2528,
+      "rubriker": [
+        "# 1 Kirkiu Bolkær"
+      ],
+      "fil": "kalltext-ra/sida-01.txt"
+    },
+    {
+      "sida": 2,
+      "radantal": 47,
+      "teckenantal": 3502,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-02.txt"
+    },
+    {
+      "sida": 3,
+      "radantal": 45,
+      "teckenantal": 3038,
+      "rubriker": [
+        "# 2 Af mandrapi."
+      ],
+      "fil": "kalltext-ra/sida-03.txt"
+    },
+    {
+      "sida": 4,
+      "radantal": 48,
+      "teckenantal": 3542,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-04.txt"
+    },
+    {
+      "sida": 5,
+      "radantal": 45,
+      "teckenantal": 3043,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-05.txt"
+    },
+    {
+      "sida": 6,
+      "radantal": 46,
+      "teckenantal": 3151,
+      "rubriker": [
+        "# 3 ?ætta ær af særæ malum bolkar.",
+        "# 4 af vaþæ sarum."
+      ],
+      "fil": "kalltext-ra/sida-06.txt"
+    },
+    {
+      "sida": 7,
+      "radantal": 44,
+      "teckenantal": 2838,
+      "rubriker": [
+        "# 5 þættæ ær bardaghæ."
+      ],
+      "fil": "kalltext-ra/sida-07.txt"
+    },
+    {
+      "sida": 8,
+      "radantal": 45,
+      "teckenantal": 2846,
+      "rubriker": [
+        "# 6 Orbotæ mal.",
+        "# 7 ?ætta ær ærfþær bolkær."
+      ],
+      "fil": "kalltext-ra/sida-08.txt"
+    },
+    {
+      "sida": 9,
+      "radantal": 47,
+      "teckenantal": 3465,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-09.txt"
+    },
+    {
+      "sida": 10,
+      "radantal": 46,
+      "teckenantal": 3360,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-10.txt"
+    },
+    {
+      "sida": 11,
+      "radantal": 44,
+      "teckenantal": 2684,
+      "rubriker": [
+        "# 8 Giptar bolker"
+      ],
+      "fil": "kalltext-ra/sida-11.txt"
+    },
+    {
+      "sida": 12,
+      "radantal": 47,
+      "teckenantal": 3425,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-12.txt"
+    },
+    {
+      "sida": 13,
+      "radantal": 48,
+      "teckenantal": 3603,
+      "rubriker": [
+        "# 9 þættæ ær rætlosæ bolkær."
+      ],
+      "fil": "kalltext-ra/sida-13.txt"
+    },
+    {
+      "sida": 14,
+      "radantal": 49,
+      "teckenantal": 3928,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-14.txt"
+    },
+    {
+      "sida": 15,
+      "radantal": 47,
+      "teckenantal": 3370,
+      "rubriker": [
+        "# 10 Iordþær bolkær"
+      ],
+      "fil": "kalltext-ra/sida-15.txt"
+    },
+    {
+      "sida": 16,
+      "radantal": 46,
+      "teckenantal": 3222,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-16.txt"
+    },
+    {
+      "sida": 17,
+      "radantal": 49,
+      "teckenantal": 3935,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-17.txt"
+    },
+    {
+      "sida": 18,
+      "radantal": 47,
+      "teckenantal": 3359,
+      "rubriker": [
+        "# 11 Huru mylnu skal gæræ",
+        "# 12 ?ætta ær. þiuuæ bollkær"
+      ],
+      "fil": "kalltext-ra/sida-18.txt"
+    },
+    {
+      "sida": 19,
+      "radantal": 48,
+      "teckenantal": 3861,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-19.txt"
+    },
+    {
+      "sida": 20,
+      "radantal": 48,
+      "teckenantal": 3532,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-20.txt"
+    },
+    {
+      "sida": 21,
+      "radantal": 48,
+      "teckenantal": 3726,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-21.txt"
+    },
+    {
+      "sida": 22,
+      "radantal": 47,
+      "teckenantal": 3207,
+      "rubriker": [
+        "# 13 ?atta ær fornæmix sakir."
+      ],
+      "fil": "kalltext-ra/sida-22.txt"
+    },
+    {
+      "sida": 23,
+      "radantal": 44,
+      "teckenantal": 2738,
+      "rubriker": [
+        "# 13 Fornamix bolkær."
+      ],
+      "fil": "kalltext-ra/sida-23.txt"
+    },
+    {
+      "sida": 24,
+      "radantal": 47,
+      "teckenantal": 3307,
+      "rubriker": [
+        "# 14 ?attæ ær lecara rætar.",
+        "# 15 ?ættæ ær conongs bolkær",
+        "# 16 Horo þing lot skal skiptæ."
+      ],
+      "fil": "kalltext-ra/sida-24.txt"
+    },
+    {
+      "sida": 25,
+      "radantal": 9,
+      "teckenantal": 618,
+      "rubriker": [],
+      "fil": "kalltext-ra/sida-25.txt"
+    }
+  ],
+  "balkar": [
+    {
+      "balkId": "B01",
+      "kallrubrik": "Kirkiu Bolkær",
+      "kallnummer": "1",
+      "sidaStart": 1,
+      "antalPunkter": 22,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "balkId": "B02",
+      "kallrubrik": "Af mandrapi.",
+      "kallnummer": "2",
+      "sidaStart": 3,
+      "antalPunkter": 15,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "balkId": "B03",
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "kallnummer": "3",
+      "sidaStart": 6,
+      "antalPunkter": 6,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "balkId": "B04",
+      "kallrubrik": "af vaþæ sarum.",
+      "kallnummer": "4",
+      "sidaStart": 6,
+      "antalPunkter": 5,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "balkId": "B05",
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "kallnummer": "5",
+      "sidaStart": 7,
+      "antalPunkter": 9,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "balkId": "B06",
+      "kallrubrik": "Orbotæ mal.",
+      "kallnummer": "6",
+      "sidaStart": 8,
+      "antalPunkter": 1,
+      "punkter": [
+        "intro"
+      ]
+    },
+    {
+      "balkId": "B07",
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "kallnummer": "7",
+      "sidaStart": 8,
+      "antalPunkter": 25,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ]
+    },
+    {
+      "balkId": "B08",
+      "kallrubrik": "Giptar bolker",
+      "kallnummer": "8",
+      "sidaStart": 11,
+      "antalPunkter": 9,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "balkId": "B09",
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "kallnummer": "9",
+      "sidaStart": 13,
+      "antalPunkter": 13,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "balkId": "B10",
+      "kallrubrik": "Iordþær bolkær",
+      "kallnummer": "10",
+      "sidaStart": 15,
+      "antalPunkter": 20,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "balkId": "B11",
+      "kallrubrik": "Huru mylnu skal gæræ",
+      "kallnummer": "11",
+      "sidaStart": 18,
+      "antalPunkter": 1,
+      "punkter": [
+        "intro"
+      ]
+    },
+    {
+      "balkId": "B12",
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "kallnummer": "12",
+      "sidaStart": 18,
+      "antalPunkter": 19,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ]
+    },
+    {
+      "balkId": "B13a",
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "kallnummer": "13",
+      "sidaStart": 22,
+      "antalPunkter": 6,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "balkId": "B13b",
+      "kallrubrik": "Fornamix bolkær.",
+      "kallnummer": "13",
+      "sidaStart": 23,
+      "antalPunkter": 11,
+      "punkter": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "balkId": "B14",
+      "kallrubrik": "?attæ ær lecara rætar.",
+      "kallnummer": "14",
+      "sidaStart": 24,
+      "antalPunkter": 1,
+      "punkter": [
+        "intro"
+      ]
+    },
+    {
+      "balkId": "B15",
+      "kallrubrik": "?ættæ ær conongs bolkær",
+      "kallnummer": "15",
+      "sidaStart": 24,
+      "antalPunkter": 1,
+      "punkter": [
+        "intro"
+      ]
+    },
+    {
+      "balkId": "B16",
+      "kallrubrik": "Horo þing lot skal skiptæ.",
+      "kallnummer": "16",
+      "sidaStart": 24,
+      "antalPunkter": 1,
+      "punkter": [
+        "intro"
+      ]
+    }
+  ],
+  "totalaSektioner": 17,
+  "totalaPunkter": 165,
+  "segment": [
+    {
+      "id": "avg-b01-pt1-seg001",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Her byriarz laghbok væsgöta Krister",
+      "slutankare": ".j. kyrkiu. gard gravæ {oc arf...}",
+      "ordantalFsv": 139,
+      "harKalluckor": true,
+      "kalluckor": [
+        "{oc arf...}"
+      ],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s1-m1",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s1-m2",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s1-m3",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s2-m1",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s2-m2",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s2-m3",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s2-m4",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s3-m1",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s3-m2",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s3-m3",
+        "lagar/aldre-vastgotalagen/kristnu-balker-i#s3-m4",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s1-m1",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s1-m2",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s1-m3",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s2-m1",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s2-m2",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s2-m3",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s2-m4",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s3-m1",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s3-m2",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s3-m3",
+        "lagar/aldre-vastgotalagen/kristnu-balker-ii#s3-m4"
+      ],
+      "batchId": "B01-PILOT"
+    },
+    {
+      "id": "avg-b01-pt2-seg002",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "2",
+      "underpunkter": [],
+      "startankare": "2. {...ræ æn} gengyærd þerra brinder",
+      "slutankare": "drikki myod oc allir klerkar hans.",
+      "ordantalFsv": 33,
+      "harKalluckor": true,
+      "kalluckor": [
+        "{...ræ æn}"
+      ],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-PILOT"
+    },
+    {
+      "id": "avg-b01-pt3-seg003",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "3",
+      "underpunkter": [],
+      "startankare": "3. Uerder maþer .i. kyrkiu dræpin",
+      "slutankare": "vighiæ letæ þa sculu þer. houodtiundæ.",
+      "ordantalFsv": 48,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-PILOT"
+    },
+    {
+      "id": "avg-b01-pt4-seg004",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "4",
+      "underpunkter": [],
+      "startankare": "4. Landbor sculu eigh. houodtiundæ gæræ",
+      "slutankare": "at þer falli .i. houod syndir.",
+      "ordantalFsv": 20,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-PILOT"
+    },
+    {
+      "id": "avg-b01-pt5-seg005",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Værþer altæræ sten lös. þa",
+      "slutankare": "bonder giuæ hanum oc börn fermæ.",
+      "ordantalFsv": 68,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T08"
+    },
+    {
+      "id": "avg-b01-pt6-seg006",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "6",
+      "underpunkter": [],
+      "startankare": "6. Taker kyrkia. at fyrnass. standæ",
+      "slutankare": "böte en þessi æru all hel.",
+      "ordantalFsv": 35,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T08"
+    },
+    {
+      "id": "avg-b01-pt7-seg007",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        1
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "7",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "7. Uerdher kyrkia brutin oc mæssu",
+      "slutankare": "marcher. þagher kyrkia hauir sit alt.",
+      "ordantalFsv": 78,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T08"
+    },
+    {
+      "id": "avg-b01-pt8-seg008",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "8",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "8. Brender up kyrkia þa skal",
+      "slutankare": "hauir svoret. þa skal prester bötæ.",
+      "ordantalFsv": 80,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt9-seg009",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "9",
+      "underpunkter": [],
+      "startankare": "9. Bær prester messufat hém oc",
+      "slutankare": "eþe at þer varu eigh bætri.",
+      "ordantalFsv": 25,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt10-seg010",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "10",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "10. Hængir klocka i. kyrkiu falder",
+      "slutankare": "marcher. þo at hun se bættri.",
+      "ordantalFsv": 87,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt11-seg011",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "11",
+      "underpunkter": [],
+      "startankare": "11. Scill sopn valdi þer sum",
+      "slutankare": "sopn valdi þer sum flere æru",
+      "ordantalFsv": 8,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt12-seg012",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "12",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "12. Værþer marder .i. kyrkiugardhi. dræpin",
+      "slutankare": "giöt suat biscuper a sak. af.",
+      "ordantalFsv": 114,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt13-seg013",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "13",
+      "underpunkter": [],
+      "startankare": "13. kirkiu gard skal scipæ bolæ",
+      "slutankare": "gilder varæ. baþi vinter oc somar.",
+      "ordantalFsv": 55,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt14-seg014",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "14",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "14. Barn þorf kristnu maþer huls.",
+      "slutankare": "prestum. at han laghæ forfall fæk.",
+      "ordantalFsv": 128,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt15-seg015",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        2,
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "15",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "15. Prester scal bondæ ola oc",
+      "slutankare": "at ola. haui half mark firir.",
+      "ordantalFsv": 147,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T09"
+    },
+    {
+      "id": "avg-b01-pt16-seg016",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "16",
+      "underpunkter": [],
+      "startankare": "16. Ganger prester .i. sokn annars",
+      "slutankare": ". biscupi. ok tolf öræ presti.",
+      "ordantalFsv": 32,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b01-pt17-seg017",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "17",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "17. A acri scal tyundæ scipta.",
+      "slutankare": "til cruszu fotæ kombær .a. langafreadaghi.",
+      "ordantalFsv": 43,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b01-pt18-seg018",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "18",
+      "underpunkter": [],
+      "startankare": "18. Bonde. dör .i. sokn. ok",
+      "slutankare": "haluæn þén prester uid liki takær.",
+      "ordantalFsv": 38,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b01-pt19-seg019",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "19",
+      "underpunkter": [],
+      "startankare": "19. Æn presti vill. gipt gyuæ.",
+      "slutankare": "ær tvar skæppur. ællær örtugh pænningæ.",
+      "ordantalFsv": 13,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b01-pt20-seg020",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "20",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "20. A maþer bol .i. by.",
+      "slutankare": "or kirkiu by til annarrær kirkiu.",
+      "ordantalFsv": 72,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b01-pt21-seg021",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "21",
+      "underpunkter": [],
+      "startankare": "21. Æn vaþa bloð comber .i.",
+      "slutankare": "kirkiugærþér ær ækki. vskir. þy hældær.",
+      "ordantalFsv": 24,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b01-pt22-seg022",
+      "balkId": "B01",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3
+      ],
+      "kallrubrik": "Kirkiu Bolkær",
+      "huvudpunkt": "22",
+      "underpunkter": [],
+      "startankare": "22. Præstær ma ængin man fra",
+      "slutankare": "uilia. Orsaker ær prester vm þat.",
+      "ordantalFsv": 25,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B01-T10"
+    },
+    {
+      "id": "avg-b02-pt1-seg023",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        3,
+        4
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "1",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5."
+      ],
+      "startankare": "1. Uærþær maþer dræpin ok af",
+      "slutankare": "a fæðærni. ok þrer a möþærni.",
+      "ordantalFsv": 500,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt2-seg024",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        4
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "2",
+      "underpunkter": [],
+      "startankare": "2. Scal maþer ætlæddan man. aptær",
+      "slutankare": "hans ær half þrælær. ok frælsgiwar.",
+      "ordantalFsv": 42,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt3-seg025",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        4
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "3. Æn hall bana uil sökia",
+      "slutankare": "ok tacæ ok eigh. næmæ til.",
+      "ordantalFsv": 215,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt4-seg026",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        4
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "4",
+      "underpunkter": [],
+      "startankare": "4. þrel drapér man. ættæþen. han",
+      "slutankare": "flyia. num han uili. eigh böta.",
+      "ordantalFsv": 27,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt5-seg027",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        4
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "5",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5.",
+        "§.6.",
+        "§.7."
+      ],
+      "startankare": "5. Dræpær maþar svænskan man. eller",
+      "slutankare": "a. þær sak a vtæn saksökæn.",
+      "ordantalFsv": 151,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt6-seg028",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        4
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "6",
+      "underpunkter": [],
+      "startankare": "6. Dræpær maþær man varþær han",
+      "slutankare": "sinum. böti huarti konongi allær hæræþi.",
+      "ordantalFsv": 20,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt7-seg029",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "7",
+      "underpunkter": [],
+      "startankare": "7. Dræpær galin man man löpær",
+      "slutankare": "bötæ han aptær mæd niv markum.",
+      "ordantalFsv": 14,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt8-seg030",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "8",
+      "underpunkter": [],
+      "startankare": "8. Takær maþær alt sæman þiuf",
+      "slutankare": "giuæ döma vgildæn han a þingi.",
+      "ordantalFsv": 97,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt9-seg031",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "9",
+      "underpunkter": [],
+      "startankare": "9. Far maþær hem at manni.",
+      "slutankare": "sak dömi vgildæn han a þingi.",
+      "ordantalFsv": 24,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt10-seg032",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "10",
+      "underpunkter": [],
+      "startankare": "10. Gærs maþær lösvittingær liggær a",
+      "slutankare": "sak dömi vgildæn han. a þingi.",
+      "ordantalFsv": 22,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt11-seg033",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "11",
+      "underpunkter": [],
+      "startankare": "11. Dræpær maþær man. i siangu",
+      "slutankare": "læggi siþan vgildæn han a þingi.",
+      "ordantalFsv": 47,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt12-seg034",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "12",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "12. Haldær maþær a uakni. sinu",
+      "slutankare": "af. bana. böta firi niv markum.",
+      "ordantalFsv": 47,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt13-seg035",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "13",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "13. Dræpær. man man i. ölstuvu.",
+      "slutankare": "brullöp annat giftæröl. þridiæ ær ærvitöl.",
+      "ordantalFsv": 36,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt14-seg036",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "14",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "14. Værþær maþær vtæn garzliþ. dræpin.",
+      "slutankare": "bötæ niv markum. ællær banæ fa.",
+      "ordantalFsv": 192,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b02-pt15-seg037",
+      "balkId": "B02",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        5
+      ],
+      "kallrubrik": "Af mandrapi.",
+      "huvudpunkt": "15",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "15. Faldær maþær vndir mylnohivl. fær.",
+      "slutankare": "af. bænæ böte. firi III. markum.",
+      "ordantalFsv": 87,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "batchId": "B02-T11"
+    },
+    {
+      "id": "avg-b03-pt1-seg038",
+      "balkId": "B03",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Uærþær maþær a manni sar.",
+      "slutankare": "dömæ ællar skal han friþ fly.",
+      "ordantalFsv": 157,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b03-pt2-seg039",
+      "balkId": "B03",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "huvudpunkt": "2",
+      "underpunkter": [],
+      "startankare": "2. Værdær skroksak giuin saræ mal.",
+      "slutankare": "eigh var maþ væsviliæ. a vighualli.",
+      "ordantalFsv": 33,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b03-pt3-seg040",
+      "balkId": "B03",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "3. Innæn konongrikiss maþær iamgildær at",
+      "slutankare": "bötær a sarum sum hærlænskær maþær.",
+      "ordantalFsv": 21,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b03-pt4-seg041",
+      "balkId": "B03",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5.",
+        "§.6.",
+        "§.7.",
+        "§.8."
+      ],
+      "startankare": "4. Huggar maþær hand af man.",
+      "slutankare": "væþæ læst væræ sum uilia. læst.",
+      "ordantalFsv": 196,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b03-pt5-seg042",
+      "balkId": "B03",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Værþær suþær maþær ællær ænskær",
+      "slutankare": "gaf þær aþrum af sin ræt.",
+      "ordantalFsv": 34,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b03-pt6-seg043",
+      "balkId": "B03",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "?ætta ær af særæ malum bolkar.",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "6. ?ræl. far sar. botæ maþær",
+      "slutankare": "uinnæ. bötæ. hanum firi. markum. III.",
+      "ordantalFsv": 45,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b04-pt1-seg044",
+      "balkId": "B04",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        6
+      ],
+      "kallrubrik": "af vaþæ sarum.",
+      "huvudpunkt": "1",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "1. Uærþær maþær gönum læghær ællær",
+      "slutankare": "eigh uaþæ sar. num baþir uili.",
+      "ordantalFsv": 92,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b04-pt2-seg045",
+      "balkId": "B04",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "af vaþæ sarum.",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "2. Slikt skal vngum bötæ firi",
+      "slutankare": "barn. barn bötæ firi. IX. markum.",
+      "ordantalFsv": 55,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b04-pt3-seg046",
+      "balkId": "B04",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "af vaþæ sarum.",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "3. Þræl far væþæ sar ma",
+      "slutankare": "skal minna bötæ ok firi fralsgiuæ.",
+      "ordantalFsv": 86,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b04-pt4-seg047",
+      "balkId": "B04",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "af vaþæ sarum.",
+      "huvudpunkt": "4",
+      "underpunkter": [],
+      "startankare": "4. Æn ætborin man fa vaþæ.",
+      "slutankare": "sum nu föræ. iak. þær fram.",
+      "ordantalFsv": 51,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b04-pt5-seg048",
+      "balkId": "B04",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "af vaþæ sarum.",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Sarghar hundær ællær annar fænæþer.",
+      "slutankare": "til half. mark mæþ tylptær eþe.",
+      "ordantalFsv": 28,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt1-seg049",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "1",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "1. Uærþær maþær barþær ok friþir",
+      "slutankare": "siþæn dömæ han fridlösæn af þingi.",
+      "ordantalFsv": 185,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt2-seg050",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "2. Bær maþær ænskan man ællær",
+      "slutankare": "örer. æru þrals æn barþær ær.",
+      "ordantalFsv": 33,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt3-seg051",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "3. Diungær maghændæ maþær ouormaghæ böte",
+      "slutankare": "værræ af bötæ firi öræ tuæ.",
+      "ordantalFsv": 27,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt4-seg052",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "4",
+      "underpunkter": [],
+      "startankare": "4. Lystær bondæ kono sinæ. i.",
+      "slutankare": "þem skil hælþér hughær ællær hæl.",
+      "ordantalFsv": 33,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt5-seg053",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        7
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Far maþær uaþæ hug. værþær",
+      "slutankare": "suartæ slagh. a. eki. ræt .a.",
+      "ordantalFsv": 18,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt6-seg054",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "6",
+      "underpunkter": [],
+      "startankare": "6. Varþær manni vrang banæ sak",
+      "slutankare": "tvenni tylptum. næmdær mannæ af hæræþi.",
+      "ordantalFsv": 19,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt7-seg055",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "7",
+      "underpunkter": [],
+      "startankare": "7. Ær friþær mans u böttær.",
+      "slutankare": "lot saksökæn. annæn konongær þriþiæ hæræþ.",
+      "ordantalFsv": 56,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt8-seg056",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "8",
+      "underpunkter": [],
+      "startankare": "8. Kona firigær manni. fællir hana",
+      "slutankare": "ok eptimælændæ ok dræpæ þær næst.",
+      "ordantalFsv": 32,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b05-pt9-seg057",
+      "balkId": "B05",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "þættæ ær bardaghæ.",
+      "huvudpunkt": "9",
+      "underpunkter": [],
+      "startankare": "9. Far maþær sarr liggær. i",
+      "slutankare": "han at sak bötæ manin aptær.",
+      "ordantalFsv": 53,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b06-ptintro-seg058",
+      "balkId": "B06",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "Orbotæ mal.",
+      "huvudpunkt": "intro",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5.",
+        "§.6.",
+        "§.7.",
+        "§.8.",
+        "§.9.",
+        "§.10."
+      ],
+      "startankare": "Dræpær maþær man i kirkiu. þæt",
+      "slutankare": "ok hæriær man. þæt ær niþingsværk.",
+      "ordantalFsv": 218,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt1-seg059",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Svn ær faþurs arvi. Ær",
+      "slutankare": "moþer. ok faþur broþer gangær fra.",
+      "ordantalFsv": 82,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/arfda-balker#s1-m1",
+        "lagar/aldre-vastgotalagen/arfda-balker#s1-m2",
+        "lagar/aldre-vastgotalagen/arfda-balker#s1-m3",
+        "lagar/aldre-vastgotalagen/arfda-balker#s1-m4"
+      ]
+    },
+    {
+      "id": "avg-b07-pt2-seg060",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        8
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "2. Moþir takar syna arf. til",
+      "slutankare": "ærvi. taki slickt huarin sum annur.",
+      "ordantalFsv": 52,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt3-seg061",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "3. Moþor faþir. ok faþur moþer.",
+      "slutankare": "a moþærni. æn baþir æru iamnskyldir.",
+      "ordantalFsv": 50,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/arfda-balker#s1-m5"
+      ]
+    },
+    {
+      "id": "avg-b07-pt4-seg062",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "4. Sitær konæ i bo dör",
+      "slutankare": "at vittiæ. æn bryti firi sitir.",
+      "ordantalFsv": 174,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt5-seg063",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Maþær far sær aþalkono gætær",
+      "slutankare": "slikt enum af uatæ. sum aþrum.",
+      "ordantalFsv": 108,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt6-seg064",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "6. Gyptis kona aþrum manni gyptis",
+      "slutankare": "allum barnum sinum aptær til alfs.",
+      "ordantalFsv": 49,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt7-seg065",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "7",
+      "underpunkter": [],
+      "startankare": "7. En bonde gyptir dotur sinæ",
+      "slutankare": "þy æghu. barn ærf at lægmæli.",
+      "ordantalFsv": 35,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt8-seg066",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "8",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "8. Gangær mæþr fran kono sinni",
+      "slutankare": "barn. takær mæþærni. ok eig fæþærni.",
+      "ordantalFsv": 137,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt9-seg067",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "9",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "9. Giuær maþær sik i klostær.",
+      "slutankare": "ikki skulu frændær hans værkum værþæ.",
+      "ordantalFsv": 82,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt10-seg068",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        9,
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "10",
+      "underpunkter": [],
+      "startankare": "10. A dözsdæghi ma ikki fra",
+      "slutankare": "ne uid kvæþæ mæþ gusz ræt.",
+      "ordantalFsv": 29,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/arfda-balker#s2-m1",
+        "lagar/aldre-vastgotalagen/arfda-balker#s2-m2",
+        "lagar/aldre-vastgotalagen/arfda-balker#s2-m3",
+        "lagar/aldre-vastgotalagen/arfda-balker#s2-m4",
+        "lagar/aldre-vastgotalagen/arfda-balker#s2-m5"
+      ]
+    },
+    {
+      "id": "avg-b07-pt11-seg069",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "11",
+      "underpunkter": [],
+      "startankare": "11. Dræpær maþær man wil hava",
+      "slutankare": "arf takæ. þæn dræpæ ær skyldæstær.",
+      "ordantalFsv": 52,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt12-seg070",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "12",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "12. Far maþær af landi sætær",
+      "slutankare": "takær hæn mæn i girklandi sitær.",
+      "ordantalFsv": 94,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt13-seg071",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "13",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "13. Ligia mæn tver siuker baþir",
+      "slutankare": "do. hvarghi þerræ ær annars arvi.",
+      "ordantalFsv": 117,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt14-seg072",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "14",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "14. Dör maþær anskær i landi",
+      "slutankare": "hans. þa ér konongær. arvi hans",
+      "ordantalFsv": 65,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt15-seg073",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "15",
+      "underpunkter": [],
+      "startankare": "15. Sva ær an kona firiger",
+      "slutankare": "allær taki hanæ þær han fa.",
+      "ordantalFsv": 53,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt16-seg074",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "16",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "16. Siþan ær hion tu komæ",
+      "slutankare": "at þer viliæ baþi afvæxt æghæ.",
+      "ordantalFsv": 97,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt17-seg075",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "17",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "17. Farr bryti firi bo mans.",
+      "slutankare": "at hetæ. þat ær handsalt fa.",
+      "ordantalFsv": 71,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt18-seg076",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        10,
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "18",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "18. Dör bondæ huspreæ livir. bo",
+      "slutankare": "þer baþi lukæ ok sva takæ.",
+      "ordantalFsv": 102,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt19-seg077",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "19",
+      "underpunkter": [],
+      "startankare": "19. Farr annær broþer köpfærþum ok",
+      "slutankare": "baþir aghu þer iammykit af arvi.",
+      "ordantalFsv": 17,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt20-seg078",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "20",
+      "underpunkter": [],
+      "startankare": "20. Inlaght fæ værþær bort stolet.",
+      "slutankare": "at hans fæ var mæþ stolet.",
+      "ordantalFsv": 24,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt21-seg079",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "21",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "21. Havir faþir hemfylghz gört svni",
+      "slutankare": "örum takæ ok sva fram sækæ.",
+      "ordantalFsv": 189,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt22-seg080",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "22",
+      "underpunkter": [],
+      "startankare": "22. Vill maþær man or annörghom",
+      "slutankare": "þa hætti viþ sinum. IX. markum.",
+      "ordantalFsv": 73,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt23-seg081",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "23",
+      "underpunkter": [],
+      "startankare": "23. Æt leþer maþær aþal kono",
+      "slutankare": "þa skall þæn takæ ær ætledde.",
+      "ordantalFsv": 50,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt24-seg082",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "24",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "24. Dör landboe firi fardaghæ. þa",
+      "slutankare": "arvæ lukæ hanum til gef. sinæ.",
+      "ordantalFsv": 62,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b07-pt25-seg083",
+      "balkId": "B07",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "?ætta ær ærfþær bolkær.",
+      "huvudpunkt": "25",
+      "underpunkter": [],
+      "startankare": "25. Dör frælsgiui kalla þer ær",
+      "slutankare": "þoræ vitæ han tvæggiæ lotæ giptan.",
+      "ordantalFsv": 31,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": []
+    },
+    {
+      "id": "avg-b08-pt1-seg084",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Konongær vil sær kono biþia.",
+      "slutankare": "allær tvæ byæ at væþium sætiæ.",
+      "ordantalFsv": 45,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b08-pt2-seg085",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        11,
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "2. Bondæ son vil sær kono",
+      "slutankare": "fæstæ ruf a biscopær. III. markær.",
+      "ordantalFsv": 80,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s2-m1",
+        "lagar/aldre-vastgotalagen/giptar-balker#s2-m2"
+      ]
+    },
+    {
+      "id": "avg-b08-pt3-seg086",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "3",
+      "underpunkter": [],
+      "startankare": "3. Værþær fæsti konæ manss takin",
+      "slutankare": "æn þer uiliæ ær sak sökiæ.",
+      "ordantalFsv": 41,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s3-m1"
+      ]
+    },
+    {
+      "id": "avg-b08-pt4-seg087",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "4. Far frælsgiui ættaþæ kono. þa",
+      "slutankare": "hana a. ækki kiæpsir i barnum.",
+      "ordantalFsv": 77,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s4-m1",
+        "lagar/aldre-vastgotalagen/giptar-balker#s4-m2"
+      ]
+    },
+    {
+      "id": "avg-b08-pt5-seg088",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "5",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "5. Giuær maþær manni sak. at",
+      "slutankare": "ok boslöt .i. hvarþax clæþum sinum.",
+      "ordantalFsv": 79,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s5-m1",
+        "lagar/aldre-vastgotalagen/giptar-balker#s5-m2"
+      ]
+    },
+    {
+      "id": "avg-b08-pt6-seg089",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "6. Fæstir maþær ænkiu ok flytær",
+      "slutankare": "mæþ tilptar eþe. baþe ætbornær annöþogher.",
+      "ordantalFsv": 124,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s6-m1",
+        "lagar/aldre-vastgotalagen/giptar-balker#s6-m2"
+      ]
+    },
+    {
+      "id": "avg-b08-pt7-seg090",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "7",
+      "underpunkter": [],
+      "startankare": "7. Tals frænsim mællin hionæ tveggiæ.",
+      "slutankare": "fælþær þa skal han botæ hænni.",
+      "ordantalFsv": 86,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s7-m1"
+      ]
+    },
+    {
+      "id": "avg-b08-pt8-seg091",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        12
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "8",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "8. Liggær maþær hos dottor sinni.",
+      "slutankare": "gæræ. þer eghu biscupi. III. markær.",
+      "ordantalFsv": 160,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har '?er sum skriptæ.' på s. 12 rad 44; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s8-m1",
+        "lagar/aldre-vastgotalagen/giptar-balker#s8-m2"
+      ]
+    },
+    {
+      "id": "avg-b08-pt9-seg092",
+      "balkId": "B08",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        13
+      ],
+      "kallrubrik": "Giptar bolker",
+      "huvudpunkt": "9",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5.",
+        "§.6.",
+        "§.7."
+      ],
+      "startankare": "9. Svnnudaghin þæn ær næst ær",
+      "slutankare": "sum lagh sighiæ i landi þæssu.",
+      "ordantalFsv": 290,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/giptar-balker#s9-m1",
+        "lagar/aldre-vastgotalagen/giptar-balker#s9-m2",
+        "lagar/aldre-vastgotalagen/giptar-balker#s9-m3"
+      ]
+    },
+    {
+      "id": "avg-b09-pt1-seg093",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        13
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "1",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "1. SVeær egho konong at taka",
+      "slutankare": "þem ær eig hava niþingsværk giort.",
+      "ordantalFsv": 134,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s1-m1",
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s1-m2"
+      ]
+    },
+    {
+      "id": "avg-b09-pt2-seg094",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        13
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "2",
+      "underpunkter": [],
+      "startankare": "2. En biscup skal taka. þa",
+      "slutankare": "ær fulkomen til valdær vten uixlt.",
+      "ordantalFsv": 48,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s2-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt3-seg095",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        13
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "3. Bondæ sun skal lagmaþer væræ.",
+      "slutankare": "ma folk. ætleþæ. ok sættum lysæ.",
+      "ordantalFsv": 42,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s3-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt4-seg096",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        13
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "4. Takær maþær bo mansz vp",
+      "slutankare": "sva konongær ok sva allir mæn.",
+      "ordantalFsv": 58,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s4-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt5-seg097",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        13,
+        14
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "5",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5.",
+        "§.6."
+      ],
+      "startankare": "5. Kallær maþær man bykkiuhuælp har",
+      "slutankare": "markum. hete þrer ok æru tuar.",
+      "ordantalFsv": 286,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har '?ættæ aru vkvæþins orþ' på s. 14 rad 7; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s5-m1",
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s5-m2",
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s5-m3"
+      ]
+    },
+    {
+      "id": "avg-b09-pt6-seg098",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        14
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "6",
+      "underpunkter": [],
+      "startankare": "6. Rænir maþær man handran. þa",
+      "slutankare": "Falz han at böte þræni sæxtanortoghær.",
+      "ordantalFsv": 32,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s6-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt7-seg099",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        14
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "7",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "7. En maþær krævær man skuld",
+      "slutankare": "lösæ mæþ skuld mæþ tylptær eþe.",
+      "ordantalFsv": 113,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s7-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt8-seg100",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        14
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "8",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "8. Dræpær maþær hors ællær nöt",
+      "slutankare": "þer þæt. mæþ laghum aptar bötæ.",
+      "ordantalFsv": 187,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s8-m1",
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s8-m2"
+      ]
+    },
+    {
+      "id": "avg-b09-pt9-seg101",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        14
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "9",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "9. Dræpær fæ annat ok bær",
+      "slutankare": "ællær væri sic mæþ tylptær eþe.",
+      "ordantalFsv": 255,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s9-m1",
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s9-m2"
+      ]
+    },
+    {
+      "id": "avg-b09-pt10-seg102",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "10",
+      "underpunkter": [],
+      "startankare": "10. All lan skulu hel hem",
+      "slutankare": "sum læþi firi vtæn al genmæli.",
+      "ordantalFsv": 14,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s10-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt11-seg103",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "11",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "11. Löpær dræll bort allær ambut",
+      "slutankare": "mæþæn han ær i hans varþnæde.",
+      "ordantalFsv": 78,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s11-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt12-seg104",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "12",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "12. ?æn sum leghir af bondæ",
+      "slutankare": "han aflæstir gialdi iki firi vargh.",
+      "ordantalFsv": 65,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har '?æn sum leghir' på s. 15 rad 8; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s12-m1"
+      ]
+    },
+    {
+      "id": "avg-b09-pt13-seg105",
+      "balkId": "B09",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15
+      ],
+      "kallrubrik": "þættæ ær rætlosæ bolkær.",
+      "huvudpunkt": "13",
+      "underpunkter": [],
+      "startankare": "13. Læggær maþær manni fæ sit",
+      "slutankare": "æn han havir nu fram laghat.",
+      "ordantalFsv": 65,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/raetlosa-balker#s13-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt1-seg106",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Fæm æru fang iorþær. Et",
+      "slutankare": "Fiærþæ ær köp. Fæmtæ ær sköting.",
+      "ordantalFsv": 22,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har '?riþiæ' på s. 15 rad 22; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt2-seg107",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "2. Köpe skal taka at þæs",
+      "slutankare": "bæræ. i tylfpt hvarri. tvæggiæ manna.",
+      "ordantalFsv": 326,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s2-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s2-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt3-seg108",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        15,
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "3. Æn sæliæ uill iorþ sinæ",
+      "slutankare": "þa skal han lag eigh biuþæ.",
+      "ordantalFsv": 184,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s3-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s3-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt4-seg109",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "4. Konæ sæl iorþ sinæ ællær",
+      "slutankare": "samæn þa ær hun bæggiæ þerræ.",
+      "ordantalFsv": 88,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s4-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt5-seg110",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Biskupær a vitu firi kononge.",
+      "slutankare": "mughu þer uitu mistæ. þy hældær.",
+      "ordantalFsv": 51,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s5-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt6-seg111",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "6. Vill maþær iorþ at væþium",
+      "slutankare": "föræ latæ dömæ sær at sæliæ.",
+      "ordantalFsv": 104,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s6-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt7-seg112",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "7",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "7. Köpir maþær bol. æru af",
+      "slutankare": "attungx far iki uitæt a han.",
+      "ordantalFsv": 142,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s7-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s7-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt8-seg113",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "8",
+      "underpunkter": [],
+      "startankare": "8. Attungum skal by byggiæ. Fiurir",
+      "slutankare": "garþa ok bror skal attungum. skiptæ.",
+      "ordantalFsv": 19,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s8-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt9-seg114",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "9",
+      "underpunkter": [
+        "§.2."
+      ],
+      "startankare": "9. Hittis at kirkiugarþær ok toptærgarþar.",
+      "slutankare": "firi utæn annær kærir a annæn.",
+      "ordantalFsv": 52,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s9-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt10-seg115",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "10",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "10. Tialdru. stenæ. skal tua i",
+      "slutankare": "stuþer rum ær mællum ok opsædrup.",
+      "ordantalFsv": 33,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-i#s10-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt11-seg116",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        16,
+        17
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "11",
+      "underpunkter": [],
+      "startankare": "11. Flytær annar maþær hus sin",
+      "slutankare": "war toftæ gildæn ok eig vgildæn.",
+      "ordantalFsv": 32,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s11-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt12-seg117",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        17
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "12",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "12. Rændær væghær toftæ mælli. han",
+      "slutankare": "skal þrannisæxtanorthoghor bötæ ær vp yrkir.",
+      "ordantalFsv": 79,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s12-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s12-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt13-seg118",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        17
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "13",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "13. Far maþær a akær sin",
+      "slutankare": "ær iorþ egho ut til almænnigs.",
+      "ordantalFsv": 298,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s13-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s13-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt14-seg119",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        17
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "14",
+      "underpunkter": [],
+      "startankare": "14. Eig mæ takæ intaku. num",
+      "slutankare": "ok iorþ. en eig uiliæ. ællær.",
+      "ordantalFsv": 124,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har '?aghar in ær takit' på s. 17 rad 27; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s14-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt15-seg120",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        17
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "15",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "15. En man kallar sik aghæ",
+      "slutankare": "ma uitæ han til fulz byær.",
+      "ordantalFsv": 171,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s15-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s15-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt16-seg121",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        17,
+        18
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "16",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "16. Skil mæn vm marker skial",
+      "slutankare": "oc by þa. a hæræd vitu.",
+      "ordantalFsv": 149,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har '?erra' på s. 17 rad 42; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s16-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt17-seg122",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        18
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "17",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "17. Vil by takæ in mark",
+      "slutankare": "oðælli ok mötæs i miþri uatnras.",
+      "ordantalFsv": 113,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s17-m1",
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s17-m2"
+      ]
+    },
+    {
+      "id": "avg-b10-pt18-seg123",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        18
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "18",
+      "underpunkter": [],
+      "startankare": "18. A maþær enkæ skipt i",
+      "slutankare": "hvaru allæ bort uitæ at lagnmæli.",
+      "ordantalFsv": 41,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s18-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt19-seg124",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        18
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "19",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "19. Æn tyaldrur uil flytiæ æn",
+      "slutankare": "han ær saker at trænni sextanörtoghum.",
+      "ordantalFsv": 60,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s19-m1"
+      ]
+    },
+    {
+      "id": "avg-b10-pt20-seg125",
+      "balkId": "B10",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        18
+      ],
+      "kallrubrik": "Iordþær bolkær",
+      "huvudpunkt": "20",
+      "underpunkter": [],
+      "startankare": "20. Slar maþær æng mans cumbær",
+      "slutankare": "til þes ær þer æru sattir.",
+      "ordantalFsv": 50,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/iordhar-balker-ii#s20-m1"
+      ]
+    },
+    {
+      "id": "avg-b11-ptintro-seg126",
+      "balkId": "B11",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        18
+      ],
+      "kallrubrik": "Huru mylnu skal gæræ",
+      "huvudpunkt": "intro",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4.",
+        "§.5.",
+        "§.6.",
+        "§.7.",
+        "§.8."
+      ],
+      "startankare": "Uill maþær mylnu gæræ han ma",
+      "slutankare": "Iorþ ma eigh at mutu takæ.",
+      "ordantalFsv": 306,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/mylnu-balker#s1-m1",
+        "lagar/aldre-vastgotalagen/mylnu-balker#s2-m1",
+        "lagar/aldre-vastgotalagen/mylnu-balker#s3-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt1-seg127",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        18,
+        19
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Giuær maþær manni þiufs sak",
+      "slutankare": "falz at ok fullær þiufs bötær.",
+      "ordantalFsv": 30,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källrubriken på s. 18 har \"?ætta ær. þiuuæ bollkær\"; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt2-seg128",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        19
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1 Gangær at stialæ bryti."
+      ],
+      "startankare": "2. Stiælæ tuer faþghær værþæ taknir",
+      "slutankare": "skal vppi hængiæ. ok eigh dræl.",
+      "ordantalFsv": 30,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s2-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s2-m2"
+      ]
+    },
+    {
+      "id": "avg-b12-pt3-seg129",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        19
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "3",
+      "underpunkter": [
+        "§.1 Værþær þiuuær takin a vægh ok eigh af þem ær firi styld ær wrþin.",
+        "§.2 Takær maþær þiuf annærs manss a væg ok eig."
+      ],
+      "startankare": "3. Taker maþær þiuf sin ok",
+      "slutankare": "kallæ mæn þæn lottakæræ uæræ þiufnæþær.",
+      "ordantalFsv": 180,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s3-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s3-m2",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s3-m3"
+      ]
+    },
+    {
+      "id": "avg-b12-pt4-seg130",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        19
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1 ?rear ærv þiufs vitulösor.",
+        "§.2 ?rer æru þiufs vitur."
+      ],
+      "startankare": "4. Sva ær i lahum talt",
+      "slutankare": "Ok væri sik sum saghæt ær.",
+      "ordantalFsv": 99,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?riþi\" på s. 19 rad 14, \"?rear\" och \"?riþiæ\" på rad 15–16 samt \"?rer\" och \"?riþiæ\" på rad 17–18; samtliga frågetecken återgivna som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s4-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s4-m2",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s4-m3"
+      ]
+    },
+    {
+      "id": "avg-b12-pt5-seg131",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        19
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "5",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "5. Værþær maþær stolen vrækær fiæt",
+      "slutankare": "ok eigh hangæ utæn firi trolskap.",
+      "ordantalFsv": 373,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?er\" på s. 19 rad 29; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s5-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s5-m2",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s5-m3"
+      ]
+    },
+    {
+      "id": "avg-b12-pt6-seg132",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        19,
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1 Nu ær þæt böt at ranzsak."
+      ],
+      "startankare": "6. Far bonde æftir sinv. sins",
+      "slutankare": "falz han böte sum lagh sighiæ.",
+      "ordantalFsv": 131,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s6-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s6-m2"
+      ]
+    },
+    {
+      "id": "avg-b12-pt7-seg133",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "7",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "7. Nu ær vtuistær hvs. giuær",
+      "slutankare": "bar væri sik mæþ tuænni tylptum.",
+      "ordantalFsv": 84,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s7-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s7-m2"
+      ]
+    },
+    {
+      "id": "avg-b12-pt8-seg134",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "8",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "8. Hittir maþær grip sin. þa",
+      "slutankare": "hær iak a ok þu iki.",
+      "ordantalFsv": 132,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?or\" på s. 20 rad 16; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s8-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s8-m2"
+      ]
+    },
+    {
+      "id": "avg-b12-pt9-seg135",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "9",
+      "underpunkter": [],
+      "startankare": "9. Hittir maþær grip sin a",
+      "slutankare": "tylptær eþe. ok tvægiæ manna vittni.",
+      "ordantalFsv": 93,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-i#s9-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt10-seg136",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "10",
+      "underpunkter": [],
+      "startankare": "10. En maþær kænnir grip sin",
+      "slutankare": "eigh vindær hin lagha uærn firi.",
+      "ordantalFsv": 76,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt11-seg137",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "11",
+      "underpunkter": [],
+      "startankare": "11. ?ry æru laghæ tak. et",
+      "slutankare": "aþrum syniæ num han sæki sik.",
+      "ordantalFsv": 41,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?ry\" på s. 20 rad 29; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s2-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt12-seg138",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        20
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "12",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "12. Taksætær maþær grip sin kallær",
+      "slutankare": "os. þylikæn uilium uir þem göræ.",
+      "ordantalFsv": 167,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?y\" på s. 20 rad 42; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s3-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s3-m2",
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s3-m3"
+      ]
+    },
+    {
+      "id": "avg-b12-pt13-seg139",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "13",
+      "underpunkter": [],
+      "startankare": "13. Tapær maþær grip sin köpir",
+      "slutankare": "mansz ællær böte sum lagh sighia.",
+      "ordantalFsv": 164,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?riþi\" på s. 21 rad 6; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s4-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt14-seg140",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "14",
+      "underpunkter": [],
+      "startankare": "14. Hittir man grip sin i",
+      "slutankare": "flere se an en maþær a.",
+      "ordantalFsv": 158,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?a\" på s. 21 rad 19; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s5-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt15-seg141",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "15",
+      "underpunkter": [],
+      "startankare": "15. Varþær hyrsæ stolen ok ær",
+      "slutankare": "fyl hauæ ær föt hauir hema.",
+      "ordantalFsv": 48,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s6-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt16-seg142",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "16",
+      "underpunkter": [],
+      "startankare": "16. Stiæll maþær þræl manz ællær",
+      "slutankare": "sua konongi ok sua allum mannum.",
+      "ordantalFsv": 63,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s7-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt17-seg143",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "17",
+      "underpunkter": [],
+      "startankare": "17. Stæþær maþær þræl sin ællær",
+      "slutankare": "iak a ok þu iki i.",
+      "ordantalFsv": 144,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s8-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt18-seg144",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "18",
+      "underpunkter": [],
+      "startankare": "18. Takær maþær þræll allær. ambut",
+      "slutankare": "lanz. Vinni til sum lagh ær.",
+      "ordantalFsv": 33,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s9-m1"
+      ]
+    },
+    {
+      "id": "avg-b12-pt19-seg145",
+      "balkId": "B12",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        21,
+        22
+      ],
+      "kallrubrik": "?ætta ær. þiuuæ bollkær",
+      "huvudpunkt": "19",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "19. þræl ok ambut þem. skal",
+      "slutankare": "þy ær han eigh þiuuær at.",
+      "ordantalFsv": 181,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?y\" på s. 21 rad 37; frågetecknet återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s10-m1",
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s10-m2",
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s10-m3",
+        "lagar/aldre-vastgotalagen/thiuua-balker-ii#s10-m4"
+      ]
+    },
+    {
+      "id": "avg-b13a-pt1-seg146",
+      "balkId": "B13a",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        22
+      ],
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Marghær æru fornæmiz sakir. En",
+      "slutankare": "ær han sakær at þrænni saxtanörtoghum.",
+      "ordantalFsv": 30,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källrubriken på s. 22 har \"?atta ær fornæmix sakir.\"; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b13a-pt2-seg147",
+      "balkId": "B13a",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        22
+      ],
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "huvudpunkt": "2",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "2. Huggær maþær ek þa sum",
+      "slutankare": "ællær andurstang huggi at saklösu bæþi.",
+      "ordantalFsv": 162,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s2-m1",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s2-m2",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s2-m3",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s2-m4"
+      ]
+    },
+    {
+      "id": "avg-b13a-pt3-seg148",
+      "balkId": "B13a",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        22
+      ],
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "huvudpunkt": "3",
+      "underpunkter": [],
+      "startankare": "3. Takar maþær a andrum dæghi",
+      "slutankare": "þæt ær fult fornæmi sax öræ.",
+      "ordantalFsv": 56,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s3-m1"
+      ]
+    },
+    {
+      "id": "avg-b13a-pt4-seg149",
+      "balkId": "B13a",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        22
+      ],
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "huvudpunkt": "4",
+      "underpunkter": [],
+      "startankare": "4. Akær maþær iuir æng uslægnæ.",
+      "slutankare": "sextanörtoghor. þy at þa hetir sörgatæ.",
+      "ordantalFsv": 29,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s4-m1"
+      ]
+    },
+    {
+      "id": "avg-b13a-pt5-seg150",
+      "balkId": "B13a",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        22
+      ],
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "huvudpunkt": "5",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3."
+      ],
+      "startankare": "5. Takar maþær garþ manz gialdi",
+      "slutankare": "þy at meri se skaþi gör.",
+      "ordantalFsv": 136,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?æn\" på s. 22 rad 26; frågetecknet diplomatariskt återgivet som [Þ]."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s5-m1",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s5-m2",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s5-m3",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s5-m4"
+      ]
+    },
+    {
+      "id": "avg-b13a-pt6-seg151",
+      "balkId": "B13a",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        22
+      ],
+      "kallrubrik": "?atta ær fornæmix sakir.",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1.",
+        "§.2.",
+        "§.3.",
+        "§.4."
+      ],
+      "startankare": "6. Takær maþær akar nam fra",
+      "slutankare": "intakin. þa löse mæþ eneþe sinum.",
+      "ordantalFsv": 127,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s6-m1",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s6-m2",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s6-m3",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s6-m4",
+        "lagar/aldre-vastgotalagen/fornaemis-sakir#s6-m5"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt1-seg152",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "1",
+      "underpunkter": [],
+      "startankare": "1. Utgarþær allir ok liþ skulu",
+      "slutankare": "a utgardhum. attæ ortoghær firi bolgar.",
+      "ordantalFsv": 31,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt2-seg153",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "2",
+      "underpunkter": [],
+      "startankare": "2. Væltær hestær. rotær svin a",
+      "slutankare": "huæriæ þriðiu valtran ællær þriþiu rotæn.",
+      "ordantalFsv": 24,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s2-m1"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt3-seg154",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "3",
+      "underpunkter": [],
+      "startankare": "3. Sitær græssæti i by mansz",
+      "slutankare": "num han sæki sik at þrænnisaxtanörtoghum.",
+      "ordantalFsv": 37,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s3-m1"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt4-seg155",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "4",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "4. Eig a tiuþærfæ i gærþi",
+      "slutankare": "buþ bondæ at huslæ allær oliæ.",
+      "ordantalFsv": 46,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s4-m1",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s4-m2"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt5-seg156",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "5",
+      "underpunkter": [],
+      "startankare": "5. Chöper man fæ af falby.",
+      "slutankare": "þa skal niþær guggæ sum stæþær.",
+      "ordantalFsv": 16,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s5-m1"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt6-seg157",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "6",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "6. Foþær fæ ok leghu fæ",
+      "slutankare": "eldær. raan byorn. stingær ok starui.",
+      "ordantalFsv": 56,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s6-m1",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s6-m2"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt7-seg158",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "7",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "7. Hittir maþær koppo fund a",
+      "slutankare": "han sæki sik at þrænni sæxtanörtoghum.",
+      "ordantalFsv": 136,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [
+        "Källtexten har \"?æn a hæræ\" på s. 23 rad 20; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna."
+      ],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s7-m1",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s7-m2",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s7-m3"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt8-seg159",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "8",
+      "underpunkter": [],
+      "startankare": "8. Flar maþær enæ ek aldinbæræ",
+      "slutankare": "siunatting. væri sik mæþ tolf mannum.",
+      "ordantalFsv": 64,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s8-m1"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt9-seg160",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "9",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "9. Brænnir maþær hö manss a",
+      "slutankare": "eigh bætræ ok ouan a þranisaxtanörtoghær.",
+      "ordantalFsv": 88,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s9-m1",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s9-m2"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt10-seg161",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        23,
+        24
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "10",
+      "underpunkter": [
+        "§.1."
+      ],
+      "startankare": "10. Takæ diur fæ fran hirþingiæ",
+      "slutankare": "at vangömslæ hans gek eigh at.",
+      "ordantalFsv": 62,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s10-m1",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s10-m2"
+      ]
+    },
+    {
+      "id": "avg-b13b-pt11-seg162",
+      "balkId": "B13b",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        24
+      ],
+      "kallrubrik": "Fornamix bolkær.",
+      "huvudpunkt": "11",
+      "underpunkter": [
+        "§.1.",
+        "§.2."
+      ],
+      "startankare": "11. Laghæ stæmnudaghæer æru tver. Paskær",
+      "slutankare": "uist sinni. Geri huemledær sik vreþæn.",
+      "ordantalFsv": 120,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/fornamix-balker#s11-m1",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s11-m2",
+        "lagar/aldre-vastgotalagen/fornamix-balker#s11-m3"
+      ]
+    },
+    {
+      "id": "avg-b14-ptintro-seg163",
+      "balkId": "B14",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        24
+      ],
+      "kallrubrik": "?attæ ær lecara rætar.",
+      "huvudpunkt": "intro",
+      "underpunkter": [],
+      "startankare": "Uarþær lekæri barþær þæt skal e",
+      "slutankare": "vit ok skyldæsti arf at takæ.",
+      "ordantalFsv": 107,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": false,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/lecara-raetar#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b15-ptintro-seg164",
+      "balkId": "B15",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        24
+      ],
+      "kallrubrik": "?ættæ ær conongs bolkær",
+      "huvudpunkt": "intro",
+      "underpunkter": [],
+      "startankare": "Emundær slemæ var conongær i vpsalum",
+      "slutankare": "Æn noræn conongær i istæd hans.",
+      "ordantalFsv": 132,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/conongs-balker#s1-m1"
+      ]
+    },
+    {
+      "id": "avg-b16-ptintro-seg165",
+      "balkId": "B16",
+      "kallaId": "AVG-MASKIN",
+      "pdfSidor": [
+        24,
+        25
+      ],
+      "kallrubrik": "Horo þing lot skal skiptæ.",
+      "huvudpunkt": "intro",
+      "underpunkter": [],
+      "startankare": "Hær sighær horo þing lot skal",
+      "slutankare": "þry. taka halft. við hin fæm.",
+      "ordantalFsv": 246,
+      "harKalluckor": false,
+      "kalluckor": [],
+      "harFragetecken": true,
+      "status": "slutkontrollerad",
+      "kallkontroll": "godkand_2026-10-22",
+      "tolkningskontroll": "godkand_2026-10-22",
+      "avvikelser": [],
+      "dokumentkopplingar": [
+        "lagar/aldre-vastgotalagen/horo-thing-lot#s1-m1"
+      ]
+    }
+  ]
+}

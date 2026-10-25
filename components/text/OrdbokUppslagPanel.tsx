@@ -25,6 +25,17 @@ function kategoriEtikett(
   }
 }
 
+const KLIENT_UPPSLAG_CACHE = new Map<string, OrdbokTextUppslagResultat>();
+const MAX_CACHE_STORLEK = 250;
+
+function sparaIKlientCache(ord: string, data: OrdbokTextUppslagResultat) {
+  if (KLIENT_UPPSLAG_CACHE.size >= MAX_CACHE_STORLEK) {
+    const aldsta = KLIENT_UPPSLAG_CACHE.keys().next().value;
+    if (aldsta) KLIENT_UPPSLAG_CACHE.delete(aldsta);
+  }
+  KLIENT_UPPSLAG_CACHE.set(ord, data);
+}
+
 export default function OrdbokUppslagPanel({
   kontext,
   onClose,
@@ -44,33 +55,49 @@ export default function OrdbokUppslagPanel({
       return;
     }
 
-    let avbruten = false;
-    setLaddar(true);
-    setFel(null);
+    const ord = kontext.rensatOrd;
     setExpanderadePoster({});
 
-    fetch(`/api/ordbok/uppslag?ord=${encodeURIComponent(kontext.rensatOrd)}`)
+    // 1. Kontrollera omedelbart klientsidans minnescache
+    const iCache = KLIENT_UPPSLAG_CACHE.get(ord);
+    if (iCache) {
+      setResultat(iCache);
+      setLaddar(false);
+      setFel(null);
+      return;
+    }
+
+    // 2. Skapa AbortController för att avbryta pågående förfrågan om nytt ord väljs
+    const controller = new AbortController();
+    setLaddar(true);
+    setFel(null);
+
+    fetch(`/api/ordbok/uppslag?ord=${encodeURIComponent(ord)}`, {
+      signal: controller.signal,
+    })
       .then((res) => {
         if (!res.ok) throw new Error("Kunde inte hämta ordboksuppslag.");
         return res.json() as Promise<OrdbokTextUppslagResultat>;
       })
       .then((data) => {
-        if (!avbruten) {
-          setResultat(data);
-          setLaddar(false);
-        }
+        sparaIKlientCache(ord, data);
+        setResultat(data);
+        setLaddar(false);
       })
       .catch((err: unknown) => {
-        if (!avbruten) {
-          setFel(err instanceof Error ? err.message : "Ett fel uppstod.");
-          setLaddar(false);
+        if (err instanceof Error && err.name === "AbortError") {
+          // Förfrågan avbröts av ett snabbt ordbyte; ignorera
+          return;
         }
+        setFel(err instanceof Error ? err.message : "Ett fel uppstod.");
+        setLaddar(false);
       });
 
     return () => {
-      avbruten = true;
+      controller.abort();
     };
   }, [kontext?.rensatOrd]);
+
 
   useEffect(() => {
     if (!kontext) return;

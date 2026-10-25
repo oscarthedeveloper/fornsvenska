@@ -2,11 +2,23 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createServerClient, type CookieOptions } from "@supabase/ssr";
 
 /**
- * Förnyar Supabase-sessionen på varje förfrågan. Utan detta hinner
- * åtkomsttoken gå ut och redigeringsläget tappar behörighet mitt i arbetet.
+ * Förnyar Supabase-sessionen på förfrågningar från inloggade administratörer.
+ *
+ * Anonyma besökare (99.9% av trafiken) har inga auth-kakor och passerar
+ * omedelbart igenom utan att anropa Supabase Auth API, vilket eliminerar
+ * onödiga Edge-funktionsanrop och latens.
  */
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({ request: { headers: request.headers } });
+
+  // Snabbkontroll: har klienten någon auth-kaka från Supabase?
+  const harAuthKaka = request.cookies
+    .getAll()
+    .some((kaka) => kaka.name.startsWith("sb-") && kaka.name.includes("auth-token"));
+
+  if (!harAuthKaka) {
+    return response;
+  }
 
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const nyckel = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -36,5 +48,7 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"],
+  matcher: [
+    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|pdf|txt|xml|json)$).*)",
+  ],
 };

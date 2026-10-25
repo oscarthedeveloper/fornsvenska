@@ -1,0 +1,203 @@
+{
+  "titel": "Fornæmix sakir",
+  "underrubrik": "Äldre Västgötalagen, åverkansmål, ekhuggning, redskapstillgrepp, gärdesgårdsbrott och åkarnam (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Sakrätt och skadeståndsrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Första avsnittet märkt 13 (Fornæmix sakir / Åverkansmål I) i Äldre Västgötalagen behandlar förnäm och åverkan — det vill säga olovligt brukande eller tillgrepp av annans egendom utan stölduppsåt, samt skadegörelse på skog, åkrar och hägnader. Balken reglerar olovligt brukande av dragare på utmark, fällning av ollonbärande ekar och undervid med besiktning vid stubben, tillgrepp och begagnande av åkerredskap, båtar och seldon, körning över oslagen äng och gröda med den skärpta påföljden för sörgate (uppkörd väg), nedrivning och brott på gärdesgårdar, sädesskador orsakade av inträngande fä, samt förfarandet vid åkarnam (laglig kvarstad på bar gärning i åker) och otillåtet tjudrande på annans mark.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Fornæmix sakir Punkt 1 (Olovligt brukande av dragdjur)",
+      "balkId": "B13a",
+      "pdfSidor": [22],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "[Þ]atta ær fornæmix sakir. 1. Marghær æru fornæmiz sakir. En ær þæssi. at takær maþær öknöte. manz. a löt uti o louandisz ok akær mæþ allær riþær. þa ær han sakær at þrænni saxtanörtoghum.",
+          "tolkning": "Detta är åverkansmål. 1. Många äro åverkanssakerna: En är denna, att tager en man en annans dragare ute på betet utan lov och kör därmed eller rider, då är han förfallen till tre sextonörtugar (sex marker).",
+          "kommentar": "fornæmix sakir: åverkansmål / olovligt tillgrepp utan stölduppsåt (jfr fornisländska fornámi). öknöte: dragare, arbetsdjur (arbetshäst eller dragoxe). a löt uti: ute på betesmarken/utmarken. o louandisz: olovandes, utan lov. þrænni saxtanörtoghum: tre sextonörtugar (3 × 16 örtugar = 48 örtugar = 6 marker). Textkritisk notis: Rubriken på s. 22 rad 42 har '?atta'; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna.",
+          "segmentId": "avg-b13a-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 1",
+          "avvikelser": [
+            "Källrubriken på s. 22 har '?atta'; frågetecknet diplomatariskt återgivet som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Fornæmix sakir Punkt 2 (Ekhuggning, undervid och besiktning vid stubben)",
+      "balkId": "B13a",
+      "pdfSidor": [22],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "2. Huggær maþær ek þa sum aldin bær oloewændiss. þa ær han sakar at sex örom. Huggær. han þrear ællær þrim flerra. þa ar þæt þrænni saxtanörtogha sak. Huggir vndir uiþu þa ær þæt atta örtogho sak. vtan skoghær se lagaþer i hæræz ræpst. þa böte. þrænni örtoghær.",
+          "tolkning": "2. Hugger en man en ek som bär ollon utan lov, då är han förfallen till sex örar. Hugger han tre eller fler än tre, då är det en sak om tre sextonörtugar. Hugger han undervid (småträd), då är det en sak om åtta örtugar, såvida icke skogen är fredad genom häradsräfst; då böte han tre örtugar.",
+          "kommentar": "aldin bær: bär ollon (ollonskog/ekeskog åtnjöt särskilt rättsskydd för svinbetet). sex örom: 6 örar (18 örtugar) för enstaka ek; 3 sextonörtugar (48 örtugar = 6 marker) för tre eller fler ekar. vndir uiþu: undervid, buskar eller mindre träd. hæræz ræpst: häradsräfst, allmän domstolsrannsakning.",
+          "segmentId": "avg-b13a-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 2"
+        },
+        {
+          "fsv": "§.1. Möter maþær manni hauir fang læst. klandær firi hanum. kallær sin væræ. beþiss til stums at faræ. þa skal han fylghiæ. ær han sandær at sak böte atta örtoghær saksöke enom firir vndiruiþ ok sax öræ firir aldinuid syn han til stums at faræ. þa ær þæt rætlösæ.",
+          "tolkning": "§ 1. Möter en man en man som har ett trälass och klandrar inför honom och säger det vara sitt, och begär att fara till stubben: då skall han följa med. Är han sann till saken, böte han åtta örtugar till målsäganden ensam för undervid och sex örar för ollonträd; nekar han att fara till stubben, då är det rättslöshet.",
+          "kommentar": "til stums at faræ: fara till stubben för okulärbesiktning på plats i skogen för att passa samman virket på lasset med den fällda trädstubben. syn han til stums at faræ: vägran att låta besiktiga stubben betraktas som trotsig rättslöshet (rætlösæ).",
+          "segmentId": "avg-b13a-punkt02-seg002",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 2 § 1"
+        },
+        {
+          "fsv": "§.2. Takar maþær man i skoghi sinum. þræl ællær. legho man. taki af hanum öxse ællær öknöte. þæt ær fiærme ær. Takær maþær viþ stuf bondæ ællær bondæ sun. þa a sa fang ær eghur .a. taki af hanum fang at saklösu. söke sydæn vm skoghær hug æn han uil.",
+          "tolkning": "§ 2. Griper en man en man i sin skog, en träl eller legoman: tage han från honom yxan eller dragaren, det som är förmer (värdefullare). Griper man en bonde eller bondeson vid stubben, då äger skogsägaren virket; han tage virket från honom saklöst och söke honom sedan för skogshugg om han vill.",
+          "kommentar": "Rätt till omedelbar kvarstad/pant i gärningsmannens verktyg eller dragare när en ofri eller legoman påträffas på bar gärning i skogen. Påträffas en fri bonde eller bondeson återtages endast virket och talan väcks på tinget.",
+          "segmentId": "avg-b13a-punkt02-seg003",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 2 § 2"
+        },
+        {
+          "fsv": "§.3. Akær maþær gönom skogh manz. bræstær axsul manz. ællær andurstang huggi at saklösu bæþi.",
+          "tolkning": "§ 3. Kör en man genom en annans skog och brister hans axel eller lundstång: hugge han bådadera saklöst.",
+          "kommentar": "Nödrätt vid färd genom annans skog: den resande har rätt att strafffritt fälla virke för att reparera trasig hjulaxel (axsul) eller vagnstång (andurstang).",
+          "segmentId": "avg-b13a-punkt02-seg004",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 2 § 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Fornæmix sakir Punkt 3 (Åverkan på dragdjur, åkdon, båtar och redskap)",
+      "balkId": "B13a",
+      "pdfSidor": [22],
+      "kallpunkt": "3",
+      "meningar": [
+        {
+          "fsv": "3. Takar maþær a andrum dæghi hæst ællær. oxsæ wang allær slæþæ skip stiornfast molkær. ko manz. all þe æru full fornæmi skal bötæ firi sax öræ. öre firi ekiu. tua firi tagbændu. half mark firi siværings bat. örtogh firi riuu. firi tuar. tvar örtoghær. firi þreær allær þrim fleræ. þæt ær fult fornæmi sax öræ.",
+          "tolkning": "3. Tager en man på annandagen häst eller oxe, vagn eller släde, roddbåt som ligger förtöjd, eller mjölkar en mans ko: alla dessa äro fulla åverkanssaker; han skall böta sex örar. En öre för åkerharv (ekiu), två för repbunden sele (tagbændu), en halv mark för sexmansbåt (siværings bat), en örtug för räfsa, för två räfsor två örtugar, för tre eller fler än tre räfsor: det är fullt förnäm, sex örar.",
+          "kommentar": "full fornæmi: full åverkan / olovligt brukande belagt med 6 örar (18 örtugar). Detaljerad bötestaxa för olika lantbruks- och sjöfartsredskap: ekiu (harv/sladd), tagbændu (repsele/tågband), siværings bat (sexmansbåt med tre par åror) och riuu (räfsa).",
+          "segmentId": "avg-b13a-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Fornæmix sakir Punkt 4 (Körning över oslagen äng och sörgate)",
+      "balkId": "B13a",
+      "pdfSidor": [22],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "4. Akær maþær iuir æng uslægnæ. allær ivir akar siþæn vp ær runnit. böte örtogh firi huart hiul. Akær annut sinni böte þrænni sextanörtoghor. þy at þa hetir sörgatæ.",
+          "tolkning": "4. Kör en man över oslagen äng eller över åker sedan säden har skjutit upp: böte en örtug för varje hjul. Kör han en andra gång, böte tre sextonörtugar, emedan det då heter sörgata (sörspår).",
+          "kommentar": "uslægnæ: oslagen slåtteräng. vp ær runnit: grödan har grott och skjutit upp. firi huart hiul: en örtug per vagnshjul (vanligen 4 örtugar för fyrhjulig vagn). sörgatæ: uppkörd och nedtrampad väg genom växande gröda; upprepad körning betraktas som grov åverkan belagd med 3 sextonörtugar (6 marker).",
+          "segmentId": "avg-b13a-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 4"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Fornæmix sakir Punkt 5 (Gärdesgårdsvirke, nedrivning före skörd och fäskada)",
+      "balkId": "B13a",
+      "pdfSidor": [22],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "5. Takar maþær garþ manz gialdi firi þrænni saxtanörtoghor. Takar maþær fang manz huggin i skoghi ællær annærstaþ. gialdi þranni saxtanörtoghær. æn han falz at.",
+          "tolkning": "5. Tager en man en annans gärdesgårdsvirke, gälde tre sextonörtugar. Tager en man en annans virke som är hugget i skogen eller annorstädes, gälde tre sextonörtugar om han fälles därtill.",
+          "kommentar": "Stöld eller olovligt tillgrepp av virke ur uppförd gärdesgård eller hugget virke i skog. Boten är 3 sextonörtugar (6 marker).",
+          "segmentId": "avg-b13a-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 5"
+        },
+        {
+          "fsv": "§.1. [Þ]æn sum förir sin gar af akrum fyr æn burghit ær gialdi aptær allæn þæn scaþ. þær gangær gönum ok a ovan þrænni saxtanörtoghor þem enum skaþæn far eigh conongi. eigh allum mannum.",
+          "tolkning": "§ 1. Den som river ned sitt gärde från åkrarna innan säden är bärgad, ersätte all den skada som sker därigenom, och därutöver tre sextonörtugar till honom ensam som lidit skadan, icke till konungen och icke till allmogen.",
+          "kommentar": "fyr æn burghit ær: innan skörden är bärgad från samfällda åkrar. Otidigt nedrivande av stängsel leder till skadeståndsansvar samt full bot som odelat tillfaller målsäganden. Textkritisk notis: Källan har '?æn sum förir' på s. 22 rad 26; återgivet som [Þ]æn sum förir.",
+          "segmentId": "avg-b13a-punkt05-seg002",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 5 § 1",
+          "avvikelser": [
+            "Källtexten har '?æn' på s. 22 rad 26; frågetecknet återgivet som [Þ]."
+          ]
+        },
+        {
+          "fsv": "§.2. Brytær maþær annars garþ far bonde skaþæ gönom gialdi hin ær bröt atta örtoghær hællær hin ær garþ a. æn han findær eigh hin ær bröt.",
+          "tolkning": "§ 2. Bryter en man en annans gärdesgård så att bonden lider skada därigenom, gälde den som bröt åtta örtugar, eller ock den som äger gärdet om han icke finner den som bröt.",
+          "kommentar": "Skada orsakad av stängselbrott. Gärningsmannen bötar åtta örtugar; kan gärningsmannen inte anträffas svarar gärdesgårdens ägare strikt för brister i stängselhållet.",
+          "segmentId": "avg-b13a-punkt05-seg003",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 5 § 2"
+        },
+        {
+          "fsv": "§.3. Löpær fæ innangærþiz at helum garþi þæn sum fæ a læggi fram slikt sum han uill ok suæri æptir. mæþ eneþe sinum æn minni ær skaþi gör æn til akærlass. Kallær annær væræ meræ æn akærlass. þa gialdi atær akærlass ok eigh mera þy at meri se skaþi gör.",
+          "tolkning": "§ 3. Löper fä in i gärdet över hel gärdesgård: den som äger fäet lägge fram så mycket som han vill och svärje därefter med sin ened om skadan är mindre än ett åkerlass; påstår den andre att den är mer än ett åkerlass, då gälde han åter ett åkerlass och icke mer, även om skadan vore större.",
+          "kommentar": "akærlass: schablonmått och maximitak för ersättning vid kreatursskada på åker. Djurägaren svär med ened om skadans belopp.",
+          "segmentId": "avg-b13a-punkt05-seg004",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 5 § 3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Fornæmix sakir Punkt 6 (Åkarnam, otillåtet tjuder och nattbete i fridgärde)",
+      "balkId": "B13a",
+      "pdfSidor": [22],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "6. Takær maþær akar nam fra kono ællær manni gialdi þrænni saxtanörtoghær. allær væri sik mæþ tylptær eþe. Akar nam skal æltæ fra manni ok eigh takæ.",
+          "tolkning": "6. Tager en man åkarnam från kvinna eller man, gälde tre sextonörtugar, eller värje sig med tylfted. Åkarnam skall jagas från mannen och icke tagas med våld.",
+          "kommentar": "akar nam: intagande av djur som gör skada på åker eller äng för att hållas i pant tills skadan reglerats. Våldsamt fråntagande av åkarnam är belagt med 3 sextonörtugar (6 marker).",
+          "segmentId": "avg-b13a-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 6"
+        },
+        {
+          "fsv": "§.1. Hittir maþær grip mansz a akri lysi sum aþrum þiufnæþ. gangær uid sum a löse sum annæt akarnam.",
+          "tolkning": "§ 1. Finner en man en annans djur på sin åker, lyse han det såsom annan tjuvnad; vidgår ägaren detta, löse han det såsom annat åkarnam.",
+          "kommentar": "Lysningsplikt vid anträffat djur på åker för att undgå beskyllning om stöld eller olaga besittning.",
+          "segmentId": "avg-b13a-punkt06-seg002",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 6 § 1"
+        },
+        {
+          "fsv": "§.2. Latær maþær hæst i tiuþær a akær mansz ællær æng böte þrænni saxtanörtoghor. ællær uari sik mæþ tylptær eþe.",
+          "tolkning": "§ 2. Sätter en man sin häst i tjuder på en mans åker eller äng, böte tre sextonörtugar, eller värje sig med tylfted.",
+          "kommentar": "Uppsåtligt tjudrande av häst på annans gröda eller slåtteräng straffas strängt med 3 sextonörtugar (6 marker).",
+          "segmentId": "avg-b13a-punkt06-seg003",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 6 § 2"
+        },
+        {
+          "fsv": "§.3. Haldær maþær fæ sit i friþgærþi annarræ mannæ mæþ hund ok mæþ hiþæ. III. ællær III. flerre. þa væri sik mæþ tylptær eþe. þa æn han falz. þa böte þranni sæxtanörtoghær.",
+          "tolkning": "§ 3. Håller en man sitt fä på andras fridlysta betesmark (friþgærþi) med hund och herde, tre eller fler än tre nätter: då värje sig med tylfted; fälles han, böte tre sextonörtugar.",
+          "kommentar": "friþgærþi: fredad hägnad eller reserverat bete. Otillåten betning med vaktande hund och herde (hiþæ) under tre eller flera nätter är ett allvarligt intrång som fordrar tylfted eller 6 markers bot.",
+          "segmentId": "avg-b13a-punkt06-seg004",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 6 § 3"
+        },
+        {
+          "fsv": "§.4. Latær maþær grip sin i tiuþær vm dagh ok uarþær lös liggær a hældæ allær fiætur gangær i akær mansz ok uarþær intakin. þa löse mæþ eneþe sinum.",
+          "tolkning": "§ 4. Sätter en man sitt djur i tjuder om dagen och blir det löst och ligger på grimma eller fätter, och går in i en mans åker och intages: då löse han det med sin ened.",
+          "kommentar": "hældæ allær fiætur: grimma eller fotsnara/boja. Om djuret oavsiktligt slitit sig och anträffas med grimman på löses det ut med djurägarens ened (eneþe) utan böter.",
+          "segmentId": "avg-b13a-punkt06-seg005",
+          "kallreferens": "AVG-MASKIN s. 22, Fornæmix sakir Punkt 6 § 4"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

@@ -1,0 +1,246 @@
+{
+  "titel": "Iordþær bolkær, del II",
+  "underrubrik": "Äldre Västgötalagen, tomträtt, allmänning, markskäl, revning och skifte (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Fastighetsrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Andra delen av Jordabalken (Iordþær bolkær) i Äldre Västgötalagen behandlar byns interna organisation och dess yttre gränser. Balken omfattar husflyttning och förvandling av tomt till åker, byavägarnas bredd (sju alnar) och fredade likvägar till kyrkan, fägator till allmänningen (sju famnar), förbud mot nybyggen i åkergärden, strikta villkor för intaga på byamark och uppmätning med revlina vid odelsskifte, allmänningstvister mellan byar och forntida hednabyar, rågångar och synemän vid markskäl, mittgräns vid vattendrag, stränga straff för rubbande av gränsstenar (ormyrja / ormyliæ), samt förbudsmärken med vidjekvist vid slåttertvist.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 11",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 11 (Husflyttning och tomtgille)",
+      "balkId": "B10",
+      "pdfSidor": [
+        16,
+        17
+      ],
+      "kallpunkt": "11",
+      "meningar": [
+        {
+          "fsv": "11. Flytær annar maþær hus sin af topfto ok yrkir toft. þa hetir hakær ok eig toft. Sökiæ skal garþ af hændi sær þæn ær mælli war toftæ gildæn ok eig vgildæn.",
+          "tolkning": "Flyttar en man sina hus från tomten och uppodlar tomten, då heter det åker och icke tomt. Han skall avbörda sig stängselskyldigheten för det gärde som stod mellan tomterna i laga gillt och icke ogillt skick.",
+          "segmentId": "avg-b10-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 16–17, Iordþær bolkær Punkt 11",
+          "kommentar": "hakær ok eig toft: när bebyggelsen viker för odling ändras tomtens rättsliga status till åkermark, varvid stängselskyldigheten mot grannarna omfördelas."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 12",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 12 (Byavägar, likväg till kyrka och gräsväg)",
+      "balkId": "B10",
+      "pdfSidor": [
+        17
+      ],
+      "kallpunkt": "12",
+      "meningar": [
+        {
+          "fsv": "12. Rændær væghær toftæ mælli. han skal siu alnnæ breþær varæ. A maþær wægh iuir toft mans. han skal þæn. vægh hanum af læggiæ. sum han uill. eig i dæk ællær y dy. ællær i fiall vp. Halvæn vægh skal huar þerræ. mælli. toftæ. læggiæ.",
+          "tolkning": "Löper väg mellan tomter, skall den vara sju alnar bred. Har man vägrätt över annans tomt, skall ägaren anvisa honom den väg han vill, dock icke genom sänka eller dy eller uppför berg. Halva vägbredden skall vardera grannen upplåta mellan tomterna.",
+          "segmentId": "avg-b10-punkt12-seg001",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 12",
+          "kommentar": "siu alnnæ breþær: lagstadgad bredd för byavägar (ca 4 meter). Halvæn vægh: grannars ömsesidiga skyldighet att bidra med mark till samfälld väg."
+        },
+        {
+          "fsv": "§.1. Ligwægh skal til kirkiu læggiæ. eigh ma lik iuir toft mans faræ olouandis num han se sakær at. þrænni sextanortoghom. §.2. Græswæghær skal til byær liggiæ. sa skal þrannisæxtanorthoghor bötæ ær vp yrkir.",
+          "tolkning": "§ 1. Likväg skall läggas till kyrkan; icke må lik föras över annans tomt utan lov, såvida han icke vill plikta tre gånger sexton örtugar. § 2. Gräsväg skall ligga till byn; den skall böta tre gånger sexton örtugar som plöjer upp den.",
+          "segmentId": "avg-b10-punkt12-seg002",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 12 §1–2",
+          "kommentar": "Ligwægh: hävdvunnen kyrkväg för begravningståg. olouandis: olovlig överträdelse av annans tomtfrid vid likfärd var strängt bötfälld."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 13",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 13 (Utgärdande, åkerbygge, holmsköp och fägata)",
+      "balkId": "B10",
+      "pdfSidor": [
+        17
+      ],
+      "kallpunkt": "13",
+      "meningar": [
+        {
+          "fsv": "13. Far maþær a akær sin ællær. æng sinæ at boæ. þa skal skal han sialwær sik vtgærþæ. A maþær gard firi hanum. þa skal han sökiæ up han mæþ siunæ ting. ok tolf mannæ eþe ok uittni latæ bæræ at garþær þænni stændær firi toft hans sua at han ma eig utuæghum næ. Kastér han eig garþ vp firi siunættings dagh böte. þrennesaxtanortohær. ok hinn taki up garþ æptir. þings domæ ok lati domæ sær garþ. at varþvetæ e mæþæn toft hans vindær. §.1. Flytær af bygd sinæ. þa skal han sokiæ garþ af handum sær sua sum fyr a latæ dömæ hanum gildæn gard ok eig vgildæn. §.2. Husær maþær i akærgærþi. þær sum aþrir grannæ æghu iorþ kring vm þa ma han eig þær boæ mæþ laghmæli. þer skulu hanum siunætting gæræ ok in haldæ. vitni latæ bæræ at han bor akargærþi ok gær klöstroþ iuir akær ok æng. þy ma han eig at lægmæli. hær boæ. þa skal þing uisæ latæ hem dömæ endaghæ vittnæ mæþ tuanni tylptum. latæ dömæ af garþ a sægnær þingi. brytæ af ok eig brænnæ.",
+          "tolkning": "Far en man ut på sin åker eller sin äng för att bygga och bo, då skall han själv hägna in sig. Står en mans gärdesgård för honom, skall han kalla honom med sjunätting och tolvmannaed och låta vittna om att gärdet står för hans toft så att han icke kan nå utvägar; river han icke upp gärdet före sjunättingsdagen, böte han tre gånger sexton örtugar, och den andre rive upp gärdet efter tingsdom och låte döma sig rätt att behålla gärdet så länge hans tomt står där. § 1. Flyttar han från sin bebyggelse, skall han avbörda sig gärdet såsom förr och låta döma sig ha lämnat ett gillt gärde och icke ogillt. § 2. Bygger man hus inne i ett åkergärde där andra grannar äga jord runt omkring, då må han icke bo där enligt lag; de skola hålla sjunätting mot honom och vittna om att han bor i åkergärdet och vållar tramp och skada (klöstroþ) över åker och äng; därför må han icke bo där enligt lag. Då skall man hänskjuta till tinget, fastställa endag, vittna med två tolfter och på sägnartinget döma honom bort från gärdet: riva ned huset men icke bränna det.",
+          "segmentId": "avg-b10-punkt13-seg001",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 13–§2",
+          "kommentar": "Husær i akærgærþi: förbud mot enskilt bebyggande inom byns gemensamma åkermark som hindrade grannarnas odling och orsakade tramp (klöstroþ). brytæ af ok eig brænnæ: laglig rätt att riva olovligt uppfört hus utan skadegörelse genom brand."
+        },
+        {
+          "fsv": "§.3. Bröþær skiptæ iorþ sinni. husær annær ut a akær ællær æng a grasiæþri. liggær teghær viþ tegh. han .a. iamna vitu uiþ þæn i by bor. §,4, Byggir han ut a mark byar gærþi um kring sik sialuær. Byggir a sa marku gærþir um kring sik .a. III. vitter. ællær. III. vittrum længær a oxæ byrþi til skogss. til vndir viþær ok til fængans ængyn a vitu innæn gard hanum ok han ingæ utæn garþ til almannigs þæt kallar holmsköp han ma eig i bælgh bindæ. Viliæ grannær intaku takæ firi hanum. þa skulu þer hanum gatu læggiæ til almænnigs siv famnæ breþæ. þer skulu garþæ gærþæ ær iorþ egho ut til almænnigs.",
+          "tolkning": "§ 3. Skifta bröder sin jord och bygger den ene ut på åker eller äng vid gräsvallen, och teg ligger vid teg, då äger han samma vittnesbörd som den som bor kvar i byn. § 4. Bygger han ut på utmarken och sätter gärdesgård kring sig själv i tre vintrar eller längre än tre vintrar, har han rätt till oxbörda ur skogen, till virke och gärdsle; ingen äger vittnesbörd innanför hans gärde och han äger intet utanför gärdet mot allmänningen; det kallas 'holmsköp', han må icke binda det i säck (kräva utvidgad rätt). Vilja grannarna göra intaga framför honom, skola de lägga en fägata åt honom till allmänningen, sju famnar bred; de skola hägna gärdesgårdarna som äga jorden ut mot allmänningen.",
+          "segmentId": "avg-b10-punkt13-seg002",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 13 §3–4",
+          "kommentar": "holmsköp: enskild nyodling/torp på utmarken med hävd efter tre vintrar men begränsad rätt till skogsfång (oxæ byrþi). gatu til almænnigs: fägata, samfälld fädrevsväg mellan åkergärdena till utmarken (sju famnar bred)."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 14",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 14 (Intaga på byamark och revning vid odelsskifte)",
+      "balkId": "B10",
+      "pdfSidor": [
+        17
+      ],
+      "kallpunkt": "14",
+      "meningar": [
+        {
+          "fsv": "14. Eig mæ takæ intaku. num alli uili þer ær eghu attundæ lot af attungi. [Þ]aghar in ær takit. þa skal sa valdæ oþolskipti ær uill. gæræ siunættings firi ens garþi ok haldæ. firi allum þem iorþ æghu i by. þa skal þing uisæ ok lata. hem endaghæ dömæ. þingsmænna vittni. a endaghæ latæ bæræ ok sværiæ æptir at sva kom dombær. a mal hans a þingi at han skuldi hær standæ i dagh ok repæ iorþ i attungi. siþen .i. attungæ. ær repæt. þa skal þing sighia ok lötæ a sægnær þingi. æn eigh uill fyr. Siþæn lata dömæ sua attungi hvarium sum lotær fal mæþ þings uittni sua skulu allir sin i mællin skipæ bæþi garþ ok iorþ. en eig uiliæ. ællær.",
+          "tolkning": "Ingen må göra intaga på samfälld mark såvida icke alla vilja det som äga en åttondedels lott av en åttung. Så snart intagan är gjord, skall den som vill råda över odelsskiftet utlysa sjunätting framför ens gård och det gälle mot alla dem som äga jord i byn; då skall man hänskjuta till tinget och låta döma dem en endag; tingsmännens vittnesbörd skall frambäras på endagen och sväras att 'så föll domen på tinget att man i dag skulle stå här och revmäta (repæ) jorden efter åttungar'. När jorden är revmätt i åttungar, skall man lysa ting och lotta på sägnartinget om man ej vill förr; sedan låte man döma åt varje åttung såsom lotten föll med tingsvittnen; så skola alla skifta sinsemellan, både gärden och jord, om de icke vilja annorlunda.",
+          "segmentId": "avg-b10-punkt14-seg001",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 14",
+          "avvikelser": [
+            "Källtexten har '?aghar in ær takit' på s. 17 rad 27; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ],
+          "kommentar": "intaku: odling på byns samfällda mark. oþolskipti: skifte av ätte- och odalsjord. repæ iorþ: uppmätning med revlina (rep) vid tegskifte och solskifte. Textkritisk notis: Källan har '?aghar in ær takit' på s. 17 rad 27; frågetecknet återgivet som [Þ] enligt transkriptionsreglerna."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 15",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 15 (Allmänningstvist, fullby och hednaby)",
+      "balkId": "B10",
+      "pdfSidor": [
+        17
+      ],
+      "kallpunkt": "15",
+      "meningar": [
+        {
+          "fsv": "15. En man kallar sik aghæ a fær marku. ær eig garþær vm kvæþæ grænnar ne vid. kallæ allæ. þem egha. þa æghv þer vitu ær allum þem uiliæ uitæ til egnær. væria med tvænni tylptum ok tvænni uittnum. biþiæ sua sær guþ holl. ok uattum sinum at iord þæssi. ær o skil vm ær almænnigær. aldræ grænnæ. ok eig enæng þin.",
+          "tolkning": "Påstår en man sig äga mark på utmarken där ingen gärdesgård står om, och svara grannarna nej och påstå sig alla äga den, då äga de vittnesbörd som vilja tillkänna den åt dem alla; de värje saken med två tolfter och två vittnen och bedja så Gud och sina vittnen vara sig huld: 'Att denna jord som det tvistas om är alla grannars allmänning och icke din enskilda äga.'",
+          "segmentId": "avg-b10-punkt15-seg001",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 15",
+          "kommentar": "almænnigær: samfälld utmark gentemot enskild tillägnelse (enæng). Tvist avgörs med två tolfter till förmån för byamännens allmänning."
+        },
+        {
+          "fsv": "§.1. Skil a þorp ok by vm almænning. þa a byr vitu ok eig þorp. Half tylft. af fæstu. skal i by. uæræ æn gitær sik uitæt til fullbyær. Tver iorþærghændi. i tylft hvarri skulu vittni. bæræ æn han ær höghæ byr. ok af heþnu bygdær. þa skulu tver iarþeghændi af þem eig baru uittni hvar firi sinni tylft gangæ biþi sua sær gud holl ok uattum sinum. at byr. þænni havir varit fullbyr bæþi i heþnu ok kristnu. ok þy a han iamnæ vitu viþ by þin at laghmale. A. en maþær allæn by ær kiurkiæ .i. ok half boændæ mannæ. þa ma uitæ han til fulz byær.",
+          "tolkning": "§ 1. Skiljer det mellan torp och by om allmänning, då äger byn vittnesbörd och icke torpet. En halv tolft jordägare skall finnas i byn om den skall kunna hävda sig såsom fullby; två jordägande män i vardera tolften skola bära vittnesbörd. Är det en högby (gravhögsby) som varit bebyggd från heden tid, då skola två jordägare som icke buro vittnesbörd gå fram i spetsen för vardera tolften och bedja så Gud och sina vittnen vara sig huld: 'Att denna by har varit fullby både i hedendomen och i kristendomen, och därför äger den samma vittnesbörd som din by enligt lag.' Äger en enda man en hel by där kyrka finnes och hälften av bönderna, må han hävda den som fullby.",
+          "segmentId": "avg-b10-punkt15-seg002",
+          "kallreferens": "AVG-MASKIN s. 17, Iordþær bolkær Punkt 15 §1",
+          "kommentar": "fullbyr: fullvärdig by med fulla tings- och allmänningsrättigheter, till skillnad från utflyttade ensamgårdar eller torp. höghæ byr ok af heþnu bygdær: fornby med gravhögar från hednisk tid, vars ålder gav obestridlig hävd."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 16",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 16 (Markskäl, gränsmärken och syn)",
+      "balkId": "B10",
+      "pdfSidor": [
+        17,
+        18
+      ],
+      "kallpunkt": "16",
+      "meningar": [
+        {
+          "fsv": "16. Skil mæn vm marker skial byæ mælli. þa skulu þer skyal se sin i mællin. ganga huar byr i sit mærki ær han kallær i. [Þ]erra skal hvarghum innæn garz. kallæ þær sum standit havir þrea vætær ok þim. længær. þær a byr uitu firir. þer skulu saman gangæ. ok vittni. latæ bæræ .i. stad þæn sum han kallær .i. Værþær annær vittnum. siþæri. sa skal vitu. orþ æghæ. hava baþi iammargh uittni. þa skal hæræþ a syn til næmnæ af þingi sæmbér a synær mannum a þa skal þem lagh dömæ ær asyn vittnær mæþ. sæms þem eig a. þa skal lanz a syn næmnæ ok lösæ mælli. þerræ. §.1. Skil a land ok hæræþ. land skal uitu eghæ ok þe hæræz skulu uitu eghæ. ær eig sökiæ fang til. skal væriæ mæþ tvænni tylptum næmdæ. mannæ. §.2. Skil a hæræd oc by þa. a hæræd vitu.",
+          "tolkning": "Tvista män om markskäl mellan byar, då skola de besiktiga rågången sinsemellan och vardera byn gå till det gränsmärke som den åberopar; ingendera må åberopa mark innanför gärde där det stått i tre vintrar eller längre; där äger byn vittnesbörd för sin hävd. De skola gå samman och låta frambära vittnesbörd på det ställe som vardera åberopar; kommer den ene med vittnen senare, äger han vittnesbörd; hava båda lika många vittnen, då skall häradssyn tillsättas från tinget; enas synemännen, dömes efter vad synen vittnar; enas de icke, tillsättes landssyn som avgör saken. § 1. Skiljer det mellan landskap och härad, äger landskapet vittnesbörd och de härader som icke söka fång; det skall värjas med två tolfter nämndemän. § 2. Skiljer det mellan härad och by, då äger häradet vittnesbörd.",
+          "segmentId": "avg-b10-punkt16-seg001",
+          "kallreferens": "AVG-MASKIN s. 17–18, Iordþær bolkær Punkt 16–§2",
+          "avvikelser": [
+            "Källtexten har '?erra' på s. 17 rad 42; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ],
+          "kommentar": "marker skial: gräns mellan byar på skog och utmark. hæræþ a syn ok lanz a syn: lokal häradssyn respektive överordnad landssyn (lagmannens syn) vid olösliga gränstvister. Textkritisk notis: Källan har '?erra' på s. 17 rad 42; frågetecknet återgivet som [Þ] enligt transkriptionsreglerna."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 17",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 17 (Intaga, träde, grässpärre och vattenmitt)",
+      "balkId": "B10",
+      "pdfSidor": [
+        18
+      ],
+      "kallpunkt": "17",
+      "meningar": [
+        {
+          "fsv": "17. Vil by takæ in mark sinæ gen byær mark annærri. þer skulu gard gærþæ ær in uiliæ takæ. ok söki siþæn haluæn sær af handum gilldén ok eig vgildæn. §.1. Vill maþær træþi up taka þa skal han garz gærþæ. ær up uil taka. söke siþæn sær. af hande gildæn ok eig vgildæn. Træþir maþær enka akær gærþi sialvær vm kring. §.2. Vil maþær sæ löt sinæ hégnæ. þa skal han garþ mælli fæ lötæ gæræ eigh ma han ællær intakæ. num han se saker at þrænni saxtænörtoghum. ok hetir græsspæri sa byr ær sua gærid.",
+          "tolkning": "Vill en by göra intaga på sin mark gentemot grannbyns mark, skola de hägna gärdesgård som vilja taga in, och sedan kräva att grannbyn övertager halva gärdet i gillt och icke ogillt skick. § 1. Vill man uppodla träde, skall den hägna som vill taga upp, och sedan kräva att motparten övertager sitt hägnadsansvar. Lägger man ensam en åker i träde, hägne han själv runt om. § 2. Vill man hägna sin sädeslott, skall man sätta gärde mellan säd och fäbete; eljest må man icke göra intaga såvida man icke vill böta tre gånger sexton örtugar; och heter den byn 'grässpärre' som så gör (stänger ute andras betesrätt).",
+          "segmentId": "avg-b10-punkt17-seg001",
+          "kallreferens": "AVG-MASKIN s. 18, Iordþær bolkær Punkt 17–§2",
+          "kommentar": "træþi: trädesjord i tvåsädessystemet. græsspæri: olaga utestängande av samfällt bete genom olovlig inhägnad."
+        },
+        {
+          "fsv": "§.3. Rændær vatn mælli tuæggiæ markæ gærþi hvar at sinu oðælli ok mötæs i miþri uatnras.",
+          "tolkning": "§ 3. Rinner vatten mellan två marker, hägne vardera intill sitt odal och mötas i midten av vattenfåran.",
+          "segmentId": "avg-b10-punkt17-seg002",
+          "kallreferens": "AVG-MASKIN s. 18, Iordþær bolkær Punkt 17 §3",
+          "kommentar": "i miþri uatnras: den urgamla principen om vattenmitt (kungsådra och mittgräns i vattendrag) mellan angränsande fastigheter."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 18",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 18 (Enskifte i by och råmärken)",
+      "balkId": "B10",
+      "pdfSidor": [
+        18
+      ],
+      "kallpunkt": "18",
+      "meningar": [
+        {
+          "fsv": "18. A maþær enkæ skipt i by. aþrum. þer æghu vitu. ær i by. boæ huru mykil hun skal uaræ. hun hetir uitulös iorþ an hun ær eig rend ok stend. eig mæ þy at hvaru allæ bort uitæ at lagnmæli.",
+          "tolkning": "Äger en man enskilt skifte i en annan by, då äga byamännen som bo i byn vittnesbörd om hur stor den lotten skall vara; den jorden kallas 'vittneslös jord' om den icke är försedd med rågång och gränsstenar; dock må man icke fördenskull frånkänna honom all jorden enligt lag.",
+          "segmentId": "avg-b10-punkt18-seg001",
+          "kallreferens": "AVG-MASKIN s. 18, Iordþær bolkær Punkt 18",
+          "kommentar": "enkæ skipt: enskild teg eller äga belägen inom en annans bys skifteslag. rend ok stend: försedd med gränsrenar (diken) och råstenar."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 19",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 19 (Flyttning av tjäldrar och ormyrja)",
+      "balkId": "B10",
+      "pdfSidor": [
+        18
+      ],
+      "kallpunkt": "19",
+      "meningar": [
+        {
+          "fsv": "19. Æn tyaldrur uil flytiæ æn vranct kallar liggiæ. þa skal siunatting til gæræ. ok þing uisæ ok endaghæ latæ hem dömæ. þor væriæ mæþ tuænni tylptum. sa ær vid han delir. at tyaldræ. þæssi liggær ræt ok vræt eighi. §.1. Hvar sum brytær vp ren ok sten han hetir i aþrum mannum ormyliæ han ær saker at trænni sextanörtoghum.",
+          "tolkning": "Vill man flytta tjäldrastenar och påstår att de ligga orätt, då skall man utlysa sjunätting, hänskjuta till tinget och fastställa endag; den som tvistar mot honom må värja med två tolfter att denna tjäldra ligger rätt och icke orätt. § 1. Var och en som river upp rågångsren och gränssten, han kallas bland andra män 'ormyrja' (ormyliæ); han är skyldig böter om tre gånger sexton örtugar.",
+          "segmentId": "avg-b10-punkt19-seg001",
+          "kallreferens": "AVG-MASKIN s. 18, Iordþær bolkær Punkt 19–§1",
+          "kommentar": "ormyliæ: fsv. ormyli / ormyrja, ett oerhört skymford för den som i smyg rubbar gränsstenar eller plöjer bort rågångsrenar, belagt med dryga böter."
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 20",
+      "hanvisning": "Cod. Holm. B 59, Iordþær bolkær Punkt 20 (Slåttertvist och förbudsmärke)",
+      "balkId": "B10",
+      "pdfSidor": [
+        18
+      ],
+      "kallpunkt": "20",
+      "meningar": [
+        {
+          "fsv": "20. Slar maþær æng mans cumbær hin at ær a han skal taka uiþi quist bitæ bast a ok sætiæ sua i þet ær laghæ forbud ma eigh vndæan takæ num han sækti sik at þrænni sextan örtoghum. þér skal hö a æng ladæ til þes ær þer æru sattir.",
+          "tolkning": "Slår en man en annans äng och kommer ägaren till, skall denne taga en vidjekvist, binda bast om och sticka ned i marken; det är laga förbudsmärke; slåttermannen må icke föra bort höet utan att böta tre gånger sexton örtugar; där skall höet läggas i lada på ängen till dess de äro förlikta.",
+          "segmentId": "avg-b10-punkt20-seg001",
+          "kallreferens": "AVG-MASKIN s. 18, Iordþær bolkær Punkt 20",
+          "kommentar": "laghæ forbud: formellt förbudsmärke i marken med vidjekvist och bast som belägger det skördade höet med kvarstad tills äganderättstvisten är löst."
+        }
+      ]
+    }
+  ]
+}

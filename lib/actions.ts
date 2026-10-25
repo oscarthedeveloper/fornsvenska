@@ -20,8 +20,18 @@ async function kravAdmin(): Promise<string | null> {
   return arAdmin ? null : "Du är inte inloggad som administratör.";
 }
 
-function uppdatera() {
-  revalidatePath("/", "layout");
+/**
+ * Målstyrd invalidation:
+ * Invaliderar endast den berörda roten (`/texter` eller `/grammatik`) i stället
+ * för att tömma hela sajtens globala cache med `revalidatePath('/', 'layout')`.
+ */
+function uppdateraRot(root?: string | null) {
+  if (root === "texter" || root === "grammatik") {
+    revalidatePath(`/${root}`, "layout");
+  } else {
+    revalidatePath("/texter", "layout");
+    revalidatePath("/grammatik", "layout");
+  }
 }
 
 /** Sparar ett dokuments innehåll (JSONB). */
@@ -32,14 +42,16 @@ export async function sparaInnehall(nodId: string, innehall: unknown): Promise<S
   const supabase = skapaServerKlient();
   const utkast = Boolean((innehall as { utkast?: boolean } | null)?.utkast);
 
-  const { error } = await supabase
+  const { data: nod, error } = await supabase
     .from("nodes")
     .update({ content: innehall, utkast })
-    .eq("id", nodId);
+    .eq("id", nodId)
+    .select("root")
+    .maybeSingle();
 
   if (error) return { ok: false, fel: error.message };
 
-  uppdatera();
+  uppdateraRot(nod?.root);
   return { ok: true };
 }
 
@@ -96,7 +108,7 @@ export async function skapaNod(indata: {
 
   if (error) return { ok: false, fel: error.message };
 
-  uppdatera();
+  uppdateraRot(indata.root);
   return { ok: true, href: `${indata.basHref}/${slug}` };
 }
 
@@ -113,14 +125,16 @@ export async function bytNamn(
   if (!rent) return { ok: false, fel: "Titeln får inte vara tom." };
 
   const supabase = skapaServerKlient();
-  const { error } = await supabase
+  const { data: nod, error } = await supabase
     .from("nodes")
     .update({ title: rent, note: note?.trim() || null })
-    .eq("id", nodId);
+    .eq("id", nodId)
+    .select("root")
+    .maybeSingle();
 
   if (error) return { ok: false, fel: error.message };
 
-  uppdatera();
+  uppdateraRot(nod?.root);
   return { ok: true };
 }
 
@@ -130,11 +144,16 @@ export async function taBortNod(nodId: string): Promise<Svar> {
   if (fel) return { ok: false, fel };
 
   const supabase = skapaServerKlient();
-  const { error } = await supabase.from("nodes").delete().eq("id", nodId);
+  const { data: nod, error } = await supabase
+    .from("nodes")
+    .delete()
+    .eq("id", nodId)
+    .select("root")
+    .maybeSingle();
 
   if (error) return { ok: false, fel: error.message };
 
-  uppdatera();
+  uppdateraRot(nod?.root);
   return { ok: true };
 }
 
@@ -172,7 +191,6 @@ export async function flyttaNod(nodId: string, riktning: -1 | 1): Promise<Svar> 
   const j = i + riktning;
   if (i < 0 || j < 0 || j >= syskon.length) return { ok: true };
 
-
   const lista = syskon as { id: string; position: number }[];
   const a = lista[i];
   const b = lista[j];
@@ -188,7 +206,7 @@ export async function flyttaNod(nodId: string, riktning: -1 | 1): Promise<Svar> 
 
   if (felA || felB) return { ok: false, fel: (felA ?? felB)?.message };
 
-  uppdatera();
+  uppdateraRot(nod.root);
   return { ok: true };
 }
 
@@ -196,6 +214,6 @@ export async function flyttaNod(nodId: string, riktning: -1 | 1): Promise<Svar> 
 export async function loggaUt(): Promise<void> {
   const supabase = skapaServerKlient();
   await supabase.auth.signOut();
-  uppdatera();
+  revalidatePath("/admin");
   redirect("/admin");
 }

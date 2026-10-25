@@ -1,0 +1,144 @@
+{
+  "titel": "Ærfþa balkær, del II",
+  "underrubrik": "Äldre Västgötalagen, samtidig död, makars bo, hemföljd och ättledning (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Andra delen av ärvdabalken i Äldre Västgötalagen reglerar arvsordningen vid samtidig död (kommorientskap) i sjukdom, husbrand och skeppsbrott, utländska köpmäns arv och danaarv, arvsförlust vid förgöring av styvbarn, makars gemensamma rätt till avkastning av arvegods och skogshästar, förvaltarens (brytens) redovisningsplikt och skydd mot tjuvsanklagelse, änkans lott och gäldsansvar, handelsresande och hemmavarande bröders likställdhet, kollationsplikt för hemföljd, inlösen av gäldbunden man, ättledning av frillobarn samt landbos och frigivnas arvsförhållanden.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 13–15 (Samtidig död, utlänningar och arvsförlust)",
+      "balkId": "B07",
+      "pdfSidor": [10],
+      "kallpunkt": "13-15",
+      "meningar": [
+        {
+          "fsv": "Ligia mæn tver siuker baþir i eno husi. ær huar annars arvi. liuir annar sua længi æftir annan. at han viþ husli takar. þa ær han hans arvi. §.1. Dor maþær i by. annar i. aþrum by baþir a eno dögri. faræ mæn i mote sighir. hvar aþrum þöþæ þerræ hvarghi þerræ ær annærs arvi. §.2. Brannæ mæn tver inni. baþir sænþær hvarghi þerra ar annars arvi. §.3. Drukknæ tuer baþir a enu skipi. hvarghi þærra ær annars arve. §.4. Skilias mæn hemæ. far annar a skip allær til skgs. dör hin ær hemæ var ok þen findþær döþen ær heman for. ok vet eigh a hvat dögre ær han do. hvarghi þerræ ær annars arvi.",
+          "tolkning": "Ligga två män sjuka båda i samma hus och är var och en den andres arvinge, och lever den ene så länge efter den andre att han mottager sista smörjelsen/nattvarden (husel), då är han dennes arvinge. § 1. Dör en man i en by och den andre i en annan by båda under samma dygn, och män fara emot varandra och kungöra deras död, är ingendera den andres arvinge. § 2. Brinna två män inne båda tillsammans, är ingendera den andres arvinge. § 3. Drunkna två båda på samma skepp, är ingendera den andres arvinge. § 4. Skiljas män åt hemma, och den ene far på skepp eller till skogs, och dör den som var hemma medan den som for hemifrån påträffas död och man vet icke under vilket dygn han dog, är ingendera den andres arvinge.",
+          "kommentar": "Samtidig död (kommorientskap): detaljerade bevisregler vid sjukdom, brand, skeppsbrott eller skogsfärd för att avgöra om arvsrätt hunnit övergå mellan släktingar. Endast om den ene bevisligen överlevde till husels mottagande övergår arvet.",
+          "segmentId": "avg-b07-punkt13-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 13"
+        },
+        {
+          "fsv": "Dör maþær anskær i landi ær eigh þæn skyldesti hos. þa skal harf hans standæ til iamlangæ. ær eigh þa arvi komen. þa skal konongær arf takæ biscupær æn prestær ær. §.1. Dör þydiskær maþær ær egh barn til. þa skal konongær arf takæ byskopær æn prestær ær. þæt kallær danæ arf. §.2. Dör maþær na egh arvæ hans. þa ér konongær. arvi hans",
+          "tolkning": "Dör en engelsk man i landet och är den närmaste arvingen icke närvarande, skall hans arv stå orört under ett års tid; har arvingen icke kommit då, skall konungen taga arvet, men biskopen om han är präst. § 1. Dör en tysk man och har icke barn, skall konungen taga arvet, men biskopen om han är präst; det kallas danaarv. § 2. Dör en man och man icke finner hans arvingar, då är konungen hans arvinge.",
+          "kommentar": "Utländska personers kvarlåtenskap i Västergötland med ett års frist för arvingar, samt danaarv (herrelöst gods) som tillfaller kronan eller kyrkan.",
+          "segmentId": "avg-b07-punkt14-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 14"
+        },
+        {
+          "fsv": "Sva ær an kona firiger stiupbarni sinu. vill sinum barnum arf vnnæ. væri sik mæþ hærærs næmd falz hvn þa hauir hvn firigiort sær ok friþi sinum. Vill egh sun hænnar latæ hanæ friþ flya. þa skal han frændum bötæ sum þer uiliæ ær eghu þem allær taki hanæ þær han fa.",
+          "tolkning": "Likaså är om en kvinna förgör sitt styvbarn för att unna sina egna barn arvet: hon värje sig med häradsnämnd; fälls hon, då har hon förverkat liv och fred. Vill hennes son icke låta henne fly fredlös, skall han böta till fränderna såsom de vilja som äga talan, eller tage de henne varhelst de finna henne.",
+          "kommentar": "Förgiftning eller mord på styvbarn i syfte att styra arvsföljden: medför livstids fredlöshet och fullständig arvsförlust.",
+          "segmentId": "avg-b07-punkt15-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 15"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 16–18 (Makars bo, brytens redovisning och änkans lott)",
+      "balkId": "B07",
+      "pdfSidor": [10, 11],
+      "kallpunkt": "16-18",
+      "meningar": [
+        {
+          "fsv": "Siþan ær hion tu komæ saman takkær annat þerræ arf. förer. i bo læx til brytstokss. far iki giald firi þæt sum liuær a þæt svm arf tok. þæt sum af födis æghu þæt bæþi. §.1. Stoþ hors i skoghum gangæ all. þy fyl. sum af föþæs æghv þer baþi. §.2. Takær maþær bo at arvi. ma eigh brity firi væræ ællær drghiæ skulu . baþi hion avaxt aghæ. Zy biþær maþær sær kono þærræ ær til arff standér. þy gipftær bondæ þæm manni. dottor sinæ ær til arfs standær. at þer viliæ baþi afvæxt æghæ.",
+          "tolkning": "Sedan två makar hava kommit samman och tager den ene av dem arv och för in i boet och lägger till brytstocken, får den överlevande icke ersättning från den som tog arvet; det som föds därav äga de båda. § 1. Hästflock som går i skogarna: de föl som födas därur äga de båda. § 2. Tager man bo i arv och må icke förvaltare eller dräng sitta därför, skola båda makarna äga avkastningen. Därför friar en man till en kvinna som står till arv, och därför gifter bonden bort sin dotter till en man som står till arv, emedan de båda vilja äga avkastningen.",
+          "kommentar": "Gemensam giftorätt i boets avkastning (avaxt), föl och boskap under bestående äktenskap.",
+          "segmentId": "avg-b07-punkt16-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 16"
+        },
+        {
+          "fsv": "Farr bryti firi bo mans. han ær miskunnær maþær bonþæ þæs ær bo .a. riþær i ok rændær or. far iki vtan tylptær eþ. firi at han havir alt or bo. þæt ær han atti. §.1. Bonþe kallær han havæ lön bo bæggiæ þerræ ok bort skutit. þa skal uitæ firi mæþ tylptær eþi. at han havir alt fram laght. han mæ eigh. þiuvær at hetæ. þat ær handsalt fa.",
+          "tolkning": "Står en förvaltare (bryte) för en mans bo, är han i bondens nåd vars bo det är; rider han dit och tömmer boet, får han intet därur utan tolftared på att han tagit allt ur boet vad han själv ägde. § 1. Påstår bonden att han i smyg förskingrat deras bådas bo, skall han värja sig med tolftared på att han lagt fram allt; han må icke heta tjuv för det som givits med handslag.",
+          "kommentar": "Förvaltarens (brytens) redovisningsplikt vid avflyttning och skydd mot tjuvsanklagelse för handsöl.",
+          "segmentId": "avg-b07-punkt17-seg001",
+          "kallreferens": "AVG-MASKIN s. 10, Ærfþa balkær Punkt 17"
+        },
+        {
+          "fsv": "Dör bondæ huspreæ livir. bo a iorþo hans dör firi fardaghæ. þa skal hun til sinna iorð faræ ok halft viþ landboæ. bö sit havæ. han a at vitæ til arffæstu ok eigh længær. Kona takær þriðiung .i. bo ok þrer mærkær af hans lot siþen tymber ok myllu reþe. þæt skal alt skiptæ sva sum bo. §.1. Skyldir skulu baþir lucæ. ok baþi kræfiæ slikt huart sum i. bo a hvat þær fyr görær. wrþu æn þer samæn komo allær siþæn vtæn mandrap eit. §.2. Saræ bötær ok bardagha bötær mutur ok vingævæ agho þer baþi lukæ ok sva takæ.",
+          "tolkning": "Dör bonden medan hustrun lever och boet står på hans jord och dör han före fardag, då skall hon fara till sin egen jord och hava sitt bo till hälften med landbon; denne äger att bruka jorden till arvsfäste och icke längre. Hustrun tager en tredjedel i boet och tre marker ur hans lott; sedan timmer och kvarnredskap, allt det skall skiftas såsom boet. § 1. Skulder skola de båda betala och båda kräva in efter vad var och en äger i boet, antingen skulderna uppkommo innan de kommo samman eller därefter, förutom en mansdråpsbot. § 2. Såraböter, slagsmålsböter, mutor och vingåvor skola de båda betala och likaså taga emot.",
+          "kommentar": "Änkans tredjedelsrätt i lösöret, tre marker ur mannens lott samt reglering av gemensamt betalningsansvar för gäld och skadestånd.",
+          "segmentId": "avg-b07-punkt18-seg001",
+          "kallreferens": "AVG-MASKIN s. 10–11, Ærfþa balkær Punkt 18"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 19–21 (Handelsbröder, stöld och hemföljd)",
+      "balkId": "B07",
+      "pdfSidor": [11],
+      "kallpunkt": "19-21",
+      "meningar": [
+        {
+          "fsv": "Farr annær broþer köpfærþum ok annar hemæ i asku sitær baþir aghu þer iammykit af arvi. 20. Inlaght fæ værþær bort stolet. ok bondæ fæ mæþ. gialdi iki firi. skal uitæ mæd tylptær eþe. at hans fæ var mæþ stolet.",
+          "tolkning": "Far den ene brodern på köpmansfärder medan den andre sitter hemma i askan (sköter hemgården), äga de båda lika mycket av arvet. Punkt 20. Varder deponerat gods bortstulet och bondens eget gods likaså, gälde han intet därför; han skall styrka med tolftared att hans eget gods blev stulet samtidigt.",
+          "kommentar": "Arvsrättslig likställdhet mellan bröder oberoende av yrkesbana, samt ansvarsfrihet vid stöld av deponerat gods verifierad med tolftared.",
+          "segmentId": "avg-b07-punkt19-seg001",
+          "kallreferens": "AVG-MASKIN s. 11, Ærfþa balkær Punkt 19–20"
+        },
+        {
+          "fsv": "Havir faþir hemfylghz gört svni sinum falþer faþir fra. þa skal aptær til skiptis bæra viþ þæn sum vgiptær ær. hanum skal slikan samu lot af gæræ sum þæn hafþi þem til bos sum giptær ær. sva skulu dötær sum synir skiptæ æn þer æru arvær hauir af iorþv salt þan ær giptær ær. þæt skal i hans lot standæ þa ær skiptæ. §.1. Dör sun giptær af garþi. a eig barn ok aru þer skild at faþir ok moþer at bo sinu þa skal faþir. arf takæ. ok eig modér. Faþir skal iord latæ hem fylghia moþir ma iki iorþ giua fran rættum skæptarva. §.2. Dör sun. a barn æptir sik. ær hanum hem giuit a boli iorþ. þæt æghu barn vitu til ok eig til flerræ. ær eghi num et bol. þa far eigh vitu til þæs. Æru tvar. stuwur ok toptergarþær i malli. þa æru þæt tu bol. kallær til enkæ akærss. æller enka éng. þar a iki. uitu til num þæn uili ær han kallær þem giuæ. §.3. Skuldum skal skiptæ svm bo. Æ. þingi skal viþ halss örum takæ ok sva fram sækæ.",
+          "tolkning": "Har en fader givit hemföljd åt sin son och faller fadern ifrån, då skall det bäras tillbaka till skifte gentemot den son som är ogift; åt denne skall göras en lika stor lott till boet som den gifte fick. Så skola döttrar skifta liksom söner om de äro arvingar. Har den som är gift sålt av jorden, skall det avräknas på hans lott när man skiftar. § 1. Dör en gift son borta från gården och har icke barn och äro fadern och modern skilda till sitt bo, då skall fadern taga arv och icke modern; fadern skall låta jord åtfölja hemföljden, men modern må icke giva jord bort från rätta skaftarvingen. § 2. Dör en son och efterlämnar barn, och har jord givits honom hemma på gården, äga barnen rätt därtill och icke till mera; finns endast en gård, få de icke rätt därtill; finnas två stugor och tomtgärdsgård däremellan, äro det två gårdar; gör han anspråk på en enskild åker eller enskild äng, äger han icke rätt därtill med mindre än att givaren vill det. § 3. Skulder skola skiftas såsom boet. På tinget skall man taga emot halsören och föra saken vidare.",
+          "kommentar": "Kollationsplikt för hemföljd och förskott på arv, jorddelning på bol samt skaftarvingars företrädesrätt.",
+          "segmentId": "avg-b07-punkt21-seg001",
+          "kallreferens": "AVG-MASKIN s. 11, Ærfþa balkær Punkt 21"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Ærfþa balkær Punkt 22–25 (Inlösen, ättledning, landbo och frigiven)",
+      "balkId": "B07",
+      "pdfSidor": [11],
+      "kallpunkt": "22-25",
+      "meningar": [
+        {
+          "fsv": "Vill maþær man or annörghom stad lösæ. han skal siunætting firi. þan göræ ær han havir. handamælli. byuþæ þem tva öræ gullz. ællær tvar mærkær vægnær vittni til latæ bæræ a sivnættingi. at han ær. hanum sua skiuldær at an a at lösæ han mæd laghmæli ok uitæ mæþ tylptær eþi. Siþæn far eigh vart num han kalli barn sit væræ. Haldær han æptir sægnær þing. þa hætti viþ sinum. IX. markum.",
+          "tolkning": "Vill man lösa en man ur annans gäldbundna våld, skall han utlysa sjunätting inför den som har honom i händerna, och bjuda honom två örar guld eller två marker vägda penningar; låte bära vittnesbörd på sjunättingen att han är honom så nära skyld att han äger lösa honom efter lag, och styrke det med tolftared. Sedan kan den andre icke hindra det såvida han icke påstår att det är hans eget barn; behåller han honom efter sägnartinget, sätter han nio marker på spel.",
+          "kommentar": "Inlösen av skuldsatt man eller fånge ur annans hand (or annörghom stad lösæ) med guld eller vägt silver.",
+          "segmentId": "avg-b07-punkt22-seg001",
+          "kallreferens": "AVG-MASKIN s. 11, Ærfþa balkær Punkt 22"
+        },
+        {
+          "fsv": "Æt leþer maþær aþal kono barn allær viþgangit a þingi. þa takær. þæt arf hans ok eigh hin han ætleddhe. Er sun til ællær dottir. faþir ællær moþer. boþer ællær systir. þa far ækki þæn af arvi ær ætledde. Er ingin þerræ til þa skall þæn takæ ær ætledde.",
+          "tolkning": "Ättleder man ett barn av en fri kvinna eller ett vidgånget barn på tinget, då tager barnet hans arv och icke den som ättledde det. Finnes son eller dotter, fader eller moder, broder eller syster, då får den som ättleddes intet av arvet; finnes ingen av dem, då skall den taga arv som ättleddes.",
+          "kommentar": "Ättledning vid tinget av vidgånget frillobarn: subsidiär arvsrätt efter arvlåtarens bröstarvingar, föräldrar och helsyskon.",
+          "segmentId": "avg-b07-punkt23-seg001",
+          "kallreferens": "AVG-MASKIN s. 11, Ærfþa balkær Punkt 23"
+        },
+        {
+          "fsv": "Dör landboe firi fardaghæ. þa æru tver löter loll af bolæ hans. Dör kona hans. þa ær þriþiunger lös af bolæ hans. Er rughi sait a bole. þa skal þæn ær bol a gialda arwumn. iammarghar skæppur sum a ær sait. §.1. Dör lanærdroten þa skal lanboe kuar sitia til fæstæ hans ær int ællær arvæ lukæ hanum til gef. sinæ. 25. Dör frælsgiui kalla þer ær han æghu til tuæggiæ lotæ giptan væræ. þa skulu þer gialdæ kono hans mark. at hindradagx gief. æn þer þoræ vitæ han tvæggiæ lotæ giptan.",
+          "tolkning": "Dör en landbo före fardag, äro två lotter lösta från hans gård; dör hans hustru, är en tredjedel löst från hans gård; är råg sådd på gården, skall den som äger gården gälda arvingarna lika många skäppor som såtts. § 1. Dör jordägaren (landdrotten), skall landbon sitta kvar till dess hans arrendeavtal har löpt ut eller arvingarna lösa honom för hans givna fästepenning. Punkt 25. Dör en frigiven man och påstå de som ägde honom att han var frigiven endast till två tredjedelar, då skola de gälda hans hustru en mark i morgongåva om de våga svära på att han var frigiven till två lotter.",
+          "kommentar": "Landbos arvs- och avtalsrätt vid dödsfall före fardag, ersättning för sådd säd, besittningsskydd mot arvingar samt arvsrätt för frigiven man och hans hustru.",
+          "segmentId": "avg-b07-punkt24-seg001",
+          "kallreferens": "AVG-MASKIN s. 11, Ærfþa balkær Punkt 24–25"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

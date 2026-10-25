@@ -17,8 +17,20 @@ const TEXT: Record<string, string> = {
 };
 
 /** Fast list längst ned till höger. Syns bara för inloggad administratör. */
-export default function AdminBar({ anvandarnamn }: { anvandarnamn: string | null }) {
-  const { arAdmin, redigerar, setRedigerar, status, felmeddelande } = useAdmin();
+export default function AdminBar({
+  anvandarnamn: propsAnvandarnamn,
+}: {
+  anvandarnamn?: string | null;
+} = {}) {
+  const {
+    arAdmin,
+    anvandarnamn: kontextAnvandarnamn,
+    redigerar,
+    setRedigerar,
+    status,
+    felmeddelande,
+  } = useAdmin();
+  const anvandarnamn = propsAnvandarnamn ?? kontextAnvandarnamn;
   const [formatOppen, setFormatOppen] = useState(false);
 
   if (!arAdmin) return null;

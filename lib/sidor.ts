@@ -6,7 +6,7 @@
  */
 import { cache } from "react";
 import { HAR_SUPABASE } from "@/lib/supabase/config";
-import { skapaServerKlient } from "@/lib/supabase/server";
+import { skapaPublikServerKlient } from "@/lib/supabase/server";
 import { medStandard, type Startinnehall } from "@/lib/sidtyper";
 
 const ANVAND_SUPABASE_SIDOR =
@@ -16,7 +16,7 @@ export const hamtaStartinnehall = cache(async (): Promise<Startinnehall> => {
   if (!ANVAND_SUPABASE_SIDOR) return medStandard(null);
 
   try {
-    const supabase = skapaServerKlient();
+    const supabase = skapaPublikServerKlient();
     const { data, error } = await supabase
       .from("sidor")
       .select("content")

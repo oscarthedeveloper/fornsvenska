@@ -1,0 +1,50 @@
+{
+  "titel": "Conongs bolkær",
+  "underrubrik": "Äldre Västgötalagen, landamäret mot Danmark och Danaholmen (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Statsrätt och gränstraktat"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Femtonde balken (Conongs bolkær) i Äldre Västgötalagen innehåller det berömda landamäret mellan Sverige och Danmark — en av Nordens äldsta bevarade gränstraktater. Texten skildrar hur kung Emund Slemme i Uppsala och Sven Tveskägg i Danmark lät tolv nämndemän från de svenska och danska landskapen sätta sex gränsstenar från Södra åsen till Brömsebro mellan Blekinge och Möre, samt reglerar Danaholmens delning mellan Sveariket, Danmark och Norge där danakonungen höll den svenske kungens betsel och den norske kungen hans stigbygel.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Conongs bolkær (Gränsdragningen mellan Sverige och Danmark samt Danaholmen)",
+      "balkId": "B15",
+      "pdfSidor": [24],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "[Þ]ættæ ær conongs bolkær. Emundær slemæ var conongær i vpsalum ok sven tiuguskiæg i dan mark. þer sattu ristir mællir sverikis ok danmark. þa næmdus af sweriki. cakaldi af tindæ landi. Botn af fiærðrundæ landi. Gasi af væstmannæ landi. Grimaldi af östrægötlandi. Nænnir af smalandum. Thorsten af væstrægiötlandi. Tolle af iutlandi. Toti ok toki af iutlandi. Gymkil af sialandi. Dan af skani. Grimtun af hallandi. þer tolf sættu sæx stenæ mællir rikiænnæ. Fyrsti sten a suntrv asi. Annær i danæbæc. [Þ]ridþi kinnæ sten. Fiarði i uracsnæsi. Fæmti hvitæ sten. Sætti brimsæ sten. mællir blecongs. ok möre. Danæ holmbær ær skiptær i þre löte. A en lot vpsalæ conongær. Annæn a dana conongær. [Þ]ridþiæ lot a noregs conongær. da ær stæmnæ þerræ vær. þa hælt danæ conongær i beszle vpsalæ conongsz. Æn noræn conongær i istæd hans.",
+          "tolkning": "Detta är Konungsbalken. Emund Slemme var konung i Uppsala och Sven Tveskägg i Danmark; de satte gränsmärken mellan Sverige och Danmark. Då nämndes från Sverige: Kakaldi från Tiundaland, Botn från Fjärdhundraland, Gase från Västmanland, Grimalde från Östergötland, Nänner från Småland, Torsten från Västergötland. Tolle från Jylland, Tote och Toke från Jylland, Gymkil från Själland, Dan från Skåne, Grimtun från Halland. Dessa tolv satte sex stenar mellan rikena: Första stenen på Södra åsen; den andra i Danabäck; den tredje Kinnasten; den fjärde i Vraknes; den femte Vita sten; den sjätte Brimsesten, mellan Blekinge och Möre. Danaholmen är skiftad i tre lotter: En lott äger Uppsala konung; en annan äger danakonungen; den tredje lotten äger Norges konung. Då det var deras stämma, då höll danakonungen i Uppsala konungs betsel, och den norske konungen i hans stigbygel.",
+          "kommentar": "Landamäret mellan Sverige och Danmark (Danaholmsöverenskommelsen). Texten åberopar kungarna Emund Slemme och Sven Tveskägg samt tolv gränsgörare (sex svenska från folklanden och Götalandskapen och sex danska). De sex gränsstenarna sträcker sig från väster till öster: Suntrv as (Södra åsen i Halland/Småland), Danæbæc, Kinnæ sten, Uracsnæs, Hvitæ sten samt Brimsæ sten (Brömsebro mellan det danska Blekinge och det svenska Möre). Vid Danaholmen i Göta älvs mynning möttes de tre rikena. Textkritisk notis: Rubriken och två meningar har frågetecken i källan: '?ættæ ær conongs bolkær' (s. 24 rad 22), '?ridþi kinnæ sten' (s. 24 rad 28) och '?ridþiæ lot' (s. 24 rad 30); samtliga diplomatariskt återgivna som [Þ].",
+          "segmentId": "avg-b15-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 24, Conongs bolkær",
+          "avvikelser": [
+            "Källtexten har '?ættæ', '?ridþi' och '?ridþiæ' på s. 24 rad 22, 28 och 30; samtliga frågetecken diplomatariskt återgivna som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

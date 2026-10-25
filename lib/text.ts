@@ -14,6 +14,12 @@ export interface Mening {
   tolkning: string;
   /** Valfri grammatisk anmärkning under tolkningen. */
   kommentar?: string;
+  /** Unikt segment-ID för källspårbarhet (t.ex. "avg-b01-punkt01-seg001"). */
+  segmentId?: string;
+  /** Detaljerad källreferens (t.ex. "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"). */
+  kallreferens?: string;
+  /** Flaggade avvikelser eller textkritiska anmärkningar för segmentet. */
+  avvikelser?: string[];
 }
 
 export interface Sektion {
@@ -21,6 +27,12 @@ export interface Sektion {
   /** Hänvisning till handskrift, blad eller utgåva. */
   hanvisning?: string;
   meningar: Mening[];
+  /** Balk- eller avsnitts-identifikator (t.ex. "B01"). */
+  balkId?: string;
+  /** Sidor i primärkällan (1-baserade, t.ex. [1] eller [1, 2]). */
+  pdfSidor?: number[];
+  /** Primärkällans punktnummer (t.ex. "1", "2", "§.1."). */
+  kallpunkt?: string;
 }
 
 export interface Textdokument {
@@ -32,4 +44,6 @@ export interface Textdokument {
   fotnoter: Fotnot[];
   /** Markerar innehåll som ännu inte är genomarbetat. */
   utkast?: boolean;
+  /** Källidentifikator för utgåvan (t.ex. "AVG-MASKIN"). */
+  kallaId?: string;
 }

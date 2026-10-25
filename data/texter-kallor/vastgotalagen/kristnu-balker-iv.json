@@ -1,0 +1,157 @@
+{
+  "titel": "Kristnu balkær, del IV",
+  "underrubrik": "Äldre Västgötalagen, tiondedelning, sockenbygge och kyrkofrid (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Fjärde och avslutande delen av kristendomsbalken i Äldre Västgötalagen reglerar förbud mot prästerligt intrång i annans socken, åkertiondens tredelning mellan biskop, kyrka och fattiga, boskapstionde och långfredagsoffer, delning av lägerstadsavgifter vid begravning på annan ort, odalmarkernas församlingstillhörighet, vådablod på kyrkogården samt biskopens ensamrätt till bannlysning.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 16–17 (Sockengränser och tiondedelning)",
+      "balkId": "B01",
+      "pdfSidor": [3],
+      "kallpunkt": "16-17",
+      "meningar": [
+        {
+          "fsv": "Ganger prester .i. sokn annars prests ber .i. bok ok stol ok læs iuir folké. þa ær han sakar. at marchum. þrim. gialdi tolf öræ . biscupi. ok tolf öræ presti",
+          "tolkning": "Går en präst in i en annan prästs socken, bär dit bok och stola och läser över folket, då är han saker till tre marker: gälde tolv örar till biskopen och tolv örar till prästen.",
+          "kommentar": "ber .i. bok ok stol: stola och mässbok som ämbetstecken. Förbudet skyddar sockenprästens territoriella och ekonomiska ensamrätt. Böterna om tre marker delas lika mellan biskopen och den förfördelade sockenprästen.",
+          "segmentId": "avg-b01-punkt16-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 16"
+        },
+        {
+          "fsv": "A acri scal tyundæ scipta. tacher prester. sva sum kiurkiæ ær til vigþ. siþan scal sciptæ .i. þrer lötæ. En a biscopær. Annan a kiurkia. [Þ]ridia væslirmæn",
+          "tolkning": "På åkern skall man skifta tionden; prästen tager sin del så som kyrkan är invigd till. Sedan skall den skiftas i tre lotter: en äger biskopen, en annan kyrkan, den tredje de fattiga (väslingsmän).",
+          "kommentar": "A acri scal tyundæ scipta: tionden skiftas direkt på tegen vid skörden. [Þ]ridia: källans frågetecken '?' representerar Thorn. væslirmæn: nödställda/fattiga (medeltida fattigvård genom tiondeandel).",
+          "segmentId": "avg-b01-punkt17-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 17",
+          "avvikelser": ["Källans frågetecken '?' transkriberat till [Þ] med textkritisk notering."]
+        },
+        {
+          "fsv": "§.1. prester a kuikkæn tyundæ allan. ok offær þet til cruszu fotæ kombær .a. langafreadaghi",
+          "tolkning": "§ 1. Prästen äger all den levande tionden (boskapstionden), och det offer som kommer till korsfoten på långfredagen.",
+          "kommentar": "kuikkæn tyundæ: den levande tionden (av kyk/kvick, dvs. småboskap och kalvar). cruszu fotæ: vid foten av kyrkans krucifix under långfredagens korstillbedjan.",
+          "segmentId": "avg-b01-punkt17-seg002",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 17 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 18–19 (Begravning på annan ort och prästgåva)",
+      "balkId": "B01",
+      "pdfSidor": [3],
+      "kallpunkt": "18-19",
+      "meningar": [
+        {
+          "fsv": "Bonde. dör .i. sokn. ok uill. annærstagd læghærstað hauæ. þa skal prester lik hans uighia ok til gardsliz fylghia eighi længræ num han uili. þa skal han halvæn læghærstad hauæ. ok haluæn þén prester uid liki takær",
+          "tolkning": "Dör en bonde i socknen och vill hava lägerstad annorstädes, då skall prästen viga hans lik och följa det till gårdslidet, icke längre såvida han icke själv vill; då skall han hava halva lägerstadsavgiften, och halva den präst som mottager liket.",
+          "kommentar": "gardsliz: gårdslidet (grind/färist vid bygränsen). Sockenprästen har ingen skyldighet att följa liktåget längre än till sockengränsen. Lägerstadsavgiften klyvs jämnt mellan församlingarna.",
+          "segmentId": "avg-b01-punkt18-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 18"
+        },
+        {
+          "fsv": "Æn presti vill. gipt gyuæ. þet ær tvar skæppur. ællær örtugh pænningæ",
+          "tolkning": "Om man vill giva prästen gåva (vid vigsel), då är det två skäppor säd eller en örtug penningar.",
+          "kommentar": "gipt gyuæ: sedvanerättsligt arvode eller frivillig gåva till prästen vid lysning/vigsel.",
+          "segmentId": "avg-b01-punkt19-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 19"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 20 (Gårdshemvist, utmarker och kyrkotillhörighet)",
+      "balkId": "B01",
+      "pdfSidor": [3],
+      "kallpunkt": "20",
+      "meningar": [
+        {
+          "fsv": "A maþer bol .i. by. aþrum ok far. afsædhum. þa skal han tyundæ lucæ presti ok kiurkiu sum bol ligger. ok kirkiugarþi. varþæ",
+          "tolkning": "Äger en man gård i en by och brukar utmarker i en annan, då skall han gälda tionde till den präst och kyrka där gården ligger, och svara för kyrkogårdsmuren där.",
+          "kommentar": "afsædhum: avsädesjord/utmarker. Gårdens stamfastighet (bol) styr kyrkotillhörighet och underhållsbörda.",
+          "segmentId": "avg-b01-punkt20-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 20"
+        },
+        {
+          "fsv": "§.1. Sar man enka aker til byiar. þa skal. præstins tiundæ lætæ aftær standæ. allæn. ællar bort. flytia",
+          "tolkning": "§ 1. Sår man en enstaka åker som hör till en by, då skall man låta prästens tionde stå kvar i sin helhet eller föra den bort till kyrkan.",
+          "kommentar": "enka aker: enstaka/avskild åkervret. Tiondesäden måste antingen reserveras på åkern eller levereras till prästgården.",
+          "segmentId": "avg-b01-punkt20-seg002",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 20 §1"
+        },
+        {
+          "fsv": "§.2. Bor bondi a odmarkær. söki. þingæt kirkiu ær hanum. þykkir næst varæ. æn han vill. sva. §.3. Eighi ma landboæ nöghæ at söchia or kirkiu by til annarrær kirkiu",
+          "tolkning": "§ 2. Bor en bonde på ödemark, söke han kyrka dit det synes honom vara närmast, om han så vill. § 3. Landbo må icke tvingas att söka från sin kyrkby till en annan kyrka.",
+          "kommentar": "odmarkær: utmark/ödemark. Nybyggare ges rätt att välja närmaste kyrka. landboæ nöghæ: nöga/tvinga landbo mot hans vilja.",
+          "segmentId": "avg-b01-punkt20-seg003",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 20 §2-3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 21–22 (Vådablod och bannlysning)",
+      "balkId": "B01",
+      "pdfSidor": [3],
+      "kallpunkt": "21-22",
+      "meningar": [
+        {
+          "fsv": "Æn vaþa bloð comber .i. kirkiugard. þa skal torvu skæræ mæð bloþi oc kastæ ur kirkiugærði. ok kirkiugærþér ær ækki. vskir. þy hældær",
+          "tolkning": "Men om vådablod kommer på kyrkogården, då skall man skära upp torvan med blodet och kasta ut ur kyrkogården; och kyrkogården är icke ohelgad därför.",
+          "kommentar": "vaþa bloð: oavsiktlig blodsutgjutelse (olycksfall till skillnad från våldsbrott). ækki vskir: icke oskär/ohelgad (kräver icke ny biskopsvigning).",
+          "segmentId": "avg-b01-punkt21-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 21"
+        },
+        {
+          "fsv": "Præstær ma ængin man fra kiurkiu vrakæ. num þen biscopær havir forboþét. vrækæ. böndær fridlösæn man. æn þer uilia. Orsaker ær prester vm þat",
+          "tolkning": "Prästen må icke vräka någon man från kyrkan utom den som biskopen har förbjudit (bannlyst). Bönderna må vräka en fredlös man, om de så vilja; prästen är saklös om det sker.",
+          "kommentar": "fra kiurkiu vrakæ: utvisa ur kyrkan. forboþét: formell kyrklig bannlysning som endast biskopen ägde utfärda. Världsligt fredlösa män må fördrivas av församlingens bönder.",
+          "segmentId": "avg-b01-punkt22-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Kirkiu Bolkær Punkt 22"
+        }
+      ]
+    }
+  ],
+  "fotnoter": [
+    {
+      "id": 1,
+      "kallaId": "AVG-MASKIN",
+      "lokalisering": "s. 3, Kirkiu Bolkær Punkt 16–22",
+      "stod": "primarbelagg"
+    },
+    {
+      "id": 2,
+      "kallaId": "PET-SJUHUNDRA",
+      "lokalisering": "s. 62–65",
+      "stod": "regel"
+    },
+    {
+      "id": 3,
+      "kallaId": "LIN2024",
+      "lokalisering": "s. 20–24",
+      "stod": "analys"
+    }
+  ]
+}

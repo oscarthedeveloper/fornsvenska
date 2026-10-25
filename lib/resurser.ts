@@ -9,7 +9,7 @@ import { medKallor } from "@/lib/kallbibliotek";
 import { cache } from "react";
 import { FASTA_SKRIFTER } from "@/data/resurser";
 import { HAR_SUPABASE } from "@/lib/supabase/config";
-import { skapaServerKlient } from "@/lib/supabase/server";
+import { skapaPublikServerKlient } from "@/lib/supabase/server";
 import type { Bibliotek, Hylla, Resurs, Resurstyp, Skriftversion } from "@/lib/resurstyper";
 
 interface HyllRad {
@@ -73,14 +73,18 @@ export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
   }
 
   try {
-    const supabase = skapaServerKlient();
+    const supabase = skapaPublikServerKlient();
 
     const [hyllsvar, resurssvar] = await Promise.all([
       supabase
         .from("hyllor")
         .select("id, titel, note, position")
         .order("position", { ascending: true }),
-      supabase.from("resurser").select(KOLUMNER).order("position", { ascending: true }),
+      supabase
+        .from("resurser")
+        .select(KOLUMNER)
+        .eq("utkast", false)
+        .order("position", { ascending: true }),
     ]);
 
     if (hyllsvar.error) throw hyllsvar.error;

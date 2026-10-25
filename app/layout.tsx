@@ -4,7 +4,6 @@ import "./globals.css";
 import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
-import { hamtaSession } from "@/lib/session";
 
 /* Endast två familjer: hög-kontrast antikva till rubriker och siffror,
    monospace till allt annat. Ingen grotesk. */
@@ -26,18 +25,32 @@ const mono = Martian_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fornsvenska Studielabbet",
+  metadataBase: new URL("https://www.fornsvenska.se"),
+  title: {
+    default: "Fornsvenska – texter, ordbok och grammatik | Fornsvenska.se",
+    template: "%s | Fornsvenska.se",
+  },
   description:
-    "Språkhistorisk studieplattform för fornsvenska. Paradigm, ljudlagar och parallelltexter i samma vy.",
+    "Språkhistorisk studieplattform för fornsvenska. Källkritiska textutgåvor, Söderwalls ordbok och systematisk grammatik med historiska språkprov.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Fornsvenska – texter, ordbok och grammatik | Fornsvenska.se",
+    description:
+      "Språkhistorisk studieplattform för fornsvenska. Källkritiska textutgåvor, Söderwalls ordbok och systematisk grammatik med historiska språkprov.",
+    url: "https://www.fornsvenska.se",
+    siteName: "Fornsvenska.se",
+    locale: "sv_SE",
+    type: "website",
+  },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const { arAdmin, anvandarnamn } = await hamtaSession();
-
   return (
     <html lang="sv" className={`${display.variable} ${mono.variable}`}>
       <head>
@@ -55,9 +68,9 @@ export default async function RootLayout({
         />
       </head>
       <body>
-        <AdminProvider arAdmin={arAdmin}>
+        <AdminProvider>
           {children}
-          <AdminBar anvandarnamn={anvandarnamn} />
+          <AdminBar />
         </AdminProvider>
       </body>
     </html>

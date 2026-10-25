@@ -30,12 +30,21 @@ Källor/*.xml
 # Skräp
 .DS_Store
 Thumbs.db
+__pycache__/
+*.pyc
 
 
-# Källmaterial ska endast finnas lokalt, inte i GitHub
+# Lokalt runmaterial: originalfiler, källsidans ögonblicksbild och extraherad OCR
+/underlag/runor/
+output/
+
+# Upphovsskyddat källmaterial: endast lokalt, alla filtyper och undermappar
 /Källor/
 /Källor/
-/public/bocker/
-/underlag/
-/output/
+
+# Lokala extraktioner, förhandsbilder och överlämningspaket
 /tmp/
+
+/public/bocker/
+
+/underlag/

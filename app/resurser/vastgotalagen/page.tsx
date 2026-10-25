@@ -3,9 +3,12 @@ import SiteFrame from "@/components/SiteFrame";
 import Boklasare from "@/components/resurser/Boklasare";
 
 export const metadata: Metadata = {
-  title: "Äldre Västgötalagen — bokvy | Fornsvenska.se",
+  title: "Äldre Västgötalagen — bokvy",
   description:
     "Läs hela Äldre Västgötalagen i maskintext, uppslag för uppslag, efter Cod. Holm. B 59.",
+  alternates: {
+    canonical: "/resurser/vastgotalagen",
+  },
 };
 
 export default function VastgotalagenPage() {

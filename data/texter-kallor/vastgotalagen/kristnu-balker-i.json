@@ -1,0 +1,186 @@
+{
+  "titel": "Kristnu balkær, del I",
+  "underrubrik": "Äldre Västgötalagen, inledningen och dopet (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Balkens inledning fastslår den kristna trons och kyrkans primat i det västgötska lagsamhället. Texten är skriven på arkaisk äldre fornsvenska med fullt bevarat fyrkasussystem och strikt kongruens. Efter den högtidliga inledningen följer noggranna föreskrifter om hur ett nyfött barn skall föras till kyrkan och döpas, hur nöddop skall förrättas om barnet insjuknar på vägen, biskopens visitation och gengärd samt försoningsbot vid våldshandlingar i helgade rum.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 1 (Inledning och dopförberedelse)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "Her byriarz laghbok væsgöta. Krister ær fyrst i laghum warum",
+          "tolkning": "Här börjar västgötarnas lagbok. Kristus är främst i våra lagar.",
+          "kommentar": "Her byriarz: reflexiv/mediopassiv presensform. Væsgöta: genitiv pluralis av folknamnet västgötar. laghum warum: dativ pluralis efter prepositionen i med lokativ funktion. Kongruerande possessivt pronomen warum. Subjektet Krister uppvisar fornsvensk nominativändelse -er.",
+          "segmentId": "avg-b01-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "þa ær cristna var oc allir cristnir konongær",
+          "tolkning": "Därnäst vår kristenhet och alla kristna konungar.",
+          "kommentar": "cristna var: feminin nominativ singularis med efterställt possessivt pronomen. allir cristnir konongær: nominativ pluralis av starkt maskulint substantiv konongær (a-stam) med full kongruens i allir och starkt böjda cristnir.",
+          "segmentId": "avg-b01-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "böndær oc allir bocarlær biscupær oc allir boclærðir mæn",
+          "tolkning": "Bönder och alla bofasta män, biskopar och alla boklärda män.",
+          "kommentar": "Nominativ pluralis: böndær (rotstam), bocarlær och biscupær (a-stammar på -ær), samt boclærðir mæn där participadjektivet kongruerar med oregelbundna rotstamssubstantivet mæn.",
+          "segmentId": "avg-b01-punkt01-seg003",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "Varþær barn til kirkiu boret oc beþiz cristnu. þa scal faþir ok moðer fa guðfæþur oc guðmoþor oc salt oc uatn",
+          "tolkning": "Varder barn buret till kyrka och bedes kristning, då skall fader och moder skaffa gudfader och gudmoder och salt och vatten.",
+          "kommentar": "Konditionalt framställd huvudsats med inversion (varþær barn). Prepositionen til styr genitivformen kirkiu (svag ōn-stam). Passiv med varþær och perfekt particip boret (nom. sg. neutr.). Deponensen beþiz styr genitivobjektet cristnu. guðfæþur och guðmoþor: ackusativ singularis av fadderbeteckningarna; salt oc uatn: ackusativ singularis neutrum.",
+          "segmentId": "avg-b01-punkt01-seg004",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "þæt scal bæræ til kirkiu þa scal a prést kallæ han skal a kirkiu bole boæ. barn scal brymsignæ firi utan kirkiu dyr",
+          "tolkning": "Det skall bäras till kyrkan, då skall man kalla på präst; han skall bo på kyrkobolet. Barnet skall primsignas utanför kyrkodörren.",
+          "kommentar": "bæræ: aktiv infinitiv med passivisk betydelse efter scal. a prést: ackusativ efter prepositionen a. a kirkiu bole: dativ singularis efter befintlighets-a. brymsignæ: kristet lånord (fornengelska primsignian). firi utan styr ackusativformen kirkiu dyr (ack. pl. neutr.).",
+          "segmentId": "avg-b01-punkt01-seg005",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 1 (Dopritual, nöddop och lakun)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "Siþen scal font wigyæ. prester barn döpæ. oc gudfaþir a haldæ. gudmoþer til namns sygiæ",
+          "tolkning": "Sedan skall dopfunten vigas, prästen döpa barnet och gudfadern hålla i, och gudmodern säga namnet.",
+          "kommentar": "Parallella infinitivsatser underställda hjälpverbet scal. til namns: genitiv efter prepositionen til.",
+          "segmentId": "avg-b01-punkt01-seg006",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "prester scal byuþe husu lengi faþir oc moþer sculu vardvetæ",
+          "tolkning": "Prästen skall påbjuda hur länge fader och moder skola vårda det.",
+          "kommentar": "vardvetæ: sammansättning med urgermanskt varð ('vakt') och vita ('veta/iaktta'). sculu: presens pluralis, kongruerar med sammansatt subjekt.",
+          "segmentId": "avg-b01-punkt01-seg007",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "Hændir þæt sot a vegh oc ma igh til kyrkiu coma. þa scal gudfaþir döpæ oc gudmoþer a haldæ. i vatn",
+          "tolkning": "Händer det att sjukdom kommer på vägen och det icke kan komma till kyrkan, då skall gudfadern döpa och gudmodern hålla i vatten.",
+          "kommentar": "sot: feminin nominativ singularis ('sjukdom'). Negationsadverbet igh är en västgötsk sidovariant till eigh. Nöddopets giltighet fastslås.",
+          "segmentId": "avg-b01-punkt01-seg008",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1"
+        },
+        {
+          "fsv": "æn uatn ær til i namn faþurs oc suner oc andæs hælagha þa scal þét .j. kyrkiu gard gravæ {oc arf...}",
+          "tolkning": "om vatten finns till hands, i faderns och sonens och den helige andes namn; dör det sedan skall det begravas på kyrkogården [och arv...]",
+          "kommentar": "faþurs (stark genitiv på -s), suner (u-stamsgenitiv på -er), andæs hælagha (svag maskulin genitiv på -a med efterställt bestämt adjektiv). j kyrkiu gard: riktningsackusativ efter i. Slutorden {oc arf...} markerar handskriftens lakun vid bladförlusten i Holm B 59.",
+          "segmentId": "avg-b01-punkt01-seg009",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 1",
+          "avvikelser": ["Källans lakun {oc arf...} bevarad exakt enligt transkriptionsreglerna."]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 2 (Biskopens gengärd och gästning)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "{...ræ æn} gengyærd þerra brinder vp",
+          "tolkning": "[...om] deras gengärd brinner upp.",
+          "kommentar": "Inledande fragment {...ræ æn} härrör från källans lakun efter bladförlusten. gengyærd: den gästning och förplägnad som bönderna var skyldiga att tillhandahålla biskopen under hans visitation. brinder vp: intransitiv presens av brinna ('förstörs genom eld').",
+          "segmentId": "avg-b01-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 2",
+          "avvikelser": ["Inledande fragment {...ræ æn} bevarat med klamrar utan gissad rekonstruktion."]
+        },
+        {
+          "fsv": "Byscupi scal gengyærd geræ twar næter oc til quels hins þridia. med tolf mannum. sialuer han hin þrættandi. oc han drikki myod oc allir klerkar hans",
+          "tolkning": "Åt biskopen skall gengärd göras för två nätter och till kvällen den tredje, med tolv män, han själv den trettonde; och han skall dricka mjöd och alla hans klerker.",
+          "kommentar": "Byscupi: dativ singularis (mottagare av förplägnaden). sialuer han hin þrættandi: fornsvenskt räknesätt där den förnämste räknas sist i följet (följe om 12 + ledare). drikki: presens konjunktiv med preskriptiv innebörd ('må dricka/skall erhålla mjöd').",
+          "segmentId": "avg-b01-punkt02-seg002",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Kirkiu Bolkær Punkt 3 & 4 (Nidingsverk i kyrka och landbornas tionde)",
+      "balkId": "B01",
+      "pdfSidor": [1],
+      "kallpunkt": "3-4",
+      "meningar": [
+        {
+          "fsv": "Uerder maþer .i. kyrkiu dræpin þet ær niþings værk. þa er kyrkia al vuighz",
+          "tolkning": "Varder en man dräpt i en kyrka, det är ett nidingsverk; då är kyrkan helt och hållet avvigad.",
+          "kommentar": "al vuighz: predikativ konstruktion med al ('helt') och genitivformen vuighz av participet ovigd (avhelgad, orenad genom blodsutgjutelse). niþings værk: förbrytelse som medförde fullständig fredlöshet och ära-förlust.",
+          "segmentId": "avg-b01-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 3"
+        },
+        {
+          "fsv": "Er þet firi tiu vitrum þa scal gyuæ byscupe þrer marker firir vilx oc natter gengerd. En a tiu vittrum. er. at þer hovodtiundaþo. oc uilia kyrkiu vighiæ letæ þa sculu þer. houodtiundæ",
+          "tolkning": "Är det före tio vintrar (sedan förra reningen), då skall man giva biskopen tre marker för vigning och en natts gengärd. Men om det sker efter tio vintrar sedan de erlade huvudtionde och de vilja låta viga kyrkan, då skola de erlägga huvudtionde.",
+          "kommentar": "firi tiu vitrum: tidsbestämning i dativ pluralis (vintrar = år). marker / marcher: fornsvenska mynt- och viktenheter. houodtiundæ: extraordinär tionde till kyrkans återinvigning.",
+          "segmentId": "avg-b01-punkt03-seg002",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 3"
+        },
+        {
+          "fsv": "Landbor sculu eigh. houodtiundæ gæræ mer en enu sinni. vten þer uili eller at þer falli .i. houod syndir",
+          "tolkning": "Landbor skola icke erlägga huvudtionde mer än en enda gång, såvida de icke själva vilja eller de falla i huvudsynder.",
+          "kommentar": "Landbor: arrendatorer/arrendebönder (nominativ pluralis). vten þer uili: undantagskonstruktion. houod syndir: ackusativ pluralis femininer av svåra synder som krävde kyrklig botgöring.",
+          "segmentId": "avg-b01-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 1, Kirkiu Bolkær Punkt 4"
+        }
+      ]
+    }
+  ],
+  "fotnoter": [
+    {
+      "id": 1,
+      "kallaId": "AVG-MASKIN",
+      "lokalisering": "s. 1, Kirkiu Bolkær Punkt 1–4",
+      "stod": "primarbelagg"
+    },
+    {
+      "id": 2,
+      "kallaId": "PET-SJUHUNDRA",
+      "lokalisering": "s. 55–58",
+      "stod": "regel"
+    },
+    {
+      "id": 3,
+      "kallaId": "WES1970",
+      "lokalisering": "s. 14–17",
+      "stod": "analys"
+    }
+  ]
+}

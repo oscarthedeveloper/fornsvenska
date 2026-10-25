@@ -1,0 +1,263 @@
+{
+  "titel": "Þiuuæ bollkær, del I",
+  "underrubrik": "Äldre Västgötalagen, stöld, husrannsakning, lösöretak och tjuvs ed (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Straffrätt och processrätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Första delen av Tjuvbalken (Þiuuæ bollkær) i Äldre Västgötalagen behandlar ett av medeltidens allra allvarligaste brott och dess processuella hantering. Texten inleds med anklagelse för stöld av häst och klenoder, särskiljer straffansvaret när fader och son eller bryte och träl stjäl tillsammans, samt fastställer den berömda allittererande domsformeln till galge, torv och tjära för handfången tjuv. Vidare ges en utförlig reglering av stöldens tre parter (tjuv, medhjälpare och hälare), spårföljning till by och gård, det ceremoniella rannsakningsförfarandet i invisteshus med avklädda rannsakningsmän, husfruns nyckelmakt över låsta kistor, samt förfarandet med laga tak och kvargsäte vid påträffande av stöldgods.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 1 (Stöldanklagelse för häst och bötessatser)",
+      "balkId": "B12",
+      "pdfSidor": [18, 19],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "[Þ]ætta ær. þiuuæ bollkær. 1. Giuær maþær manni þiufs sak firir hæst ællær annæn grip ok fas aptær gripær spiltær allær. sprængdær. gialdæ aptær mæþ suornom eþe. æn falz at ok fullær þiufs bötær.",
+          "tolkning": "Detta är Tjuvbalken. 1. Giver en man en annan tjuvsak för en häst eller annan klenod, och fås klenoden åter fördärvad eller sprängriden, gälde han åter med svuren ed; men fälles han därtill, böte han ock fulla tjuvsböter.",
+          "kommentar": "þiufs sak: anklagelse om stöld. gripær: lösöre, kreatur eller dyrgrip (jfr fornisländska gripr). spiltær allær sprængdær: skadad eller sprängriden/överansträngd. gialdæ aptær mæþ suornom eþe: ersättningsskyldighet fastställd genom svuren värjemålsed. falz at: fälls för brottet (passiv presens av fælla). fullær þiufs bötær: fulla böter för stöld. Textkritisk notis: Rubriken på s. 18 inleds med '?ætta ær. þiuuæ bollkær' där frågetecknet återgivits som [Þ].",
+          "segmentId": "avg-b12-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 18–19, Þiuuæ bollkær Punkt 1",
+          "avvikelser": [
+            "Källrubriken på s. 18 har '?ætta ær. þiuuæ bollkær'; frågetecknet diplomatariskt återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 2 (Stöld i gemensamhet: fader och son, bryte och träl)",
+      "balkId": "B12",
+      "pdfSidor": [19],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "2. Stiælæ tuer faþghær værþæ taknir mæþ hænge faþir vppi. ok sun æn maghændi. maþær ær.",
+          "tolkning": "2. Stjäla två fädgar (fader och son tillsammans) och varda de gripna med tjuvgodset: hänge fadern däruppe, och sonen om han är en myndig man.",
+          "kommentar": "faþghær: fader och son (kollektiv substantivbildning). maghændi maþær: myndig och rådande person, i motsats till omyndig (ovormaghi). Fadern bär det primära ansvaret som husfader och hängs ovillkorligen; sonen hängs endast om han uppnått myndig ålder och full rättskapacitet.",
+          "segmentId": "avg-b12-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 2"
+        },
+        {
+          "fsv": "§.1 Gangær at stialæ bryti. ok þræl. bryti skal vppi hængiæ. ok eigh dræl.",
+          "tolkning": "§ 1. Gå en bryte (gårdsförvaltare) och en träl att stjäla: bryten skall hängas däruppe, och icke trälen.",
+          "kommentar": "bryti: fri förvaltare av annans gård med full rättskapacitet. dræl: träl (med ortografisk växling d/þ i handskriften). Trälen hängs icke därför att han saknar rättssubjektivitet och hans herre svarar för honom, medan den frie bryten drabbas av fullt dödsstraff.",
+          "segmentId": "avg-b12-punkt02-seg002",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 2 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 3 (Handfången tjuv, tingsdom, dödsstraff och vägfynd)",
+      "balkId": "B12",
+      "pdfSidor": [19],
+      "kallpunkt": "3",
+      "meningar": [
+        {
+          "fsv": "3. Taker maþær þiuf sin ok þiuft mæþ bindi þiuf a bak ok leþe til þings. mæþ tua vittnismæn þa ær vittnæ a þinge. han sannæn þiuf væræ. mæþ tolf mannum. af þingi gangæ. þæs at sværiæ at han ær fuldær þiuér. þy ær han varþær lif sit latæ. Siþæn skal han dömæ til hogs ok til hangæ. til draps ok til döþæ. til torfs ok til tiæru. vgildæn firi arvæ ok æftimælændæ sva firi kiurky. sum firi gonungæ.",
+          "tolkning": "3. Griper en man sin tjuv och tjuvgodset med honom, binde han tjuven på ryggen och lede till tinget med två vittnesmän, de som vittna på tinget att han är sann tjuv. Med tolv män gånge han av tinget för att svärja att han är full tjuv, varför han är värd att mista sitt liv. Sedan skall han dömas till hugg och till galge, till dråp och till död, till torv och till tjära, ogill för arvingar och målsägande, så inför kyrka som inför konung.",
+          "kommentar": "bindi þiuf a bak: binde händerna bakom ryggen (klassisk handfångningsprocedur). tolf mannum af þingi gangæ: tolvmannanämnd som avlägger fällande vittnesed. Arkaisk rimmande och allittererande domsformel: 'til hogs ok til hangæ, til draps ok til döþæ, til torfs ok til tiæru, vgildæn firi arvæ ok æftimælændæ'. Tjuven mister sitt liv och begravs under torv och tjära i ovigd jord utan mansbot åt arvingarna.",
+          "segmentId": "avg-b12-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 3"
+        },
+        {
+          "fsv": "§.1 Værþær þiuuær takin a vægh ok eigh af þem ær firi styld ær wrþin. þa skal han þiuf hem mæþ sær lædæ ok bud sændæ þem svm þiuvær þær ær. Havir han hans sannæn þiuf fingit. taki mark firi þiuf. ok tva öræ firi þiuft. En þæn sum stolen ær kallær þiuft eigh uæræ sinæ. ok eigh þiuf haui þæn sum i handum havir þiuf til þings. Dömiss þæþæn til konongsgarz bonde skils viþ þiuf saklös a þingi.",
+          "tolkning": "§ 1. Varder en tjuv tagen på allmän väg och icke av den som blivit bestulen, då skall han leda tjuven hem med sig och sända bud till den vars tjuven är. Har han funnit dennes sanne tjuv, tage han en mark för tjuven och två örtugar för tjuvgodset. Men om den som blivit bestulen påstår att tjuvgodset icke är hans och ej heller tjuven, föra den som har tjuven i sina händer denne till tinget. Dömes därifrån till konungsgården; bonden skiljs från tjuven saklös på tinget.",
+          "kommentar": "Reglering av gripande av tjuv på bar gärning av tredje man. Griparen erhåller en mark i griparelön och två örtugar för tillvarataget stöldgods. Om den bestulne förnekar att det är hans stöldgods, överlämnas tjuven till konungens fogde vid tinget.",
+          "segmentId": "avg-b12-punkt03-seg002",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 3 § 1"
+        },
+        {
+          "fsv": "§.2 Takær maþær þiuf annærs manss a væg ok eig. sin. latær lösæn at laglöso þa kallæ mæn þæn lottakæræ uæræ þiufnæþær.",
+          "tolkning": "§ 2. Griper en man en annans tjuv på vägen och icke sin egen och släpper honom lös mot lagen, då kalla män denne för lottagare (medbrottsling) i tjuvnaden.",
+          "kommentar": "lottakæræ uæræ þiufnæþær: medbrottsling / delaktig i stölden. Den som olagligen friger en gripen tjuv presumeras ha andel i tjuvgodset.",
+          "segmentId": "avg-b12-punkt03-seg003",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 3 § 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 4 (Tjuvars tre slag, tre vitulösor och tre värnseder)",
+      "balkId": "B12",
+      "pdfSidor": [19],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "4. Sva ær i lahum talt at þrir æru þiuuær. En ær. þæn ær stial ok takar. Annær raþær i hænþar þivfi. [Þ]riþi takar uiþr. þær æru allir ena lund sakir.",
+          "tolkning": "4. Så är i lagen sagt att tre äro tjuvar: En är den som stjäl och tager; en annan råder i händer på tjuven (förmedlar/hjälper); den tredje tager emot (hälare). De äro alla på samma sätt sakskyldiga.",
+          "kommentar": "Laglig tredelning av stöldbrottet: gärningsmannen (stial ok takar), medhjälparen/förmedlaren (raþær i hænþar þivfi) och mottagaren/hälaren (takar uiþr). Alla drabbas av likvärdigt straffansvar. Textkritisk notis: Källan har '?riþi' på s. 19 rad 14; återgivet som [Þ]riþi.",
+          "segmentId": "avg-b12-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 4",
+          "avvikelser": [
+            "Källtexten har '?riþi' på s. 19 rad 14; frågetecknet återgivet som [Þ]."
+          ]
+        },
+        {
+          "fsv": "§.1 [Þ]rear ærv þiufs vitulösor. En æn i handi takar. Annur æn or husi draghær. [Þ]riþiæ æn leþess til gaarsz ok grinþær. Gitær hvarghin sik orþiufæ giort.",
+          "tolkning": "§ 1. Tre äro tjuvs vitulösor (handlingar på bar gärning som beröva tjuven värjemålsrätt): En, om man griper i handen; en annan, om man drager ut ur huset; den tredje, om det ledes till gård och grind. Ingen av dem förmår göra sig fri från tjuvsak.",
+          "kommentar": "vitulösor: faktiska omständigheter som gör den misstänkte 'vitulös' (bevislös/utan rätt att avlägga värjemålsed, ty gärningen är manifest och handfången). Textkritisk notis: Källan har '?rear' på s. 19 rad 15 och '?riþiæ' på s. 19 rad 16; återgivna som [Þ]rear och [Þ]riþiæ.",
+          "segmentId": "avg-b12-punkt04-seg002",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 4 § 1",
+          "avvikelser": [
+            "Källtexten har '?rear' och '?riþiæ' på s. 19 rad 15–16; frågetecknen återgivna som [Þ]."
+          ]
+        },
+        {
+          "fsv": "§.2 [Þ]rer æru þiufs vitur. En at iak stal eigh fæ þit ok eigh þyftis iak .a. Annur at iak ræþ eig fæ þit i hanþær. þiuvi. [Þ]riþiæ at iak ær eigh viþertaku. þiuvær þin. Ok væri sik sum saghæt ær.",
+          "tolkning": "§ 2. Tre äro tjuvs vitur (laga värjemålseder): En, att 'jag icke stal ditt fä och icke gjorde mig skyldig till tjuvnad därå'; en annan, att 'jag icke rådde ditt fä i tjuvs händer'; den tredje, att 'jag icke är din mottagare (hälare)'. Och värje sig såsom sagt är.",
+          "kommentar": "vitur: svurna värjemålseder med lagfästa edsföreskrifter svarande mot de tre tjuvskategorierna i huvudpunkten. Textkritisk notis: Källan har '?rer' på s. 19 rad 17 och '?riþiæ' på s. 19 rad 18; återgivna som [Þ]rer och [Þ]riþiæ.",
+          "segmentId": "avg-b12-punkt04-seg003",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 4 § 2",
+          "avvikelser": [
+            "Källtexten har '?rer' och '?riþiæ' på s. 19 rad 17–18; frågetecknen återgivna som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 5 (Spårföljning, rannsakningsordning och husfruns lås)",
+      "balkId": "B12",
+      "pdfSidor": [19],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "5. Værþær maþær stolen vrækær fiæt æptir fællir .i. kæfti. fyrst skal by letæ. A grænnæ skal kallæ. þer skulu mæþ gangæ. Leþer eigh fiæt or by. þa skal ranssakæ. Eig mughv grænnær ranzsak syniæ. Grænnær skulu i garþ gangæ þæs fyrst ær næst ær grun a han skal rum kallæ ok beþez ransak. Bonþe skal eig ranssak syniæ æn han ær sialuær hemæ. han skal vpp latæ sin inuistær hus þæt ær kornskyæmmæ ok matskammæ ok symnskæmmæ þy þru æru inuistar hus. En annur hus bæþi laþa ok nöthus þæt heter vthus þo at las se firi.",
+          "tolkning": "5. Varder en man bestulen, följer han spåret och fäller det i käft (till inhägnad eller bytomt): först skall byn genomsökas. Han skall kalla på grannarna; de skola gå med. Leder spåret icke ut ur byn, då skall rannsakas. Grannar må icke vägra rannsakning. Grannarna skola gå in i den gård först som är närmast misstänkt; han skall ropa rum (be om fri tillgång) och begära rannsakning. Bonden må icke vägra rannsakning om han själv är hemma. Han skall öppna sina invisteshus (bostadshus): det är kornhärbre, visthus och sovhärbre, ty dessa tre äro invisteshus. Men andra hus, både lada och fähus, det kallas uthus, även om lås är för.",
+          "kommentar": "vrækær fiæt æptir: driver/följer spåret efter tjuven. fællir .i. kæfti: spåret fälls i inhägnad/grindöppning (käft). rum kallæ: formellt krav på tillträde för laga husrannsakning inför grannar. Uppdelningen mellan inuistær hus (kornskyæmmæ, matskammæ, symnskæmmæ) och vthus har avgörande straffrättslig betydelse för bevisbördan och hemfriden.",
+          "segmentId": "avg-b12-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 5"
+        },
+        {
+          "fsv": "§.1. Nu skal bonde hus vpp lætæ. Nu skal bonde þæn sins hauir mist ok annar mæþ hanum ingangæ þæn ær þer troæ baþir. Baþir skulu þer iuirlösir uæræ ok lösgiurþir. ok barföttir bundit brökær uiþ knæ. ok sua ingangæ. [Þ]er skulu letæ i þem hvsum hittir sit inni vndir las ok lykki. ær þet hult halmi. þæ ær sa þiuuær at. þa skal þiuf takæ þem saklöst firi þy. at han ær sanþær þiuuær ok hvarghin gitær han þerre sak mæþ laghum rundit. Vil han uiþ gangæ at han ær sandær þiuvær. þa skal bondin vald eghæ sa ær sak giuær at takæ bötær firi skaþæ sin. ok eighit aptær ok a þæt sum lagh sighiæ. þa ma bonde uiþ han sættæs at saklöso þo eigh fyr an firir hæraszhöfþingæ. utæn han far burghæn firir. böte sak sinæ uiþ land ok gonong sum lagh sighiæ. Vill han eigh uiþar gangæ. þa skal þiuf a bak bindæ ok til þingsz föræ eigh ma fyr lösæn latæ num viþ liggi fiuratighi mærkær. Takar maþær bundin þiuf mæþ rani. af manni. han skal skirskutæ firi næstu manni ok i næstæ by. at han ær þiufs sins ræntær ok þy ær hin sakær at. XL. markum.",
+          "tolkning": "§ 1. Nu skall bonden öppna husen. Nu skall den bonde som mist sitt eget och en annan gå in med honom, den som de båda lita på. Båda skola de vara utan överplagg, obältade och barfota, med byxorna bundna vid knäna, och så gå in. De skola leta i dessa hus; finner han sitt gods därinne under lås och lycka och är det dolt under halm, då är den mannen tjuv däröver. Då må han taga den tjuven saklöst, emedan han är sann tjuv och på intet vis förmår han avvärja den saken med lag. Vill han erkänna att han är sann tjuv, då skall den anklagande bonden ha rätt att taga böter för sin skada och sitt eget åter och därtill vad lagen säger; då må bonden förlikas med honom saklöst, dock ej förrän inför häradshövdingen, såvida han ej ställer borgen för att böta sin sak till landet och konungen såsom lagen säger. Vill han icke erkänna, då skall tjuven bindas på ryggen och föras till tinget; man må icke släppa honom lös förrän det gäller fyrtio marker. Tager en man med rån en bunden tjuv från en man, skall han lysa inför närmaste man och i nästa by att han har blivit rånad på sin tjuv, och därför är den andre förfallen till fyrtio marker.",
+          "kommentar": "iuirlösir... lösgiurþir... barföttir bundit brökær uiþ knæ: rannsakningsmännens klädesdräkt kontrollerades strängt för att utesluta att stöldgods smugglades in för att fälla en oskyldig granne. Hittas godset dolt under halm och lås är tjuven handfången utan värjemålsrätt. Rån av bunden tjuv bestraffas med 40 markers fredsbrottsböter. Textkritisk notis: Källan har '?er' på s. 19 rad 29; återgivet som [Þ]er.",
+          "segmentId": "avg-b12-punkt05-seg002",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 5 § 1",
+          "avvikelser": [
+            "Källtexten har '?er' på s. 19 rad 29; frågetecknet återgivet som [Þ]."
+          ]
+        },
+        {
+          "fsv": "§.2. Nu æn hittir i luctu allær læstu kari. ark ællær kistu þær havir husprea likil til þa ær hvsprea þiuuær. Vill eigh bonde laghbötæ þa skal hvspreo takæ. ok a bak bindæ til þings föræ firi allær götæ ællær firi hæræþ. Vill þa bonde lösæ hospreo sinæ mæþ laghum rættum. þa skal kono lösæ latæ firi þy at konæ ær ovormaghi hvn a eigh hug ok eigh hangæ utæn firi trolskap.",
+          "tolkning": "§ 2. Men om man finner godset i ett tillslutet eller låst käril, ark eller kista som husfrun har nyckel till, då är husfrun tjuv. Vill bonden icke böta enligt lag, då skall man taga husfrun och binda på ryggen och föra till tinget inför alla götar eller inför häradet. Vill då bonden lösa sin husfru med laglig rätt, då skall kvinnan lösas, ty en kvinna är omyndig (ovormaghi); hon skall varken huggas eller hängas, utom för trolldom.",
+          "kommentar": "husprea likil til: husfrun rådde över nycklarna till hemmets kistor och skrin. Påträffas tjuvgods där bär hon det materiella ansvaret, men som kvinna och omyndig (ovormaghi) är hon fredad från dödsstraff och lemlästning ('hvn a eigh hug ok eigh hangæ'), utom vid trolldom (trolskap).",
+          "segmentId": "avg-b12-punkt05-seg003",
+          "kallreferens": "AVG-MASKIN s. 19, Þiuuæ bollkær Punkt 5 § 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 6 (Vägrad rannsakning, häradshövdingens nämnd och edgång)",
+      "balkId": "B12",
+      "pdfSidor": [19, 20],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "6. Far bonde æftir sinv. sins hanum ranszsak. þa skal han mæþ vittnum beþæz firi þy at han ma eigh hanum syniæ ranszsak þa han ær sialvær hemæ. syns hanum ranzsak þa dragher han þiufsku a sik. þa skal skirkutæ firi grannum at nu ær ranzsak svnd. þa kallær bonde han þiuf sin. þy at han sundi ranzsak. Nu kuaþær han ne viþ. þa skal sa sighiæ til sinum hæræszhöfþingæ han skal þing til namnæ ok næmd sætiæ ok at spyria hvi han ranzsak sundi. en kallar sik eigh þiuf han ær sakær at þranni sæxtanörtoghom.",
+          "tolkning": "6. Far en bonde efter sitt gods och nekas han rannsakning, då skall han med vittnen begära det, ty man må icke neka honom rannsakning då man själv är hemma. Nekas han rannsakning, drager denne tjuvnad över sig; då skall man kungöra inför grannarna att rannsakning nu är vägrad. Då kallar bonden honom för sin tjuv, emedan han vägrade rannsakning. Säger han nu nej därtill, då skall den andre anmäla till sin häradshövding; han skall sammankalla ting och tillsätta nämnd och spörja varför han vägrade rannsakning. Om han säger sig icke vara tjuv, är han förfallen till tre sextonörtugar (sex marker).",
+          "kommentar": "syns hanum ranzsak: vägras rannsakning. Den som nekar laga rannsakning presumeras vara tjuv ('dragher han þiufsku a sik'). Vägran kostar 3 sextonörtugar (6 marker) i processuell bot.",
+          "segmentId": "avg-b12-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 19–20, Þiuuæ bollkær Punkt 6"
+        },
+        {
+          "fsv": "§.1 Nu ær þæt böt at ranzsak. sundi. Nu standær sak open su at han ær þiuvær kallaþær. han skal væriæ sik mæþ tvæni tylptum ok. IIIIor. mannæ forræþe. falz han böte sum lagh sighiæ.",
+          "tolkning": "§ 1. Nu är det bötfällt att han vägrade rannsakning. Nu står saken öppen så att han är kallad tjuv; han skall värja sig med två tylfter och fyra mäns förmäle. Fälles han, böte han såsom lagen säger.",
+          "kommentar": "Efter att boten för vägrad rannsakning erlagts kvarstår själva tjuvsaken. Den anklagade måste värja sig genom stor edgång: 2 tylfter (24 edsmän) med fyra mäns förmäle/ledning (IIIIor. mannæ forræþe).",
+          "segmentId": "avg-b12-punkt06-seg002",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 6 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 07",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 7 (Stöld ur uthus, åbörd och edgång)",
+      "balkId": "B12",
+      "pdfSidor": [20],
+      "kallpunkt": "7",
+      "meningar": [
+        {
+          "fsv": "7. Nu ær vtuistær hvs. giuær hin sak ær sins hauir mist. þu kom þær at. þu havir ualdit ællær hion þin ær þu at male at mælæ. þa sa bonde bundin viþ vitu suæri mæþ tuenni tylftum ok. IIIIor. mannæ forreþe. at þet kum þær hvarti mæþ uitu ællær valdi minu ællær þerræ iak a mæle at mælæ. þæt ær abryrþ ok eigh wlti iak þiufnæþe þem.",
+          "tolkning": "7. Nu gäller det uthus: anklagar den som har mist sitt gods och säger: 'Du kom därvid; du har vållat det eller dina husfolk som du har målsmanskap över', då är bonden bunden till ed; han svärje med två tylfter och fyra mäns förmäle att 'det kom dit varken med mitt vetande eller mitt vållande, ej heller med deras som jag har målsmanskap över; det är påbörd (lös beskyllning) och icke vållade jag den tjuvnaden'.",
+          "kommentar": "vtuistær hvs: uthusbyggnader (lada, fähus). Eftersom uthus icke åtnjöt samma slutna hemfrid som invisteshus krävdes formlig värjemålsed mot åbörd (abryrþ = obestyrkt beskyllning) med 24 edsmän och 4 föresvurna.",
+          "segmentId": "avg-b12-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 7"
+        },
+        {
+          "fsv": "§.1. Vitir bonde bondæ at han abyrd upp a han bar væri sik mæþ tuænni tylptum.",
+          "tolkning": "§ 1. Beskyller en bonde en annan bonde för att han lade påbörd på honom, värje sig denne med två tylfter.",
+          "kommentar": "Motanklagelse för falsk eller obefogad påbörd (ärekränkande anklagelse) avvärjs likaledes med två tylfters ed (24 edsmän).",
+          "segmentId": "avg-b12-punkt07-seg002",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 7 § 1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 08",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 8 (Återfående av klenod, kvargsäte och hemfött fä)",
+      "balkId": "B12",
+      "pdfSidor": [20],
+      "kallpunkt": "8",
+      "meningar": [
+        {
+          "fsv": "8. Hittir maþær grip sin. þa skal han tak firi bezass. bonde skal eig tak synia num han sakær se. þa skal bonde til takæ biþiæ man kuarsætu firi þiuf stolet þa skal siunatting firi þem garæ ær i tak gik ok haldæ firi þem hæst havir i handum.",
+          "tolkning": "8. Finner en man sin klenod, då skall han begära laga tak (kvarstad). Bonden må icke vägra tak, såvida han ej vill bli sakfälld. Då skall bonden till taket bedja en man om kvargsäte för det tjuvstulna; då skall sjunattastämma sättas för den som gick i borgen och gälla för den som har hästen i sina händer.",
+          "kommentar": "tak: kvarstad/laga handläggning vid återkrav av stöldgods. kuarsætu: kvargsäte, godset kvarstannar hos innehavaren mot borgen fram till rättslig prövning. siunatting: sjunattastämma (laga frist om sju dygn).",
+          "segmentId": "avg-b12-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 8"
+        },
+        {
+          "fsv": "§.1. þiuftolet skal leþæ til þriþia salæ a þriðiæ salæ skal sit lösæ ællær sværiæ mæþ tylptær eþe ok tuæggia manna vittnum at þæt uar hemæ föt oþ þær drak ok diþi myolk ok moþor spinæ ok iac a. ok þv ikki i. [Þ]or eigh þæs sværiæ. þa skal hin til gangæ ær sit havir kænt. ok sværiæ mæþ tylptær eþe ok tvænni vittnum at þænni gripær uar fra mær stolen ok huarghi sankændi iak fyr æn hær iak a ok þu iki.",
+          "tolkning": "§ 1. Det tjuvstulna skall ledas till tredje säljaren; hos tredje säljaren skall han lösa sitt eller svärja med tylfted och två mäns vittne att 'det var hemma fött och där drack det och diade mjölk ur moderns spene, och jag äger och du icke'. Tör han icke svärja det, då skall den träda fram som har känt igen sitt och svärja med tylfted och två vittnen att 'denna klenod var stulen från mig och ingenstädes kände jag igen den förr än här; jag äger och du icke'.",
+          "kommentar": "þriþia salæ: fångesman i tredje led (auktor/hemulskedja). Den berömda fornsvenska formeln för djurs härstamning: 'hemæ föt oþ þær drak ok diþi myolk ok moþor spinæ ok iac a ok þv ikki i'. Textkritisk notis: Källan har '?or' på s. 20 rad 16; återgivet som [Þ]or.",
+          "segmentId": "avg-b12-punkt08-seg002",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 8 § 1",
+          "avvikelser": [
+            "Källtexten har '?or' på s. 20 rad 16; frågetecknet återgivet som [Þ]."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 09",
+      "hanvisning": "Cod. Holm. B 59, Þiuuæ bollkær Punkt 9 (Möte på farväg, brötartak och kvargsätetak)",
+      "balkId": "B12",
+      "pdfSidor": [20],
+      "kallpunkt": "9",
+      "meningar": [
+        {
+          "fsv": "9. Hittir maþær grip sin a farnum vægh. þa skal hin i handum hauir brötær tak firir fa af bofastum mannum vm syv nætær til hus ok til hems. þa skal hin æptir fara ær sit hauir kænt. þa skal kuarsætu tak firi beþæss af bolfastum manni. taksætær han firi rani þa skal lösæ þær sum staþit ær num fylswat firir gangi. taki skal grip framnit havæ. kombær eigh fram. þa ær eigh tak laglika gangit. þa ær han sakær at tvænni sæxtanörtoghum. ællær væri sik mæþ tylptær eþe. ok tvægiæ manna vittni.",
+          "tolkning": "9. Finner en man sin klenod på allmän farväg, då skall den som har den i händerna få brötartak av bofasta män om sju nätter till hus och hem. Då skall den efterfölja som har känt igen sitt; då skall kvargsätetak begäras av en bofast man. Sätter han tak för rån, då skall man lösa där som godset står, såvida icke fölsvittne går före. Den som tagit i tak skall ha klenoden framförd; kommer den icke fram, då har taket icke gått lagligt till; då är han förfallen till två sextonörtugar (fyra marker), eller ock värje sig med tylfted och två mäns vittne.",
+          "kommentar": "farnum vægh: allmän väg / stråkväg. brötær tak: säkerhet under färd till hemmet. Den som innehar godset har rätt att resa hem under borgan av bofasta män innan saken utreds.",
+          "segmentId": "avg-b12-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 20, Þiuuæ bollkær Punkt 9"
+        }
+      ]
+    }
+  ],
+  "fotnoter": []
+}

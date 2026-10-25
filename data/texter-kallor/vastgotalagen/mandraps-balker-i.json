@@ -1,0 +1,223 @@
+{
+  "titel": "Af mandrapi, del I",
+  "underrubrik": "Äldre Västgötalagen, dråpslysning, ättleidde, träl och utländsk man (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Första delen av dråpsbalken i Äldre Västgötalagen reglerar rättegångsförfarandet vid dödligt våld: dråpslysning vid tre på varandra följande ting, målsägandens rätt att utpeka baneman och medhjälpare, edgång med två tylfter och överedsmän, dom till fredlöshet på sägnartinget, böternas fördelning på ätten (arvebot och ättebot) samt rättsordningens särregler för ättledda frigivna trälar, träldråp och utländska män.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 1 (Dråpslysning och banord)",
+      "balkId": "B02",
+      "pdfSidor": [3],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "Uærþær maþer dræpin ok af daghum takin. þa skal uighi a þingi lysæ oc frafal aruingiæ sigiæ. ok .a. adru. Æn a þridia eftyr mælæ ællær ær mal hans spilt. þa skal væghændi til þings faræ ok vtæn vider þing standi mæn til þings gæræ. griþær at bezas",
+          "tolkning": "Varder en man dräpt och tagen av daga, då skall man lysa dråpet på tinget och kungöra arvingens frånfälle, och likaså på det andra tinget; men på det tredje skall man fullfölja talan, eljest är hans sak förspilld. Då skall banemannen fara till tings och stå utanför tinget medan man förhandlar på tinget för att begära frijd.",
+          "kommentar": "af daghum takin: fast rättsformel för dödande. lysæ a þingi: formell kungörelse vid tre ting. væghændi: dråparen/banemannen. griþær: tingsfred (lejd).",
+          "segmentId": "avg-b02-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 3, Af mandrapi Punkt 1"
+        },
+        {
+          "fsv": "[Þ]ings mæn skulu hanum loua þings gangu han skal uider þy banorþi gangæ. §.1. þa skal arui banæ næmnæ þæt ær. vald hans at giua þem banorð ær han vill. æn væghænder aru marghir til",
+          "tolkning": "Tingsmännen skola lova honom tingsgång; han skall gå vid dråpsanklagelsen. § 1. Då skall arvingen nämna baneman; det är i hans makt att giva banord åt vem han vill, om dråparna äro flera.",
+          "kommentar": "[Þ]ings mæn: källans frågetecken '?' transkriberat till [Þ]. banorð: officiell dråpsanklagelse. Målsäganden har exklusiv valrätt att utse vem som skall åtalas som huvuddråpare.",
+          "segmentId": "avg-b02-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 3, Af mandrapi Punkt 1 §1",
+          "avvikelser": ["Källans frågetecken '?' transkriberat till [Þ] med textkritisk notering."]
+        },
+        {
+          "fsv": "þæn skal. mæþ barni bænæ næmpna. þy ær skyldastér a fæþærni. Hauir kona barn .i. knæ. þa skal hun banæ mæmpnæ. þa skal haldsbenð næmpnæ ok atuistær mæn. þer skulu fæm varæ ok en raþsbani",
+          "tolkning": "Den skall nämna baneman tillsammans med barnet som är närmast skyld på fädernet. Har en kvinna barn i knä, då skall hon nämna baneman; då skall man nämna medhjälpare (hållsbjälpar) och närvaromän; de skola vara fem, och en rådsbane.",
+          "kommentar": "barn .i. knæ: omyndigt barn i moders vård. haldsbenð: medhjälpare som höll offret under dråpet. atuistær mæn: närvarande på platsen med uppsåt. raþsbani: anstiftare/rådgivare.",
+          "segmentId": "avg-b02-punkt01-seg003",
+          "kallreferens": "AVG-MASKIN s. 3, Af mandrapi Punkt 1 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 1 forts. (Edgång, två tylfter och fredlöshet)",
+      "balkId": "B02",
+      "pdfSidor": [3, 4],
+      "kallpunkt": "1 §2-5",
+      "meningar": [
+        {
+          "fsv": "§.2. þa skal ændaghæ hem dömæ þæn sum allir mæn göræs afatir a þingi. þa skal a ænghæ þingshamna vittni bæræ lætæ",
+          "tolkning": "§ 2. Då skall man hem till honom fastställa den endag som alla män enas om på tinget; då skall man på ändan bära tingshamnsvittne.",
+          "kommentar": "ændaghæ: fastställd rättegångsdag för edgång och dom. þingshamna vittni: intyg av sex tingsmän att talan är lagligen anhängiggjord.",
+          "segmentId": "avg-b02-punkt01-seg004",
+          "kallreferens": "AVG-MASKIN s. 3, Af mandrapi Punkt 1 §2"
+        },
+        {
+          "fsv": "Iak var þa a þingi ok vir mæn siax. Sua kum dombær a mal þit. at þu skuldi hær standæ .i. dagh ok ritæ. a hændær hanum banorð mæþ tvænni tylptum. Sva se mær gud hull. ok uattum minum at sva kum dombær .a. mal þit sum iak bær nu vitni til",
+          "tolkning": "\"Jag var då på tinget och vi sex män. Så föll dom i ditt mål, att du skulle stå här i dag och fästa banord på honom med två tylfter. Så vare mig Gud huld och mina vittnen, att så föll dom i ditt mål som jag nu vittnar om.\"",
+          "kommentar": "Autentisk fornsvensk vittnesformel för sexmannanämnd på tinget.",
+          "segmentId": "avg-b02-punkt01-seg005",
+          "kallreferens": "AVG-MASKIN s. 3, Af mandrapi Punkt 1 §2"
+        },
+        {
+          "fsv": "þa skal arui sværriæ. Sva se mær guð hol ok uattum minum. at þu bart .a. han od ok æg. ok. þu ær sændær bani hans. ok sua gaf iak þær namni til a þingi. þa skal arui firi adræ tylft gangæ ok samulund sværiæ. Tolf mæn skulu .i. tylft standa ok et munhaf skal eptir tylpt huæria væræ. þyy mynhaf skulu æptir. tylptær eþ. hvænn. væræ guþ hylla at sær ok at græmya",
+          "tolkning": "Då skall arvingen svärja: \"Så vare mig Gud huld och mina vittnen, att du bar udd och egg mot honom och du är hans sanna baneman, och så gav jag ditt namn på tinget.\" Då skall arvingen gå inför den andra tylften och svärja på samma sätt. Tolv män skola stå i tylften, och ett överedsvittne skall vara efter varje tylft; två överedsmän skola efter varje tylfted anropa Gud att vara sig huld eller vred.",
+          "kommentar": "od ok æg: allittererande formel för vapenvåld. munhaf: överedsmän som bekräftar tylftens sanningshalt.",
+          "segmentId": "avg-b02-punkt01-seg006",
+          "kallreferens": "AVG-MASKIN s. 3, Af mandrapi Punkt 1 §2"
+        },
+        {
+          "fsv": "§.3. [Þ]a skal arui til sægnarþings fara lætæ dömæ sic af þingi ok uita meþ vmstaþumannum. Biþia sva sær guþ hull. ok uattum sinum. at han uan þat alt a endaghæ til fridær hans sum lagh til sæghiæ. þa skal han a þing ganga afptar latæ döma friðlösæn han firi arva ok æptimælændæ. ok vgilðan þa skal han friþ flyiæ. ætæ hema a daghurþi. a sægnærþingi ok i. skoghæ at natværþi",
+          "tolkning": "§ 3. Då skall arvingen fara till sägnartinget, låta döma sig rätt från tinget och bevisa med omgångsmän, bedja så Gud vare sig och sina vittnen huld att han fullgjorde allt det på endagen för hans fred som lagen föreskriver. Då skall han gå in på tinget igen och låta döma honom fredlös för arvingar och målsägande och ogill; då skall banemannen fly fredlös: äta frukost hemma på sägnartingsdagen och kvällsmat i skogen.",
+          "kommentar": "Sidövergång från s. 3 till s. 4. [Þ]a: källans '?' transkriberat till [Þ]. ætæ hema a daghurþi... ok i skoghæ at natværþi: klassisk poetisk formel för den landsflyktiges fredlöshet.",
+          "segmentId": "avg-b02-punkt01-seg007",
+          "kallreferens": "AVG-MASKIN s. 3–4, Af mandrapi Punkt 1 §3",
+          "avvikelser": ["Källans frågetecken '?' transkriberat till [Þ] med textkritisk notering."]
+        },
+        {
+          "fsv": "Liggiæ uið tolf marchær hæraðs hyfþingæ æn han sitær kuær ok værdhar han eigh ok fyuratighi mærkær hæræþi. ok þrer mærkar þæn ætær mæþ hanum. ok drikkær ok hauir mot mæð hanum hætæ þrer ok æru tvar sæxtan örtoghor .i. þriðiungh. huærn ællær num han læti bötær biuþa æti han nathorþ at saklösu",
+          "tolkning": "Tolv marker ligge under häradshövdingen om han sitter kvar och häradshövdingen icke griper honom, och fyrtio marker till häradet, och tre marker böte den som äter med honom eller dricker eller har samkväm med honom; tre nätter må han dock äta kvällsmat saklöst om han låter bjuda böter.",
+          "kommentar": "Böter för häradshövding och menigheten om de underlåter att fördriva eller bistår en fredlös baneman.",
+          "segmentId": "avg-b02-punkt01-seg008",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 1 §3"
+        },
+        {
+          "fsv": "§.4. Viliæ þer bötær takæ. þa skal bötæ niu markær arvæböt. oc tolf markær ættærbot. Sæx mærkær skal arui böta. sex mærkær skal ættin böta. þrer a fædrærnni ok þrer a mödærni. þa skal hin skyldasti öra tolf. þa þér ær næst öra sæx. þa þer ær næst. öra þrer. þæn þær ær næst half fæmtu örtöghr. §.5. Sva skulu allir bötæ. ok skulu sva alli taka. a huar halwu minna til sættæ mans. Bot skal skipta til sættæ mans. Iamnskildir allir þa skal slit kolder takæ sum koldr. Sæx mærkær skal arvi taka af ættærbot. ok sex. mærchær skal ættin takæ. þrer a fæðærni. ok þrer a möþærni",
+          "tolkning": "§ 4. Vilja de taga emot böter, då skall man böta nio marker i arvebot och tolv marker i ättebot. Sex marker skall arvingen (dråparen) böta och sex marker skall ätten böta: tre på fädernet och tre på mödernet; då skall den närmaste fränden böta tolv örar, den därnäst sex örar, den därnäst tre örar och den därnäst fyra och en halv örtug. § 5. Så skola alla böta och så skola alla taga emot, hälften mindre för varje led till sjätte man. Bot skall skiftas till sjätte man; äro alla lika nära skylda, då skall kull taga lika som kull. Sex marker skall arvingen taga av ätteboten, och sex marker skall ätten taga: tre på fädernet och tre på mödernet.",
+          "kommentar": "arvæböt: bot till målsäganden. ættærbot: bot som fördelas proportionellt över släkterna upp till sjätte man.",
+          "segmentId": "avg-b02-punkt01-seg009",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 1 §4-5"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 2–3 (Ättleidd man och hällbane)",
+      "balkId": "B02",
+      "pdfSidor": [4],
+      "kallpunkt": "2-3",
+      "meningar": [
+        {
+          "fsv": "Scal maþer ætlæddan man. aptær bötæ. þæn annöþoghær havir farit. han aptær bötæ mæþ niu marchum arvæ bot. ok sex. mærkum ættærbot. sva sum ættæþæn man. firi vtæn halvæ ættær bót. firir. þy at ætt hans ær half þrælær. ok frælsgiwar",
+          "tolkning": "Skall man böta för en ättleidd man (frigiven träl som upptagits i ätten) som någon dräpt, då skall man böta för honom med nio marker i arvebot och sex marker i ättebot, såsom för en ättefödd man förutan halva ätteboten; ty hans ätt är till hälften trälar och friborerska.",
+          "kommentar": "ætlæddan man: frigiven träl upptagen i fri ätt genom ättledning. Halverad ättebot (6 marker istället för 12) motiveras med hans trälbörd.",
+          "segmentId": "avg-b02-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 2"
+        },
+        {
+          "fsv": "Æn hall bana uil sökia ællær atuisær mén. þa skal þing uisa ok talu a þingi. wetæ ok þem lata endaghæ döma. þa skal þingsmannæ. vittni a endaghæ latæ baræ. ok sva a hauarium ændaghæ. þa skal þings mannæ vittni fyrst latæ baræ. siþan skal arvi. sværiæ. Sua se mær guþ hull. ok uattum minum. at þu hælt hanum undir od. ok æg. ok sva gaf iac þer namni til. a þingi",
+          "tolkning": "Vill man söka sak mot hällbane (stenkastare) eller närvaromän, då skall man hänskjuta till tinget och föra talan på tinget och låta fastställa endag åt dem. Då skall man låta bära tingsmannavittne på endagen, och så på varje endag: först låta bära tingsmannavittne, och sedan skall arvingen svärja: \"Så vare mig Gud huld och mina vittnen, att du höll honom under udd och egg och så gav jag ditt namn på tinget.\"",
+          "kommentar": "hall bana: stenkastare som vållat döden. Rättegångsförfarande och edgång vid stenkastningsdråp.",
+          "segmentId": "avg-b02-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 3"
+        },
+        {
+          "fsv": "§.1. Atvistær manni. skal þing uisa ok sva sværiæ a hændær hanum. Biðiæ sua sær gud holl ok uattum sinum at þu vært a vighuælli maþ vrassviliæ ok sua gaf iak þær næmpni til a þingi. §.2. Raszbana skal þing uisa vm sak þa. þu kallar han sannæn at væræ at han ræd han hælræþum. han skal uita firir a endaghæ mæð tylpt at fæþerni ok halua at möþerni. Falss. han at baþum þa skal han böta haluæ fæmtu mark. falss. han at tylpt böte þrer mark. falss. han at halvri böte tolf öra",
+          "tolkning": "§ 1. Mot närvaroman skall man hänskjuta till tinget och så svärja mot honom: \"Be så Gud vare sig och sina vittnen huld, att du var på valplatsen med ond vilja och så gav jag ditt namn på tinget.\" § 2. Mot rådsbane skall man hänskjuta till tinget om den sak som du påstår honom vara skyldig till, att han rådde till dödande råd; han skall värja sig för det på endagen med en tylft på fädernet och en halv tylft på mödernet. Fälls han vid båda, då skall han böta fyra och en halv mark; fälls han vid tylften böte han tre marker; fälls han vid halva tylften böte han tolv örar.",
+          "kommentar": "vrassviliæ: ond/fientlig avsikt vid närvaro på valplatsen. hælræþum: anstiftande dödsråd. haluæ fæmtu mark: fyra och en halv mark.",
+          "segmentId": "avg-b02-punkt03-seg002",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 3 §1-2"
+        },
+        {
+          "fsv": "§.3. Nu skal halss bani bötæ halui fæmtu mærk. þær .a. akki konongær sak .a. eigh a razbænd. ok eigh a halss. bænd. Atvist a saksökæ örtogh ok oræ fæm. sva. a konongær sva. a hæræd. §.4. Mæþ þingi skal hælghis bot ok tacæ ok eigh. næmæ til",
+          "tolkning": "§ 3. Nu skall hållsbane böta fyra och en halv mark; där äger konungen inga böter, varken av rådsbanar eller hållsbjälpar. För närvaro äger målsäganden fem örar och en örtug, likaså konungen och likaså häradet. § 4. Med tingsdom skall helgbot tagas och icke genom godtycklig uppgörelse.",
+          "kommentar": "Botbelopp för medgärningsmän. Konungen saknar bötesrätt mot medhjälpare utan erhåller endast andel vid närvaro.",
+          "segmentId": "avg-b02-punkt03-seg003",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 3 §3-4"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 4–5 (Träls dråp, svensk man och smålänning)",
+      "balkId": "B02",
+      "pdfSidor": [4],
+      "kallpunkt": "4-5",
+      "meningar": [
+        {
+          "fsv": "þrel drapér man. ættæþen. han ma eigh. heta þés bani. Bonde skal böta aruæ. bot ok ættar bot. eigh friþ flyia. num han uili. eigh böta",
+          "tolkning": "Dräper en träl en ättefödd (fri) man, må trälen icke heta hans baneman; bonden (trälens herre) skall böta arvebot och ättebot, och icke fly fredlös såvida han icke vägrar att böta.",
+          "kommentar": "Trälen saknar rättslig personlighet. Husbonden bär fullt skadeståndsansvar.",
+          "segmentId": "avg-b02-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 4"
+        },
+        {
+          "fsv": "Dræpær maþar svænskan man. eller smalenskæn innan kongsrikis. man eigh. væstgöskan böte firi atta örtogher. ok þrættan markær. ok ænga ætar bot. §.1. Niu markær. a konongær a mandrapi ok sva allir mæn",
+          "tolkning": "Dräper en man en svensk man (svea/upplänning) eller en smålänning, en man inom kungariket som icke är västgöte, böte han för det åtta örtugar och tretton marker, och ingen ättebot. § 1. Nio marker äger konungen vid mandråp, och likaså alla män.",
+          "kommentar": "Den berömda rättsregeln som visar Västergötlands särställning i riket: svear och smålänningar betraktas som utbölingar vars ätter icke tillerkänns ättebot.",
+          "segmentId": "avg-b02-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 5"
+        },
+        {
+          "fsv": "§.2. Dræpar kona man. þa skal mælæ. a man. þén skyldæstæ. han skal botum varþæ ællær frid flyia. §.3. Dræpar maþær danskan man. allæ noræn man böte niv markum. §.4. Dræpær maþær vtlændskan man. eigh ma frid flyia. or landi sinu. oc .j. æth. hans",
+          "tolkning": "§ 2. Dräper en kvinna en man, då skall man föra talan mot den man som är henne närmast skyld; han skall svara för böterna eller fly fredlös. § 3. Dräper en man en dansk man eller en norrman, böte han nio marker. § 4. Dräper en man en utländsk man, må han icke fly fredlös ur sitt land och in i dennes hemland.",
+          "kommentar": "Kvinnans målsman bär bötesansvaret. Dansk och norsk mansbot är 9 marker.",
+          "segmentId": "avg-b02-punkt05-seg002",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 5 §2-4"
+        },
+        {
+          "fsv": "§.5. Dræpær maþær vtlænskan prest. böte sæ mykit firi sum hærlænskan man. Præstær skal .i. bondalaghum væræ. §.6. Varþær suþærman dræpin allær ænskær maþær. þa skal böta firi marchum fiurum. þem sakinæ sökir. ok tvar. marchar konongi. bondæ hvar gaf. þer af aþrum sin. ræt. §.7. Dræpær maþær þrél manss. böte firi markum þrem. num han uiti han fiughurræ markæ værdan. þa skal sva bötæ ængin a. þær sak a vtæn saksökæn",
+          "tolkning": "§ 5. Dräper en man en utländsk präst, böte han så mycket för honom som för en infödd (härländsk) man; prästen skall vara i bondelag. § 6. Varder en tysk (suderman) dräpt eller en engelsk man, då skall man böta för honom fyra marker till den som söker saken, och två marker till konungen; var och en bonde gav här den andre hans rätt. § 7. Dräper en man en annans träl, böte han för det tre marker, såvida han icke bevisar honom vara värd fyra marker; då skall han så böta; ingen äger sak därvid utom målsäganden.",
+          "kommentar": "suþærman: tysk. ænskær: engelsman. Träls värdering fastställd till 3–4 marker.",
+          "segmentId": "avg-b02-punkt05-seg003",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 5 §5-7"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Af mandrapi Punkt 6 (Dråp på färsk gärning)",
+      "balkId": "B02",
+      "pdfSidor": [4],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "Dræpær maþær man varþær han siþen dræpin a fotum hanum liggi a værkum sinum. böti huarti konongi allær hæræþi",
+          "tolkning": "Dräper en man en man och varder han sedan dräpt på hans fötter (på färsk gärning vid liket), då ligge han ogill på sina gärningar; ingen böte för honom, varken till konungen eller till häradet.",
+          "kommentar": "a fotum hanum: på färsk gärning över liket. liggi a værkum sinum: omedelbart rättmätigt dråp i nödvärn som medför fullständig ansvarsfrihet.",
+          "segmentId": "avg-b02-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 4, Af mandrapi Punkt 6"
+        }
+      ]
+    }
+  ],
+  "fotnoter": [
+    {
+      "id": 1,
+      "kallaId": "AVG-MASKIN",
+      "lokalisering": "s. 3–4, Af mandrapi Punkt 1–6",
+      "stod": "primarbelagg"
+    },
+    {
+      "id": 2,
+      "kallaId": "PET-SJUHUNDRA",
+      "lokalisering": "s. 68–72",
+      "stod": "regel"
+    },
+    {
+      "id": 3,
+      "kallaId": "LIN2024",
+      "lokalisering": "s. 25–28",
+      "stod": "analys"
+    }
+  ]
+}

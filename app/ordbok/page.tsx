@@ -15,10 +15,15 @@ import {
 } from "@/lib/ordbok/ordbokDb";
 import type { OrdbokKallfilter, OrdbokSoklage } from "@/lib/ordbok/typer";
 
+export const revalidate = 86400; // 24 timmar ISR för ordbokssökning
+
 export const metadata: Metadata = {
-  title: "Ordbok — Söderwalls fornsvenska ordbok · Fornsvenska Studielabbet",
+  title: "Ordbok — Söderwalls fornsvenska ordbok",
   description:
-    "Sökbar utgåva av K. F. Söderwalls Ordbok öfver svenska medeltids-språket (1884–1918) och Supplementet (1925–1973) baserad på Språkbankens digitala LMF-resurser (CC BY 4.0).",
+    "Sökbar utgåva av K. F. Söderwalls Ordbok öfver svenska medeltids-språket (1884–1918) och Supplementet (1925–1973) med 41 744 uppslagsord baserad på Språkbankens digitala LMF-resurser.",
+  alternates: {
+    canonical: "/ordbok",
+  },
 };
 
 export default async function OrdbokPage({

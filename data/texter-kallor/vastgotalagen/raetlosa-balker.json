@@ -1,0 +1,279 @@
+{
+  "titel": "Rætlosæ bolkær",
+  "underrubrik": "Äldre Västgötalagen, kungaval, Eriksgata, biskopsval, ärekränkning och rättslösa ting (Cod. Holm. B 59)",
+  "kallaId": "AVG-MASKIN",
+  "meta": [
+    {
+      "nyckel": "Handskrift",
+      "varde": "Cod. Holm. B 59"
+    },
+    {
+      "nyckel": "Datering",
+      "varde": "Omkr. 1280"
+    },
+    {
+      "nyckel": "Genre",
+      "varde": "Landskapslag / Konstitutionell rätt"
+    },
+    {
+      "nyckel": "Dialekt",
+      "varde": "Äldre västgötska"
+    },
+    {
+      "nyckel": "Utgåva",
+      "varde": "Schlyter, SSGL I / Delsing"
+    }
+  ],
+  "ingress": "Rättslösabalken (Rætlosæ bolkær) i Äldre Västgötalagen är ett av de mest berömda och centrala dokumenten i svensk stats- och rättshistoria. Balken inleds med det klassiska grundlagsstadgandet om svearnas rätt att välja och avsätta konung ('SVeær egho konong at taka ok sva vrækæ'), kungens eriksgata över Junabäck till Allra götars ting med utväxling av gisslan, kunglig trohetsed samt lagmannens dom. Därefter regleras biskopsvalet av landets bönder och investitur med stav och ring, lagmannens ämbete och tingsnämnd, stränga straff för bosran och husrån, en detaljerad katalog över okvädingsord och nid mot män och kvinnor (tidelag, sodomi, feghet, häxeri och fosterfördrivning), handrån, utmätning och grannkallelse vid gäld, fäskador och herdevittnesbörd, låneregler, rymda trälar, vårdplikt vid legodjur och deposition.",
+  "sektioner": [
+    {
+      "rubrik": "Sektion 01",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 1 (Konungavalet, Eriksgatan vid Junabäck, tingseden och konungadomen)",
+      "balkId": "B09",
+      "pdfSidor": [13],
+      "kallpunkt": "1",
+      "meningar": [
+        {
+          "fsv": "1. SVeær egho konong at taka ok sva vrækæ. han skal mæþ gislum ovan fara ok i. östrægötland. þa skal han sændi mæn hingæt til aldragöta þings. þa skal laghmaþær gislæ skiptæ. tua sunnan af landi. ok tua norþæn af lanþe. siþan skal aþra fiuræ mæn af landi gæræ med þem. þer skulu til iunæbækær. motæ faræ. Östgöta gisla skulu þingat fylgiæ ok vittni bæræ at han ær sva inlændær sum lægh þerræ. sigiæ. þa skal alþragötæ. þing i gen hanum næmnæ þa han til þings kombær þa skal han sic allum götom trolekæn sværiæ at han skal eigh ræt lægh a landi varu brytæ. þa skal lagmaþær han fyrst til konungs dömæ ok siþen aþrir. þer. ær han biþar.",
+          "tolkning": "Svearna äga konung att taga och så vräka. Han skall med gisslan fara ovanifrån och in i Östergötland; då skall han sända män hit till allra götars ting. Då skall lagmannen utse gisslan: två söderifrån landet och två norrifrån landet; sedan skall man sända andra fyra män från landet med dem; de skola fara till Junabäck till mötes. Östgötarnas gisslan skola följa dit och bära vittnesbörd om att han är så intagen i landet som deras lagar säga. Då skall allra götars ting utlysas till möte med honom; när han kommer till tinget, då skall han svära alla götar trohetsed, att han icke skall bryta rätt lag i vårt land. Då skall lagmannen först döma honom till konung och sedan de andra som han beder.",
+          "kommentar": "SVeær egho konong at taka ok sva vrækæ: fornsvensk konstitutionell grundformel; svearna hade företräde vid kungavalet vid Mora stenar, men valet krävde godkännande av landskapens ting. iunæbækær: Junabäck vid Jönköping, gränsflod mellan Östergötland och Småland/Västergötland där gisslan utväxlades under eriksgatan. aldragöta þing: Allra götars ting (landstinget vid Skara). trolekæn sværiæ: kungaeden att upprätthålla landskapets lagar. lagmaþær han fyrst til konungs dömæ: lagmannens formella hyllning och domsrätt å västgötarnas vägnar.",
+          "segmentId": "avg-b09-punkt01-seg001",
+          "kallreferens": "AVG-MASKIN s. 13, Rætlosæ bolkær Punkt 1"
+        },
+        {
+          "fsv": "§.1. Konungær skal þa þrim mannum friþ giuæ þem ær eig hava niþingsværk giort.",
+          "tolkning": "§ 1. Konungen skall då giva fred åt tre män, sådana som icke hava gjort nidingsverk.",
+          "kommentar": "friþ giuæ: kunglig benådningsrätt (kungslejd) vid tronbestigningen, undantaget för nidingsdåd (niþingsværk).",
+          "segmentId": "avg-b09-punkt01-seg002",
+          "kallreferens": "AVG-MASKIN s. 13, Rætlosæ bolkær Punkt 1 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 02",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 2 (Biskopsval och investitur)",
+      "balkId": "B09",
+      "pdfSidor": [13],
+      "kallpunkt": "2",
+      "meningar": [
+        {
+          "fsv": "2. En biscup skal taka. þa skal konungær allandæ at spyriæ huarn þer uiliæ hava han skal bonþæ svn væræ. þa skal konongær hanum staf i hand sæliæ ok gullfingini siþan skal han i kirkiu leþæ. ok i biskups stol sættiæ. þa ær fulkomen til valdær vten uixlt.",
+          "tolkning": "Skall man taga en biskop, då skall konungen spörja alla landsmän vem de vilja hava; han skall vara en bondeson. Då skall konungen överlämna stafven i hans hand och guldringen; sedan skall man leda honom i kyrkan och sätta honom i biskopsstolen. Då är han fullkomlig i sin makt och myndighet även utan vigning.",
+          "kommentar": "bonþæ svn væræ: stadgande om att biskopen måste vara friboren infödd man (bondeson) av västgötsk ätt. staf ok gullfingini: investitur med biskopsstav och ring genom kungen å menighetens vägnar. fulkomen til valdær vten uixlt: världsligt tillträde till biskopsstol och gods före kanonisk vigning (vixlt).",
+          "segmentId": "avg-b09-punkt02-seg001",
+          "kallreferens": "AVG-MASKIN s. 13, Rætlosæ bolkær Punkt 2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 03",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 3 (Lagmansval, tingsnämnd och Allra götars ting)",
+      "balkId": "B09",
+      "pdfSidor": [13],
+      "kallpunkt": "3",
+      "meningar": [
+        {
+          "fsv": "3. Bondæ sun skal lagmaþer væræ. þy skulu allir bonder ualdæ mæþ gusz miskvn. §.1. konongær skal næmd firi sik sætiæ ok lagmaþer a þingi. §.2. þæt hetir. e aldragötæ þing ær laghmaþer ær .a. þær ma folk. ætleþæ. ok sættum lysæ.",
+          "tolkning": "En bondeson skall vara lagman, därför skola alla bönder välja honom med Guds misskund. § 1. Konungen skall sätta nämnd för sig och lagmannen på tinget. § 2. Det heter alltid allra götars ting där lagmannen är närvarande; där må man ättleda folk och lysa förlikningar.",
+          "kommentar": "Bondæ sun skal lagmaþer væræ: lagmannens demokratiska och folkliga förankring bland landskapets bönder. næmd firi sik sætiæ: tingsnämndens inrättande vid kungligt tingsbesök. e aldragötæ þing ær laghmaþer ær .a.: lagmannens personliga närvaro konstituerar landstinget, där officiella rättshandlingar såsom ättledning (ætleþæ) och formella förlikningar (sættum lysæ) äger rum.",
+          "segmentId": "avg-b09-punkt03-seg001",
+          "kallreferens": "AVG-MASKIN s. 13, Rætlosæ bolkær Punkt 3–§2"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 04",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 4 (Bosran och husrån)",
+      "balkId": "B09",
+      "pdfSidor": [13],
+      "kallpunkt": "4",
+      "meningar": [
+        {
+          "fsv": "4. Takær maþær bo mansz vp at vsældu. þæt ær þrénni. IX. marka sak. a. IX. markær saksöki ok giald firi. bo. sit mæþ suornom eþe. IX. markær konongær ok. IX. markær allir. mæn. §.1. Huggær maþær hus vp manss at vsoktu. þæt ær. þrenni IX. markær. a. IX. markær saksökæ. ok sva konongær ok sva allir mæn.",
+          "tolkning": "Plundrar en man en mans bo utan laga dom (utan att det är förverkat), det är en tre gånger nio markers sak: nio marker äger målsäganden jämte ersättning för sitt bo med edgång; nio marker äger konungen och nio marker alla män (häradet). § 1. Hugger man upp en mans hus utan laga rannsakning, det är tre gånger nio marker: nio marker äger målsäganden, och likaså konungen och likaså alla män.",
+          "kommentar": "at vsældu: utan laga dom eller laga förverkande (fsv. osælt = icke förverkat). Takær bo vp: bosran, egenmäktig plundring av gård och bohag. Huggær hus vp at vsoktu: våldsamt upphuggande av annans hus utan föregående laga sak. Båda brotten straffas med tredubbla niomarksböter (27 marker).",
+          "segmentId": "avg-b09-punkt04-seg001",
+          "kallreferens": "AVG-MASKIN s. 13, Rætlosæ bolkær Punkt 4–§1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 05",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 5 (Okvädingsord, nid och ärekränkning)",
+      "balkId": "B09",
+      "pdfSidor": [13, 14],
+      "kallpunkt": "5",
+      "meningar": [
+        {
+          "fsv": "5. Kallær maþær man bykkiuhuælp har ær. þæt sighir. han þu koþ hæn. Iak skyrskutæ þy at þu kallæþe mik vkuæþins orþ. þæt ær sextanörtoghæ sak i hvan lot. han skal hanum þing uisæ at skyrskutæ vittni latæ bæræ at endagha ok vitæ mæþ tylptær eþe. biþi sva sær guþ holl. ok vattum sinum at þu kallaþe mik. vkuæþins orþ. ok þu æst sandær at sak þerri. ær iak giuar þær Sva skal vkuæþins orþ sökiæ ok firnær orþ. §.1. Kallær maþær annæn frælsgivæ. þæn ætboren ær ællær sigir iak. sa at þu rant en firi enom ok hafþi spyut a baki. þæt ær vkuaþins orþ. þrænni sextanortoghæ sak. §.2. Iak sa at maþær sarþ þik hvar ær þæt. þu koþ han. Iak skyrskutæ þy at þu kallæþe mik vkvaþins orþ. ok firnær orþ. þæt ær sexstanortoghæ sak. i hvan þriþiung.",
+          "tolkning": "Kallar en man en annan för 'hyndvalp': 'Hör här!', säger denne, 'du ljuger!' — 'Jag skärskjuter till vittne att du kallade mig med okvädingsord.' Det är en sak om sexton örtugar till vardera lotten. Han skall stämma honom till tinget och låta skärskjutningsvittnen framträda på endagen och styrka saken med en tolftared; han skall bedja så Gud och sina vittnen vara sig huld att 'du kallade mig med okvädingsord och du är skyldig till den sak jag lägger dig till last'. Så skola okvädingsord och nidord sökas. § 1. Kallar man en annan för frigiven träl som är ättburen, eller säger: 'Jag såg att du flydde en för en och bar spjutet på ryggen', det är okvädingsord och en sak om tre gånger sexton örtugar. § 2. 'Jag såg att en man lägrade (sodomerade) dig', 'Var är det?', 'Du ljuger!', 'Jag skärskjuter till vittne att du kallade mig med okvädingsord och nidord.' Det är en sak om sexton örtugar till vardera tredjedelen.",
+          "kommentar": "bykkiuhuælp: hyndvalp (hundvalp), starkt nedsättande ärekränkning. skyrskutæ: skärskjuta till vittne (åberopa kringstående vittnen på stället). rant en firi enom ok hafþi spyut a baki: grov feghetsanklagelse i strid. sarþ þik: anklagelse om passiv homosexuell underkastelse, det grövsta nidet i germansk och fornnordisk rätt (fornvästnordiska argr/ergi).",
+          "segmentId": "avg-b09-punkt05-seg001",
+          "kallreferens": "AVG-MASKIN s. 13–14, Rætlosæ bolkær Punkt 5–§2"
+        },
+        {
+          "fsv": "§.3. Iak sa at þu atti þin viliæ. viþ ko. ællar mæræ. þæt ær firnær orþ. þrannisaxtanörtogæ sak. þæt skal sökia a hændær hanum. kumbær eigh ne viþ. §.4. Iac sa at þv atti moþor þina. þæt ær firnær orþ. ok þrennisextanortoghæ sak ok kombær eigh ne viþ.",
+          "tolkning": "§ 3. 'Jag såg att du hade din vilja med en ko eller ett sto', det är nidord (firnær orþ) och en sak om tre gånger sexton örtugar; det skall sökas mot honom om han icke nekar därtill. § 4. 'Jag såg att du lägrade din moder', det är nidord och tre gånger sexton örtugars sak om han icke nekar därtill.",
+          "kommentar": "firnær orþ: oerhörda nidord som anklagade motparten för dödssynder och nidingsdåd, såsom tidelag (atti viliæ viþ ko ællar mæræ) och incest med modern (atti moþor þina).",
+          "segmentId": "avg-b09-punkt05-seg002",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 5 §3–4"
+        },
+        {
+          "fsv": "§.5. [Þ]ættæ aru vkvæþins orþ kono. Iak sa at þu reet a quiggrindu lösharæþ. ok i trols ham þa alt var iamrist nat ok daghér. kallær hanæ kunna firigæræ kono ællær. ko. þæt ær. vkuaþins ord. kallær kono hortutu. þæt ær vkuaþins ord. kallar kono haua at faþur sin ællær strukit hava barn sit fra sær allær hava myrt sit barn. þættæ æru firnær orþ. §.6. All þassi synda mal skal fyrst uiþ præst sin talæ ok eigh braþæ vp mæþ awnd ællær vrez uiliæ num han sæki sik at þrim markum. hete þrer ok æru tuar.",
+          "tolkning": "§ 5. Detta äro okvädingsord mot en kvinna: 'Jag såg att du red på fägårdsgrinden med utslaget hår och i trollhamn då det var dagjämning mellan natt och dag'; kallar man henne förmögen att förgöra kvinna eller ko, det är okvädingsord; kallar man en kvinna för 'hortuta' (sköka), det är okvädingsord; påstår man en kvinna hava lägrat sin fader, eller hava fördrivit sitt foster (strukit barn sitt från sig) eller hava mördat sitt barn, detta äro nidord. § 6. Alla dessa syndamål skall man först tala om med sin präst och icke hasta upp i avund eller vrede, såvida han icke vill utsätta sig för tre markers böter; må det heta tre men vara två.",
+          "kommentar": "reet a quiggrindu lösharæþ: klassisk fornnordisk föreställning om häxridt (trollhamn på fägårdsgrind vid dagjämning). hortutu: fsv. hortuta (hora/sköka). strukit hava barn: avsiktlig fosterfördrivning. All þassi synda mal skal fyrst uiþ præst sin talæ: kyrkorättslig prövning hos sockenprästen innan formell tingsanklagelse fick resas för att förhindra falsk ryktesspridning. Textkritisk notis: Källan har '?ættæ aru vkvæþins orþ' på s. 14 rad 7; frågetecknet återgivet som [Þ] enligt transkriptionsreglerna.",
+          "segmentId": "avg-b09-punkt05-seg003",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 5 §5–6",
+          "avvikelser": [
+            "Källtexten har '?ættæ aru vkvæþins orþ' på s. 14 rad 7; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 06",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 6 (Handrån)",
+      "balkId": "B09",
+      "pdfSidor": [14],
+      "kallpunkt": "6",
+      "meningar": [
+        {
+          "fsv": "6. Rænir maþær man handran. þa skal han væriæ. sik mæþ tolf manna eþe ok tvæggiæ mannæ vittnum. af þem tolf ok siþan i tylft standæ. Falz han at böte þræni sæxtanortoghær.",
+          "tolkning": "Rånar en man en annan med handrån (rycker gods ur hans hand), då skall han värja sig med tolvmannaed och två mäns vittnesbörd ur de tolv och sedan stå i tolften. Fälles han därtill, böte han tre gånger sexton örtugar.",
+          "kommentar": "handran: rån ur någons hand med våld på öppen plats. Värjemålsed med tolv man varav två fungerar som edgärdsmän/vittnen.",
+          "segmentId": "avg-b09-punkt06-seg001",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 6"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 07",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 7 (Skuldkrävande och panttagning)",
+      "balkId": "B09",
+      "pdfSidor": [14],
+      "kallpunkt": "7",
+      "meningar": [
+        {
+          "fsv": "7. En maþær krævær man skuld þa skal han a grænnæ hans kallæ latæ þem uid væræ ok höræ at han kræuær han skuld. þa mæ han næmæ han siþæn æn han vill. A han skyld at kræfiæ. þa ma han sökiæ han til sum lægh sighiæ. ok éþ sin a ouan æn þem skil vm at han a hanum eig meræ at gialdæ. Kuæþær hin ne viþ kallær sik eig. æghæ hanum. skyld at gialdæ. þa skal han suæriæ mæþ tolf mannum at han a eig hanum skyld at gialdæ ællær gæf at lönæ. Bær han þryt viþ böte þrænni saxtanörtoghær ok skyldþinæ. §.1. Naam skal lösæ mæþ skuld mæþ tylptær eþe.",
+          "tolkning": "Kräver en man en annan på skuld, då skall han tillkalla dennes grannar och låta dem vara närvarande och höra att han kräver honom på skulden; sedan må han taga pant (näma) hos honom om han vill. Har han skuld att kräva, må han söka honom såsom lagen säger och lägga sin ed därtill om de tvista om huruvida han icke har mer att gälda honom. Svarar den andre nej och påstår sig icke vara honom skyldig att gälda, då skall han svära med tolv män att han icke är skyldig att gälda eller återgälda gåva. Bryter han detta, böte han tre gånger sexton örtugar och gälde därtill skulden. § 1. Nam (tagen pant) skall lösas med gäldande av skulden jämte tolftared.",
+          "kommentar": "a grænnæ kallæ: grannars närvaro som legalt vittneskrav vid formell utmätning och betalningsanmaning. næmæ: nam, egenmäktig men lagreglerad panttagning hos gäldenären. gæf at lönæ: vedergällning för mottagen gåva i ett sedvanerättsligt gåvoutbytessystem.",
+          "segmentId": "avg-b09-punkt07-seg001",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 7–§1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 08",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 8 (Skadegörelse på boskap och fäfälling)",
+      "balkId": "B09",
+      "pdfSidor": [14],
+      "kallpunkt": "8",
+      "meningar": [
+        {
+          "fsv": "8. Dræpær maþær hors ællær nöt firi manni. vetir feær fölengh. þæ skal han siunætting firi hanum giæræ latæ ok synær. vittni a hændær latæ baræ biþi sva sær guþ holl at iak sa at þu drapt fæ hans ok vete hanum fearfölængh. Syþan skal han firi tylpt gangæ. biþiæ sva sær guþ holl. ok vatt sinni. at þv uete mær fearfölingh ok þv drapt fæ mit. ok þu æst sandær at sak þerre. siþæn skal han aptær gialdæ. mæþ. svornom eþe. ok .a. ovan þrænni saxtanörtoghær. Er eig a synar vittni. til væri sik mæþ tolf mannum. Æn þær fæ ær dræpit. ær tueggiæ öræ ær vært. ællær tvem örum. bættræ. þæt ær full fearföling. Æn þæt ær værræ æn tver örær. þa skal þæt tvægildi. atær gialdæ sua huart. sum vært ær.",
+          "tolkning": "Dräper en man häst eller nötboskap för en man och vållar fäfälling, då skall han låta hålla sjunätting för honom och låta frambära synvittnesbörd mot honom; vittnet bedje så Gud vara sig huld att 'jag såg att du dräpte hans fä och vållade honom fäfälling'. Sedan skall han träda fram med en tolftared och bedja så Gud och sitt vittne vara sig huld, att 'du vållade mig fäfälling och du dräpte mitt fä och du är skyldig till denna sak'. Sedan skall han gälda fäet tillbaka med svuren ed och därtill böta tre gånger sexton örtugar. Finns ej synvittne därtill, värje han sig med tolv män. Är det dräpta fäet värt två örar eller mer än två örar, då är det full fäfälling; men är det värt mindre än två örar, då skall det gäldas åter med tvådubbla värdet alltefter vad det är värt.",
+          "kommentar": "feær fölengh: fäfälling, avsiktligt dödande eller lemlästande av annans boskap. synær vittni: ögonvittnesbörd som bekräftas vid sjunätting. full fearföling: kvalificerad skadegörelse vid djurvärde överstigande två örar.",
+          "segmentId": "avg-b09-punkt08-seg001",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 8"
+        },
+        {
+          "fsv": "§.1. Værþær dræpit hors ællær nöt a byar marku. annærs byær. vet eig hvar drap. þa skal han siunætting giaræ firi enum þerra ok haldæ firi allum. ok vittni latæ bæræ a sivnættingi. at þæt fik þær fiorlæsting. a marku þerræ af handæuarkum. mannæ ok þy æghu. þer þæt. mæþ laghum aptar bötæ.",
+          "tolkning": "§ 1. Varder häst eller nöt dräpt på en annan bys mark och man icke vet vem som dräpte det, då skall han hålla sjunätting för en av byamännen och det gälle mot dem alla, och låta frambära vittnesbörd på sjunättingen om att det fick fäskada där på deras mark genom människohand; och därför äro de skyldiga att böta det åter enligt lag.",
+          "kommentar": "a byar marku: kollektivt ansvar för byamännen vid dråp på annans kreatur på byns utmark då gärningsmannen är okänd.",
+          "segmentId": "avg-b09-punkt08-seg002",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 8 §1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 09",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 9 (Djurskador, fall i brunn och hästskada)",
+      "balkId": "B09",
+      "pdfSidor": [14],
+      "kallpunkt": "9",
+      "meningar": [
+        {
+          "fsv": "9. Dræpær fæ annat ok bær hirþinge vittni. gialdi helt firi mæþ svornum eþe ok taki han þæt dræpnæ ællær nyti hold ok hvþ taki halsgildi. þæt ær atti af þem sum drap. I þæssu male ær hirþingi fulþer vittnismaþær hvæt hældær. han ær fræls allær þræl. Syns hanum giald þa skal siunattings. til giaræ. lætæ bæræ asynær uittni. þa skal ræþæ wætti ok kræfiæ bokær syns hanum rætmæli. þa skal skyrskutæ. Biþi sva sær gud holl. at fæ þit drap mit fæ. mæþ synær uittni. ok sva gaf iak þær sak til. Far han eigh sokn fræmt mæþ laghæ uittnum. þa skal þæn ær sak ær givin. væriæ. sik mæþ tolf mannum. biþiæ sær sva guþ hol. at eigh drap mit fæ. þit fæ. ok iak eigh sanddær at þæ sak. þv giuær mæ.",
+          "tolkning": "Dräper ett fä ett annat och herden bär vittnesbörd därom, gälde ägaren fullt värde med svuren ed och tage det dräpta djuret eller tillgodogöre sig kött och hud; tage halsgille, det är en åttondedel av värdet på det djur som dräpte. I detta mål är herden ett fullgiltigt vittne vare sig han är fri man eller träl. Vägrar han betalning, skall man hålla sjunätting och frambära synvittnesbörd; då skall man framlägga vittnesbördet och kräva böter; synes saken laglig, skall man skärskjuta till vittne och bedja så Gud vara sig huld att 'ditt fä dräpte mitt fä'. Vinner han icke framgång med laga vittnen, då skall svaranden värja sig med tolv män och bedja så Gud vara sig huld att 'icke dräpte mitt fä ditt fä och jag är icke skyldig till den sak du lägger mig till last'.",
+          "kommentar": "hirþingi fulþer vittnismaþær: herdens unika rättsställning såsom fullgiltigt vittne oberoende av fri eller ofri börd. halsgildi: ersättning motsvarande en åttondedel av det dräpande djurets värde. Syns hanum giald: vägras skadeersättning utlyses sjunätting.",
+          "segmentId": "avg-b09-punkt09-seg001",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 9"
+        },
+        {
+          "fsv": "§.1. Faldær. fæ .i. mans handæværki. i brun all diki. ællær. annur þylik værk ok far þær banæ af. þa skal bötæ. VI. öræ firi hæst. half mark. firi oxæ ok sua firi ko. ok hors. Sva skal þæt sökiæ ok væriæ. sua sum fæ havi fæ dræpit. §.2. Flögher fæ i gærþi sva at ængin æltir far banæ af liggi vgilt. Æn flögher or gærþi gialdi hin aptær. gærþ .a. Æltir nokor or gærþi fa þær banæ af. ær til asynæ vittni gialde þæn sum a ælti sva sum mælt ær æn i diki laghi döt. samæleþ sokiæ ok væriæ. §.3. Æn maþær læstir hæst. ællær halataghl ok stingær vt öghæ gialdi öræ. ællær væri sic mæþ tylptær eþe.",
+          "tolkning": "§ 1. Faller fä i en mans grävda verk, i en brunn eller ett dike eller andra dylika anläggningar och får sin bane därav, då skall han böta sex örar för en häst, en halv mark för en oxe och likaså för en ko och ett sto. Så skall det sökas och värjas liksom om fä hade dräpt fä. § 2. Springer fä in i en hägnad utan att någon jagar det och får sin bane därav, ligge det ogillt; men springer det ut ur hägnaden och skadas, gälde hägnadens ägare ersättning. Jagar någon ut djuret ur hägnaden och det omkommer därigenom och finns synvittne därtill, gälde den som jagade det på samma sätt som om det låge dött i ett dike; sökas och värjas på samma sätt. § 3. Skadar man en häst, antingen dess svanstagel (skär av svansen) eller sticker ut dess öga, gälde en örtug eller värje sig med tolftared.",
+          "kommentar": "mans handæværki: anläggningsansvar för brunnar och diken. flögher i gærþi: olyckor vid hägnader och gärdesgårdar. liggi vgilt: förlusten bärs utan skadestånd om djuret självmant språng in. halataghl ok stingær vt öghæ: illvillig stympning av häst belagd med böter eller tolftared.",
+          "segmentId": "avg-b09-punkt09-seg002",
+          "kallreferens": "AVG-MASKIN s. 14, Rætlosæ bolkær Punkt 9 §1–3"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 10",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 10 (Låneregeln)",
+      "balkId": "B09",
+      "pdfSidor": [15],
+      "kallpunkt": "10",
+      "meningar": [
+        {
+          "fsv": "10. All lan skulu hel hem flyties þem sum læþi firi vtæn al genmæli.",
+          "tolkning": "Alla lån skola återbäras oskadade hem till den som lånade ut, utan varje genmäle.",
+          "kommentar": "All lan skulu hel hem flyties: klassisk fornsvensk obligationsrättslig maxim om låntagarens strikta återlämningsplikt i oskadat skick.",
+          "segmentId": "avg-b09-punkt10-seg001",
+          "kallreferens": "AVG-MASKIN s. 15, Rætlosæ bolkær Punkt 10"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 11",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 11 (Rymda och lånade trälar)",
+      "balkId": "B09",
+      "pdfSidor": [15],
+      "kallpunkt": "11",
+      "meningar": [
+        {
+          "fsv": "11. Löpær dræll bort allær ambut fra lawarþi sinum ok gör nokon skaþa. dræpær. stial allær rænir. eig skal lauarþær. skæþæ. gialda num han aptær fa hion sit. Far þem aptær böte afgærþir þerræ sum lagh sigiæ én asynær vittni æru til ællær þiufnæþær i handum takin ær eigh þæt til. væri mæþ nekuaþum sum lægh sighia. §.1. Lanar maþær manni þræl sin svari hin sakum ær uiþ lani havir takit. e mæþæn han ær i hans varþnæde.",
+          "tolkning": "Rymmer en träl eller trälinna bort från sin husbonde och gör någon skada, dräper, stjäl eller rånar, skall husbonden icke gälda skadan såvida han icke återfår sitt hjon. Får han dem tillbaka, böte han för deras förbrytelser såsom lagen säger, om synvittnen finnas eller tjuvgods gripits på bar gärning; finnes icke det, värje han sig med förnekande ed såsom lagen säger. § 1. Lånar man ut sin träl till en man, svare den för sakerna som har tagit emot lånet, så länge trälen är i hans vård.",
+          "kommentar": "lawarþi: husbonde (fsv. lavardher, jfr eng. lord). Huvudprincipen om husbondens begränsade principalansvar för rymda trälars brott intill dess han återfår trälen i sitt hushåll.",
+          "segmentId": "avg-b09-punkt11-seg001",
+          "kallreferens": "AVG-MASKIN s. 15, Rætlosæ bolkær Punkt 11–§1"
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 12",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 12 (Legodjur och vårdansvar)",
+      "balkId": "B09",
+      "pdfSidor": [15],
+      "kallpunkt": "12",
+      "meningar": [
+        {
+          "fsv": "12. [Þ]æn sum leghir af bondæ hæst. ællær öxa. allær. ko. han skal varþæ firi vangömslö. þæt ær þiuuær. vatn. dyi. klavi ok annur þylik. §.1. Firi fars. fæ. afæfli. þæt ær. biorn. allær. quesæ. firi varghi. skal uarþæ sum firi. wangömslö. æn eig far aflæstir af. þæt ær. sex öræ firi hæst. halfmark firi oxa ok hors far han aflæstir gialdi iki firi vargh.",
+          "tolkning": "Den som lejer häst, oxe eller ko av en bonde, han skall svara för vårdslöshet (vanrykt): det är tjuvar, drunkningsvatten, dyn och moras, klave och annat dylikt. § 1. För fäets rovdjursskada och övermakt — det är björn, varg eller pest/vilddjursbett (quesa) — skall han svara liksom för vårdslöshet om icke lämningar (öron eller skinn) förevisas; böterna äro sex örar för häst och en halv mark för oxe och sto; förevisar han lämningarna, gälde han intet för vargen.",
+          "kommentar": "vangömslö: vårdslös förvaring (culpa) där lejaren bär bevisbördan. klavi: kvävning i bindsle eller klave. quesæ: vilddjurssting, bett eller akut djursjukdom. aflæstir: bevislämningar (avskurna öron eller skinn) som styrkte att djuret rivits av rovdjur utan lejarens vållande. Textkritisk notis: Källan har '?æn sum leghir' på s. 15 rad 8; frågetecknet återgivet som [Þ] enligt transkriptionsreglerna.",
+          "segmentId": "avg-b09-punkt12-seg001",
+          "kallreferens": "AVG-MASKIN s. 15, Rætlosæ bolkær Punkt 12–§1",
+          "avvikelser": [
+            "Källtexten har '?æn sum leghir' på s. 15 rad 8; frågetecknet återgivet som [Þ] i enlighet med transkriptionsreglerna."
+          ]
+        }
+      ]
+    },
+    {
+      "rubrik": "Sektion 13",
+      "hanvisning": "Cod. Holm. B 59, Rætlosæ bolkær Punkt 13 (Deposition och förvaring av gods)",
+      "balkId": "B09",
+      "pdfSidor": [15],
+      "kallpunkt": "13",
+      "meningar": [
+        {
+          "fsv": "13. Læggær maþær manni fæ sit in til gætslu. þa ma þæt fæ eigh tapas af þem uiþ takar hwærtti mæþ styld ællær mæþ rani num bondæ. þæs fæ ær uiþr takær allær kostær værþa maþ taknir aftær skal han gialdæ. Læggi fram þæt han uill. ok maþ tylptær eþ at han fæk eig meræ hans. fæ at gætslu æn han havir nu fram laghat.",
+          "tolkning": "Lämnar en man sitt gods in till förvaring hos en man, då må det godset icke förloras av den som tog emot det varken genom stöld eller genom rån, såvida icke den bondes eget gods som tog emot det också bortrövas; eljest skall han gälda det tillbaka. Han framlägge vad han vill och svärje med en tolftared att han icke mottog mer av dennes gods till förvaring än han nu har lagt fram.",
+          "kommentar": "til gætslu: deposition (depositum). Förvararens strikta ansvar hävs endast om hans egna tillhörigheter samtidigt stulits vid samma inbrott eller rån. Tvist om depositiets storlek avgörs genom förvararens tolftared.",
+          "segmentId": "avg-b09-punkt13-seg001",
+          "kallreferens": "AVG-MASKIN s. 15, Rætlosæ bolkær Punkt 13"
+        }
+      ]
+    }
+  ]
+}
