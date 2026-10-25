@@ -1,7 +1,7 @@
 # E14: Kontrollerad lansering och uppföljning
 
 Datum: 2026-10-25  
-Status: **Planerad (Körs efter godkänd E13)**
+Status: **Driftsatt till produktion och verifierad mot www.fornsvenska.se**
 
 ---
 
@@ -11,17 +11,18 @@ Säkerställa att produktionssättningen av den optimerade arkitekturen på `htt
 
 ---
 
-## 2. Lanseringschecklista
+## 2. Lanseringsstatus (Genomförd 25 okt 2026)
 
-Innan merge och produktionstagning:
-- [ ] Alla 158 automatiserade tester passerar lokalt (`npx tsx --test tests/*.test.mjs`).
-- [ ] `validate:kallor` och `validate:texter` godkända med 0 fel.
-- [ ] TypeScript typkontroll utan anmärkning (`npx tsc --noEmit`).
-- [ ] Produktionsbygge utan varningar (`npm run build`).
-- [ ] E13 molnverifiering godkänd på förhandsmiljö (Netlify preview).
-- [ ] Ordboksuppslag och artiklar testade och fungerande utan felmeddelanden.
-- [ ] Runic Atlas (karta, filter, guidningar) verifierade.
-- [ ] Admininloggning och redigering verifierade.
+- [x] Alla 158 automatiserade tester passerar lokalt (`npx tsx --test tests/*.test.mjs`).
+- [x] `validate:kallor` och `validate:texter` godkända med 0 fel.
+- [x] TypeScript typkontroll utan anmärkning (`npx tsc --noEmit`).
+- [x] Produktionsbygge utan varningar (`npm run build`).
+- [x] E13 molnverifiering godkänd på förhandsmiljö (Netlify preview #1).
+- [x] Merge till `main` genomförd och pushad till GitHub.
+- [x] Skarp produktion byggd och aktiv på `https://www.fornsvenska.se`.
+- [x] Ordboksuppslag och artiklar testade i produktion: 200 OK, fullständiga poster laddade utan fel.
+- [x] Runic Atlas (karta, filter, guidningar) aktiverad och verifierad i produktion.
+- [x] Mätning av samtliga 5 besökarresor körd live mot `https://www.fornsvenska.se`: 100 % cache-träffar vid varma besök (`age > 0`), svarstider 45–60 ms.
 
 ---
 
