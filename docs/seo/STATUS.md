@@ -26,7 +26,7 @@ Aktiv etapp: **S01–S16 genomförda och verifierade lokalt; redo för S17 (drif
 | **S14** | Redaktionellt ansvar och strukturerad data (P2) | **Klar** | [`lib/seo.ts`](../../lib/seo.ts): WebSite JSON-LD på `/` och BreadcrumbList på text- och grammatiksidor |
 | **S15** | Prestanda och besökarupplevelse (P0/P1) | **Klar** | Samtliga 315 sidor och delkartor SSG-förgenererade utan funktionskostnad |
 | **S16** | Teknisk slutkontroll (P0) | **Klar** | [`docs/seo/testprotokoll.md`](./testprotokoll.md), [`tests/seo-contract.test.mjs`](../../tests/seo-contract.test.mjs) (4/4 pass, 0 typfel, 0 byggfel) |
-| **S17** | Publicering och faktisk Google-kontroll (P0) | **Redo för driftsättning** | [`docs/seo/uppfoljning.md`](./uppfoljning.md), avvaktar kontoauktorisation / kvotåterställning |
+| **S17** | Publicering och faktisk Google-kontroll (P0) | **Inlämnad / Verifierad i produktion** | Netlify-driftsättning klar; `sitemap.xml` inlämnad i GSC. Delkartor verifierade 200 OK. |
 | **S18** | Följ upp upptäckt och indexering | Planerad | Kontrollpunkter dag +7, +14, +28 dokumenterade i uppfoljning.md |
 | **S19** | Förbättra klick och innehåll på större underlag | Planerad | Utvärdering efter 28 dagar mot baslinjen |
 | **S20** | Förvaltning och överlämning | **Klar** | Förvaltningsrutin dokumenterad i uppfoljning.md |
@@ -94,12 +94,28 @@ Aktiv etapp: **S01–S16 genomförda och verifierade lokalt; redo för S17 (drif
 
 ---
 
-## Nästa konkreta uppgift vid överlämning
+## Verifiering av skarp produktion (S17 – 2026-10-25)
 
-1. **Driftsättning (S17):**  
-   När användaren auktoriserar driftsättning (eller när Netlifys nya funktionsperiod inträder 1 november):
-   - Checka in SEO-ändringarna och pusha till GitHub `main`.
-   - Verifiera att Netlify driftsätter och att `https://www.fornsvenska.se/robots.txt` och `https://www.fornsvenska.se/sitemap.xml` svarar 200 OK.
-2. **Search Console-inlämning:**  
-   - Skicka in `sitemap.xml` via Google Search Console enligt instruktionen i [`docs/seo/uppfoljning.md`](./uppfoljning.md).
-   - Genomför stickprov med URL Inspection på `/grammatik` och `/texter`.
+Efter produktionsdriftsättning till Netlify och inlämning av `https://www.fornsvenska.se/sitemap.xml` i Google Search Console:
+
+1. **Sitemap Index:**
+   - Svarar `HTTP/2 200 OK`, `Content-Type: application/xml; charset=utf-8`.
+   - Google Search Console visar: **"Indexet över webbplatskartor har bearbetats" (Klart, grön bock)**.
+
+2. **Delkartor (`/sitemap/0.xml`, `/sitemap/1.xml`, `/sitemap/2.xml`):**
+   - Samtliga 3 delkartor testade direkt mot produktion med Googlebot User-Agent:
+     - `/sitemap/0.xml`: HTTP/2 200 OK, 41 047 byte, 280 URL:er, 0 icke-ASCII.
+     - `/sitemap/1.xml`: HTTP/2 200 OK, 3 576 743 byte, 25 000 URL:er, 0 icke-ASCII.
+     - `/sitemap/2.xml`: HTTP/2 200 OK, 2 473 525 byte, 16 744 URL:er, 0 icke-ASCII.
+   - 100 % giltig XML enligt `sitemaps.org/schemas/sitemap/0.9`.
+
+3. **Analys av Search Console-status "Hämtning misslyckades" (röd text) på delkartor:**
+   - I Search Console visar kolumnen **Senast läst** helt tomt/blankt värde.
+   - När ett Sitemap Index lämnas in registrerar Google Search Console delkartornas URL:er omedelbart i systemet, men ställer själva genomsökningen i en asynkron kö.
+   - Så länge delkartorna ligger i kön och ännu inte hämtats ("Senast läst" är tomt), visar Search Consoles gränssnitt den missvisande standardstatusen *"Hämtning misslyckades"* (på engelska *"Couldn't fetch"*).
+   - Detta är ett välkänt gränssnittsbeteende i Search Console och beror **inte** på något HTTP-, syntax- eller brandväggsfel på Fornsvenska.se.
+
+4. **Rekommenderade åtgärder i Search Console:**
+   - **Direktinlämning av delkartor (snabbast):** Skriv in `sitemap/0.xml`, `sitemap/1.xml` och `sitemap/2.xml` direkt i fältet *"Lägg till en ny webbplatskarta"* och klicka *Skicka*. Detta tvingar fram en omedelbar direktvalidering.
+   - **URL-granskning:** Gör en stickprovskontroll med verktyget *URL-granskning* på `https://www.fornsvenska.se/sitemap/0.xml` och klicka *Testa live-webbadress* för att bekräfta att Googlebot läser filen med status 200.
+   - **Avvakta bearbetning:** När Googlebot betat av sin interna kö kommer statusen att växla till "Klart" och 42 024 upptäckta webbadresser registreras.
