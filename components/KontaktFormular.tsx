@@ -31,19 +31,21 @@ export default function KontaktFormular({
     const formData = new FormData(form);
 
     try {
-      // Netlify Forms hanterar application/x-www-form-urlencoded via POST till roten
-      const params = new URLSearchParams();
-      formData.forEach((value, key) => {
-        params.append(key, value.toString());
-      });
-
-      const response = await fetch('/', {
+      const response = await fetch('/api/kontakt', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: params.toString(),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          namn,
+          epost,
+          amne,
+          meddelande,
+          'bot-field': (form.elements.namedItem('bot-field') as HTMLInputElement)?.value || '',
+        }),
       });
 
-      if (response.ok) {
+      const data = await response.json().catch(() => null);
+
+      if (response.ok && data?.ok) {
         setStatus('success');
         setNamn('');
         setEpost('');
@@ -51,7 +53,7 @@ export default function KontaktFormular({
         setMeddelande('');
       } else {
         setStatus('error');
-        setFelmeddelande('Kunde inte skicka meddelandet. Kontrollera nätverket och försök igen.');
+        setFelmeddelande(data?.error || 'Kunde inte skicka meddelandet. Kontrollera uppgifterna och försök igen.');
       }
     } catch {
       setStatus('error');
@@ -132,16 +134,9 @@ export default function KontaktFormular({
         </div>
       ) : (
         <form
-          name="kontakt"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
           style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}
         >
-          {/* Netlify Forms obligatoriska dolda fält */}
-          <input type="hidden" name="form-name" value="kontakt" />
-
           {/* Dold honeypot för bot-bekämpning */}
           <p style={{ display: 'none' }}>
             <label>
@@ -314,7 +309,7 @@ export default function KontaktFormular({
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem', marginTop: '0.25rem' }}>
             <span style={{ fontSize: '0.7rem', color: 'var(--text-muted, #777)' }}>
-              Skickas direkt till redaktionen via Netlify Forms.
+              Skickas direkt till redaktionen.
             </span>
             <button
               type="submit"

@@ -6,7 +6,7 @@ import KontaktFormular from '@/components/KontaktFormular';
 export const metadata: Metadata = {
   title: 'Kontakt och rättelser',
   description:
-    'Kontakta redaktionen för Fornsvenska.se med synpunkter, källkritiska rättelser, runologiska anmärkningar eller allmänna frågor via Netlify Forms.',
+    'Kontakta redaktionen för Fornsvenska.se med synpunkter, källkritiska rättelser, runologiska anmärkningar eller allmänna frågor.',
   alternates: {
     canonical: '/kontakt',
   },
@@ -54,7 +54,7 @@ export default function KontaktSida() {
               Hänvisa om möjligt till källpublikation (t.ex. <em>Sveriges runinskrifter</em>, <em>Samnordisk runtextdatabas</em>, <em>Söderwall</em> eller vetenskaplig artikel).
             </li>
             <li>
-              Formuläret behandlas av redaktionen via Netlify Forms och kräver ingen särskild e-postklient.
+              Formuläret behandlas av redaktionen och skickas direkt via e-post utan krav på särskild e-postklient.
             </li>
           </ul>
         </section>
@@ -63,7 +63,7 @@ export default function KontaktSida() {
       <ColophonStrip
         left="Fornsvenska.se"
         centre="Kontakt & Rättelser"
-        right="Netlify Forms"
+        right="Kontakt"
       />
     </div>
   );

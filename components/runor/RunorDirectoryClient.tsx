@@ -841,7 +841,7 @@ export default function RunorDirectoryClient({ inscriptions }: Props) {
                 kompakt
                 defaultAmne="Runologisk rättelse / källkritik"
                 rubrik="Skicka rättelse till redaktionen"
-                beskrivning="Dina synpunkter skickas direkt till redaktionen via Netlify Forms."
+                beskrivning="Dina synpunkter skickas direkt till redaktionen."
               />
             )}
           </div>
