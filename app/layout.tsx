@@ -4,6 +4,7 @@ import "./globals.css";
 import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
+import { Analytics } from "@vercel/analytics/next";
 
 /* Endast två familjer: hög-kontrast antikva till rubriker och siffror,
    monospace till allt annat. Ingen grotesk. */
@@ -72,6 +73,7 @@ export default function RootLayout({
           {children}
           <AdminBar />
         </AdminProvider>
+        <Analytics />
       </body>
     </html>
   );
