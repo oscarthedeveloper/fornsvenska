@@ -48,3 +48,5 @@ output/
 /public/bocker/
 
 /underlag/
+.vercel
+.env*

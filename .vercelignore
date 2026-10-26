@@ -1,0 +1,29 @@
+# Beroenden och byggen
+node_modules
+.next
+out
+.netlify
+
+# Stora lokala rådatafiler och källunderlag (28+ GB)
+output
+underlag
+Källor
+Källor
+tmp
+public/bocker
+
+# Dokumentation och tester (behövs ej i runtime-bygget)
+docs
+tests
+
+# Git och miljö
+.git
+.vercel
+.env*
+!.env.local.example
+
+# Skräp
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__
