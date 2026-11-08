@@ -1,0 +1,54 @@
+{
+  "checkedDate": "2026-10-30",
+  "method": "Read-only authenticated dashboards via browser and GitHub connector. Values transcribed from visible UI; no cookies, credentials, private identifiers or email content retained.",
+  "cloudflare": {
+    "workersPlan": "Free",
+    "projectsVisible": 0,
+    "requestsToday": 0,
+    "dailyRequestLimit": 100000,
+    "workersBuildMinutesThisMonth": 0,
+    "workersBuildMinutesLimit": 3000,
+    "pagesBuildUsage": "not exposed in inspected view; Workers build minutes are not Pages build count",
+    "projectCreationCapacity": "not tested; documented 100, first-48-hours restriction possible"
+  },
+  "supabase": {
+    "organizationPlan": "Free",
+    "activeProjectsVisible": 2,
+    "billingCycle": "2026-10-13/2026-11-13",
+    "fornsvenskaDatabaseSizeDisplayedMB": 27.01,
+    "organizationUncachedEgressDisplayedGB": 0.013,
+    "organizationCachedEgressDisplayedGB": 0.002,
+    "organizationStorageSizeSummaryDisplayedGB": 0.031,
+    "organizationStorageAverageInPeriodDisplayedGB": 0.03,
+    "overagesBilled": false,
+    "note": "Storage figure is dashboard usage summary/period average, not an exact current bucket inventory. DB measurement is not content parity.",
+    "connectorVerified": true,
+    "connectorProjectStatus": "ACTIVE_HEALTHY",
+    "connectorOrganizationPlan": "free",
+    "publicSchemaTablesListed": 11,
+    "publicSchemaRlsEnabledForListedTables": true,
+    "dictionaryTablesInPublicSchemaListed": false,
+    "tableRowCountCaveat": "List-tables returned rows=0; these values are not treated as verified exact counts or production parity."
+  },
+  "resend": {
+    "transactionalPlan": "Free",
+    "monthlyEmailsUsed": 2,
+    "monthlyEmailLimit": 3000,
+    "dailyEmailsUsed": 0,
+    "dailyEmailLimit": 100,
+    "verifiedDomains": 0,
+    "transactionalPayAsYouGoEnabled": false,
+    "note": "No domains yet. No email sent during inspection."
+  },
+  "github": {
+    "repositoryVisibility": "public",
+    "connectorAdminPermission": true,
+    "actionsEnabled": true,
+    "defaultWorkflowPermission": "read contents and packages",
+    "selfHostedRunners": 0,
+    "standardHostedRunnerExecution": "not tested",
+    "billingStop": "Account Actions budget shows $0.00 / $0.00 and Usage blocked",
+    "actionsPaidBudgetUSD": 0,
+    "meteredUsageCurrentMonth": "No usage data found, October 2026; not an exact free storage inventory"
+  }
+}

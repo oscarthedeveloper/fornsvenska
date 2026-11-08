@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-9",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-9",
+    "canonicalSignum": "Öl 9",
+    "provinceCode": "Öl",
+    "itemNumber": 9,
+    "suffix": null,
+    "name": "Kastlösa kyrka",
+    "canonicalSlug": "ol-9",
+    "aliases": [
+      "Bautil 9"
+    ],
+    "carrier": {
+      "id": "carrier-ol-9",
+      "type": "fragment",
+      "material": "Kalksten",
+      "preservationStatus": "bevarad_i_fragment",
+      "currentLocationDescription": "Nuvarande placering: Kastlösa kyrka, Kastlösa socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Kastlösa socken",
+        "hundred": "Gräsgårds härad",
+        "placeName": "Kastlösa kyrka",
+        "coordinatesWgs84": [
+          16.4291,
+          56.4585
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 51"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1050–1120 (kistlockhäll)",
+      "periodLabel": "Tidigmedeltid / Senvikingatid",
+      "earliestYear": 1050,
+      "latestYear": 1120,
+      "isUncertain": false,
+      "datingMethod": "Gravskick och ornamentik"
+    },
+    "textLayer": {
+      "id": "text-ol-9",
+      "readingTransliteration": "[askutr : raisti : stain : þina : iftʀ : suin : faþur : sina : kuþ : ialbi : ant : hans : a^uk : kus muþiʀ]",
+      "normalizationRunicSwedish": "Asgautr ræisti stæin þenna æftiʀ Svæin, faður sinn. Guð hialpi and hans ok Guðs moðiʀ.",
+      "normalizationOldWestNorse": "Ásgautr reisti stein þenna eptir Svein, fǫður sinn. Guð hjalpi ǫnd hans ok Guðs móðir.",
+      "translationSwedish": "… lät göra detta minnesmärke efter sin fader och efter sin broder … Krist hjälpe hans ande.",
+      "translationEnglish": "… had this monument made in memory of his father and in memory of his brother … May Christ help his spirit.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 51,
+      "printedPageEnd": 55,
+      "pdfPageStart": 62,
+      "pdfPageEnd": 66,
+      "plateNumber": "Plansch IV",
+      "externalUris": {
+        "samnordiskUuid": "73eec346-70ba-4532-a3d4-8e04d48eb1a5",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=73eec346-70ba-4532-a3d4-8e04d48eb1a5"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-9",
+        "imageUrl": "/images/runor/ol-9.webp",
+        "thumbnailUrl": "/images/runor/ol-9-thumb.webp",
+        "caption": "Kastlösa kyrka (Öl 9), runstensfragment med slingor ur Ölands runinskrifter",
+        "photographerOrArtist": "Sven Söderberg",
+        "year": 1900,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Fragment av lockhäll till tidigkristen kistgrav på Kastlösa kyrkogård.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.226199+00:00"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-2",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-2",
+    "canonicalSignum": "Öl 2",
+    "provinceCode": "Öl",
+    "itemNumber": 2,
+    "suffix": null,
+    "name": "Resmo kyrka",
+    "canonicalSlug": "ol-2",
+    "aliases": [
+      "Bautil 2"
+    ],
+    "carrier": {
+      "id": "carrier-ol-2",
+      "type": "fragment",
+      "material": "Kalksten",
+      "preservationStatus": "bevarad_i_fragment",
+      "currentLocationDescription": "Nuvarande placering: Algutsrums kyrka, Algutsrums socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Algutsrums socken",
+        "hundred": "Algutsrums härad",
+        "placeName": "Algutsrums kyrka",
+        "coordinatesWgs84": [
+          16.5278,
+          56.6788
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 28"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "1000-talet (vikingatid)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1020,
+      "latestYear": 1070,
+      "isUncertain": false,
+      "datingMethod": "Stilgruppering och runformer"
+    },
+    "textLayer": {
+      "id": "text-ol-2",
+      "readingTransliteration": "[tot-- × þ-(a)- (k)--(k)aʀ · ---- · …--- -tain · iftiʀ · sabiara · bruþur · sin · kuþ · hialbi salu hans ·]",
+      "normalizationRunicSwedish": "Dott[iʀ](?), Þ[i]a[gn](?), …gæiʀʀ(?) [letu] [retta] [s]tæin æftiʀ Sæbiorn, broður sinn. Guð hialpi salu hans.",
+      "normalizationOldWestNorse": "Dótt[ir](?), Þe[gn](?), …geirr(?) [létu] [rétta] [s]tein eptir Sæbjǫrn, bróður sinn. Guð hjalpi sálu hans.",
+      "translationSwedish": "… lät resa denna sten efter Sven, sin fader. Gud hjälpe hans själ och sankta Maria.",
+      "translationEnglish": "… had this stone raised in memory of Sveinn, his father. May God and Saint Mary help his soul.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 28,
+      "printedPageEnd": 32,
+      "pdfPageStart": 36,
+      "pdfPageEnd": 40,
+      "plateNumber": "Plansch III",
+      "externalUris": {
+        "samnordiskUuid": "f42d5457-7fb6-4c7e-b184-78a09dfbeaca",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=f42d5457-7fb6-4c7e-b184-78a09dfbeaca"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-2",
+        "imageUrl": "/images/runor/ol-2.webp",
+        "thumbnailUrl": "/images/runor/ol-2-thumb.webp",
+        "caption": "Runstensfragment Öl 2, inmurat i kyrkvägg, ur Ölands runinskrifter",
+        "photographerOrArtist": "Sven Söderberg",
+        "year": 1900,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Fragment sekundärt inmurat i Resmo kyrka. Bär kristen förbön till Gud och sankta Maria.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.092485+00:00"
+  }
+}

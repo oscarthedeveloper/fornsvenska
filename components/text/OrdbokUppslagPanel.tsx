@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { OrdbokTextUppslagResultat, OrdbokTextUppslagTräff } from "@/lib/ordbok/typer";
 import { formatOrdklassLista } from "@/components/ordbok/ordklasser";
 import { byggOrdbokQueryString } from "@/lib/ordbok/url";
+import { slaUppTextOrdKlientAsync } from "@/lib/ordbok/clientSearchBridge";
 import Inline from "@/components/dokument/Inline";
 import type { KlickatOrdKontext } from "./KlickbarFsvMening";
 import BokmarkeKnapp from "@/components/ordbok/BokmarkeKnapp";
@@ -67,30 +68,37 @@ export default function OrdbokUppslagPanel({
       return;
     }
 
-    // 2. Skapa AbortController för att avbryta pågående förfrågan om nytt ord väljs
     const controller = new AbortController();
     setLaddar(true);
     setFel(null);
 
-    fetch(`/api/ordbok/uppslag?ord=${encodeURIComponent(ord)}`, {
-      signal: controller.signal,
-    })
-      .then((res) => {
-        if (!res.ok) throw new Error("Kunde inte hämta ordboksuppslag.");
-        return res.json() as Promise<OrdbokTextUppslagResultat>;
-      })
+    slaUppTextOrdKlientAsync(ord, 8)
       .then((data) => {
+        if (controller.signal.aborted) return;
         sparaIKlientCache(ord, data);
         setResultat(data);
         setLaddar(false);
       })
-      .catch((err: unknown) => {
-        if (err instanceof Error && err.name === "AbortError") {
-          // Förfrågan avbröts av ett snabbt ordbyte; ignorera
-          return;
-        }
-        setFel(err instanceof Error ? err.message : "Ett fel uppstod.");
-        setLaddar(false);
+      .catch(() => {
+        // Fallback till server-endpoint om webbläsaren/nätverket inte har indexet redo
+        fetch(`/api/ordbok/uppslag?ord=${encodeURIComponent(ord)}`, {
+          signal: controller.signal,
+        })
+          .then((res) => {
+            if (!res.ok) throw new Error("Kunde inte hämta ordboksuppslag.");
+            return res.json() as Promise<OrdbokTextUppslagResultat>;
+          })
+          .then((data) => {
+            if (controller.signal.aborted) return;
+            sparaIKlientCache(ord, data);
+            setResultat(data);
+            setLaddar(false);
+          })
+          .catch((err: unknown) => {
+            if (controller.signal.aborted) return;
+            setFel(err instanceof Error ? err.message : "Ett fel uppstod.");
+            setLaddar(false);
+          });
       });
 
     return () => {

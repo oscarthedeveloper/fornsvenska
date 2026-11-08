@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/og-181",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-og-181",
+    "canonicalSignum": "Ög 181",
+    "provinceCode": "Ög",
+    "itemNumber": 181,
+    "suffix": null,
+    "name": "Ledbergsstenen",
+    "canonicalSlug": "og-181",
+    "aliases": [
+      "Bautil 894",
+      "Ledbergsstenen"
+    ],
+    "carrier": {
+      "id": "carrier-og-181",
+      "type": "runsten",
+      "material": "Gnejsgranit",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Ledbergs kyrkogård, Ledbergs socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Östergötland",
+        "parish": "Ledbergs socken",
+        "hundred": "Valkebo härad",
+        "placeName": "Ledbergs kyrkogård",
+        "coordinatesWgs84": [
+          15.4469,
+          58.4422
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Östergötlands runinskrifter, s. 174"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1000–1050 (Ragnarök-motiv)",
+      "periodLabel": "Vikingatid",
+      "earliestYear": 1000,
+      "latestYear": 1050,
+      "isUncertain": false,
+      "datingMethod": "Ikonografisk stilgruppering och runformer"
+    },
+    "textLayer": {
+      "id": "text-og-181",
+      "readingTransliteration": "§A (b)isi · sati : st[(n)] : þisi : iftiʀ : þurkut : u----þi : faþur §B : sin : uk : þu : kuna : baþi : þmk:iii:sss:ttt:iii:l[(l)]l :",
+      "normalizationRunicSwedish": "§A Bisi satti stæin þennsi æftiʀ Þorgaut …, faður §B sinn ok þau Gunna baði. Þistill/mistill/kistill.",
+      "normalizationOldWestNorse": "§A Bisi setti stein þenna eptir Þorgaut …, fǫður §B sinn ok þau Gunna bæði. Þistill/mistill/kistill.",
+      "translationSwedish": "Bisi och Gunna läto resa denna sten efter Torgöt, sin fader… Tor vige dessa runor.",
+      "translationEnglish": "Bisi and Gunna had this stone raised in memory of Þorgautr, their father… May Thor hallow these runes.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-02",
+      "sriVolumeTitle": "Östergötlands runinskrifter",
+      "author": "Erik Brate",
+      "publicationYear": 1918,
+      "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+      "printedPageStart": 174,
+      "printedPageEnd": 177,
+      "pdfPageStart": 78,
+      "pdfPageEnd": 81,
+      "plateNumber": "Plansch XLIV",
+      "externalUris": {
+        "samnordiskUuid": "d4122c62-f4b0-4852-beda-3a283e382ba1",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=d4122c62-f4b0-4852-beda-3a283e382ba1"
+      }
+    },
+    "images": [
+      {
+        "id": "img-og-181",
+        "imageUrl": "/images/runor/og-181.webp",
+        "thumbnailUrl": "/images/runor/og-181-thumb.webp",
+        "caption": "Ledbergsstenen (Ög 181), bildstensristning med Fenrisulven ur Östergötlands runinskrifter",
+        "photographerOrArtist": "Erik Brate",
+        "year": 1911,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Bildsten på Ledbergs kyrkogård med förkristna scener tolkade som Fenrisulven slukande Oden vid Ragnarök, samt den magiska formeln 'Tor vige runorna'.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.122704+00:00"
+  }
+}

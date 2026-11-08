@@ -1,10 +1,15 @@
+import { publishedOverride } from "./editorial/publication-input";
 /**
  * Sidtexten — läsning.
  *
  * Samma uppdelning som resten: Supabase när nycklarna finns, annars
  * standardtexten i koden. Sidan ska gå att titta på utan databas.
  */
-import { cache } from "react";
+import * as React from "react";
+const cache =
+  typeof React.cache === "function"
+    ? React.cache
+    : (<T extends (...args: any[]) => any>(fn: T): T => fn);
 import { HAR_SUPABASE } from "@/lib/supabase/config";
 import { skapaPublikServerKlient } from "@/lib/supabase/server";
 import { medStandard, type Startinnehall } from "@/lib/sidtyper";
@@ -13,7 +18,9 @@ const ANVAND_SUPABASE_SIDOR =
   HAR_SUPABASE && process.env.NEXT_PUBLIC_DATA_SOURCE === "supabase";
 
 export const hamtaStartinnehall = cache(async (): Promise<Startinnehall> => {
-  if (!ANVAND_SUPABASE_SIDOR) return medStandard(null);
+  const frozen = publishedOverride<Startinnehall>("startsida", "start");
+  if (frozen) return medStandard(frozen);
+  if (process.env.CF_RELEASE_SNAPSHOT || !ANVAND_SUPABASE_SIDOR) return medStandard(null);
 
   try {
     const supabase = skapaPublikServerKlient();

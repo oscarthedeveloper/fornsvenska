@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-15",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-15",
+    "canonicalSignum": "Öl 15",
+    "provinceCode": "Öl",
+    "itemNumber": 15,
+    "suffix": null,
+    "name": "Södra Möckleby kyrkogård",
+    "canonicalSlug": "ol-15",
+    "aliases": [
+      "Bautil 15"
+    ],
+    "carrier": {
+      "id": "carrier-ol-15",
+      "type": "runsten",
+      "material": "Kalksten",
+      "preservationStatus": "forlorad",
+      "currentLocationDescription": "Nuvarande placering: Södra Möckleby kyrkogård, Södra Möckleby socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Södra Möckleby socken",
+        "hundred": "Gräsgårds härad",
+        "placeName": "Södra Möckleby kyrkogård",
+        "coordinatesWgs84": [
+          16.4214,
+          56.3565
+        ],
+        "precision": "sockencentrum",
+        "sourceNote": "Ölands runinskrifter, s. 60"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "1000-talet",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1000,
+      "latestYear": 1080,
+      "isUncertain": false,
+      "datingMethod": "Äldre teckning och runformer"
+    },
+    "textLayer": {
+      "id": "text-ol-15",
+      "readingTransliteration": "[iliuri : raisti : stina : þinsi : iftiʀ : … faþur : sin … uikar : bruþur : sin :]",
+      "normalizationRunicSwedish": "<iliuri> ræisti stæin þennsi æftiʀ … faður sinn … Vikar, broður sinn.",
+      "normalizationOldWestNorse": "<iliuri> reisti stein þenna eptir … fǫður sinn … Víkar, bróður sinn.",
+      "translationSwedish": "Abjörn reste denna sten efter sin fader och efter Vikar…",
+      "translationEnglish": "Ábjôrn raised this stone in memory of his father and in memory of Víkarr…",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 60,
+      "printedPageEnd": 62,
+      "pdfPageStart": 74,
+      "pdfPageEnd": 76,
+      "plateNumber": null,
+      "externalUris": {
+        "samnordiskUuid": "81e854d0-7b37-4f20-8859-e260256830d3",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=81e854d0-7b37-4f20-8859-e260256830d3"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-15",
+        "imageUrl": "/images/runor/ej-avbildad.svg",
+        "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+        "caption": "Öl 15 är förlorad och har ingen bevarad samtida avbildning i källorna.",
+        "photographerOrArtist": "Ej avbildad",
+        "year": null,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Förlorad runsten från Södra Möckleby kyrkogård, försvunnen före 1890-talets fältarbete.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.359114+00:00"
+  }
+}

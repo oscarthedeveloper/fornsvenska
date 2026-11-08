@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/og-136",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-og-136",
+    "canonicalSignum": "Ög 136",
+    "provinceCode": "Ög",
+    "itemNumber": 136,
+    "suffix": null,
+    "name": "Rökstenen",
+    "canonicalSlug": "og-136",
+    "aliases": [
+      "Bautil 848",
+      "Liljegren 133",
+      "Rökstenen"
+    ],
+    "carrier": {
+      "id": "carrier-og-136",
+      "type": "runsten",
+      "material": "Ljusgrå granit",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Röks kyrkogård, Röks socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Östergötland",
+        "parish": "Röks socken",
+        "hundred": "Lysings härad",
+        "placeName": "Röks kyrkogård",
+        "coordinatesWgs84": [
+          14.7752,
+          58.295
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Östergötlands runinskrifter, s. 130"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 800–850 (kortkvistrunor, urnordiska arkaismer)",
+      "periodLabel": "Tidig vikingatid",
+      "earliestYear": 800,
+      "latestYear": 850,
+      "isUncertain": false,
+      "datingMethod": "Språkhistoriska arkaismer, kortkvistrunor och chiffermetodik"
+    },
+    "textLayer": {
+      "id": "text-og-136",
+      "readingTransliteration": "§A aft uamuþ stonta runaʀ þaʀ + ¶ (i)n uarin faþi faþiʀ aft faikion sunu ¶ sakum| |mukmini þat huariaʀ ualraubaʀ uaʀin tuaʀ ¶ þaʀ suaþ tualf sinum uaʀin| |numnaʀ t ualraubu ¶ baþaʀ somon o umisum| |monum ' þat sakum ona¶rt huaʀ fur niu altum on urþi fiaru ¶ miʀ hraiþkutum auk tu ¶ miʀ on ub sakaʀ ¶ raiþ| |þiaurikʀ hin þurmuþi stiliʀ ¶ flutna strontu hraiþmaraʀ sitiʀ nu karuʀ o §B kuta sinum skialti ub fatlaþʀ skati marika §C þat sakum tualfta huar histʀ si ku¶naʀ itu| |uituoki on kunukaʀ tuaiʀ tikiʀ sua¶þ o likia + þat sakum þritaunta huariʀ t¶uaiʀ tikiʀ kunukaʀ satin t siulunti fia¶kura uintur at fiakurum nabnum burn¶(i)ʀ fiakurum bruþrum + ualkaʀ fim ra^þulfs| |su¶niʀ hraiþulfaʀ fim rukulfs| |suniʀ hoislaʀ fim haruþ¶s suniʀ kunmuntaʀ fim (b)irnaʀ suniʀ × nuk m--- (m)-- alu --(k)(i) ainhuaʀ -þ… …þ … ¶ ftiʀ fra ¶ saɢwᴍ| |ᴍᴏɢᴍᴇni (þ)aᴅ ʜᴏaʀ iɢᴏlᴅ¶(i)ɢa ᴏaʀi ɢᴏlᴅin ᴅ ɢᴏonaʀ ʜᴏsli ¶ airfb<sakum>| |<mukmini>bfrbnhn finb<uaim> an<si> tfonh<burin>| |<niþ>hnu¶ʀ troki uilin is þat + rhfþ<knuo> rhis<knat>¶i| |iatun uilin is þat + <(n)(i)(t)> §D <-akum| |mukmini þur> §E <si>bi <ui>a<ua>ri §C <ul niru>þʀ",
+      "normalizationRunicSwedish": "§A Aft Vamoð standa runaʀ þaʀ. Æn Varinn faði, faðiʀ, aft faigian sunu. Sagum mogminni/ungmænni þat, hværiaʀ valraufaʀ vaʀin tvaʀ þaʀ, svað tvalf sinnum vaʀin numnaʀ at valraufu, baðaʀ saman a ymissum mannum. Þat sagum annart, hvaʀ fur niu aldum an urði fiaru meðr Hraiðgutum, auk do meðr hann umb sakaʀ. Reð Þioðrikʀ hinn þurmoði, stilliʀ flutna, strandu Hraiðmaraʀ. Sitiʀ nu garuʀ a §B guta sinum, skialdi umb fatlaðʀ, skati Mæringa. §C Þat sagum tvalfta, hvar hæstʀ se Gunnaʀ etu vettvangi a, kunungaʀ tvaiʀ tigiʀ svað a liggia. Þat sagum þrettaunda, hvariʀ tvaiʀ tigiʀ kunungaʀ satin at Siolundi fiagura vintur at fiagurum nampnum, burniʀ fiagurum brøðrum. Valkaʀ fim, Raðulfs syniʀ, Hraiðulfaʀ fim, Rugulfs syniʀ, Haislaʀ fim, Haruðs syniʀ, Gunnmundaʀ/Kynmundaʀ fim, Biarnaʀ syniʀ. Nu'k m[inni] m[eðr] allu [sa]gi. Ainhvaʀʀ … [sva]ð … æftiʀ fra. Sagum mogminni/ungmænni þat, hvaʀ Inguldinga vaʀi guldinn at kvanaʀ husli. Sagum mogminni/ungmænni, hvaim se burinn niðʀ drængi. Vilinn es þat. Knua/knyia knatti iatun. Vilinn es þat … §D [S]agum mogminni/ungmænni: Þorr. §E Sibbi viaværi §C ol nirøðʀ.",
+      "normalizationOldWestNorse": "§A Ept Vámóð standa rúnar þær. En Varinn fáði, faðir, ept feigjan son. Sǫgum múgminni/ungmenni þat, hverjar valraufar væri tvær þær, svát tolf sinnum væri numnar at valraufu, báðar saman á ýmissum mǫnnum. Þat sǫgum annat, hverr fyrir níu ǫldum án yrði fjǫr með Hreiðgotum, auk dó með hann um sakar. Réð Þjóðríkr hinn þormóði, stillir flotna, strǫndu Hreiðmarar. Sitr nú gǫrr á §B gota sínum, skildi um fatlaðr, skati Mæringa. §C Þat sǫgum tolfta, hvar hestr sé Gunnar etu véttvangi á, konungar tveir tigir svát á liggja. Þat sǫgum þrettánda, hverir tveir tigir konungar sæti at Sjólundi fjóra vetr at fjórum nǫfnum, bornir fjórum brœðrum. Valkar fimm, Ráðulfs synir, Hreiðulfar fimm, Rugulfs synir, Háislar fimm, Hǫrðs synir, Gunnmundar/Kynmundar fimm, Bjarnar synir. Nú'k m[inni] m[eð] ǫllu [se]gi. Einhverr … [svá]t … eptir frá. Sǫgum múgminni/ungmenni þat, hvar Ingoldinga væri goldinn at kvánar húsli. Sǫgum múgminni/ungmenni, hveim sé borinn niðr drengi. Vilinn er þat. Knúa/knýja knátti jǫtun. Vilinn er þat … §D [S]ǫgum múgminni/ungmenni: Þórr. §E Sibbi véaveri §C ól nírœðr.",
+      "translationSwedish": "Till minne av Vämod stå dessa runor. Men Varin skrev dem, fadern, efter den fällde sonen. Jag säger de unga det, vilka de två stridsbyten voro, som tolv gånger togos som stridsbyte, båda på en gång från man efter man. Det säger jag som det andra, vem som för nio släktled sedan miste livet hos reidgoterna och dog hos dem till följd av sin skuld. Då rådde Tjodrik den dristige, sjökrigarnas herre, över Reidhavets strand. Nu sitter han rustad på sin gotiska häst, med sköld över skuldran, den främste av märingar…",
+      "translationEnglish": "In memory of Vémóðr stand these runes. And Varinn wrote them, the father, in memory of the fallen son. I say to the young men this, which the two war-booties were, which twelve times were taken as war-booty, both together from man after man. That I say as the second, who nine generations ago lost his life with the Reidgoths and died with them because of his guilt. Then ruled Theodoric the bold, king of sea-warriors, over the strand of the Reid-sea. Now sits he armed on his Gothic horse, shield over shoulder, foremost of the Mærings…",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-02",
+      "sriVolumeTitle": "Östergötlands runinskrifter",
+      "author": "Erik Brate",
+      "publicationYear": 1918,
+      "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+      "printedPageStart": 130,
+      "printedPageEnd": 158,
+      "pdfPageStart": 34,
+      "pdfPageEnd": 62,
+      "plateNumber": "Plansch XXXIII–XXXVI",
+      "externalUris": {
+        "samnordiskUuid": "62c17486-13c6-4722-9699-e1d0e2eb7fad",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=62c17486-13c6-4722-9699-e1d0e2eb7fad"
+      }
+    },
+    "images": [
+      {
+        "id": "img-og-136",
+        "imageUrl": "/images/runor/og-136.webp",
+        "thumbnailUrl": "/images/runor/og-136-thumb.webp",
+        "caption": "Rökstenen (Ög 136), framsidan och kantsida ur Östergötlands runinskrifter",
+        "photographerOrArtist": "Erik Brate / C.F. Lindberg",
+        "year": 1911,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Världens längsta och mest kända runinskrift. Innehåller fornyrðislag-verser om goterkungen Tjodrik (Teoderik den store), chiffer med lönnrunor och urnordiska språkliga arkaismer.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.001021+00:00"
+  }
+}

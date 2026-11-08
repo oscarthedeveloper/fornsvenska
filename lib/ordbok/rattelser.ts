@@ -1,3 +1,4 @@
+import { publicationRecords } from "../editorial/publication-input";
 /**
  * Datamodell, filhantering och diff-beräkning för redaktionella rättelser i Söderwalls ordbok.
  *
@@ -24,8 +25,12 @@ export function lasAllaRattelser(): OrdbokRattelse[] {
     const raw = readFileSync(RATTELSER_FIL, "utf8").trim();
     if (!raw) return [];
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? (parsed as OrdbokRattelse[]) : [];
+    if (!Array.isArray(parsed)) throw new Error("Invalid corrections file");
+    const map = new Map(parsed.map(r=>[r.id,r]));
+    for (const r of publicationRecords().filter(r=>r.domain==='ordbok' && r.content.correction)) map.set(r.id,{...r.content.correction,id:r.id});
+    return [...map.values()] as OrdbokRattelse[];
   } catch (err) {
+    if (process.env.CF_RELEASE_SNAPSHOT) throw err;
     console.error("Kunde inte läsa data/ordbok-rattelser.json:", err);
     return [];
   }

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-30",
+  "status": "Planning ceilings, not measured cloud usage or deployment authorization",
+  "projectsPerFullRelease": 9,
+  "monthlyAttempts": {
+    "production": 12,
+    "preview": 8,
+    "failedOrRetry": 6,
+    "setup": 2
+  },
+  "pages": {
+    "monthlyLimit": 500,
+    "reservedForOtherUsage": 100,
+    "countEachUploadConservatively": true
+  },
+  "ci": {
+    "minutesPerAttemptCeiling": 30,
+    "persistentArtifactBytes": 0,
+    "persistentCacheBytes": 0
+  },
+  "export": {
+    "snapshotBytesPerAttemptCeiling": 75000000,
+    "assetBytesPerAttemptCeiling": 25000000,
+    "otherMonthlyEgressCeiling": 500000000,
+    "monthlyEgressInternalLimit": 4000000000
+  },
+  "storage": {
+    "retainedSnapshots": 3,
+    "snapshotBytesCeiling": 75000000,
+    "sourceAssetBytesCeiling": 400000000,
+    "otherBytesCeiling": 25000000,
+    "internalLimit": 700000000
+  },
+  "database": {
+    "internalBytesLimit": 350000000
+  },
+  "contact": {
+    "dailyInternalEmailLimit": 50,
+    "monthlyInternalEmailLimit": 1000
+  },
+  "unverified": [
+    "Cloudflare Pages upload/build quota accounting and nine-project creation capacity (first 48 hours restriction possible)",
+    "GitHub standard Linux runner execution and exact existing artifact/cache storage (Actions paid budget $0 confirmed)",
+    "Supabase exact current object bytes and future DB/index/revision growth (dashboard rounds values)",
+    "Actual frozen snapshot and referenced asset export sizes",
+    "Resend verified sender domain (none configured)",
+    "Largest static group build, file count and CI execution time",
+    "Persistent authenticated publication request and job status"
+  ]
+}

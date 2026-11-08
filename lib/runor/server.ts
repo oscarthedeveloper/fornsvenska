@@ -1,4 +1,9 @@
-import { cache } from 'react';
+import { withRunicOverrides } from "../editorial/publication-input";
+import * as React from 'react';
+const cache =
+  typeof React.cache === 'function'
+    ? React.cache
+    : (<T extends (...args: any[]) => any>(fn: T): T => fn);
 import { hamtaSession } from '@/lib/session';
 import { HAR_SUPABASE } from '@/lib/supabase/config';
 import { skapaPublikServerKlient, skapaServerKlient } from '@/lib/supabase/server';
@@ -38,7 +43,7 @@ export interface GetRunicCorpusOptions {
 export const getRunicCorpusState = cache(
   async (options?: GetRunicCorpusOptions): Promise<RunicCorpusState> => {
     const isBatch1 = options?.version === '2026.2-batch1';
-    const fallbackInscriptions = isBatch1 ? RUNIC_COMBINED_CORPUS_50 : RUNIC_PILOT_INSCRIPTIONS;
+    const fallbackInscriptions = withRunicOverrides(isBatch1 ? RUNIC_COMBINED_CORPUS_50 : RUNIC_PILOT_INSCRIPTIONS, isBatch1 ? "2026.2-batch1" : "2026.1-pilot");
     const fallbackVersion = isBatch1 ? '2026.2-batch1' : '2026.1-pilot';
 
     const fallbackPublished: RunicPublishedInscription[] = [];
@@ -56,7 +61,7 @@ export const getRunicCorpusState = cache(
       source: 'file-fallback',
     };
 
-    if (!HAR_SUPABASE) {
+    if (process.env.CF_RELEASE_SNAPSHOT || !HAR_SUPABASE) {
       return fallbackResult;
     }
 

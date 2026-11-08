@@ -1,0 +1,94 @@
+# Cloudflare Pages _redirects för www.fornsvenska.se
+# Genererad av build-main-site.ts
+
+# 1. Äldre interna omdirigeringar
+/kallor /resurser 301
+
+# 2. Gamla ordbokslänkar -> ordboksunderdomäner (ord-01..07)
+# Cloudflare Pages _redirects för www.fornsvenska.se
+# Genererad för CF03: Omdirigering av gamla ordbokslänkar till respektive ordboksdel
+
+# URL-kodade varianter för specialtecken (ö, þ, ä)
+/ordbok/soederwall--%C3%B6* https://ord-05.fornsvenska.se/ordbok/soederwall--%C3%B6:splat 301
+/ordbok/soederwall--%c3%b6* https://ord-05.fornsvenska.se/ordbok/soederwall--%c3%b6:splat 301
+/ordbok/soederwall-supp--%C3%B6* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--%C3%B6:splat 301
+/ordbok/soederwall-supp--%c3%b6* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--%c3%b6:splat 301
+/ordbok/soederwall--%C3%BE* https://ord-05.fornsvenska.se/ordbok/soederwall--%C3%BE:splat 301
+/ordbok/soederwall--%c3%be* https://ord-05.fornsvenska.se/ordbok/soederwall--%c3%be:splat 301
+/ordbok/soederwall-supp--%C3%BE* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--%C3%BE:splat 301
+/ordbok/soederwall-supp--%c3%be* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--%c3%be:splat 301
+/ordbok/soederwall--%C3%A4* https://ord-07.fornsvenska.se/ordbok/soederwall--%C3%A4:splat 301
+/ordbok/soederwall--%c3%a4* https://ord-07.fornsvenska.se/ordbok/soederwall--%c3%a4:splat 301
+/ordbok/soederwall-supp--%C3%A4* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--%C3%A4:splat 301
+/ordbok/soederwall-supp--%c3%a4* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--%c3%a4:splat 301
+
+# Standard prefixregler per dataset och initialtecken
+# Grupp 01 (ord-01.fornsvenska.se): initialer a, b, c, d, e
+/ordbok/soederwall--a* https://ord-01.fornsvenska.se/ordbok/soederwall--a:splat 301
+/ordbok/soederwall-supp--a* https://ord-01.fornsvenska.se/ordbok/soederwall-supp--a:splat 301
+/ordbok/soederwall--b* https://ord-01.fornsvenska.se/ordbok/soederwall--b:splat 301
+/ordbok/soederwall-supp--b* https://ord-01.fornsvenska.se/ordbok/soederwall-supp--b:splat 301
+/ordbok/soederwall--c* https://ord-01.fornsvenska.se/ordbok/soederwall--c:splat 301
+/ordbok/soederwall-supp--c* https://ord-01.fornsvenska.se/ordbok/soederwall-supp--c:splat 301
+/ordbok/soederwall--d* https://ord-01.fornsvenska.se/ordbok/soederwall--d:splat 301
+/ordbok/soederwall-supp--d* https://ord-01.fornsvenska.se/ordbok/soederwall-supp--d:splat 301
+/ordbok/soederwall--e* https://ord-01.fornsvenska.se/ordbok/soederwall--e:splat 301
+/ordbok/soederwall-supp--e* https://ord-01.fornsvenska.se/ordbok/soederwall-supp--e:splat 301
+
+# Grupp 02 (ord-02.fornsvenska.se): initialer f, g
+/ordbok/soederwall--f* https://ord-02.fornsvenska.se/ordbok/soederwall--f:splat 301
+/ordbok/soederwall-supp--f* https://ord-02.fornsvenska.se/ordbok/soederwall-supp--f:splat 301
+/ordbok/soederwall--g* https://ord-02.fornsvenska.se/ordbok/soederwall--g:splat 301
+/ordbok/soederwall-supp--g* https://ord-02.fornsvenska.se/ordbok/soederwall-supp--g:splat 301
+
+# Grupp 03 (ord-03.fornsvenska.se): initialer h, i, j, k
+/ordbok/soederwall--h* https://ord-03.fornsvenska.se/ordbok/soederwall--h:splat 301
+/ordbok/soederwall-supp--h* https://ord-03.fornsvenska.se/ordbok/soederwall-supp--h:splat 301
+/ordbok/soederwall--i* https://ord-03.fornsvenska.se/ordbok/soederwall--i:splat 301
+/ordbok/soederwall-supp--i* https://ord-03.fornsvenska.se/ordbok/soederwall-supp--i:splat 301
+/ordbok/soederwall--j* https://ord-03.fornsvenska.se/ordbok/soederwall--j:splat 301
+/ordbok/soederwall-supp--j* https://ord-03.fornsvenska.se/ordbok/soederwall-supp--j:splat 301
+/ordbok/soederwall--k* https://ord-03.fornsvenska.se/ordbok/soederwall--k:splat 301
+/ordbok/soederwall-supp--k* https://ord-03.fornsvenska.se/ordbok/soederwall-supp--k:splat 301
+
+# Grupp 04 (ord-04.fornsvenska.se): initialer l, m, n, o
+/ordbok/soederwall--l* https://ord-04.fornsvenska.se/ordbok/soederwall--l:splat 301
+/ordbok/soederwall-supp--l* https://ord-04.fornsvenska.se/ordbok/soederwall-supp--l:splat 301
+/ordbok/soederwall--m* https://ord-04.fornsvenska.se/ordbok/soederwall--m:splat 301
+/ordbok/soederwall-supp--m* https://ord-04.fornsvenska.se/ordbok/soederwall-supp--m:splat 301
+/ordbok/soederwall--n* https://ord-04.fornsvenska.se/ordbok/soederwall--n:splat 301
+/ordbok/soederwall-supp--n* https://ord-04.fornsvenska.se/ordbok/soederwall-supp--n:splat 301
+/ordbok/soederwall--o* https://ord-04.fornsvenska.se/ordbok/soederwall--o:splat 301
+/ordbok/soederwall-supp--o* https://ord-04.fornsvenska.se/ordbok/soederwall-supp--o:splat 301
+
+# Grupp 05 (ord-05.fornsvenska.se): initialer p, q, r, ö, þ, -, _
+/ordbok/soederwall--p* https://ord-05.fornsvenska.se/ordbok/soederwall--p:splat 301
+/ordbok/soederwall-supp--p* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--p:splat 301
+/ordbok/soederwall--q* https://ord-05.fornsvenska.se/ordbok/soederwall--q:splat 301
+/ordbok/soederwall-supp--q* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--q:splat 301
+/ordbok/soederwall--r* https://ord-05.fornsvenska.se/ordbok/soederwall--r:splat 301
+/ordbok/soederwall-supp--r* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--r:splat 301
+/ordbok/soederwall--ö* https://ord-05.fornsvenska.se/ordbok/soederwall--ö:splat 301
+/ordbok/soederwall-supp--ö* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--ö:splat 301
+/ordbok/soederwall--þ* https://ord-05.fornsvenska.se/ordbok/soederwall--þ:splat 301
+/ordbok/soederwall-supp--þ* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--þ:splat 301
+/ordbok/soederwall---* https://ord-05.fornsvenska.se/ordbok/soederwall---:splat 301
+/ordbok/soederwall-supp---* https://ord-05.fornsvenska.se/ordbok/soederwall-supp---:splat 301
+/ordbok/soederwall--_* https://ord-05.fornsvenska.se/ordbok/soederwall--_:splat 301
+/ordbok/soederwall-supp--_* https://ord-05.fornsvenska.se/ordbok/soederwall-supp--_:splat 301
+
+# Grupp 06 (ord-06.fornsvenska.se): initialer s
+/ordbok/soederwall--s* https://ord-06.fornsvenska.se/ordbok/soederwall--s:splat 301
+/ordbok/soederwall-supp--s* https://ord-06.fornsvenska.se/ordbok/soederwall-supp--s:splat 301
+
+# Grupp 07 (ord-07.fornsvenska.se): initialer t, u, v, y, ä
+/ordbok/soederwall--t* https://ord-07.fornsvenska.se/ordbok/soederwall--t:splat 301
+/ordbok/soederwall-supp--t* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--t:splat 301
+/ordbok/soederwall--u* https://ord-07.fornsvenska.se/ordbok/soederwall--u:splat 301
+/ordbok/soederwall-supp--u* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--u:splat 301
+/ordbok/soederwall--v* https://ord-07.fornsvenska.se/ordbok/soederwall--v:splat 301
+/ordbok/soederwall-supp--v* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--v:splat 301
+/ordbok/soederwall--y* https://ord-07.fornsvenska.se/ordbok/soederwall--y:splat 301
+/ordbok/soederwall-supp--y* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--y:splat 301
+/ordbok/soederwall--ä* https://ord-07.fornsvenska.se/ordbok/soederwall--ä:splat 301
+/ordbok/soederwall-supp--ä* https://ord-07.fornsvenska.se/ordbok/soederwall-supp--ä:splat 301

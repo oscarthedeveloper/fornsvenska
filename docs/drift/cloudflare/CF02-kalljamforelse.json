@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-30T09:29:17.328373+00:00",
+  "databaseExportSha256": "36e48c6262c68636e73f86af5587fb352c6ff468b886f296365e5ed71b090989",
+  "databaseExportBytes": 81702,
+  "consistency": "single-statement-mvcc",
+  "exactCounts": {
+    "nodes": 102,
+    "sidor": 1,
+    "hyllor": 2,
+    "resurser": 8
+  },
+  "roots": {
+    "grammatik": {
+      "localNodes": 231,
+      "localDocuments": 193,
+      "databaseNodes": 43,
+      "databaseDocumentNodes": 33,
+      "localOnlyRoutes": 194,
+      "databaseOnlyRoutes": 6,
+      "sharedDocumentPaths": 15,
+      "identicalDocumentPayloads": 0,
+      "databaseNodesMarkedUtkast": 5
+    },
+    "texter": {
+      "localNodes": 43,
+      "localDocuments": 35,
+      "databaseNodes": 22,
+      "databaseDocumentNodes": 14,
+      "localOnlyRoutes": 21,
+      "databaseOnlyRoutes": 0,
+      "sharedDocumentPaths": 14,
+      "identicalDocumentPayloads": 0,
+      "databaseNodesMarkedUtkast": 1
+    }
+  },
+  "otherRootNodeCount": 37,
+  "homepageIdenticalRawPayload": false,
+  "productionSourceSelection": "unverified; do not merge or fall back",
+  "privateExportNotPublic": true
+}

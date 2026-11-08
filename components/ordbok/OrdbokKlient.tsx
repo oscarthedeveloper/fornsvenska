@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { getArticleCanonicalUrl } from "@/scripts/cloudflare/routing";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState, useTransition } from "react";
 import type {
@@ -16,6 +17,7 @@ import { MATCHTYP_ETIKETTER, ORDKLASS_ETIKETTER } from "./ordklasser";
 import BokmarkeKnapp from "./BokmarkeKnapp";
 import BokmarkenTrigger from "./BokmarkenTrigger";
 import { byggOrdbokQueryString } from "@/lib/ordbok/url";
+import { sokOrdbokKlientAsync } from "@/lib/ordbok/clientSearchBridge";
 
 const TECKEN_KNAPPAR = [
   { char: "þ", label: "þ (thorn)" },
@@ -27,7 +29,7 @@ const TECKEN_KNAPPAR = [
 ];
 
 export default function OrdbokKlient({
-  sokResultat,
+  sokResultat: initialSokResultat,
   bokstavsStatistik,
   valdPost,
   relaterade,
@@ -58,7 +60,8 @@ export default function OrdbokKlient({
   } | null;
   mobilVisarArtikel: boolean;
 }) {
-  const router = useRouter();
+  const [aktivtResultat, setAktivtResultat] = useState<OrdbokSokResultat>(initialSokResultat);
+  const sokResultat = aktivtResultat;
   const [isPending, startTransition] = useTransition();
   const [sokText, setSokText] = useState(sokResultat.query);
   const inputRef = useRef<HTMLInputElement | null>(null);
@@ -68,6 +71,62 @@ export default function OrdbokKlient({
     setSokText(sokResultat.query);
   }, [sokResultat.query]);
 
+  // Läs och synkronisera vid initial mount om URL innehåller delbara parametrar
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const parseAndSearchFromUrl = async () => {
+      const sp = new URLSearchParams(window.location.search);
+      const entry = sp.get("entry");
+      if (entry) {
+        sp.delete("entry");
+        try { window.location.replace(getArticleCanonicalUrl(entry) + (sp.size ? `?${sp}` : "")); } catch { /* Search remains usable for invalid old links. */ }
+        return;
+      }
+      const q = sp.get("q") || "";
+      const mode = sp.get("mode") === "artikeltext" ? "artikeltext" : "uppslagsord";
+      const dataset =
+        sp.get("dataset") === "soederwall" || sp.get("dataset") === "soederwall-supp"
+          ? (sp.get("dataset") as OrdbokKallfilter)
+          : "alla";
+      const letter = sp.get("letter") || (q.trim() ? undefined : "A");
+      const page = Number(sp.get("page")) || 1;
+
+      if (
+        q !== initialSokResultat.query ||
+        mode !== initialSokResultat.mode ||
+        dataset !== initialSokResultat.dataset ||
+        page !== initialSokResultat.page ||
+        (letter !== undefined && letter !== initialSokResultat.letter)
+      ) {
+        startTransition(async () => {
+          try {
+            const ny = await sokOrdbokKlientAsync({
+              q,
+              mode,
+              letter: letter || undefined,
+              dataset,
+              page,
+              pageSize: 40,
+            });
+            setAktivtResultat(ny);
+            setSokText(q);
+          } catch (e) {
+            console.error("Fel vid initial URL-sökning:", e);
+          }
+        });
+      }
+    };
+
+    parseAndSearchFromUrl();
+
+    const onPopState = () => {
+      parseAndSearchFromUrl();
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, [initialSokResultat]);
+
   const navigera = (nya: {
     q?: string;
     mode?: OrdbokSoklage;
@@ -76,16 +135,40 @@ export default function OrdbokKlient({
     page?: number;
     entry?: string | null;
   }) => {
+    if (nya.entry) { window.location.assign(getArticleCanonicalUrl(nya.entry) + window.location.search); return; }
+    const qVal = nya.q !== undefined ? nya.q : sokResultat.query;
+    const modeVal = nya.mode !== undefined ? nya.mode : sokResultat.mode;
+    const letterVal = nya.letter !== undefined ? nya.letter : sokResultat.letter;
+    const datasetVal = nya.dataset !== undefined ? nya.dataset : sokResultat.dataset;
+    const pageVal = nya.page !== undefined ? nya.page : 1;
+
     const qs = byggOrdbokQueryString({
-      q: nya.q !== undefined ? nya.q : sokResultat.query,
-      mode: nya.mode !== undefined ? nya.mode : sokResultat.mode,
-      letter: nya.letter !== undefined ? nya.letter : sokResultat.letter,
-      dataset: nya.dataset !== undefined ? nya.dataset : sokResultat.dataset,
-      page: nya.page !== undefined ? nya.page : 1,
+      q: qVal,
+      mode: modeVal,
+      letter: letterVal,
+      dataset: datasetVal,
+      page: pageVal,
       entry: nya.entry !== undefined ? nya.entry : null,
     });
-    startTransition(() => {
-      router.push(`/ordbok${qs}`, { scroll: false });
+
+    if (typeof window !== "undefined") {
+      window.history.pushState(null, "", `/ordbok${qs}`);
+    }
+
+    startTransition(async () => {
+      try {
+        const ny = await sokOrdbokKlientAsync({
+          q: qVal,
+          mode: modeVal,
+          letter: letterVal ?? undefined,
+          dataset: datasetVal,
+          page: pageVal,
+          pageSize: 40,
+        });
+        setAktivtResultat(ny);
+      } catch (err) {
+        console.error("Klientfel vid sökning:", err);
+      }
     });
   };
 
@@ -532,13 +615,13 @@ export default function OrdbokKlient({
             <ul className="divide-y divide-ink/25 max-h-[74vh] overflow-y-auto">
               {sokResultat.hits.map((hit) => {
                 const arAktiv = valdPost?.id === hit.id;
-                const itemHref = `/ordbok${byggOrdbokQueryString({
+                const itemHref = `${getArticleCanonicalUrl(hit.id)}${byggOrdbokQueryString({
                   q: sokResultat.query,
                   mode: sokResultat.mode,
                   letter: sokResultat.letter,
                   dataset: sokResultat.dataset,
                   page: sokResultat.page,
-                  entry: hit.id,
+
                 })}`;
                 const posKort = hit.partOfSpeech
                   .map((p) => ORDKLASS_ETIKETTER[p] ?? p)

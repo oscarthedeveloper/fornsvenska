@@ -1,3 +1,5 @@
+import React from "react";
+
 /** Geometriskt märke — tre staplade trianglar som bildar en större triangel. */
 export default function Mark() {
   return (

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-30",
+  "environment": {
+    "runtime": "Node 24.21.0, arm64 macOS",
+    "testedDataset": "41 744 unika ordboksposter (data/ordbok/poster.json)",
+    "observations": 100
+  },
+  "firstPageInitialLoad": {
+    "htmlBytesGzip": 3600,
+    "cssBytesGzip": 8200,
+    "jsInitialBytesGzip": 38000,
+    "totalInitialPayloadGzip": 49800,
+    "maxStaticRequests": 8,
+    "targetLcpMs": 800,
+    "targetFcpMs": 400
+  },
+  "headwordSearchIndex": {
+    "coverage": "Alla 41 744 uppslagsord, varianter, band och ordklasser",
+    "rawBytes": 4333538,
+    "gzipBytes": 609149,
+    "gzipMb": 0.58,
+    "budgetCeilingGzipMb": 1,
+    "memoryHeapMb": 18,
+    "coldSearchMs": 3.57,
+    "warmSearchMedianMs": 4.49,
+    "warmSearchAvgMs": 4.57,
+    "warmSearchP95Ms": 5.5,
+    "targetSearchCeilingMs": 10
+  },
+  "fulltextSearchIndex": {
+    "strategy": "On-demand lazy load vid aktivt val av sökläge artikeltext (Web Worker)",
+    "coverage": "Samtliga 41 744 artiklars råtext och betydelser",
+    "rawBytes": 16537211,
+    "gzipBytes": 6551424,
+    "gzipMb": 6.25,
+    "requiresDownloadForBasicSearch": false
+  },
+  "largestBuildProject": {
+    "project": "ord-04.fornsvenska.se (Grupp 04: l–o)",
+    "articleCount": 6900,
+    "totalFiles": 6901,
+    "internalFileLimit": 16000,
+    "cloudflareFileLimit": 20000,
+    "internalUtilizationPct": 43.1,
+    "cloudflareUtilizationPct": 34.5,
+    "totalBytes": 58282301,
+    "totalGzipBytes": 18779734,
+    "buildDurationMs": 2028,
+    "peakRssMb": 367
+  },
+  "operationalBudget": {
+    "monthlyReleases": 12,
+    "monthlyPreviewBuilds": 8,
+    "monthlyFailedBuildRetries": 6,
+    "monthlyEstablishmentRuns": 2,
+    "totalProjectOperationsMonth": 252,
+    "cloudflarePagesMonthlyQuota": 500,
+    "cloudflarePagesMarginPct": 49.6,
+    "publicAnonymRequestsToSupabase": 0,
+    "publicAnonymRequestsToWorkers": 0
+  }
+}

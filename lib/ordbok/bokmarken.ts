@@ -99,6 +99,55 @@ export function rensaAllaSparadeOrd(): void {
   }
 }
 
+export function importeraSparadeOrdFromJson(jsonStr: string): {
+  success: boolean;
+  importeradeAntal: number;
+  totaltAntal: number;
+  fel?: string;
+} {
+  if (typeof window === "undefined") {
+    return { success: false, importeradeAntal: 0, totaltAntal: 0, fel: "Ingen fönsterkontext" };
+  }
+  try {
+    const raw = JSON.parse(jsonStr);
+    if (!Array.isArray(raw)) {
+      return { success: false, importeradeAntal: 0, totaltAntal: 0, fel: "Ogiltigt format: JSON måste vara en lista" };
+    }
+
+    const befintliga = hamtaSparadeOrd();
+    const map = new Map<string, SparatOrdbokOrd>();
+    for (const item of befintliga) map.set(item.id, item);
+
+    let importerade = 0;
+    for (const item of raw) {
+      if (item && typeof item === "object" && typeof item.id === "string" && item.id.includes("--")) {
+        map.set(item.id, item);
+        importerade++;
+      }
+    }
+
+    const merged = Array.from(map.values()).sort((a, b) =>
+      (b.sparadDatum || "").localeCompare(a.sparadDatum || "")
+    );
+
+    window.localStorage.setItem(BOKMARKEN_STORAGE_KEY, JSON.stringify(merged));
+    window.dispatchEvent(new CustomEvent(BOKMARKEN_HANDELSE, { detail: merged }));
+
+    return {
+      success: true,
+      importeradeAntal: importerade,
+      totaltAntal: merged.length,
+    };
+  } catch (err: any) {
+    return {
+      success: false,
+      importeradeAntal: 0,
+      totaltAntal: 0,
+      fel: err?.message || "Kunde inte tolka JSON-filen",
+    };
+  }
+}
+
 export function exporteraSparadeOrd(
   lista: SparatOrdbokOrd[],
   format: "anki" | "csv" | "text" | "json"

@@ -31,7 +31,6 @@ export const TYPER: Resurstyp[] = [
   "larobok",
   "examensarbete",
   "avhandling",
-  "skrift",
   "ovrigt",
 ];
 
@@ -99,7 +98,7 @@ export interface Hylla {
 
 export interface Bibliotek {
   hyllor: Hylla[];
-  /** Skrifterna står för sig själva, i Skriftkammaren. */
+  /** Skrifterna står för sig själva, i Skriftkammaren (om sådana finns). */
   skrifter: Resurs[];
   /** Falskt när sajten läser demomaterialet ur data/ i stället för databasen. */
   harDatabas: boolean;

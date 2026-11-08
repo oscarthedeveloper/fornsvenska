@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-05",
+  "mode": "read-only",
+  "workers": {
+    "plan": "free",
+    "fixedMonthlyPriceUSD": 0,
+    "requestsToday": 2,
+    "dailyLimit": 100000,
+    "usagePercent": 0.002,
+    "last24hCompleted": 2,
+    "last24hExecutionErrors": 0,
+    "subrequests": 3
+  },
+  "zoneAnalytics": {
+    "zone": "fornsvenska.se",
+    "periodsChecked": [
+      "last24h",
+      "last7d"
+    ],
+    "requestsApprox": 2720,
+    "transferMB": 59.51,
+    "visitsReported": 520,
+    "cacheHitPercent": 2.79,
+    "http5xx": 13,
+    "http5xxPercent": 0.48,
+    "http5xxPaths": {
+      "ACME": 6,
+      "customHostnameChallenge": 5,
+      "contact": 1,
+      "root": 1
+    },
+    "excludesArticlePagesDevTraffic": true
+  },
+  "mainProjectWebAnalyticsEnabled": false,
+  "pagesMonthlyBuildUsageVerified": false,
+  "localDistribution": {
+    "projects": 8,
+    "largestProjectFiles": 13819,
+    "platformFileLimit": 20000,
+    "largestAssetBytes": 19158897,
+    "platformAssetLimitMiB": 25
+  },
+  "historicalNetlifyVercelQuotaCauseVerified": false
+}

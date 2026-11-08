@@ -11,11 +11,34 @@ import type { MetadataRoute } from "next";
  * - På förhandsgranskningar (Netlify deploy-preview / branch-deploy) spärras
  *   all genomsökning för att förhindra duplicerad indexering av testmiljöer.
  */
-export default function robots(): MetadataRoute.Robots {
-  const isNetlifyPreview =
-    Boolean(process.env.CONTEXT && process.env.CONTEXT !== "production");
+export function arPreviewMiljo(): boolean {
+  // Netlify förhandsgranskning
+  if (process.env.CONTEXT && process.env.CONTEXT !== "production") return true;
 
-  if (isNetlifyPreview) {
+  // Cloudflare Pages förhandsgranskning / icke-produktionsgren
+  if (process.env.CF_PAGES_ENVIRONMENT === "preview") return true;
+  if (
+    process.env.CF_PAGES_BRANCH &&
+    process.env.CF_PAGES_BRANCH !== "main" &&
+    process.env.CF_PAGES_BRANCH !== "master"
+  ) {
+    return true;
+  }
+
+  // Vercel förhandsgranskning
+  if (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== "production") return true;
+  if (
+    process.env.NEXT_PUBLIC_VERCEL_ENV &&
+    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production"
+  ) {
+    return true;
+  }
+
+  return false;
+}
+
+export default function robots(): MetadataRoute.Robots {
+  if (arPreviewMiljo()) {
     return {
       rules: {
         userAgent: "*",

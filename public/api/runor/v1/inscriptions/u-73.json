@@ -1,0 +1,112 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/u-73",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-u-73",
+    "canonicalSignum": "U 73",
+    "provinceCode": "U",
+    "itemNumber": 73,
+    "suffix": null,
+    "name": "Hansta (Greklandssten)",
+    "canonicalSlug": "u-73",
+    "aliases": [
+      "Bautil 155",
+      "Skansenstenen U 73",
+      "Greklandsstenen i Hansta"
+    ],
+    "carrier": {
+      "id": "carrier-u-73",
+      "type": "runsten",
+      "material": "Granit",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Hansta (numera Hägerstalund), Spånga socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Uppland",
+        "parish": "Spånga socken",
+        "hundred": "Sollentuna härad",
+        "municipality": "Stockholms stad",
+        "county": "Stockholms län",
+        "placeName": "Hansta (fyndplats)",
+        "coordinatesWgs84": [
+          17.8999,
+          59.4219
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "SRI band 6, s. 95–100; rest vid Hansta gård, flyttad till Skansen 1896"
+      },
+      {
+        "type": "nuvarande_placering",
+        "province": "Uppland",
+        "parish": "Stockholms stad / Oscars församling",
+        "hundred": "Stockholm",
+        "municipality": "Stockholms stad",
+        "county": "Stockholms län",
+        "placeName": "Skansen (Bollnästorgets backe)",
+        "coordinatesWgs84": [
+          18.1017,
+          59.3248
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Flyttad 1896 från Hansta i Spånga till Skansen i Stockholm; SRI band 6, s. 95–100"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1060–1100 (Greklandsresenärer)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1060,
+      "latestYear": 1100,
+      "isUncertain": false,
+      "datingMethod": "Gräslunds stilgrupp Pr3 och historisk kontext (Väringagardet)"
+    },
+    "textLayer": {
+      "id": "text-u-73",
+      "readingTransliteration": "' þisun ' merki ' iru ' gar ' eftʀ ' suni ' ikur ' hon kam ' þeira × at arfi ' in þeir × brþr · kamu hnaa : at ' arfi × kiaþar b'reþr ' þir to i kirikium",
+      "normalizationRunicSwedish": "Þessun mærki eʀu gar æftiʀ syni Inguʀ. Hon kvam þæiʀa at arfi, en þæiʀ brøðr kvamu hænnaʀ at arfi, Gærðarr brøðr. Þæiʀ dou i Grikkium.",
+      "normalizationOldWestNorse": "Þessi merki eru gǫr eptir sonu Ingu. Hon kvam þeira at arfi, en þeir brœðr kvámu hennar at arfi, Gerðarr brœðr. Þeir dóu í Grikkjum.",
+      "translationSwedish": "Dessa märken äro gjorda efter Ingas söner. Hon kom till arv efter dem, men bröderna — Gärdar och hans broder — kommo till arv efter henne. De dogo i Grekland.",
+      "translationEnglish": "These landmarks are made in memory of Inga's sons. She inherited from them, but the brothers — Gerðarr and his brother — inherited from her. They died in Greece.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-06",
+      "sriVolumeTitle": "Upplands runinskrifter del 1",
+      "author": "Elias Wessén & Sven B.F. Jansson",
+      "publicationYear": 1940,
+      "pdfFil": "sri_uppland_b06_text_2.pdf",
+      "printedPageStart": 95,
+      "printedPageEnd": 100,
+      "pdfPageStart": 26,
+      "pdfPageEnd": 31,
+      "plateNumber": "Plansch 32",
+      "externalUris": {
+        "samnordiskUuid": "7ab0a494-2b24-4292-b944-60809b694bdf",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=7ab0a494-2b24-4292-b944-60809b694bdf"
+      }
+    },
+    "images": [
+      {
+        "id": "img-u-73",
+        "imageUrl": "/images/runor/u-73.webp",
+        "thumbnailUrl": "/images/runor/u-73-thumb.webp",
+        "caption": "Hansta (U 73), Greklandssten rest till minne av söner som dog i Grekland",
+        "photographerOrArtist": "Sven B.F. Jansson / Harald Faith-Ell",
+        "year": 1940,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Greklandssten rest över krigare som dött i bysantinsk tjänst i Väringagardet. Flyttades 1896 från Hansta i Spånga till Skansen i Stockholm.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.679747+00:00"
+  }
+}

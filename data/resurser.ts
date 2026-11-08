@@ -77,28 +77,7 @@ export const DEMO_HYLLOR: Hylla[] = [
 ];
 
 /**
- * Fasta fulltexter som hör till sajten, inte till en viss Supabase-installation.
- * De läggs därför till även när resten av biblioteket kommer från databasen.
+ * Fasta skrifter i biblioteket.
+ * Skriftkammaren och Äldre Västgötalagen är borttagna från Resursbiblioteket.
  */
-export const FASTA_SKRIFTER: Resurs[] = [
-  {
-    id: "vastgotalagen-maskintext",
-    hyllaId: null,
-    typ: "skrift",
-    titel: "Äldre Västgötalagen — fullständig maskintext",
-    forfattare: "Lars-Olof Delsing",
-    ar: "c:a 1280",
-    utgivare: "Cod. Holm. B 59",
-    lank: "/bocker/vastgotalagen/vastgotalagen-maskintext.pdf",
-    tillganglighet: 5,
-    beskrivning:
-      "Hela Äldre Västgötalagen i maskinläsbar transkription efter Collin och Schlyters utgåva (SSGL I). Texten är inskriven av Lars-Olof Delsing vid Lunds universitet.",
-    position: 0,
-    versioner: [],
-    bok: {
-      sokvag: "/resurser/vastgotalagen",
-      pdf: "/bocker/vastgotalagen/vastgotalagen-maskintext.pdf",
-      sidor: 25,
-    },
-  },
-];
+export const FASTA_SKRIFTER: Resurs[] = [];

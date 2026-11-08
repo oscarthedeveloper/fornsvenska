@@ -1,0 +1,630 @@
+{
+  "type": "FeatureCollection",
+  "version": "1.0.0",
+  "generatedAt": "2026-11-01T20:23:49.177Z",
+  "placementMode": "fyndplats",
+  "totalFeatures": 20,
+  "totalMissingCoordinates": 0,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "runa-ol-1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4398,
+          56.6075
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-1",
+        "signum": "Öl 1",
+        "name": "Karlevistenen",
+        "slug": "ol-1",
+        "provinceCode": "Öl",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Karlevi",
+        "parish": "Vickleby socken",
+        "hundred": "Algutsrums härad",
+        "province": "Öland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 15",
+        "datingLabel": "ca 990–1010 (strax efter slaget vid Fyrisvallarna ca 985)",
+        "translationSnippet": "Stenen är rest efter Sibbe den gode, Foldars son, och hans följe satte på Öland detta minnesmärke. D…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5278,
+          56.6788
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-2",
+        "signum": "Öl 2",
+        "name": "Resmo kyrka",
+        "slug": "ol-2",
+        "provinceCode": "Öl",
+        "carrierType": "fragment",
+        "preservationStatus": "bevarad_i_fragment",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Algutsrums kyrka",
+        "parish": "Algutsrums socken",
+        "hundred": "Algutsrums härad",
+        "province": "Öland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 28",
+        "datingLabel": "1000-talet (vikingatid)",
+        "translationSnippet": "… lät resa denna sten efter Sven, sin fader. Gud hjälpe hans själ och sankta Maria.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4291,
+          56.4585
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-9",
+        "signum": "Öl 9",
+        "name": "Kastlösa kyrka",
+        "slug": "ol-9",
+        "provinceCode": "Öl",
+        "carrierType": "fragment",
+        "preservationStatus": "bevarad_i_fragment",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Kastlösa kyrka",
+        "parish": "Kastlösa socken",
+        "hundred": "Gräsgårds härad",
+        "province": "Öland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 51",
+        "datingLabel": "ca 1050–1120 (kistlockhäll)",
+        "translationSnippet": "… lät göra detta minnesmärke efter sin fader och efter sin broder … Krist hjälpe hans ande.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4214,
+          56.3565
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-15",
+        "signum": "Öl 15",
+        "name": "Södra Möckleby kyrkogård",
+        "slug": "ol-15",
+        "provinceCode": "Öl",
+        "carrierType": "runsten",
+        "preservationStatus": "forlorad",
+        "isLost": true,
+        "placementMode": "fyndplats",
+        "placeName": "Södra Möckleby kyrkogård",
+        "parish": "Södra Möckleby socken",
+        "hundred": "Gräsgårds härad",
+        "province": "Öland",
+        "precision": "sockencentrum",
+        "sourceNote": "Ölands runinskrifter, s. 60",
+        "datingLabel": "1000-talet",
+        "translationSnippet": "Abjörn reste denna sten efter sin fader och efter Vikar……",
+        "hasImage": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5077,
+          56.3096
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-16",
+        "signum": "Öl 16",
+        "name": "Gräsgårds kyrkogård",
+        "slug": "ol-16",
+        "provinceCode": "Öl",
+        "carrierType": "runsten",
+        "preservationStatus": "forlorad",
+        "isLost": true,
+        "placementMode": "fyndplats",
+        "placeName": "Gräsgårds kyrkogård",
+        "parish": "Gräsgårds socken",
+        "hundred": "Gräsgårds härad",
+        "province": "Öland",
+        "precision": "sockencentrum",
+        "sourceNote": "Ölands runinskrifter, s. 62",
+        "datingLabel": "1000-talet (känd genom Bautil 1071)",
+        "translationSnippet": "Sven lät resa denna sten efter sin broder Torsten……",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.531,
+          56.3435
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-18",
+        "signum": "Öl 18",
+        "name": "Seby",
+        "slug": "ol-18",
+        "provinceCode": "Öl",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Seby",
+        "parish": "Segerstads socken",
+        "hundred": "Gräsgårds härad",
+        "province": "Öland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 68",
+        "datingLabel": "ca 1010–1060",
+        "translationSnippet": "Ingjald och Näv och Sven, de lät resa stenen efter Rodmar, sin fader.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6005,
+          56.5145
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-23",
+        "signum": "Öl 23",
+        "name": "Stenåsa kyrkogård",
+        "slug": "ol-23",
+        "provinceCode": "Öl",
+        "carrierType": "gravhall",
+        "preservationStatus": "forlorad",
+        "isLost": true,
+        "placementMode": "fyndplats",
+        "placeName": "Stenåsa kyrkogård",
+        "parish": "Stenåsa socken",
+        "hundred": "Möckleby härad",
+        "province": "Öland",
+        "precision": "sockencentrum",
+        "sourceNote": "Ölands runinskrifter, s. 78",
+        "datingLabel": "ca 1060–1130 (kristen gravhäll)",
+        "translationSnippet": "… lät göra denna häll efter sin fader… Gud hjälpe hans själ.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-ol-25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5709,
+          56.5941
+        ]
+      },
+      "properties": {
+        "id": "runa-ol-25",
+        "signum": "Öl 25",
+        "name": "Dröstorps häll",
+        "slug": "ol-25",
+        "provinceCode": "Öl",
+        "carrierType": "fast_hall",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Dröstorp",
+        "parish": "Gårdby socken",
+        "hundred": "Möckleby härad",
+        "province": "Öland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 83",
+        "datingLabel": "ca 1020–1070",
+        "translationSnippet": "Jorund(?) lät rista denna häll efter sin broder……",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-og-136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7752,
+          58.295
+        ]
+      },
+      "properties": {
+        "id": "runa-og-136",
+        "signum": "Ög 136",
+        "name": "Rökstenen",
+        "slug": "og-136",
+        "provinceCode": "Ög",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Röks kyrkogård",
+        "parish": "Röks socken",
+        "hundred": "Lysings härad",
+        "province": "Östergötland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Östergötlands runinskrifter, s. 130",
+        "datingLabel": "ca 800–850 (kortkvistrunor, urnordiska arkaismer)",
+        "translationSnippet": "Till minne av Vämod stå dessa runor. Men Varin skrev dem, fadern, efter den fällde sonen. Jag säger…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-og-181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4469,
+          58.4422
+        ]
+      },
+      "properties": {
+        "id": "runa-og-181",
+        "signum": "Ög 181",
+        "name": "Ledbergsstenen",
+        "slug": "og-181",
+        "provinceCode": "Ög",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Ledbergs kyrkogård",
+        "parish": "Ledbergs socken",
+        "hundred": "Valkebo härad",
+        "province": "Östergötland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Östergötlands runinskrifter, s. 174",
+        "datingLabel": "ca 1000–1050 (Ragnarök-motiv)",
+        "translationSnippet": "Bisi och Gunna läto resa denna sten efter Torgöt, sin fader… Tor vige dessa runor.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.534,
+          59.3601
+        ]
+      },
+      "properties": {
+        "id": "runa-u-11",
+        "signum": "U 11",
+        "name": "Hovgårdsstenen (Adelsö)",
+        "slug": "u-11",
+        "provinceCode": "U",
+        "carrierType": "runblock",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Hovgården",
+        "parish": "Adelsö socken",
+        "hundred": "Färentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 13",
+        "datingLabel": "ca 1060–1085 (Håkon jarl)",
+        "translationSnippet": "Tyd du runorna! Rätta lät rista Tolir, bryte i Roden, åt konungen. Tolir och Gyla läto rista, båda m…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7049,
+          59.3881
+        ]
+      },
+      "properties": {
+        "id": "runa-u-29",
+        "signum": "U 29",
+        "name": "Hillersjöhällen",
+        "slug": "u-29",
+        "provinceCode": "U",
+        "carrierType": "fast_hall",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Hillersjö",
+        "parish": "Hilleshögs socken",
+        "hundred": "Färentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 34",
+        "datingLabel": "ca 1060–1090 (Torbjörn skald)",
+        "translationSnippet": "Tyd du! Gerlög lät rista dessa runor efter Germund, sin man. Han drunknade i Svinasund. Gud hjälpe h…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-73",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8999,
+          59.4219
+        ]
+      },
+      "properties": {
+        "id": "runa-u-73",
+        "signum": "U 73",
+        "name": "Hansta (Greklandssten)",
+        "slug": "u-73",
+        "provinceCode": "U",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Hansta (fyndplats)",
+        "parish": "Spånga socken",
+        "hundred": "Sollentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "SRI band 6, s. 95–100; rest vid Hansta gård, flyttad till Skansen 1896",
+        "datingLabel": "ca 1060–1100 (Greklandsresenärer)",
+        "translationSnippet": "Dessa märken äro gjorda efter Ingas söner. Hon kom till arv efter dem, men bröderna — Gärdar och han…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9839,
+          59.4487
+        ]
+      },
+      "properties": {
+        "id": "runa-u-101",
+        "signum": "U 101",
+        "name": "Sjöstugan (Jarlabanke)",
+        "slug": "u-101",
+        "provinceCode": "U",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Södersätra",
+        "parish": "Sollentuna socken",
+        "hundred": "Sollentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 138",
+        "datingLabel": "ca 1060–1080 (Jarlabanke)",
+        "translationSnippet": "Häming och Jarlabanke, de läto rödja väg och göra broar efter sin fader, och Estrid efter sina söner…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8682,
+          59.5079
+        ]
+      },
+      "properties": {
+        "id": "runa-u-104",
+        "signum": "U 104",
+        "name": "Eds kyrka",
+        "slug": "u-104",
+        "provinceCode": "U",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Eds kyrka",
+        "parish": "Eds socken",
+        "hundred": "Sollentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 148",
+        "datingLabel": "ca 1070–1110 (Öpir risti)",
+        "translationSnippet": "… ut till Grekland — och efter Ingetora, sin moder. Öpir ristade.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-112a",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8679,
+          59.503
+        ]
+      },
+      "properties": {
+        "id": "runa-u-112a",
+        "signum": "U 112A",
+        "name": "Runblocket i Ed (Västra sidan)",
+        "slug": "u-112a",
+        "provinceCode": "U",
+        "carrierType": "runblock",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Kyrkstigen, Ed",
+        "parish": "Eds socken",
+        "hundred": "Sollentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 157",
+        "datingLabel": "ca 1060–1100 (Ragnvald och Fastvi)",
+        "translationSnippet": "Ragnvald lät rista runorna efter Fastvi, sin moder, Onäms dotter, hon dog i Ed. Gud hjälpe hennes an…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-u-112b",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8679,
+          59.503
+        ]
+      },
+      "properties": {
+        "id": "runa-u-112b",
+        "signum": "U 112B",
+        "name": "Runblocket i Ed (Östra sidan / Grekland)",
+        "slug": "u-112b",
+        "provinceCode": "U",
+        "carrierType": "runblock",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Kyrkstigen, Ed",
+        "parish": "Eds socken",
+        "hundred": "Sollentuna härad",
+        "province": "Uppland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 157",
+        "datingLabel": "ca 1060–1100 (Ragnvald i Grekland)",
+        "translationSnippet": "Runorna lät Ragnvald rista. Han var i Grekland, han var krigarföljets hövding.…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-so-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6344,
+          59.4413
+        ]
+      },
+      "properties": {
+        "id": "runa-so-101",
+        "signum": "Sö 101",
+        "name": "Ramsundsristningen",
+        "slug": "so-101",
+        "provinceCode": "Sö",
+        "carrierType": "fast_hall",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Ramsundsberget, Mora",
+        "parish": "Jäders socken",
+        "hundred": "Österrekarne härad",
+        "province": "Södermanland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Södermanlands runinskrifter, s. 72",
+        "datingLabel": "ca 1020–1050 (Sigrid och Torir)",
+        "translationSnippet": "Sigrid, Alriks moder, Orms dotter, gjorde denna bro för sin make Holmgers, Sigröds faders, själ. Tor…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-so-179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2182,
+          59.2569
+        ]
+      },
+      "properties": {
+        "id": "runa-so-179",
+        "signum": "Sö 179",
+        "name": "Gripsholmsstenen",
+        "slug": "so-179",
+        "provinceCode": "Sö",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Gripsholm",
+        "parish": "Kärnbo socken",
+        "hundred": "Selebo härad",
+        "province": "Södermanland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Södermanlands runinskrifter, s. 153",
+        "datingLabel": "ca 1040–1050 (Ingvarståget)",
+        "translationSnippet": "Tola lät resa denna sten efter sin son Harald, Ingvars broder. De foro manligen fjärran efter guld o…",
+        "hasImage": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "runa-vs-24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3414,
+          59.8731
+        ]
+      },
+      "properties": {
+        "id": "runa-vs-24",
+        "signum": "Vs 24",
+        "name": "Hassmyrastenen (Odendisa)",
+        "slug": "vs-24",
+        "provinceCode": "Vs",
+        "carrierType": "runsten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "isLost": false,
+        "placementMode": "fyndplats",
+        "placeName": "Hassmyra",
+        "parish": "Fläckebo socken",
+        "hundred": "Norrbo härad",
+        "province": "Västmanland",
+        "precision": "exakt_koordinat",
+        "sourceNote": "Västmanlands runinskrifter, s. 69",
+        "datingLabel": "ca 1050–1080 (Balle den röde)",
+        "translationSnippet": "Gode bonden Holmgöt lät resa stenen efter Odendis, sin hustru. Det kommer icke till Hassmyra en bätt…",
+        "hasImage": true
+      }
+    }
+  ]
+}

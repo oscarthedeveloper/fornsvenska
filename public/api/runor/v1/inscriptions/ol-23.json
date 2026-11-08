@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-23",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-23",
+    "canonicalSignum": "Öl 23",
+    "provinceCode": "Öl",
+    "itemNumber": 23,
+    "suffix": null,
+    "name": "Stenåsa kyrkogård",
+    "canonicalSlug": "ol-23",
+    "aliases": [
+      "Bautil 23"
+    ],
+    "carrier": {
+      "id": "carrier-ol-23",
+      "type": "gravhall",
+      "material": "Kalksten",
+      "preservationStatus": "forlorad",
+      "currentLocationDescription": "Nuvarande placering: Stenåsa kyrkogård, Stenåsa socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Stenåsa socken",
+        "hundred": "Möckleby härad",
+        "placeName": "Stenåsa kyrkogård",
+        "coordinatesWgs84": [
+          16.6005,
+          56.5145
+        ],
+        "precision": "sockencentrum",
+        "sourceNote": "Ölands runinskrifter, s. 78"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1060–1130 (kristen gravhäll)",
+      "periodLabel": "Tidigmedeltid / Senvikingatid",
+      "earliestYear": 1060,
+      "latestYear": 1130,
+      "isUncertain": false,
+      "datingMethod": "Typologisk datering av gravkors och runformer"
+    },
+    "textLayer": {
+      "id": "text-ol-23",
+      "readingTransliteration": "[kuþmuntr · auk × oskutr × auk × sibiurn × auk × kaiʀbiurn × litu × raisa · stain · eftiʀ · byrkeʀ · faþur · sin hialbi · kuþ hans ant]",
+      "normalizationRunicSwedish": "Guðmundr ok Asgautr ok Sæbiorn/Sigbiorn ok Gæiʀbiorn letu ræisa stæin æftiʀ Borggæiʀ, faður sinn. Hialpi Guð hans and.",
+      "normalizationOldWestNorse": "Guðmundr ok Ásgautr ok Sæbjǫrn/Sigbjǫrn ok Geirbjǫrn létu reisa stein eptir Borggeir, fǫður sinn. Hjalpi Guð hans ǫnd.",
+      "translationSwedish": "… lät göra denna häll efter sin fader… Gud hjälpe hans själ.",
+      "translationEnglish": "… had this slab made in memory of his father… May God help his soul.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 78,
+      "printedPageEnd": 82,
+      "pdfPageStart": 92,
+      "pdfPageEnd": 96,
+      "plateNumber": "Plansch VIII",
+      "externalUris": {
+        "samnordiskUuid": "bfe10f09-4352-45fb-8ae8-9aff527849b8",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=bfe10f09-4352-45fb-8ae8-9aff527849b8"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-23",
+        "imageUrl": "/images/runor/ol-23.webp",
+        "thumbnailUrl": "/images/runor/ol-23-thumb.webp",
+        "caption": "Stenåsa kyrkogård (Öl 23), ornerad gravhäll med runslingor och kors",
+        "photographerOrArtist": "Sven Söderberg",
+        "year": 1900,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Tidigkristen gravhäll från Stenåsa kyrkogård med ett stort processionskors, numera förlorad.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.735691+00:00"
+  }
+}

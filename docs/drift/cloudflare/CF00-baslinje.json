@@ -1,0 +1,27 @@
+{
+  "sourceCommit": "4237cd31f49bcf7fd12b52b4855b7eed9c647b96",
+  "runtime": {
+    "node": "v24.21.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  },
+  "versions": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "typescript": "5.9.3",
+    "@supabase/supabase-js": "2.112.0"
+  },
+  "lockSha256": "bd1feee52c57dca3550070506e871eeeb9538a4100ae2549a874ff147b6c11da",
+  "dictionary": {
+    "records": 41744,
+    "unique_ids": 41744,
+    "bytes": 42086164,
+    "sha256": "302f5d71fd7b8cadc7637fc4b803f6a39fa846cf2f746ca77295d702b9eac4d7"
+  },
+  "matchesPreviousInventory": true,
+  "publicAssets": {
+    "files": 67,
+    "bytes": 15378631
+  },
+  "scope": "Local files only; no production parity or cloud verification."
+}

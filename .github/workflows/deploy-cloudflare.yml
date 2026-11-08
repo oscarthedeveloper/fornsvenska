@@ -1,0 +1,77 @@
+name: Validate and publish Cloudflare Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: Persistent publication job ID created by the authenticated editor
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: cloudflare-publication
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+      NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ vars.NEXT_PUBLIC_TURNSTILE_SITE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - name: Claim frozen publication job
+        if: github.event_name == 'workflow_dispatch'
+        id: claim
+        env:
+          SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          PUBLICATION_JOB_ID: ${{ inputs.job_id }}
+        run: node --import tsx scripts/cloudflare/editorial-job.ts claim "$PUBLICATION_JOB_ID"
+      - name: Check out the frozen source revision
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.claim.outputs.git_sha }}
+      - name: Install frozen dependencies
+        if: github.event_name == 'workflow_dispatch'
+        run: npm ci
+      - name: Build static distribution and API worker
+        run: |
+          node --import tsx scripts/cloudflare/validate-release-input.ts
+          node --import tsx scripts/cloudflare/build-ordbok-indexes.ts
+          node --import tsx scripts/cloudflare/build-search-worker.ts
+          node --import tsx scripts/cloudflare/build-runic-api-exports.ts
+          npm run build
+          node --import tsx scripts/cloudflare/build-main-site.ts
+          node --import tsx scripts/cloudflare/build-ordbok-groups.ts
+          node --import tsx scripts/cloudflare/build-api-worker.ts
+      - name: Verify code, sources and artifacts
+        run: |
+          npx tsc --noEmit
+          node --import tsx scripts/validate-kallor.ts
+          node --import tsx scripts/validate-texter.ts
+          node --import tsx --test tests/*.test.mjs
+          node --import tsx scripts/cloudflare/release.ts --check
+      - name: Publish and confirm all projects
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node --import tsx scripts/cloudflare/deploy-pages.ts
+      - name: Persist failed build status
+        if: failure() && github.event_name == 'workflow_dispatch'
+        env:
+          SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          PUBLICATION_JOB_ID: ${{ inputs.job_id }}
+        run: node --import tsx scripts/cloudflare/editorial-job.ts fail "$PUBLICATION_JOB_ID"

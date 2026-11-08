@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-1",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-1",
+    "canonicalSignum": "Öl 1",
+    "provinceCode": "Öl",
+    "itemNumber": 1,
+    "suffix": null,
+    "name": "Karlevistenen",
+    "canonicalSlug": "ol-1",
+    "aliases": [
+      "Bautil 1071 (delvis)",
+      "Liljegren 1361",
+      "Karlevistenen"
+    ],
+    "carrier": {
+      "id": "carrier-ol-1",
+      "type": "runsten",
+      "material": "Gråbrun kalksten",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Karlevi, Vickleby socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Vickleby socken",
+        "hundred": "Algutsrums härad",
+        "placeName": "Karlevi",
+        "coordinatesWgs84": [
+          16.4398,
+          56.6075
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 15"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 990–1010 (strax efter slaget vid Fyrisvallarna ca 985)",
+      "periodLabel": "Vikingatid (tidig/mellan)",
+      "earliestYear": 990,
+      "latestYear": 1010,
+      "isUncertain": false,
+      "datingMethod": "Historisk händelsekoppling och skaldemetrik (dróttkvætt)"
+    },
+    "textLayer": {
+      "id": "text-ol-1",
+      "readingTransliteration": "§A + s-a… --(s)- i(a)s · satr · aiftir · si(b)(a) · kuþa · sun · fultars · in hons ·· liþi · sati · at · u · -ausa-þ-… +: fulkin : likr : hins : fulkþu : flaistr (:)· uisi · þat · maistar · taiþir : tulka · þruþar : traukr : i : þaimsi · huki · munat : raiþ:uiþur : raþa : ruk:starkr · i · tanmarku : --ntils : iarmun··kruntar : urkrontari : lonti §B {⁓ IN| |NONIN- ¶ + HE… …}",
+      "normalizationRunicSwedish": null,
+      "normalizationOldWestNorse": "§A S[t]e[inn] [þe]ss[i] er settr eptir Sibba Góða/Goða, son Foldars, en hans liði setti at … … Folginn liggr hinns fylgðu, flestr vissi þat, mestar dæðir dolga Þrúðar draugr í þessu haugi; munat Reið-Viðurr ráða rógstarkr í Danmǫrku [E]ndils jǫrmungrundar ørgrandari landi. §B {In nomin[e](?) Ie[su](?) …}",
+      "translationSwedish": "Stenen är rest efter Sibbe den gode, Foldars son, och hans följe satte på Öland detta minnesmärke. Dold ligger den som de största dåd följde — det visste de flesta — stridernas träd i denna hög. Ingen rättrådigare stridsman på den väldiga havsgudens mark skall härska över land i Danmark.",
+      "translationEnglish": "This stone is placed in memory of Sibbi the Good, son of Foldarr, and his retinue placed this monument on Öland. Hidden lies the one whom greatest deeds followed — most knew that — battle-tree in this mound. No more upright warlord shall rule over land in Denmark.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 15,
+      "printedPageEnd": 28,
+      "pdfPageStart": 19,
+      "pdfPageEnd": 35,
+      "plateNumber": "Plansch I & II",
+      "externalUris": {
+        "samnordiskUuid": "28485f9b-7b54-48d5-b065-f6611fd3268d",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=28485f9b-7b54-48d5-b065-f6611fd3268d"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-1",
+        "imageUrl": "/images/runor/ol-1.webp",
+        "thumbnailUrl": "/images/runor/ol-1-thumb.webp",
+        "caption": "Karlevistenen (Öl 1), runristad framsida med skaldestrof på dróttkvætt",
+        "photographerOrArtist": "Sven Söderberg",
+        "year": 1900,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Inskriften rymmer en prosadel och en fullständig fornnordisk skaldestrof i dróttkvætt (drottkvätt). 'Stridernas träd' är en kenning för krigaren, och 'havsgudens mark' en kenning för havet.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:51.939232+00:00"
+  }
+}

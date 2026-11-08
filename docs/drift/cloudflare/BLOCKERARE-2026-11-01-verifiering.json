@@ -1,0 +1,51 @@
+{
+  "articles": 41744,
+  "projects": {
+    "ord-01": {
+      "files": 12233,
+      "bytes": 90956416
+    },
+    "ord-02": {
+      "files": 10961,
+      "bytes": 81970718
+    },
+    "ord-03": {
+      "files": 13261,
+      "bytes": 98764458
+    },
+    "ord-04": {
+      "files": 13819,
+      "bytes": 103141738
+    },
+    "ord-05": {
+      "files": 6753,
+      "bytes": 51644796
+    },
+    "ord-06": {
+      "files": 13237,
+      "bytes": 99740034
+    },
+    "ord-07": {
+      "files": 13357,
+      "bytes": 103312888
+    },
+    "www": {
+      "files": 1080,
+      "bytes": 197479181
+    }
+  },
+  "date": "2026-11-01",
+  "scope": "local-only",
+  "productionReady": false,
+  "tests": {
+    "passed": 224,
+    "failed": 0,
+    "skipped": 0
+  },
+  "build": "passed",
+  "types": "passed",
+  "sourceValidation": "passed",
+  "textValidation": "passed",
+  "cloudSchemaInstalled": false,
+  "cloudDeploymentTested": false
+}

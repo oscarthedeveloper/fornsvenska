@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/vs-24",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-vs-24",
+    "canonicalSignum": "Vs 24",
+    "provinceCode": "Vs",
+    "itemNumber": 24,
+    "suffix": null,
+    "name": "Hassmyrastenen (Odendisa)",
+    "canonicalSlug": "vs-24",
+    "aliases": [
+      "Bautil 1162",
+      "Hassmyrastenen",
+      "Odendisastenen"
+    ],
+    "carrier": {
+      "id": "carrier-vs-24",
+      "type": "runsten",
+      "material": "Granit",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Hassmyra, Fläckebo socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Västmanland",
+        "parish": "Fläckebo socken",
+        "hundred": "Norrbo härad",
+        "placeName": "Hassmyra",
+        "coordinatesWgs84": [
+          16.3414,
+          59.8731
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Västmanlands runinskrifter, s. 69"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1050–1080 (Balle den röde)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1050,
+      "latestYear": 1080,
+      "isUncertain": false,
+      "datingMethod": "Ristarsignatur (Balle), runformer och Gräslunds stilgrupp Pr3"
+    },
+    "textLayer": {
+      "id": "text-vs-24",
+      "readingTransliteration": "buonti × kuþr × hulmkoetr × lit × resa × ufteʀ × oþintisu × kunu × seno × kumbr × hifrya × til × hasmuimura × iki betr × þon × byi raþr roþbalir × risti × runi × þisa × sikmuntaʀ × uaʀ … sestʀ × kuþ",
+      "normalizationRunicSwedish": "Boandi goðr Holmgautr let ræisa æftiʀ Oðindisu, kunu sina. Kumbʀ hifrøya til Hasumyra æigi bætri, þan byi raðr. Rauð-Balliʀ risti runiʀ þessaʀ. Sigmundaʀ vaʀ [Oðindisa] systiʀ goð.",
+      "normalizationOldWestNorse": "Bóndi góðr Holmgautr lét reisa eptir Óðindísu, konu sína. Kemr hýfreyja til Hǫsumýra eigi betri, en býi ráðr. Rauð-Ballir risti rúnar þessar. Sigmundar var [Óðindísa] systir góð.",
+      "translationSwedish": "Gode bonden Holmgöt lät resa stenen efter Odendis, sin hustru. Det kommer icke till Hassmyra en bättre husfru, som råder för gården. Balle den röde ristade dessa runor. Till Guds moder bad hon innerligt.",
+      "translationEnglish": "The good husbandman Holmgautr had the stone raised in memory of Óðindísa, his wife. There will not come to Hassmyra a better housewife, who rules the estate. Balli the Red carved these runes. To God's mother she prayed fervently.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-13",
+      "sriVolumeTitle": "Västmanlands runinskrifter",
+      "author": "Sven B.F. Jansson",
+      "publicationYear": 1964,
+      "pdfFil": "sri_vastmanland_b13_text_2.pdf",
+      "printedPageStart": 69,
+      "printedPageEnd": 76,
+      "pdfPageStart": 15,
+      "pdfPageEnd": 22,
+      "plateNumber": "Plansch 18",
+      "externalUris": {
+        "samnordiskUuid": "44178ee8-2f7a-4591-800c-75f9f4bd3795",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=44178ee8-2f7a-4591-800c-75f9f4bd3795"
+      }
+    },
+    "images": [
+      {
+        "id": "img-vs-24",
+        "imageUrl": "/images/runor/vs-24.webp",
+        "thumbnailUrl": "/images/runor/vs-24-thumb.webp",
+        "caption": "Hassmyrastenen (Vs 24), minnesstenen över husfrun Odendisa ur Västmanlands runinskrifter",
+        "photographerOrArtist": "Marianne Gustafsson / Sven B.F. Jansson",
+        "year": 1964,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Hassmyrastenen i Fläckebo. En av runtidens finaste minnesdikter över en kvinna, med fornvästmanländska dialektdrag och allitteration på fornyrðislag.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:54.944960+00:00"
+  }
+}

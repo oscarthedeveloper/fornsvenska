@@ -29,7 +29,7 @@ export default function ResursPanel({
   onTaBort: () => void;
   onFlytta: (steg: -1 | 1) => void;
   onLas?: () => void;
-  antal: { resurser: number; hyllor: number; skrifter: number };
+  antal: { resurser: number; hyllor: number; skrifter?: number };
 }) {
   if (!resurs) {
     return (
@@ -48,10 +48,6 @@ export default function ResursPanel({
             <div>
               <dt>Hyllor</dt>
               <dd>{antal.hyllor}</dd>
-            </div>
-            <div>
-              <dt>Skrifter</dt>
-              <dd>{antal.skrifter}</dd>
             </div>
           </dl>
         </div>
@@ -109,11 +105,15 @@ export default function ResursPanel({
       )}
 
       <div className="flex flex-col gap-2">
-        {resurs.typ === "skrift" && onLas && (
+        {resurs.bok ? (
+          <a className="resursknapp primar" href={resurs.bok.sokvag}>
+            Öppna bokvyn &gt;&gt;
+          </a>
+        ) : resurs.typ === "skrift" && onLas ? (
           <button type="button" className="resursknapp primar" onClick={onLas}>
-            {resurs.bok ? "Öppna bokvyn" : "Läs i sidan"}
+            Läs i sidan
           </button>
-        )}
+        ) : null}
 
         {resurs.lank ? (
           <a
@@ -168,7 +168,7 @@ export default function ResursPanel({
           </dd>
         </div>
         <div>
-          <dt>{resurs.typ === "skrift" ? "Handskrift" : "Utgivare"}</dt>
+          <dt>Utgivare</dt>
           <dd>
             <Redigerbar
               varde={resurs.utgivare ?? ""}

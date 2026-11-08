@@ -23,8 +23,6 @@ import {
 import { useAdmin } from "@/components/admin/AdminContext";
 import Knapp from "@/components/admin/Knapp";
 import Hylla from "./Hylla";
-import Skriftkammare from "./Skriftkammare";
-import SkriftLasare from "./SkriftLasare";
 import ResursPanel from "./ResursPanel";
 
 type Filter = Resurstyp | "allt";
@@ -43,7 +41,6 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
 
   const [bibliotek, setBibliotek] = useState<Bibliotek>(initial);
   const [valdId, setValdId] = useState<string | null>(null);
-  const [oppenId, setOppenId] = useState<string | null>(null);
   const [filter, setFilter] = useState<Filter>("allt");
   const [sok, setSok] = useState("");
 
@@ -142,15 +139,16 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
   /* ---------------------------------------------------------------- urval */
 
   const allaResurser = useMemo(
-    () => [...bibliotek.hyllor.flatMap((h) => h.resurser), ...bibliotek.skrifter],
+    () => bibliotek.hyllor.flatMap((h) => h.resurser),
     [bibliotek]
   );
 
   useEffect(() => {
     const valjFranLank = () => {
-      const id = decodeURIComponent(window.location.hash.slice(1));
-      const resurs = allaResurser.find((r) => r.kalla?.id === id || r.id === id);
-      if (resurs) setValdId(resurs.id);
+      const id = window.location.hash.replace(/^#/, "");
+      if (id && allaResurser.some((r) => r.id === id)) {
+        setValdId(id);
+      }
     };
     valjFranLank();
     window.addEventListener("hashchange", valjFranLank);
@@ -158,29 +156,33 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
   }, [allaResurser]);
 
   const vald = allaResurser.find((r) => r.id === valdId) ?? null;
-  const oppen = bibliotek.skrifter.find((r) => r.id === oppenId) ?? null;
 
   const matchar = (r: Resurs) => {
     if (filter !== "allt" && r.typ !== filter) return false;
     if (!sok.trim()) return true;
-    const n = sok.trim().toLowerCase();
-    return [r.titel, r.forfattare, r.utgivare, r.ar, r.beskrivning, r.kalla?.id, r.kalla?.bibliografi, r.kalla?.amnen.join(" "), r.kalla?.perioder.join(" ")]
-      .filter(Boolean)
-      .some((f) => (f as string).toLowerCase().includes(n));
+    const termer = sok.toLowerCase().split(/\s+/).filter(Boolean);
+    const text = [
+      r.titel,
+      r.forfattare ?? "",
+      r.utgivare ?? "",
+      r.beskrivning ?? "",
+      r.kalla?.id ?? "",
+      ...(r.kalla?.amnen ?? []),
+      ...(r.kalla?.perioder ?? []),
+      ...(r.kalla?.texttyper ?? []),
+    ]
+      .join(" ")
+      .toLowerCase();
+    return termer.every((t) => text.includes(t));
   };
 
   const hyllor = bibliotek.hyllor
     .map((h) => ({ ...h, resurser: h.resurser.filter(matchar) }))
     .filter((h) => h.resurser.length > 0 || (redigerar && filter === "allt" && !sok));
 
-  const skrifter = bibliotek.skrifter.filter(matchar);
-  const visaKammare =
-    skrifter.length > 0 || (redigerar && filter === "allt" && !sok) || filter === "skrift";
-
   const antal = {
     resurser: allaResurser.length,
     hyllor: bibliotek.hyllor.length,
-    skrifter: bibliotek.skrifter.length,
   };
 
   return (
@@ -193,7 +195,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
                 Resursbibliotek
               </h1>
               <p className="nano opacity-50">
-                Alla källor samlade — böcker, uppsatser och skrifter med bibliografi och källuppgifter
+                Alla källor samlade — böcker och uppsatser med bibliografi och källuppgifter
               </p>
             </div>
 
@@ -224,7 +226,7 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
           </div>
         </div>
 
-        {hyllor.length === 0 && skrifter.length === 0 && (
+        {hyllor.length === 0 && (
           <p className="micro py-6">Inga resurser matchar din sökning. Prova ett annat sökord eller välj Allt.</p>
         )}
 
@@ -255,40 +257,6 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
             </Knapp>
           </div>
         )}
-
-        {visaKammare && (
-          <Skriftkammare
-            skrifter={skrifter}
-            valdId={valdId}
-            oppenId={oppenId}
-            redigerbar={redigerar && bibliotek.harDatabas}
-            onValj={(r) => setValdId(r.id)}
-            onLas={(r) => {
-              setValdId(r.id);
-              if (r.bok) {
-                router.push(r.bok.sokvag);
-              } else {
-                setOppenId(oppenId === r.id ? null : r.id);
-              }
-            }}
-            onNy={() =>
-              void kor(async () => {
-                const svar = await skapaResurs(null, "skrift");
-                if (svar.ok && svar.id) setValdId(svar.id);
-                return svar;
-              })
-            }
-          />
-        )}
-
-        {oppen && (
-          <SkriftLasare
-            resurs={oppen}
-            redigerbar={redigerar}
-            onChange={(delar) => andraResurs(oppen.id, delar)}
-            onStang={() => setOppenId(null)}
-          />
-        )}
       </div>
 
       <div className="resurspanel-halla" ref={panel}>
@@ -303,20 +271,11 @@ export default function ResursBibliotek({ initial }: { initial: Bibliotek }) {
               const svar = await taBortResurs(vald.id);
               if (svar.ok) {
                 setValdId(null);
-                if (oppenId === vald.id) setOppenId(null);
               }
               return svar;
             })
           }
           onFlytta={(steg) => vald && void kor(() => flyttaResurs(vald.id, steg))}
-          onLas={
-            vald?.typ === "skrift"
-              ? () => {
-                  if (vald.bok) router.push(vald.bok.sokvag);
-                  else setOppenId(oppenId === vald.id ? null : vald.id);
-                }
-              : undefined
-          }
         />
       </div>
     </div>

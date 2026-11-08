@@ -4,6 +4,7 @@ node_modules
 # Byggen
 .next
 out
+dist
 .netlify
 
 # Miljövariabler — .env.local innehåller nycklarna och ska ALDRIG checkas in

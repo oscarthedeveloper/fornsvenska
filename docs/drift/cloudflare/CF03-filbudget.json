@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-30",
+  "group": "04",
+  "host": "ord-04.fornsvenska.se",
+  "articleCount": 6900,
+  "exportedHtmlFiles": 6900,
+  "sharedAssetFiles": 1,
+  "totalFiles": 6901,
+  "internalBudgetLimit": 16000,
+  "cloudflareLimit": 20000,
+  "budgetUtilizationPct": 43.1,
+  "cloudflareUtilizationPct": 34.5,
+  "totalBytes": 58282301,
+  "totalGzipBytes": 18779734,
+  "averageHtmlBytes": 8447,
+  "medianHtmlBytes": 8289,
+  "minHtmlBytes": 7592,
+  "maxHtmlBytes": 37358,
+  "buildDurationMs": 2028,
+  "peakRssMb": 367,
+  "nextJsHypotheticalFileCount": 13850,
+  "nextJsBudgetUtilizationPct": 86.6
+}

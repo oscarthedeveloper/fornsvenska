@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-18",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-18",
+    "canonicalSignum": "Öl 18",
+    "provinceCode": "Öl",
+    "itemNumber": 18,
+    "suffix": null,
+    "name": "Seby",
+    "canonicalSlug": "ol-18",
+    "aliases": [
+      "Bautil 18"
+    ],
+    "carrier": {
+      "id": "carrier-ol-18",
+      "type": "runsten",
+      "material": "Kalksten",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Seby, Segerstads socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Segerstads socken",
+        "hundred": "Gräsgårds härad",
+        "placeName": "Seby",
+        "coordinatesWgs84": [
+          16.531,
+          56.3435
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 68"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1010–1060",
+      "periodLabel": "Vikingatid (mellan/sen)",
+      "earliestYear": 1010,
+      "latestYear": 1060,
+      "isUncertain": false,
+      "datingMethod": "Stilgruppering (kors och rundjurslinga)"
+    },
+    "textLayer": {
+      "id": "text-ol-18",
+      "readingTransliteration": "× inkialtr × auk × nifʀ × [au]k × su[i]n [× þa]iʀ × litu × risa …- × iftiʀ × ruþmar × faþur × sin ×",
+      "normalizationRunicSwedish": "Ingialdr ok Nefʀ ok Svæinn, þæiʀ letu ræisa [stæin] æftiʀ Hroðmar, faður sinn.",
+      "normalizationOldWestNorse": "Ingjaldr ok Nefr ok Sveinn, þeir létu reisa [stein] eptir Hróðmar, fǫður sinn.",
+      "translationSwedish": "Ingjald och Näv och Sven, de lät resa stenen efter Rodmar, sin fader.",
+      "translationEnglish": "Ingjaldr and Nefi and Sveinn, they had the stone raised in memory of Hróðmarr, their father.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 68,
+      "printedPageEnd": 70,
+      "pdfPageStart": 82,
+      "pdfPageEnd": 84,
+      "plateNumber": "Plansch VI",
+      "externalUris": {
+        "samnordiskUuid": "d7f8e942-955e-4661-a084-d5318976e655",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=d7f8e942-955e-4661-a084-d5318976e655"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-18",
+        "imageUrl": "/images/runor/ol-18.webp",
+        "thumbnailUrl": "/images/runor/ol-18-thumb.webp",
+        "caption": "Sebystenen (Öl 18), stående runsten på Ölands alvar ur Ölands runinskrifter",
+        "photographerOrArtist": "Sven Söderberg",
+        "year": 1900,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Ståtlig runsten vid vägskäl i Seby, ristad med kors och rundjurslinga.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.618428+00:00"
+  }
+}

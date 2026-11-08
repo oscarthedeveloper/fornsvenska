@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/so-101",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-so-101",
+    "canonicalSignum": "Sö 101",
+    "provinceCode": "Sö",
+    "itemNumber": 101,
+    "suffix": null,
+    "name": "Ramsundsristningen",
+    "canonicalSlug": "so-101",
+    "aliases": [
+      "Bautil 730",
+      "Sigurdsristningen",
+      "Ramsundsberget"
+    ],
+    "carrier": {
+      "id": "carrier-so-101",
+      "type": "fast_hall",
+      "material": "Berghäll",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Ramsundsberget, Mora, Jäders socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Södermanland",
+        "parish": "Jäders socken",
+        "hundred": "Österrekarne härad",
+        "placeName": "Ramsundsberget, Mora",
+        "coordinatesWgs84": [
+          16.6344,
+          59.4413
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Södermanlands runinskrifter, s. 72"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1020–1050 (Sigrid och Torir)",
+      "periodLabel": "Vikingatid (mellan)",
+      "earliestYear": 1020,
+      "latestYear": 1050,
+      "isUncertain": false,
+      "datingMethod": "Gräslunds stilgrupp Pr1–Pr2 och ikonografi (Völsungasagan)"
+    },
+    "textLayer": {
+      "id": "text-so-101",
+      "readingTransliteration": "siriþr : kiarþi : bur : þosi : muþiʀ : alriks : tutiʀ : urms : fur · salu : hulmkirs : faþur : sukruþar buata · sis ·",
+      "normalizationRunicSwedish": "Sigriðr gærði bro þasi, moðiʀ Alriks, dottiʀ Orms, for salu Holmgæiʀs, faður Sigrøðaʀ, boanda sins.",
+      "normalizationOldWestNorse": "Sigríðr gerði brú þessa, móðir Alríks, dóttir Orms, fyrir sálu Holmgeirs, fǫður Sigrøðar, bónda síns.",
+      "translationSwedish": "Sigrid, Alriks moder, Orms dotter, gjorde denna bro för sin make Holmgers, Sigröds faders, själ. Torir ristade.",
+      "translationEnglish": "Sigríðr, Alríkr's mother, Ormr's daughter, made this bridge for the soul of Holmgeirr, father of Sigrøðr, her husbandman. Þórir carved.",
+      "carverAttribution": "Torir",
+      "isSigned": true
+    },
+    "source": {
+      "sriVolumeId": "band-03",
+      "sriVolumeTitle": "Södermanlands runinskrifter",
+      "author": "Erik Brate & Elias Wessén",
+      "publicationYear": 1936,
+      "pdfFil": "sri_sodermanland_b03_h01_text_2.pdf",
+      "printedPageStart": 72,
+      "printedPageEnd": 76,
+      "pdfPageStart": 20,
+      "pdfPageEnd": 24,
+      "plateNumber": "Plansch 38",
+      "externalUris": {
+        "samnordiskUuid": "39f559bc-414a-4e38-b902-7feb7ec6dfcc",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=39f559bc-414a-4e38-b902-7feb7ec6dfcc"
+      }
+    },
+    "images": [
+      {
+        "id": "img-so-101",
+        "imageUrl": "/images/runor/so-101.webp",
+        "thumbnailUrl": "/images/runor/so-101-thumb.webp",
+        "caption": "Ramsundsristningen (Sö 101), Sigurdsristningen på berghäll vid Sundbyholm",
+        "photographerOrArtist": "Erik Brate / Elias Wessén",
+        "year": 1924,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Ramsundsristningen på en slät berghäll vid Sundbyholm. Ristad med scener ur Sigurdssagan: smeden Regin, draken Fafne, Sigurd grillande drakhjärtat och hästen Grane.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:54.688402+00:00"
+  }
+}

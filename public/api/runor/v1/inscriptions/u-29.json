@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/u-29",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-u-29",
+    "canonicalSignum": "U 29",
+    "provinceCode": "U",
+    "itemNumber": 29,
+    "suffix": null,
+    "name": "Hillersjöhällen",
+    "canonicalSlug": "u-29",
+    "aliases": [
+      "Bautil 29"
+    ],
+    "carrier": {
+      "id": "carrier-u-29",
+      "type": "fast_hall",
+      "material": "Fast berghäll",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Hillersjö, Hilleshögs socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Uppland",
+        "parish": "Hilleshögs socken",
+        "hundred": "Färentuna härad",
+        "placeName": "Hillersjö",
+        "coordinatesWgs84": [
+          17.7049,
+          59.3881
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 34"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1060–1090 (Torbjörn skald)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1060,
+      "latestYear": 1090,
+      "isUncertain": false,
+      "datingMethod": "Gräslunds stilgrupp Pr2 / Pr3 och genealogisk analys"
+    },
+    "textLayer": {
+      "id": "text-u-29",
+      "readingTransliteration": "raþ| |þu kaiʀmuntr -ik · kaiʀ[l]a[uk ·] (m)aytumi| |i þa · finku · þau sun · aþ han · truknaþi · in sun to : siþan : þa + fi(k) (h)(u)- --þrik · ha- … (þ)(i)nsa · þa · finku þa(u) [bar](n) … (i)(n) maʀ ain lifþi · [hu]n hit ' …g[a] ' h(a)… fik raknfastr · i · snutastaþum · þa uarþ han tauþr · auk · sun · siþan · in · moþir kuam + at sunar ' arfi ' þa ' fik hun ' airik ' þar ' uarþ hun tauþ ' þar kuam ' gaiʀlauk at arfi ' inku tutur sinar þurbiur(n) ' skalt ' risti runar",
+      "normalizationRunicSwedish": "Rað þu! Gæiʀmundr [f]ikk Gæiʀlaug møydomi i. Þa fingu þau sun, aðan hann drunknaði. En sunn do siðan. Þa fikk ho[n] [Gu]ðrik. Ha[nn] … þennsa. Þa fingu þau barn. En maʀ æin lifði; hon het [In]ga. Ha[na] fikk Ragnfastr i Snutastaðum. Þa varð hann dauðr ok sunn siðan. En moðiʀ kvam at sunaʀ arfi. Þa fikk hon Æirik. Þar varð hon dauð. Þar kvam Gæiʀlaug at arfi Ingu, dottur sinnaʀ. Þorbiorn Skald risti runaʀ.",
+      "normalizationOldWestNorse": "Ráð þú! Geirmundr [f]ekk Geirlaug meydómi í. Þá fingu þau son, áðan hann druknaði. En sonr dó síðan. Þá fekk ho[n] [Gu]ðrík. Ha[nn] … þenna. Þá fingu þau bǫrn. En mær ein lifði; hon hét [In]ga. Ha[na] fekk Ragnfastr í Snotastǫðum. Þá varð hann dauðr ok sonr síðan. En móðir kvam at sonar arfi. Þá fekk hon Eirík. Þar varð hon dauð. Þar kvam Geirlaug at arfi Ingu, dóttur sinnar. Þorbjǫrn Skald risti rúnar.",
+      "translationSwedish": "Tyd du! Gerlög lät rista dessa runor efter Germund, sin man. Han drunknade i Svinasund. Gud hjälpe hans ande… Och Gerlög ärvde Inga, sin dotter. Torbjörn skald ristade runorna.",
+      "translationEnglish": "Interpret! Geirlaug had these runes carved in memory of Geirmundr, her husband. He drowned in Svinasund. May God help his spirit… And Geirlaug inherited Inga, her daughter. Þorbjôrn Skald carved the runes.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-06",
+      "sriVolumeTitle": "Upplands runinskrifter del 1",
+      "author": "Elias Wessén & Sven B.F. Jansson",
+      "publicationYear": 1940,
+      "pdfFil": "sri_uppland_b06_text_1.pdf",
+      "printedPageStart": 34,
+      "printedPageEnd": 44,
+      "pdfPageStart": 34,
+      "pdfPageEnd": 44,
+      "plateNumber": "Plansch 12",
+      "externalUris": {
+        "samnordiskUuid": "7b83b0e9-df25-4bf0-94c5-52979aee0d6c",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=7b83b0e9-df25-4bf0-94c5-52979aee0d6c"
+      }
+    },
+    "images": [
+      {
+        "id": "img-u-29",
+        "imageUrl": "/images/runor/u-29.webp",
+        "thumbnailUrl": "/images/runor/u-29-thumb.webp",
+        "caption": "Hillersjöhällen (U 29), arvsberättelsen om Geirlög ur Upplands runinskrifter",
+        "photographerOrArtist": "Sven B.F. Jansson",
+        "year": 1940,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Upplands längsta sammanhängande hällristning. En unik arvsberättelse i sex led om Geirlögs släkt, ristad av Torbjörn skald.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.522131+00:00"
+  }
+}

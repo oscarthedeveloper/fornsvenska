@@ -29,11 +29,19 @@ export default function AdminBar({
     setRedigerar,
     status,
     felmeddelande,
+    sparadRevision,
+    publiceradRevision,
+    harOpubliceradeAndringar,
+    forhandsgranskning,
+    setForhandsgranskning,
+    konfliktVarning,
+    setKonfliktVarning,
   } = useAdmin();
   const anvandarnamn = propsAnvandarnamn ?? kontextAnvandarnamn;
   const [formatOppen, setFormatOppen] = useState(false);
 
   if (!arAdmin) return null;
+  if (process.env.NEXT_PUBLIC_STATIC_DELIVERY !== '0') return <aside className="adminbar fixed bottom-0 right-0 z-[100] border border-ink bg-panel p-3"><Link href="/admin">Öppna webbredaktionen</Link></aside>;
 
   const skicka = (kommando: Formateringskommando) => {
     document.dispatchEvent(
@@ -44,7 +52,7 @@ export default function AdminBar({
   };
 
   return (
-    <div className="adminbar fixed bottom-0 right-0 z-[100] flex items-stretch border-t border-l border-ink bg-panel">
+    <div className="adminbar fixed bottom-0 right-0 z-[100] flex items-stretch border-t border-l border-ink bg-panel flex-wrap sm:flex-nowrap">
       {redigerar && (
         <div className="admin-format-hallare">
           <button
@@ -110,7 +118,18 @@ export default function AdminBar({
         </div>
       )}
 
-      {felmeddelande && (
+      {/* Samtidighetskonflikt-varning */}
+      {konfliktVarning && (
+        <span
+          className="nano px-3 flex items-center bg-red-600 text-paper max-w-[320px] truncate cursor-pointer"
+          title={konfliktVarning}
+          onClick={() => setKonfliktVarning(null)}
+        >
+          ⚠️ {konfliktVarning}
+        </span>
+      )}
+
+      {felmeddelande && !konfliktVarning && (
         <span className="nano px-3 flex items-center bg-accent text-ink max-w-[280px] truncate">
           {felmeddelande}
         </span>
@@ -119,6 +138,43 @@ export default function AdminBar({
       {status !== "vilande" && !felmeddelande && (
         <span className="nano px-3 flex items-center opacity-60">{TEXT[status]}</span>
       )}
+
+      {/* Sparad revision & publicerad revision status */}
+      {sparadRevision !== null && (
+        <span
+          className="nano px-2.5 flex items-center border-l border-ink font-mono opacity-80"
+          title={`Senast sparad revision: ${sparadRevision}${
+            publiceradRevision ? ` · Publicerad revision: ${publiceradRevision}` : ""
+          }`}
+        >
+          rev {sparadRevision}
+          {publiceradRevision && publiceradRevision !== sparadRevision && (
+            <span className="opacity-50 ml-1 text-[0.68rem]">(pub: {publiceradRevision})</span>
+          )}
+        </span>
+      )}
+
+      {harOpubliceradeAndringar && (
+        <span
+          className="nano px-2 flex items-center bg-amber-200 text-amber-950 font-bold border-l border-ink"
+          title="Opublicerat utkast: Ändringen syns inte för publika läsare förrän webbplatsen publiceras"
+        >
+          Utkast
+        </span>
+      )}
+
+      {/* Förhandsgranskningsväxlare */}
+      <button
+        type="button"
+        onClick={() => setForhandsgranskning(!forhandsgranskning)}
+        aria-pressed={forhandsgranskning}
+        className={`nano px-3 py-2.5 border-l border-ink transition-colors hover:opacity-75 ${
+          forhandsgranskning ? "bg-amber-100 font-bold text-amber-950" : "bg-panel text-ink"
+        }`}
+        title="Växla mellan att förhandsgranska utkast eller se den aktiva publicerade versionen"
+      >
+        {forhandsgranskning ? "Förhandsgranskar" : "Granska"}
+      </button>
 
       <span className="nano px-3 flex items-center opacity-50 border-l border-ink">
         {anvandarnamn}
@@ -139,7 +195,7 @@ export default function AdminBar({
         href="/admin"
         className="nano px-3 flex items-center border-l border-ink transition-opacity duration-[140ms] hover:opacity-60"
       >
-        Konto
+        Redaktion
       </Link>
     </div>
   );

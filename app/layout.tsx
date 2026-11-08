@@ -5,6 +5,8 @@ import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
 
+import { arPreviewMiljo } from "@/app/robots";
+
 /* Endast två familjer: hög-kontrast antikva till rubriker och siffror,
    monospace till allt annat. Ingen grotesk. */
 const display = Newsreader({
@@ -24,8 +26,11 @@ const mono = Martian_Mono({
   display: "swap",
 });
 
+const isPreview = arPreviewMiljo();
+const baseUrl = process.env.CF_PAGES_URL || (isPreview ? "https://preview.fornsvenska.se" : "https://www.fornsvenska.se");
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.fornsvenska.se"),
+  metadataBase: new URL(baseUrl),
   title: {
     default: "Fornsvenska – texter, ordbok och grammatik | Fornsvenska.se",
     template: "%s | Fornsvenska.se",
@@ -35,11 +40,20 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  robots: isPreview
+    ? {
+        index: false,
+        follow: false,
+      }
+    : {
+        index: true,
+        follow: true,
+      },
   openGraph: {
     title: "Fornsvenska – texter, ordbok och grammatik | Fornsvenska.se",
     description:
       "Språkhistorisk studieplattform för fornsvenska. Källkritiska textutgåvor, Söderwalls ordbok och systematisk grammatik med historiska språkprov.",
-    url: "https://www.fornsvenska.se",
+    url: baseUrl,
     siteName: "Fornsvenska.se",
     locale: "sv_SE",
     type: "website",

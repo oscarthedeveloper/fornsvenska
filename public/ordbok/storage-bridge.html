@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Fornsvenska Storage Bridge</title>
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <script>
+    (function() {
+      'use strict';
+
+      var CHANNEL = 'fornsvenska:ordlista-v1';
+      var STORAGE_KEY = 'fornsvenska_sparade_ord_v1';
+
+      var ALLOWED_ORIGINS = [
+        'https://www.fornsvenska.se',
+        'https://fornsvenska.se',
+        'https://ord-01.fornsvenska.se',
+        'https://ord-02.fornsvenska.se',
+        'https://ord-03.fornsvenska.se',
+        'https://ord-04.fornsvenska.se',
+        'https://ord-05.fornsvenska.se',
+        'https://ord-06.fornsvenska.se',
+        'https://ord-07.fornsvenska.se'
+      ];
+
+      function isAllowedOrigin(origin) {
+        if (!origin || typeof origin !== 'string') return false;
+        var norm = origin.trim().replace(/\/$/, '').toLowerCase();
+        if (ALLOWED_ORIGINS.indexOf(norm) !== -1) return true;
+        if (norm.indexOf('http://localhost:') === 0 ||
+            norm.indexOf('http://127.0.0.1:') === 0 ||
+            norm.indexOf('http://[::1]:') === 0) {
+          return true;
+        }
+        return false;
+      }
+
+      function testStorageAccess() {
+        try {
+          var testKey = '__fs_bridge_test__';
+          window.localStorage.setItem(testKey, '1');
+          window.localStorage.removeItem(testKey);
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+
+      function readStorage() {
+        var raw = window.localStorage.getItem(STORAGE_KEY);
+        if (!raw) return [];
+        try {
+          var parsed = JSON.parse(raw);
+          if (!Array.isArray(parsed)) throw new Error('Skadad ordlista');
+          return parsed;
+        } catch (e) {
+          throw new Error("Ordlistan kan inte läsas. Befintlig data bevaras.");
+        }
+      }
+
+      var subscribers = [];
+      function notify(lista) {
+        subscribers.forEach(function(s) { s.source.postMessage({channel:CHANNEL,event:'CHANGED',data:lista},s.origin); });
+      }
+      window.addEventListener('storage',function(event) {
+        if(event.key===STORAGE_KEY) { try { notify(readStorage()); } catch(e) {} }
+      });
+      function writeStorage(lista) {
+        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(lista));
+        notify(lista);
+      }
+
+      function sanitizePost(raw) {
+        if (!raw || typeof raw !== 'object') return null;
+        if (typeof raw.id !== 'string' || raw.id.indexOf('--') === -1) return null;
+        if (typeof raw.headwordDisplay !== 'string' || !raw.headwordDisplay) return null;
+        if (raw.sourceDataset !== 'soederwall' && raw.sourceDataset !== 'soederwall-supp') return null;
+
+        var post = {
+          id: raw.id,
+          headwordDisplay: raw.headwordDisplay,
+          sourceDataset: raw.sourceDataset,
+          kallaId: raw.sourceDataset === 'soederwall' ? 'SOD1884' : 'SOD-SUPP',
+          partOfSpeech: Array.isArray(raw.partOfSpeech) ? raw.partOfSpeech.filter(function(s) { return typeof s === 'string'; }) : [],
+          snippet: typeof raw.snippet === 'string' ? raw.snippet.slice(0, 300) : '',
+          sparadDatum: (typeof raw.sparadDatum === 'string' && !isNaN(Date.parse(raw.sparadDatum)))
+            ? raw.sparadDatum
+            : new Date().toISOString()
+        };
+
+        if (typeof raw.homonymNumber === 'number' && raw.homonymNumber > 0) {
+          post.homonymNumber = raw.homonymNumber;
+        }
+        if (typeof raw.gramOriginal === 'string') {
+          post.gramOriginal = raw.gramOriginal.slice(0, 100);
+        }
+        if (typeof raw.anteckning === 'string' && raw.anteckning.trim()) {
+          post.anteckning = raw.anteckning.trim().slice(0, 2000);
+        }
+        if (raw.kallText && typeof raw.kallText === 'object') {
+          post.kallText = {
+            ord: String(raw.kallText.ord || '').slice(0, 100),
+            titel: raw.kallText.titel ? String(raw.kallText.titel).slice(0, 150) : undefined,
+            meningFsv: raw.kallText.meningFsv ? String(raw.kallText.meningFsv).slice(0, 500) : undefined,
+            meningTolkning: raw.kallText.meningTolkning ? String(raw.kallText.meningTolkning).slice(0, 500) : undefined
+          };
+        }
+        return post;
+      }
+
+      window.addEventListener('message', function(event) {
+        if (!isAllowedOrigin(event.origin)) {
+          return; // Ignorera obehöriga anrop utan svar
+        }
+
+        var req = event.data;
+        if (!req || typeof req !== 'object' || req.channel !== CHANNEL || !req.requestId) {
+          return;
+        }
+
+        // Kontrollera om localStorage är tillgänglig (fångar Safari ITP / blockerad tredjepartslagring)
+        if (!testStorageAccess()) {
+          event.source.postMessage({
+            channel: CHANNEL,
+            requestId: req.requestId,
+            success: false,
+            error: {
+              code: 'BLOCKED',
+              message: 'Tredjepartslagring är blockerad i denna webbläsarkontext.'
+            }
+          }, event.origin);
+          return;
+        }
+
+        try {
+          if (!subscribers.some(function(s){return s.source===event.source;})) subscribers.push({source:event.source,origin:event.origin});
+          var lista = readStorage();
+
+          if (req.action === 'GET') {
+            event.source.postMessage({
+              channel: CHANNEL,
+              requestId: req.requestId,
+              success: true,
+              data: lista
+            }, event.origin);
+            return;
+          }
+
+          if (req.action === 'SAVE') {
+            var post = sanitizePost(req.payload && req.payload.post);
+            if (!post) {
+              event.source.postMessage({
+                channel: CHANNEL,
+                requestId: req.requestId,
+                success: false,
+                error: { code: 'INVALID_PAYLOAD', message: 'Ogiltig ordbokspost att spara' }
+              }, event.origin);
+              return;
+            }
+            var existing = lista.find(function(p) { return p.id===post.id; });
+            if(existing && !post.anteckning && existing.anteckning) post.anteckning=existing.anteckning;
+            lista = lista.filter(function(p) { return p.id !== post.id; });
+            lista.unshift(post);
+            writeStorage(lista);
+            event.source.postMessage({
+              channel: CHANNEL,
+              requestId: req.requestId,
+              success: true,
+              data: lista
+            }, event.origin);
+            return;
+          }
+
+          if (req.action === 'REMOVE') {
+            var removeId = req.payload && req.payload.id;
+            if (typeof removeId !== 'string') {
+              event.source.postMessage({
+                channel: CHANNEL,
+                requestId: req.requestId,
+                success: false,
+                error: { code: 'INVALID_PAYLOAD', message: 'ID saknas för radering' }
+              }, event.origin);
+              return;
+            }
+            lista = lista.filter(function(p) { return p.id !== removeId; });
+            writeStorage(lista);
+            event.source.postMessage({
+              channel: CHANNEL,
+              requestId: req.requestId,
+              success: true,
+              data: lista
+            }, event.origin);
+            return;
+          }
+
+          if (req.action === 'NOTE') {
+            var noteId = req.payload && req.payload.id;
+            var noteVal = typeof (req.payload && req.payload.anteckning) === 'string'
+              ? req.payload.anteckning.trim()
+              : '';
+            if (typeof noteId !== 'string') {
+              event.source.postMessage({
+                channel: CHANNEL,
+                requestId: req.requestId,
+                success: false,
+                error: { code: 'INVALID_PAYLOAD', message: 'ID saknas för anteckning' }
+              }, event.origin);
+              return;
+            }
+            lista = lista.map(function(p) {
+              if (p.id === noteId) {
+                var copy = Object.assign({}, p);
+                if (noteVal) {
+                  copy.anteckning = noteVal.slice(0, 2000);
+                } else {
+                  delete copy.anteckning;
+                }
+                return copy;
+              }
+              return p;
+            });
+            writeStorage(lista);
+            event.source.postMessage({
+              channel: CHANNEL,
+              requestId: req.requestId,
+              success: true,
+              data: lista
+            }, event.origin);
+            return;
+          }
+
+          if (req.action === 'CLEAR') {
+            writeStorage([]);
+            event.source.postMessage({
+              channel: CHANNEL,
+              requestId: req.requestId,
+              success: true,
+              data: []
+            }, event.origin);
+            return;
+          }
+
+          if (req.action === 'IMPORT') {
+            var rawImport = req.payload && req.payload.importeradLista;
+            if (!Array.isArray(rawImport)) {
+              event.source.postMessage({
+                channel: CHANNEL,
+                requestId: req.requestId,
+                success: false,
+                error: { code: 'INVALID_PAYLOAD', message: 'importeradLista måste vara en array' }
+              }, event.origin);
+              return;
+            }
+            var importerade = [];
+            for (var i = 0; i < rawImport.length; i++) {
+              var san = sanitizePost(rawImport[i]);
+              if (san) importerade.push(san);
+            }
+            // Slå samman med befintliga, prioritera nyare
+            var befintligaMap = {};
+            for (var j = 0; j < lista.length; j++) {
+              befintligaMap[lista[j].id] = lista[j];
+            }
+            for (var k = 0; k < importerade.length; k++) {
+              befintligaMap[importerade[k].id] = importerade[k];
+            }
+            var merged = Object.values(befintligaMap);
+            // Sortera efter datum fallande
+            merged.sort(function(a, b) {
+              return (b.sparadDatum || '').localeCompare(a.sparadDatum || '');
+            });
+            writeStorage(merged);
+            event.source.postMessage({
+              channel: CHANNEL,
+              requestId: req.requestId,
+              success: true,
+              data: merged
+            }, event.origin);
+            return;
+          }
+
+          event.source.postMessage({
+            channel: CHANNEL,
+            requestId: req.requestId,
+            success: false,
+            error: { code: 'INVALID_ACTION', message: 'Okänd åtgärd: ' + req.action }
+          }, event.origin);
+
+        } catch (err) {
+          event.source.postMessage({
+            channel: CHANNEL,
+            requestId: req.requestId,
+            success: false,
+            error: {
+              code: 'STORAGE_ERROR',
+              message: err && err.message ? err.message : 'Lagringsfel i bryggan'
+            }
+          }, event.origin);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

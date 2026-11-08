@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/u-104",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-u-104",
+    "canonicalSignum": "U 104",
+    "provinceCode": "U",
+    "itemNumber": 104,
+    "suffix": null,
+    "name": "Eds kyrka",
+    "canonicalSlug": "u-104",
+    "aliases": [],
+    "carrier": {
+      "id": "carrier-u-104",
+      "type": "runsten",
+      "material": "Gnejs",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Eds kyrka, Eds socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Uppland",
+        "parish": "Eds socken",
+        "hundred": "Sollentuna härad",
+        "placeName": "Eds kyrka",
+        "coordinatesWgs84": [
+          17.8682,
+          59.5079
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 148"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1070–1110 (Öpir risti)",
+      "periodLabel": "Vikingatid (mycket sen)",
+      "earliestYear": 1070,
+      "latestYear": 1110,
+      "isUncertain": false,
+      "datingMethod": "Ristarsignatur (Öpir) och Gräslunds stilgrupp Pr4/Pr5 (Urnesstil)"
+    },
+    "textLayer": {
+      "id": "text-u-104",
+      "readingTransliteration": "' þorstin ' lit × kera ' merki ' ftiʀ ' suin ' faþur ' sin ' uk ' ftiʀ ' þori ' (b)roþur ' sin ' þiʀ ' huaru ' hut ' til ' k--ika ' (u)(k) ' iftiʀ ' inkiþuru ' moþur ' sin ' ybiʀ risti '",
+      "normalizationRunicSwedish": "Þorstæinn let gæra mærki æftiʀ Svæin, faður sinn, ok æftiʀ Þori, broður sinn, þæiʀ vaʀu ut til G[r]ikkia, ok æftiʀ Ingiþoru, moður sina. Øpiʀ risti.",
+      "normalizationOldWestNorse": "Þorsteinn lét gera merki eptir Svein, fǫður sinn, ok eptir Þóri, bróður sinn, þeir váru út til G[r]ikkja, ok eptir Ingiþóru, móður sína. Œpir risti.",
+      "translationSwedish": "… ut till Grekland — och efter Ingetora, sin moder. Öpir ristade.",
+      "translationEnglish": "… out to Greece — and in memory of Ingiþóra, his mother. Œpir carved.",
+      "carverAttribution": "Öpir",
+      "isSigned": true
+    },
+    "source": {
+      "sriVolumeId": "band-06",
+      "sriVolumeTitle": "Upplands runinskrifter del 1",
+      "author": "Elias Wessén & Sven B.F. Jansson",
+      "publicationYear": 1940,
+      "pdfFil": "sri_uppland_b06_text_2.pdf",
+      "printedPageStart": 148,
+      "printedPageEnd": 154,
+      "pdfPageStart": 79,
+      "pdfPageEnd": 86,
+      "plateNumber": "Plansch 48",
+      "externalUris": {
+        "samnordiskUuid": "656f51f0-0632-4dd1-869f-9e1eafbb2bc5",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=656f51f0-0632-4dd1-869f-9e1eafbb2bc5"
+      }
+    },
+    "images": [
+      {
+        "id": "img-u-104",
+        "imageUrl": "/images/runor/u-104.webp",
+        "thumbnailUrl": "/images/runor/u-104-thumb.webp",
+        "caption": "Eds kyrka (U 104), runsten ristad av runmästaren Öpir ur Upplands runinskrifter",
+        "photographerOrArtist": "Sven B.F. Jansson",
+        "year": 1940,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Runsten från Eds kyrka, signerad av den kände uppländske runmästaren Öpir (YbiR risti). Skänktes till Oxford 1687.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.999519+00:00"
+  }
+}

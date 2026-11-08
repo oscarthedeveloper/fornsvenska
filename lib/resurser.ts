@@ -1,3 +1,4 @@
+import { publishedOverride } from "./editorial/publication-input";
 import { medKallor } from "@/lib/kallbibliotek";
 /**
  * Datalagret för resursbiblioteket.
@@ -6,7 +7,11 @@ import { medKallor } from "@/lib/kallbibliotek";
  * demomaterialet i data/. Hyllor och resurser hämtas i två frågor och sätts
  * ihop i minnet — biblioteket är litet, och slipper då en fråga per hylla.
  */
-import { cache } from "react";
+import * as React from "react";
+const cache =
+  typeof React.cache === "function"
+    ? React.cache
+    : (<T extends (...args: any[]) => any>(fn: T): T => fn);
 import { FASTA_SKRIFTER } from "@/data/resurser";
 import { HAR_SUPABASE } from "@/lib/supabase/config";
 import { skapaPublikServerKlient } from "@/lib/supabase/server";
@@ -60,16 +65,15 @@ function tillResurs(rad: ResursRad): Resurs {
 
 /**
  * Hela biblioteket. Cachas per förfrågan.
- *
- * Skrifterna plockas ut för sig: de har inga omslag och hör hemma i
- * Skriftkammaren, inte på en hylla bland läroböckerna.
  */
 const ANVAND_SUPABASE_RESURSER =
   HAR_SUPABASE && process.env.NEXT_PUBLIC_DATA_SOURCE === "supabase";
 
 export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
-  if (!ANVAND_SUPABASE_RESURSER) {
-    return medKallor({ hyllor: [], skrifter: FASTA_SKRIFTER, harDatabas: false });
+  const frozen = publishedOverride<Bibliotek>("resurser", "bibliotek");
+  if (frozen) return medKallor(frozen);
+  if (process.env.CF_RELEASE_SNAPSHOT || !ANVAND_SUPABASE_RESURSER) {
+    return medKallor({ hyllor: [], skrifter: [], harDatabas: false });
   }
 
   try {
@@ -115,16 +119,11 @@ export const hamtaBibliotek = cache(async (): Promise<Bibliotek> => {
 
     return medKallor({
       hyllor,
-      skrifter: [
-        ...FASTA_SKRIFTER,
-        ...resurser.filter(
-          (r) => r.typ === "skrift" && !FASTA_SKRIFTER.some((fast) => fast.id === r.id)
-        ),
-      ],
+      skrifter: [],
       harDatabas: true,
     });
   } catch (fel) {
     console.warn("[resurser] kunde inte läsa biblioteket från Supabase:", fel);
-    return medKallor({ hyllor: [], skrifter: FASTA_SKRIFTER, harDatabas: false });
+    return medKallor({ hyllor: [], skrifter: [], harDatabas: false });
   }
 });

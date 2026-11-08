@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/u-101",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-u-101",
+    "canonicalSignum": "U 101",
+    "provinceCode": "U",
+    "itemNumber": 101,
+    "suffix": null,
+    "name": "Sjöstugan (Jarlabanke)",
+    "canonicalSlug": "u-101",
+    "aliases": [],
+    "carrier": {
+      "id": "carrier-u-101",
+      "type": "runsten",
+      "material": "Rödgrå granit",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Södersätra, Sollentuna socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Uppland",
+        "parish": "Sollentuna socken",
+        "hundred": "Sollentuna härad",
+        "placeName": "Södersätra",
+        "coordinatesWgs84": [
+          17.9839,
+          59.4487
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 138"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1060–1080 (Jarlabanke)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1060,
+      "latestYear": 1080,
+      "isUncertain": false,
+      "datingMethod": "Historisk kronologi för Jarlabankesläkten och stilgrupp Pr2"
+    },
+    "textLayer": {
+      "id": "text-u-101",
+      "readingTransliteration": "× henmikr × auk × iarlabaki × þaiʀ × litu × braut + ryþia × auk × broaʀ × kiara × eftiʀ × faþur × sin × auk × estriþ × eftiʀ suni × sina × inkifast × auk × inkuar + kuþ × hialbi × ant × þaiʀa ×",
+      "normalizationRunicSwedish": "Hæmingʀ ok Iarlabanki þæiʀ letu braut ryðia ok broaʀ giæra æftiʀ faður sinn ok Æstrið æftiʀ syni sina Ingifast ok Ingvar. Guð hialpi and þæiʀa.",
+      "normalizationOldWestNorse": "Hemingr ok Jarlabanki þeir létu braut ryðja ok brúar gera eptir fǫður sinn ok Ástríðr eptir sonu sína Ingifast ok Ingvar. Guð hjalpi ǫnd þeira.",
+      "translationSwedish": "Häming och Jarlabanke, de läto rödja väg och göra broar efter sin fader, och Estrid efter sina söner Ingifast och Ingvar. Gud hjälpe deras ande.",
+      "translationEnglish": "Hæmingr and Jarlabanki, they had the road cleared and bridges made in memory of their father, and Ástríðr in memory of her sons Ingifastr and Ingvarr. May God help their spirit.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-06",
+      "sriVolumeTitle": "Upplands runinskrifter del 1",
+      "author": "Elias Wessén & Sven B.F. Jansson",
+      "publicationYear": 1940,
+      "pdfFil": "sri_uppland_b06_text_2.pdf",
+      "printedPageStart": 138,
+      "printedPageEnd": 145,
+      "pdfPageStart": 69,
+      "pdfPageEnd": 77,
+      "plateNumber": "Plansch 45",
+      "externalUris": {
+        "samnordiskUuid": "8ad2a81e-891d-41cd-b407-6a59484d8825",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=8ad2a81e-891d-41cd-b407-6a59484d8825"
+      }
+    },
+    "images": [
+      {
+        "id": "img-u-101",
+        "imageUrl": "/images/runor/u-101.webp",
+        "thumbnailUrl": "/images/runor/u-101-thumb.webp",
+        "caption": "Sjöstugan (U 101), Jarlabankes självberömmande ristning ur Upplands runinskrifter",
+        "photographerOrArtist": "Sven B.F. Jansson",
+        "year": 1940,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "En av de centrala Jarlabankestenarna vid bro- och vägbygget i Sollentuna och Täby.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.839620+00:00"
+  }
+}

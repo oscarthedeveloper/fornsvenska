@@ -1,0 +1,149 @@
+{
+  "productionMigration": false,
+  "main": "https://fornsvenska-www.pages.dev",
+  "evidence": [
+    {
+      "url": "https://fornsvenska-www.pages.dev/",
+      "status": 200,
+      "checks": [
+        "Fornsvenska"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-www.pages.dev/ordbok",
+      "status": 200,
+      "checks": [
+        "ordbok"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-www.pages.dev/admin",
+      "status": 200,
+      "checks": [
+        "Webbredaktion"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-www.pages.dev/grammatik",
+      "status": 200,
+      "checks": [
+        "Grammatik"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-www.pages.dev/ordbok/storage-bridge",
+      "status": 200,
+      "checks": [
+        "fornsvenska-ord-01.pages.dev"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-01.pages.dev/ordbok/soederwall--a-nn.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-02.pages.dev/ordbok/soederwall--fa-vb.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-03.pages.dev/ordbok/soederwall--ha-e.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-04.pages.dev/ordbok/soederwall--ladh-nn.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-05.pages.dev/ordbok/soederwall--pa-e.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-06.pages.dev/ordbok/soederwall--sa-vb.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    },
+    {
+      "url": "https://fornsvenska-ord-07.pages.dev/ordbok/soederwall--ta-nn.1",
+      "status": 200,
+      "checks": [
+        "rel=\"canonical\"",
+        "artikel-text",
+        "/assets/article-bookmarks.js"
+      ]
+    }
+  ],
+  "deployments": {
+    "www": {
+      "url": "https://7c33e9bc.fornsvenska-www.pages.dev",
+      "status": "deployed"
+    },
+    "ord-01": {
+      "url": "https://b74efe7d.fornsvenska-ord-01.pages.dev",
+      "status": "deployed"
+    },
+    "ord-02": {
+      "url": "https://9dc3e9ea.fornsvenska-ord-02.pages.dev",
+      "status": "deployed"
+    },
+    "ord-03": {
+      "url": "https://32b6890f.fornsvenska-ord-03.pages.dev",
+      "status": "deployed"
+    },
+    "ord-04": {
+      "url": "https://cb7a66a8.fornsvenska-ord-04.pages.dev",
+      "status": "deployed"
+    },
+    "ord-05": {
+      "url": "https://419ecdd7.fornsvenska-ord-05.pages.dev",
+      "status": "deployed"
+    },
+    "ord-06": {
+      "url": "https://c2e6458d.fornsvenska-ord-06.pages.dev",
+      "status": "deployed"
+    },
+    "ord-07": {
+      "url": "https://28eb02d2.fornsvenska-ord-07.pages.dev",
+      "status": "deployed"
+    }
+  },
+  "smokeTests": {
+    "browserSearch": {
+      "query": "kirkia",
+      "hits": 2,
+      "articleOpened": true
+    },
+    "runicApiStatus": 200,
+    "missingPageStatus": 404,
+    "unconfiguredContactStatus": 503,
+    "dnsChanged": false
+  }
+}

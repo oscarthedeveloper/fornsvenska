@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-30",
+  "releaseId": "cf-edb6bfc1ea64188d256ca45b",
+  "schema": "fornsvenska.snapshot.v1",
+  "publishable": false,
+  "counts": {
+    "assets": 67,
+    "batch1Runes": 50,
+    "corrections": 0,
+    "definitions": 14,
+    "dictionary": 41744,
+    "grammarDocuments": 193,
+    "pilotRunes": 20,
+    "textDocuments": 35
+  },
+  "snapshotFiles": 78,
+  "snapshotBytes": 59315173,
+  "deterministicReexport": true,
+  "allDictionaryRecordsEqualSource": true,
+  "existingSnapshotOverwriteRejected": true,
+  "existingSnapshotManifestUnchanged": true,
+  "databaseExportCountsVerifiedInSameStatement": true,
+  "frozenDbImages": 2,
+  "frozenDbImageBytes": 1017926,
+  "vercelCurrentProjectAndSharedSourceSelector": "NEXT_PUBLIC_DATA_SOURCE absent; code selects files except separate runic DB reader",
+  "productionHtmlParity": "not verified; deployment paused",
+  "privateArtifactsStoredInGit": false
+}

@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/so-179",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-so-179",
+    "canonicalSignum": "Sö 179",
+    "provinceCode": "Sö",
+    "itemNumber": 179,
+    "suffix": null,
+    "name": "Gripsholmsstenen",
+    "canonicalSlug": "so-179",
+    "aliases": [],
+    "carrier": {
+      "id": "carrier-so-179",
+      "type": "runsten",
+      "material": "Granit",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Gripsholm, Kärnbo socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Södermanland",
+        "parish": "Kärnbo socken",
+        "hundred": "Selebo härad",
+        "placeName": "Gripsholm",
+        "coordinatesWgs84": [
+          17.2182,
+          59.2569
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Södermanlands runinskrifter, s. 153"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1040–1050 (Ingvarståget)",
+      "periodLabel": "Vikingatid (mellan)",
+      "earliestYear": 1040,
+      "latestYear": 1050,
+      "isUncertain": false,
+      "datingMethod": "Historisk händelse (Ingvar den vittfarnes tåg till Särkland 1036–1041) och stilgrupp Fp"
+    },
+    "textLayer": {
+      "id": "text-so-179",
+      "readingTransliteration": "× tula : lit : raisa : stain : þinsa| |at : sun : sin : haralt : bruþur : inkuars : þaiʀ furu : trikila : fiari : at : kuli : auk : a:ustarla| |ar:ni : kafu : tuu : sunar:la : a sirk:lan:ti",
+      "normalizationRunicSwedish": "Tola let ræisa stæin þennsa at sun sinn Harald, broður Ingvars. Þæiʀ foru drængila fiarri at gulli ok austarla ærni gafu, dou sunnarla a Særklandi.",
+      "normalizationOldWestNorse": "Tóla lét reisa stein þenna at son sinn Harald, bróður Ingvars. Þeir fóru drengila fjarri at gulli ok austarla erni gáfu, dóu sunnarla á Serklandi.",
+      "translationSwedish": "Tola lät resa denna sten efter sin son Harald, Ingvars broder. De foro manligen fjärran efter guld och österut gåvo örnen föda. De dogo söderut i Särkland.",
+      "translationEnglish": "Tóla had this stone raised in memory of her son Haraldr, Ingvarr's brother. They travelled manfully far after gold and in the east gave food to the eagle. They died in the south in Serkland.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-03",
+      "sriVolumeTitle": "Södermanlands runinskrifter",
+      "author": "Erik Brate & Elias Wessén",
+      "publicationYear": 1936,
+      "pdfFil": "sri_sodermanland_b03_h04_text_1a.pdf",
+      "printedPageStart": 153,
+      "printedPageEnd": 157,
+      "pdfPageStart": 17,
+      "pdfPageEnd": 21,
+      "plateNumber": "Plansch 67",
+      "externalUris": {
+        "samnordiskUuid": "29fe618f-a799-4e4f-82d7-94a607e51a4e",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=29fe618f-a799-4e4f-82d7-94a607e51a4e"
+      }
+    },
+    "images": [
+      {
+        "id": "img-so-179",
+        "imageUrl": "/images/runor/so-179.webp",
+        "thumbnailUrl": "/images/runor/so-179-thumb.webp",
+        "caption": "Gripsholmsstenen (Sö 179), rest efter Ingvarståget mot Särkland",
+        "photographerOrArtist": "Elias Wessén",
+        "year": 1936,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Gripsholmsstenen. Den mest kända av de ca 30 Ingvarsstenarna. Strofen är avfattad på fornyrðislag med den berömda kenningen 'ge örnen föda' (döda fiender i strid).",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:54.822942+00:00"
+  }
+}

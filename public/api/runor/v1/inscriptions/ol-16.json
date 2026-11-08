@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-16",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-16",
+    "canonicalSignum": "Öl 16",
+    "provinceCode": "Öl",
+    "itemNumber": 16,
+    "suffix": null,
+    "name": "Gräsgårds kyrkogård",
+    "canonicalSlug": "ol-16",
+    "aliases": [
+      "Bautil 16"
+    ],
+    "carrier": {
+      "id": "carrier-ol-16",
+      "type": "runsten",
+      "material": "Kalksten",
+      "preservationStatus": "forlorad",
+      "currentLocationDescription": "Nuvarande placering: Gräsgårds kyrkogård, Gräsgårds socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Gräsgårds socken",
+        "hundred": "Gräsgårds härad",
+        "placeName": "Gräsgårds kyrkogård",
+        "coordinatesWgs84": [
+          16.5077,
+          56.3096
+        ],
+        "precision": "sockencentrum",
+        "sourceNote": "Ölands runinskrifter, s. 62"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "1000-talet (känd genom Bautil 1071)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1000,
+      "latestYear": 1080,
+      "isUncertain": false,
+      "datingMethod": "Bautil-avritning"
+    },
+    "textLayer": {
+      "id": "text-ol-16",
+      "readingTransliteration": "[… auk : treke : auk : sihstin : þiʀ bo^þuþr : ristu : sta(i)… … : uifastr : kuþ : hialbi : au^nt : hans :]",
+      "normalizationRunicSwedish": "… ok Drængi ok Sigstæinn, þæiʀ brøðr ræistu stæi[n æftiʀ] Vifast. Guð hialpi and hans.",
+      "normalizationOldWestNorse": "… ok Drengi ok Sigsteinn, þeir brœðr reistu stei[n eptir] Véfast. Guð hjalpi ǫnd hans.",
+      "translationSwedish": "Sven lät resa denna sten efter sin broder Torsten…",
+      "translationEnglish": "Sveinn had this stone raised in memory of his brother Þorsteinn…",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 62,
+      "printedPageEnd": 65,
+      "pdfPageStart": 76,
+      "pdfPageEnd": 79,
+      "plateNumber": null,
+      "externalUris": {
+        "samnordiskUuid": "ecb025f7-2fcd-43dc-95a0-2cd85f451358",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=ecb025f7-2fcd-43dc-95a0-2cd85f451358"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-16",
+        "imageUrl": "/images/runor/ol-16.webp",
+        "thumbnailUrl": "/images/runor/ol-16-thumb.webp",
+        "caption": "Gräsgårds kyrkogård (Öl 16), träsnitt ur Johan Peringskiölds Bautil (1750)",
+        "photographerOrArtist": "Johan Peringskiöld",
+        "year": 1750,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": true
+      }
+    ],
+    "editorialNotes": "Förlorad runsten från Gräsgårds kyrkogård, känd endast genom Johan Peringskiölds avritning i Bautil 1071.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.486647+00:00"
+  }
+}

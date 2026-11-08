@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/u-11",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-u-11",
+    "canonicalSignum": "U 11",
+    "provinceCode": "U",
+    "itemNumber": 11,
+    "suffix": null,
+    "name": "Hovgårdsstenen (Adelsö)",
+    "canonicalSlug": "u-11",
+    "aliases": [
+      "Bautil 11"
+    ],
+    "carrier": {
+      "id": "carrier-u-11",
+      "type": "runblock",
+      "material": "Grovkornig grå gnejs",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Hovgården, Adelsö socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Uppland",
+        "parish": "Adelsö socken",
+        "hundred": "Färentuna härad",
+        "placeName": "Hovgården",
+        "coordinatesWgs84": [
+          17.534,
+          59.3601
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 13"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1060–1085 (Håkon jarl)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1060,
+      "latestYear": 1085,
+      "isUncertain": false,
+      "datingMethod": "Historisk personidentifiering och Gräslunds stilgrupp Pr3"
+    },
+    "textLayer": {
+      "id": "text-u-11",
+      "readingTransliteration": "raþ| |þu : runaʀ : ret : lit : rista : toliʀ : bry[t]i : i roþ : kunuki : toliʀ : a(u)k : gyla : litu : ris… …- : þaun : hion : eftiʀ …k : merki srni… haku(n) · (b)aþ : rista",
+      "normalizationRunicSwedish": "Rað þu runaʀ. Rett let rista Toliʀ bryti i roði kunungi. Toliʀ ok Gylla letu ris[ta] …, þaun hion æftiʀ [si]k(?) mærki … Hakon bað rista.",
+      "normalizationOldWestNorse": "Ráð þú rúnar. Rétt lét rista Tólir bryti í róði konungi. Tólir ok Gylla létu ris[ta] …, þau hjón eptir [si]k(?) merki … Hákon bað rista.",
+      "translationSwedish": "Tyd du runorna! Rätta lät rista Tolir, bryte i Roden, åt konungen. Tolir och Gyla läto rista, båda makarna efter sig till minnesmärke… Håkon bjöd rista.",
+      "translationEnglish": "Interpret the runes! The right ones did Tolir, bailiff in Roden, carve for the king. Tolir and Gyla had them carved, both husband and wife, as a monument for themselves… Håkon ordered to carve.",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-06",
+      "sriVolumeTitle": "Upplands runinskrifter del 1",
+      "author": "Elias Wessén & Sven B.F. Jansson",
+      "publicationYear": 1940,
+      "pdfFil": "sri_uppland_b06_text_1.pdf",
+      "printedPageStart": 13,
+      "printedPageEnd": 21,
+      "pdfPageStart": 13,
+      "pdfPageEnd": 21,
+      "plateNumber": "Plansch 4",
+      "externalUris": {
+        "samnordiskUuid": "b8e43534-18e4-4d58-91ab-90cf0dc95a77",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=b8e43534-18e4-4d58-91ab-90cf0dc95a77"
+      }
+    },
+    "images": [
+      {
+        "id": "img-u-11",
+        "imageUrl": "/images/runor/u-11.webp",
+        "thumbnailUrl": "/images/runor/u-11-thumb.webp",
+        "caption": "Hovgårdsstenen (U 11), kunglig runristning vid Mälaren ur Upplands runinskrifter",
+        "photographerOrArtist": "Sven B.F. Jansson / Harald Faith-Ell",
+        "year": 1940,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Kunglig inskrift på ett fast block vid kungssätet Hovgården på Adelsö, omtalande 'konungens bryte' (förvaltare) och kung Håkon.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:53.359634+00:00"
+  }
+}

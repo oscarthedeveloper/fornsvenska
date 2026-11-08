@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/ol-25",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-ol-25",
+    "canonicalSignum": "Öl 25",
+    "provinceCode": "Öl",
+    "itemNumber": 25,
+    "suffix": null,
+    "name": "Dröstorps häll",
+    "canonicalSlug": "ol-25",
+    "aliases": [
+      "Bautil 25"
+    ],
+    "carrier": {
+      "id": "carrier-ol-25",
+      "type": "fast_hall",
+      "material": "Alvarmarkens berghäll",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Dröstorp, Gårdby socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Öland",
+        "parish": "Gårdby socken",
+        "hundred": "Möckleby härad",
+        "placeName": "Dröstorp",
+        "coordinatesWgs84": [
+          16.5709,
+          56.5941
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Ölands runinskrifter, s. 83"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1020–1070",
+      "periodLabel": "Vikingatid (mellan/sen)",
+      "earliestYear": 1020,
+      "latestYear": 1070,
+      "isUncertain": false,
+      "datingMethod": "Stilgruppering av hällristning"
+    },
+    "textLayer": {
+      "id": "text-ol-25",
+      "readingTransliteration": "[ioruik]r × riti × stain × efti × -r---… …oþur × sin",
+      "normalizationRunicSwedish": "Iorundr(?)/Iorulfʀ(?) retti stæin æftiʀ … [br]oður sinn.",
+      "normalizationOldWestNorse": "Jǫrundr(?)/Jórulfr(?) rétti stein eptir … [br]óður sinn.",
+      "translationSwedish": "Jorund(?) lät rista denna häll efter sin broder…",
+      "translationEnglish": "Jôrundr(?) had this rock carved in memory of his brother…",
+      "carverAttribution": null,
+      "isSigned": false
+    },
+    "source": {
+      "sriVolumeId": "band-01",
+      "sriVolumeTitle": "Ölands runinskrifter",
+      "author": "Sven Söderberg & Erik Brate",
+      "publicationYear": 1906,
+      "pdfFil": "sri_oland_b01_h01.pdf",
+      "printedPageStart": 83,
+      "printedPageEnd": 86,
+      "pdfPageStart": 97,
+      "pdfPageEnd": 100,
+      "plateNumber": "Plansch IX",
+      "externalUris": {
+        "samnordiskUuid": "39c389b8-cf32-46fe-8b77-9feb2026fdbd",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=39c389b8-cf32-46fe-8b77-9feb2026fdbd"
+      }
+    },
+    "images": [
+      {
+        "id": "img-ol-25",
+        "imageUrl": "/images/runor/ol-25.webp",
+        "thumbnailUrl": "/images/runor/ol-25-thumb.webp",
+        "caption": "Dröstorps häll (Öl 25), ristning på flat berghäll ur Ölands runinskrifter",
+        "photographerOrArtist": "Sven Söderberg",
+        "year": 1900,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Fast hällristning på den flacka kalkstensklippan på Stora Alvaret vid Dröstorps ödeby.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:52.866031+00:00"
+  }
+}

@@ -1,3 +1,4 @@
+import { publicationRecords } from "../editorial/publication-input";
 /**
  * Datamodell, filhantering och pedagogisk glosering för Söderwalls ordbok.
  *
@@ -30,8 +31,12 @@ export function lasAllaModernaDefinitioner(): ModerniseradDefinition[] {
     const raw = readFileSync(MODERNA_DEF_FIL, "utf8").trim();
     if (!raw) return [];
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? (parsed as ModerniseradDefinition[]) : [];
+    if (!Array.isArray(parsed)) throw new Error("Invalid definitions file");
+    const map = new Map(parsed.map(r=>[r.id,r]));
+    for (const r of publicationRecords().filter(r=>r.domain==='ordbok' && r.content.definition)) map.set(r.id,{...r.content.definition,id:r.id});
+    return [...map.values()] as ModerniseradDefinition[];
   } catch (err) {
+    if (process.env.CF_RELEASE_SNAPSHOT) throw err;
     console.error("Kunde inte läsa moderniserade-definitioner.json:", err);
     return [];
   }

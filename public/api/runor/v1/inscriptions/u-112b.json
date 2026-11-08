@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "datasetVersion": "2026.1-pilot",
+  "apiEndpoint": "/api/runor/v1/u-112b",
+  "license": "Samnordisk runtextdatabas (ODbL 1.0) / Sveriges runinskrifter (Public Domain)",
+  "attribution": "Källutgåva: Sveriges runinskrifter (Kungl. Vitterhetsakademien / Riksantikvarieämbetet). Metadata och koordinater: Samnordisk runtextdatabas (Uppsala universitet).",
+  "generatedAt": "2026-11-01T20:23:49.174Z",
+  "inscription": {
+    "version": "1.0.0",
+    "id": "runa-u-112b",
+    "canonicalSignum": "U 112B",
+    "provinceCode": "U",
+    "itemNumber": 112,
+    "suffix": "B",
+    "name": "Runblocket i Ed (Östra sidan / Grekland)",
+    "canonicalSlug": "u-112b",
+    "aliases": [
+      "Bautil 166",
+      "Kyrkstigsblocket",
+      "Ragnvaldsristningen"
+    ],
+    "carrier": {
+      "id": "carrier-u-112b",
+      "type": "runblock",
+      "material": "Fast bergyta / jätteblock",
+      "preservationStatus": "bevarad_i_sin_helhet",
+      "currentLocationDescription": "Nuvarande placering: Kyrkstigen, Ed, Eds socken"
+    },
+    "placements": [
+      {
+        "type": "fyndplats",
+        "province": "Uppland",
+        "parish": "Eds socken",
+        "hundred": "Sollentuna härad",
+        "placeName": "Kyrkstigen, Ed",
+        "coordinatesWgs84": [
+          17.8679,
+          59.503
+        ],
+        "precision": "exakt_koordinat",
+        "sourceNote": "Upplands runinskrifter del 1, s. 157"
+      }
+    ],
+    "dating": {
+      "originalSourceLabel": "ca 1060–1100 (Ragnvald i Grekland)",
+      "periodLabel": "Vikingatid (sen)",
+      "earliestYear": 1060,
+      "latestYear": 1100,
+      "isUncertain": false,
+      "datingMethod": "Gräslunds stilgrupp Pr3 och historisk kontext (Väringagardet)"
+    },
+    "textLayer": {
+      "id": "text-u-112b",
+      "readingTransliteration": "§A · rahnualtr · lit · rista · runar · efʀ · fastui · moþur · sina · onems · totʀ · to i · aiþi · kuþ hialbi · ant · hena · §B runa · rista · lit · rahnualtr · huar a × griklanti · uas · lis · forunki ·",
+      "normalizationRunicSwedish": "§A Ragnvaldr let rista runaʀ æftiʀ Fastvi, moður sina, Onæms dottiʀ, do i Æiði. Guð hialpi and hænnaʀ. §B Runaʀ rista let Ragnvaldr. Vaʀ a Grikklandi, vas liðs forungi.",
+      "normalizationOldWestNorse": "§A Ragnvaldr lét rista rúnar eptir Fastvé, móður sína, Ónæms dóttir, dó í Eiði. Guð hjalpi ǫnd hennar. §B Rúnar rista lét Ragnvaldr. Var á Grikklandi, var liðs forungi.",
+      "translationSwedish": "Runorna lät Ragnvald rista. Han var i Grekland, han var krigarföljets hövding.",
+      "translationEnglish": "The runes did Ragnvaldr have carved. He was in Greece, he was the leader of the host.",
+      "carverAttribution": "Ragnvald",
+      "isSigned": true
+    },
+    "source": {
+      "sriVolumeId": "band-06",
+      "sriVolumeTitle": "Upplands runinskrifter del 1",
+      "author": "Elias Wessén & Sven B.F. Jansson",
+      "publicationYear": 1940,
+      "pdfFil": "sri_uppland_b06_text_3.pdf",
+      "printedPageStart": 157,
+      "printedPageEnd": 165,
+      "pdfPageStart": 1,
+      "pdfPageEnd": 9,
+      "plateNumber": "Plansch 52",
+      "externalUris": {
+        "samnordiskUuid": "5f7a7486-10e0-40a8-8853-299b72370d14",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=5f7a7486-10e0-40a8-8853-299b72370d14"
+      }
+    },
+    "images": [
+      {
+        "id": "img-u-112b",
+        "imageUrl": "/images/runor/u-112b.webp",
+        "thumbnailUrl": "/images/runor/u-112b-thumb.webp",
+        "caption": "Runblocket i Ed (U 112B), östra sidan med inskriften om Ragnvald som förde här i Grekland",
+        "photographerOrArtist": "Sven B.F. Jansson",
+        "year": 1940,
+        "license": "Public Domain",
+        "isPubliclyDistributable": true,
+        "isEditorialDrawing": false
+      }
+    ],
+    "editorialNotes": "Östra sidan av samma runblock. Allittererad strof som hyllar Ragnvalds bedrifter som krigarföljets hövding (liðs forungi) i Väringagardet i Bysans.",
+    "status": "publicerad",
+    "publishedAt": "2026-10-21T21:06:54.565970+00:00"
+  }
+}

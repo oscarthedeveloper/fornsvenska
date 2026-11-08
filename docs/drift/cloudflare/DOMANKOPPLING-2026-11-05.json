@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "project": "fornsvenska-www",
+  "target": "fornsvenska-www.pages.dev",
+  "evidence": [
+    {
+      "host": "fornsvenska.se",
+      "status": 200,
+      "url": "https://fornsvenska.se/",
+      "title": "Fornsvenska – texter, ordbok och grammatik | Fornsvenska.se",
+      "searchIndexing": "noindex",
+      "canonical": "https://fornsvenska-www.pages.dev"
+    },
+    {
+      "host": "www.fornsvenska.se",
+      "status": 200,
+      "title": "Fornsvenska – texter, ordbok och grammatik | Fornsvenska.se",
+      "verification": "HTTPS via DNS answer from 1.1.1.1; curl --resolve with normal TLS verification"
+    }
+  ],
+  "cloudflareDomains": {
+    "fornsvenska.se": {
+      "status": "Active",
+      "ssl": "enabled"
+    },
+    "www.fornsvenska.se": {
+      "status": "Active",
+      "ssl": "enabled"
+    }
+  }
+}

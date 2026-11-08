@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState, type FormEvent } from 'react';
+import React, { useState, useRef, useEffect, type FormEvent } from 'react';
+import Script from 'next/script';
 
 interface KontaktFormularProps {
   defaultAmne?: string;
@@ -21,6 +22,24 @@ export default function KontaktFormular({
   const [meddelande, setMeddelande] = useState('');
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [felmeddelande, setFelmeddelande] = useState('');
+  const [turnstileToken,setTurnstileToken] = useState('');
+  const [challengeReady,setChallengeReady] = useState(false);
+  const challenge = useRef<HTMLDivElement>(null);
+  const widgetId = useRef<string>();
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+  useEffect(()=>{
+    if(!challengeReady || !challenge.current || !siteKey) return;
+    const api=(window as any).turnstile;
+    try {
+      const id=api.render(challenge.current,{sitekey:siteKey,action:'contact',callback:(token:string)=>setTurnstileToken(token),'expired-callback':()=>setTurnstileToken('')});
+      widgetId.current = id;
+      return ()=>{api.remove(id); widgetId.current = undefined;};
+    } catch {
+      setStatus('error');
+      setFelmeddelande('Spamskyddet kunde inte startas. Ladda om sidan eller försök senare.');
+    }
+  },[challengeReady,siteKey]);
+  const [renderTid] = useState(() => Date.now());
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -28,7 +47,6 @@ export default function KontaktFormular({
     setFelmeddelande('');
 
     const form = e.currentTarget;
-    const formData = new FormData(form);
 
     try {
       const response = await fetch('/api/kontakt', {
@@ -40,6 +58,8 @@ export default function KontaktFormular({
           amne,
           meddelande,
           'bot-field': (form.elements.namedItem('bot-field') as HTMLInputElement)?.value || '',
+          tidsstampelFormular: renderTid,
+          turnstileToken,
         }),
       });
 
@@ -58,6 +78,9 @@ export default function KontaktFormular({
     } catch {
       setStatus('error');
       setFelmeddelande('Ett oväntat anslutningsfel uppstod. Försök gärna igen.');
+    } finally {
+      setTurnstileToken('');
+      if (widgetId.current) (window as any).turnstile?.reset(widgetId.current);
     }
   }
 
@@ -71,6 +94,8 @@ export default function KontaktFormular({
         marginTop: '0.75rem',
       }}
     >
+      {siteKey && <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" strategy="afterInteractive" onReady={()=>setChallengeReady(true)}/>}
+      {siteKey && <div ref={challenge}/>}
       {rubrik && (
         <h4
           style={{
@@ -164,6 +189,7 @@ export default function KontaktFormular({
                 id="kontakt-namn"
                 type="text"
                 name="namn"
+                maxLength={100}
                 value={namn}
                 onChange={(e) => setNamn(e.target.value)}
                 placeholder="Frivilligt"
@@ -200,6 +226,7 @@ export default function KontaktFormular({
                 type="email"
                 name="epost"
                 required
+                maxLength={150}
                 value={epost}
                 onChange={(e) => setEpost(e.target.value)}
                 placeholder="din.epost@exempel.se"
@@ -236,6 +263,7 @@ export default function KontaktFormular({
               id="kontakt-amne"
               type="text"
               name="amne"
+              maxLength={200}
               value={amne}
               onChange={(e) => setAmne(e.target.value)}
               placeholder="T.ex. Rättelse till Öl 1 Karlevistenen, källhänvisning etc."
@@ -271,6 +299,7 @@ export default function KontaktFormular({
               id="kontakt-meddelande"
               name="meddelande"
               required
+              maxLength={5000}
               rows={kompakt ? 3 : 5}
               value={meddelande}
               onChange={(e) => setMeddelande(e.target.value)}

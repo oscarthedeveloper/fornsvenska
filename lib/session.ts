@@ -1,4 +1,8 @@
-import { cache } from "react";
+import * as React from "react";
+const cache =
+  typeof React.cache === "function"
+    ? React.cache
+    : (<T extends (...args: any[]) => any>(fn: T): T => fn);
 import { HAR_SUPABASE } from "./supabase/config";
 import { skapaServerKlient } from "./supabase/server";
 

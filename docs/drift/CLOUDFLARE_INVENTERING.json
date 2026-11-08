@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-30",
+  "source_commit": "4237cd31f49bcf7fd12b52b4855b7eed9c647b96",
+  "scope": "Read-only local source inventory; not a production database snapshot or measured build output.",
+  "dictionary": {
+    "path": "data/ordbok/poster.json",
+    "sha256": "302f5d71fd7b8cadc7637fc4b803f6a39fa846cf2f746ca77295d702b9eac4d7",
+    "records": 41744,
+    "unique_ids": 41744,
+    "bytes": 42086164,
+    "gzip_bytes_local_measurement": 10236295,
+    "dataset_counts": {
+      "soederwall": 22572,
+      "soederwall-supp": 19172
+    }
+  },
+  "source_modules": {
+    "page_modules": 13,
+    "route_handlers": 5
+  },
+  "public_assets": {
+    "files": 67,
+    "bytes": 15378631
+  },
+  "proposed_partition": {
+    "status": "Candidate; actual exported files, Cloudflare redirects and domains are not verified.",
+    "basis": "First character after -- in the existing id, not letterSection.",
+    "groups": [
+      {
+        "group": "01",
+        "id_initials": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e"
+        ],
+        "articles": 6107,
+        "illustrative_files_assuming_two_per_article_plus_1000": 13214
+      },
+      {
+        "group": "02",
+        "id_initials": [
+          "f",
+          "g"
+        ],
+        "articles": 5471,
+        "illustrative_files_assuming_two_per_article_plus_1000": 11942
+      },
+      {
+        "group": "03",
+        "id_initials": [
+          "h",
+          "i",
+          "j",
+          "k"
+        ],
+        "articles": 6621,
+        "illustrative_files_assuming_two_per_article_plus_1000": 14242
+      },
+      {
+        "group": "04",
+        "id_initials": [
+          "l",
+          "m",
+          "n",
+          "o"
+        ],
+        "articles": 6900,
+        "illustrative_files_assuming_two_per_article_plus_1000": 14800
+      },
+      {
+        "group": "05",
+        "id_initials": [
+          "p",
+          "q",
+          "r",
+          "ö",
+          "þ",
+          "-",
+          "_"
+        ],
+        "articles": 3367,
+        "illustrative_files_assuming_two_per_article_plus_1000": 7734
+      },
+      {
+        "group": "06",
+        "id_initials": [
+          "s"
+        ],
+        "articles": 6609,
+        "illustrative_files_assuming_two_per_article_plus_1000": 14218
+      },
+      {
+        "group": "07",
+        "id_initials": [
+          "t",
+          "u",
+          "v",
+          "y",
+          "ä"
+        ],
+        "articles": 6669,
+        "illustrative_files_assuming_two_per_article_plus_1000": 14338
+      }
+    ],
+    "covered_records": 41744,
+    "source_initial_prefix_count": 51,
+    "source_initial_prefixes": {
+      "soederwall--a": 1090,
+      "soederwall--b": 1683,
+      "soederwall--c": 5,
+      "soederwall--d": 479,
+      "soederwall--e": 284,
+      "soederwall--f": 2088,
+      "soederwall--g": 905,
+      "soederwall--h": 1451,
+      "soederwall--i": 904,
+      "soederwall--k": 1136,
+      "soederwall--l": 1062,
+      "soederwall--m": 1047,
+      "soederwall--n": 525,
+      "soederwall--o": 1176,
+      "soederwall--p": 439,
+      "soederwall--q": 119,
+      "soederwall--r": 752,
+      "soederwall--s": 3236,
+      "soederwall--t": 1197,
+      "soederwall--u": 1060,
+      "soederwall--v": 1387,
+      "soederwall--y": 121,
+      "soederwall--ö": 199,
+      "soederwall--þ": 227,
+      "soederwall-supp---": 8,
+      "soederwall-supp--_": 2,
+      "soederwall-supp--a": 683,
+      "soederwall-supp--b": 1333,
+      "soederwall-supp--c": 5,
+      "soederwall-supp--d": 387,
+      "soederwall-supp--e": 158,
+      "soederwall-supp--f": 1706,
+      "soederwall-supp--g": 772,
+      "soederwall-supp--h": 1237,
+      "soederwall-supp--i": 814,
+      "soederwall-supp--j": 1,
+      "soederwall-supp--k": 1078,
+      "soederwall-supp--l": 889,
+      "soederwall-supp--m": 903,
+      "soederwall-supp--n": 442,
+      "soederwall-supp--o": 856,
+      "soederwall-supp--p": 497,
+      "soederwall-supp--q": 112,
+      "soederwall-supp--r": 744,
+      "soederwall-supp--s": 3373,
+      "soederwall-supp--t": 1258,
+      "soederwall-supp--u": 960,
+      "soederwall-supp--y": 71,
+      "soederwall-supp--ä": 615,
+      "soederwall-supp--ö": 138,
+      "soederwall-supp--þ": 130
+    }
+  },
+  "not_verified": [
+    "Production data parity",
+    "Actual account quotas and permissions",
+    "Actual generated file count",
+    "Cloudflare Unicode and query-string redirect behavior",
+    "Cross-origin bookmark storage",
+    "Persistent browser editing and full publication cycle"
+  ]
+}

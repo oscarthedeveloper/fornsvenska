@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "testsPassed": 19,
+  "articlesRebuilt": 41744,
+  "checks": [
+    {
+      "group": "01",
+      "url": "https://fornsvenska-ord-01.pages.dev/ordbok/soederwall--a-e.3?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://567eacd8.fornsvenska-ord-01.pages.dev"
+    },
+    {
+      "group": "02",
+      "url": "https://fornsvenska-ord-02.pages.dev/ordbok/soederwall--fa-vb.1?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://5cd6a7cb.fornsvenska-ord-02.pages.dev"
+    },
+    {
+      "group": "03",
+      "url": "https://fornsvenska-ord-03.pages.dev/ordbok/soederwall--ha-e.1?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://0c9e70db.fornsvenska-ord-03.pages.dev"
+    },
+    {
+      "group": "04",
+      "url": "https://fornsvenska-ord-04.pages.dev/ordbok/soederwall--ladh-nn.1?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://733cc859.fornsvenska-ord-04.pages.dev"
+    },
+    {
+      "group": "05",
+      "url": "https://fornsvenska-ord-05.pages.dev/ordbok/soederwall--pa-e.1?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://9a6d4d1d.fornsvenska-ord-05.pages.dev"
+    },
+    {
+      "group": "06",
+      "url": "https://fornsvenska-ord-06.pages.dev/ordbok/soederwall--sa-vb.1?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://a11cca5b.fornsvenska-ord-06.pages.dev"
+    },
+    {
+      "group": "07",
+      "url": "https://fornsvenska-ord-07.pages.dev/ordbok/soederwall--ta-nn.1?letter=A",
+      "status": 200,
+      "stylesheet": "/assets/style.css?v=ef2b947dbe67",
+      "deploymentUrl": "https://78b87f34.fornsvenska-ord-07.pages.dev"
+    }
+  ]
+}

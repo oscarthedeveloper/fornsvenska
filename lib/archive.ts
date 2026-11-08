@@ -1,3 +1,4 @@
+import { publishedOverride } from "./editorial/publication-input";
 /**
  * Datalagret för arkivet.
  *
@@ -5,7 +6,11 @@
  * Vyerna vet inget om vilken som används. Trädet hämtas i en enda fråga och
  * byggs i minnet — det är litet, och slipper då en fråga per nivå.
  */
-import { cache } from "react";
+import * as React from "react";
+const cache =
+  typeof React.cache === "function"
+    ? React.cache
+    : (<T extends (...args: any[]) => any>(fn: T): T => fn);
 import { GRAMMATIK } from "@/data/grammatik";
 import { TEXTER } from "@/data/texter";
 import { GRAMMATIK_DOKUMENT } from "@/data/dokument";
@@ -77,7 +82,9 @@ const ANVAND_SUPABASE_ARKIV =
 
 /** Hela trädet för en rot. Cachas per förfrågan. */
 export const getRoot = cache(async (root: string): Promise<Node[]> => {
-  if (!ANVAND_SUPABASE_ARKIV) return FILTRAD[root] ?? [];
+  const frozen = publishedOverride<Node[]>("trad_och_block", root);
+  if (frozen) return frozen;
+  if (process.env.CF_RELEASE_SNAPSHOT || !ANVAND_SUPABASE_ARKIV) return FILTRAD[root] ?? [];
 
   try {
     const supabase = skapaPublikServerKlient();
@@ -184,7 +191,9 @@ async function hamtaInnehall<T>(
   path: string[],
   filkalla: Record<string, T>
 ): Promise<T | null> {
-  if (ANVAND_SUPABASE_ARKIV) {
+  const frozen = publishedOverride<T>("texter", `${root}/${path.join("/")}`);
+  if (frozen) return frozen;
+  if (ANVAND_SUPABASE_ARKIV && !process.env.CF_RELEASE_SNAPSHOT) {
     const nod = await getNode(root, path);
     if (nod?.id) {
       try {

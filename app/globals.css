@@ -2672,6 +2672,16 @@ button.tillganglighet-ruta {
 }
 
 @media (max-width: 640px) {
+  .start-nav {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .start-lankar,
+  .start-lankar-hoger {
+    justify-content: center;
+  }
+
   .stenplats {
     left: 62%;
     width: 96vw;

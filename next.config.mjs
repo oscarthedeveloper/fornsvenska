@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     outputFileTracingIncludes: {
       "/ordbok": ["./data/ordbok/**/*", "./data/ordbok-rattelser.json"],

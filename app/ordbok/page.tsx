@@ -26,110 +26,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function OrdbokPage({
-  searchParams,
-}: {
-  searchParams?: {
-    q?: string;
-    mode?: string;
-    letter?: string;
-    dataset?: string;
-    page?: string;
-    entry?: string;
-  };
-}) {
-  const q = typeof searchParams?.q === "string" ? searchParams.q : "";
-  const mode: OrdbokSoklage =
-    searchParams?.mode === "artikeltext" ? "artikeltext" : "uppslagsord";
-  const dataset: OrdbokKallfilter =
-    searchParams?.dataset === "soederwall" ||
-    searchParams?.dataset === "soederwall-supp"
-      ? searchParams.dataset
-      : "alla";
-  const page = searchParams?.page ? Number.parseInt(searchParams.page, 10) || 1 : 1;
-  const letter =
-    typeof searchParams?.letter === "string"
-      ? searchParams.letter
-      : q.trim()
-        ? undefined
-        : "A";
-
-  let felmeddelande: string | null = null;
-  let sokResultat = null;
-  let bokstavsStatistik = null;
-  let valdPost = null;
-  let relaterade = null;
-  let mobilVisarArtikel = false;
-
-  try {
-    if (ORDBOK_LAS_FRAN_SUPABASE) {
-      bokstavsStatistik = await hamtaBokstavsStatistikDb();
-      sokResultat = await sokOrdbokDb({
-        q,
-        mode,
-        letter,
-        dataset,
-        page,
-        pageSize: 40,
-      });
-
-      const explicitEntryId =
-        typeof searchParams?.entry === "string" && searchParams.entry.trim()
-          ? searchParams.entry.trim()
-          : null;
-
-      if (explicitEntryId) {
-        valdPost = await hamtaOrdbokPostDb(explicitEntryId);
-        if (valdPost) {
-          mobilVisarArtikel = true;
-        }
-      }
-
-      if (!valdPost && sokResultat.hits.length > 0) {
-        valdPost = await hamtaOrdbokPostDb(sokResultat.hits[0].id);
-      }
-
-      if (valdPost) {
-        relaterade = hamtaRelateradeUppslagsord(valdPost);
-      }
-    } else {
-      bokstavsStatistik = hamtaBokstavsStatistik();
-      sokResultat = sokOrdbok({
-        q,
-        mode,
-        letter,
-        dataset,
-        page,
-        pageSize: 40,
-      });
-
-      const explicitEntryId =
-        typeof searchParams?.entry === "string" && searchParams.entry.trim()
-          ? searchParams.entry.trim()
-          : null;
-
-      if (explicitEntryId) {
-        valdPost = hamtaOrdbokPost(explicitEntryId);
-        if (valdPost) {
-          mobilVisarArtikel = true;
-        }
-      }
-
-      if (!valdPost && sokResultat.hits.length > 0) {
-        valdPost = hamtaOrdbokPost(sokResultat.hits[0].id);
-      }
-
-      if (valdPost) {
-        relaterade = hamtaRelateradeUppslagsord(valdPost);
-      }
-    }
-  } catch (err) {
-    felmeddelande =
-      err instanceof Error
-        ? err.message
-        : "Ett oväntat fel uppstod vid läsning av ordboksdata.";
-  }
-
+export default function OrdbokPage() {
+  // Query parameters are consumed in the browser; this shell is prerenderable.
+  const bokstavsStatistik = hamtaBokstavsStatistik();
+  const sokResultat = sokOrdbok({ q: "", letter: "A", mode: "uppslagsord", dataset: "alla", page: 1, pageSize: 40 });
+  const felmeddelande = null;
+  const valdPost = null;
+  const relaterade = null;
+  const mobilVisarArtikel = false;
   return (
     <SiteFrame
       centre="ORDBOK · K. F. SÖDERWALL (1884–1973)"

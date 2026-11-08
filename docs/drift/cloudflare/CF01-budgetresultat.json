@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "monthlyAttempts": 28,
+  "projectsPerAttempt": 9,
+  "conservativeMonthlyPagesOperations": 252,
+  "remainingPagesOperationsAfterReserve": 148,
+  "ciMinutesAtPlanningCeiling": 840,
+  "supabaseMonthlyEgressBytesAtCeiling": 3300000000,
+  "supabaseRetainedStorageBytesAtCeiling": 650000000,
+  "checks": {
+    "pagesWithinReservedBudget": true,
+    "egressWithinInternalLimit": true,
+    "storageWithinInternalLimit": true,
+    "noPersistentCIArtifactsOrCache": true
+  },
+  "numericalBudgetFits": true,
+  "cloudReadiness": "not-assessed-by-offline-calculator",
+  "unverified": [
+    "Cloudflare Pages upload/build quota accounting and nine-project creation capacity (first 48 hours restriction possible)",
+    "GitHub standard Linux runner execution and exact existing artifact/cache storage (Actions paid budget $0 confirmed)",
+    "Supabase exact current object bytes and future DB/index/revision growth (dashboard rounds values)",
+    "Actual frozen snapshot and referenced asset export sizes",
+    "Resend verified sender domain (none configured)",
+    "Largest static group build, file count and CI execution time",
+    "Persistent authenticated publication request and job status"
+  ],
+  "notice": "Planning only. Numerical fit never proves free account configuration or grants publication approval."
+}

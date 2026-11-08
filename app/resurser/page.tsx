@@ -6,9 +6,9 @@ import { hamtaBibliotek } from "@/lib/resurser";
 export const revalidate = 86400; // 24 timmar ISR med omedelbar on-demand revalidering vid redigering
 
 export const metadata: Metadata = {
-  title: "Resursbibliotek — litteratur och skrifter",
+  title: "Resursbibliotek — litteratur och källor",
   description:
-    "Läroböcker, examensarbeten, avhandlingar och medeltida skrifter om fornsvenska, med besked om hur tillgängligt varje material är.",
+    "Läroböcker, examensarbeten och avhandlingar om fornsvenska, med besked om hur tillgängligt varje material är.",
   alternates: {
     canonical: "/resurser",
   },

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "site": "https://fornsvenska.se/kontakt",
+  "deployment": "https://decc870c.fornsvenska-www.pages.dev",
+  "recipient": "oscarohrn@protonmail.com",
+  "sender": "Fornsvenska.se <onboarding@resend.dev>",
+  "testEmail": {
+    "id": "01a1acc4-c980-7a45-af23-07bb0f99028f",
+    "subject": "[Fornsvenska.se] Fornsvenska.se – tekniskt test av Kontakt",
+    "last_event": "delivered",
+    "created_at": "2026-11-05 17:32:20.371000+00"
+  },
+  "turnstileHostnames": [
+    "fornsvenska.se",
+    "www.fornsvenska.se"
+  ],
+  "quota": {
+    "perIpHourly": 5,
+    "daily": 50,
+    "monthly": 1000
+  },
+  "tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "customSenderDomain": "partially_verified",
+  "serverSecretsInPublicAssets": false,
+  "senderDomainRecords": {
+    "DKIM": "verified",
+    "SPF/MX": "pending",
+    "rsend": "verified"
+  }
+}
