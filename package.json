@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:cloudflare": "node scripts/cloudflare/build.mjs",
     "validate:kallor": "tsx scripts/validate-kallor.ts",
     "validate:texter": "tsx scripts/validate-texter.ts",
     "import:ordbok": "tsx scripts/import-ordbok.ts",

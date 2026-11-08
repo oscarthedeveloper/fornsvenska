@@ -1,4 +1,10 @@
-# Deploy till Netlify
+# Aktuell drift: Cloudflare Pages
+
+För Git-deploy till Cloudflare, använd `npm run build:cloudflare` och
+`dist/www` som output directory för huvudsajten. Se
+[bygginställningar för alla åtta Pages-projekt](docs/drift/cloudflare/GIT-DEPLOY.md).
+
+# Äldre instruktion: deploy till Netlify
 
 Repot är initierat, allt är committat och fjärradressen pekar på
 `github.com/oscarthedeveloper/fornsvenska`. Kvar är push och koppling.

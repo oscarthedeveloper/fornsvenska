@@ -44,22 +44,13 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         run: npm ci
       - name: Build static distribution and API worker
-        run: |
-          node --import tsx scripts/cloudflare/validate-release-input.ts
-          node --import tsx scripts/cloudflare/build-ordbok-indexes.ts
-          node --import tsx scripts/cloudflare/build-search-worker.ts
-          node --import tsx scripts/cloudflare/build-runic-api-exports.ts
-          npm run build
-          node --import tsx scripts/cloudflare/build-main-site.ts
-          node --import tsx scripts/cloudflare/build-ordbok-groups.ts
-          node --import tsx scripts/cloudflare/build-api-worker.ts
+        run: npm run build:cloudflare
       - name: Verify code, sources and artifacts
         run: |
           npx tsc --noEmit
           node --import tsx scripts/validate-kallor.ts
           node --import tsx scripts/validate-texter.ts
           node --import tsx --test tests/*.test.mjs
-          node --import tsx scripts/cloudflare/release.ts --check
       - name: Publish and confirm all projects
         if: github.event_name == 'workflow_dispatch'
         env:
