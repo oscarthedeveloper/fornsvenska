@@ -4,6 +4,7 @@ import "./globals.css";
 import "./start.css";
 import AdminProvider from "@/components/admin/AdminContext";
 import AdminBar from "@/components/admin/AdminBar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { arPreviewMiljo } from "@/app/robots";
 
@@ -86,6 +87,7 @@ export default function RootLayout({
           {children}
           <AdminBar />
         </AdminProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
